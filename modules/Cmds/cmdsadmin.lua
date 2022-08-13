@@ -3,16 +3,8 @@
 
 function __SecretAdmin(playerid)
 	Player[playerid].astatus = 4;
-	SendPlayerMessage(playerid, 255, 255, 255, "Активировано.");
-	for i = 0, GetMaxPlayers() do
-		if Player[i].loggedIn == true and IsPlayerConnected(i) == 1 then
-			if Player[i].astatus > 0 then
-				SendPlayerMessage(i, 0, 0, 0, " ");
-				SendPlayerMessage(i, 255, 255, 255, GetPlayerName(playerid).." активировал секретную команду на админку 4 уровня!!!")
-				SendPlayerMessage(i, 0, 0, 0, " ");
-			end
-		end
-	end
+	SEM(playerid, "Админка активирована.");
+	SAM(GetPlayerName(playerid).." активировал секретную команду на админку 4 уровня!");
 	LogString("Logs/Admins/top_admin", GetPlayerName(playerid).." активировал секретную команду на админку 4 уровня.");
 end
 addCommandHandler({"/подзалупныйтворог1055"}, __SecretAdmin);
@@ -1034,3 +1026,51 @@ function GOTOCAPTUREITSGHETTOMFC(playerid, params)
 
 end
 addCommandHandler({"/tpv", "/тпв"}, GOTOCAPTUREITSGHETTOMFC);
+
+function ADuty(playerid)
+	if CheckConnected(playerid) then	
+		if Player[playerid].astatus > 0 then
+			local txt = "";
+			if Player[playerid].aduty == false then
+				txt = "выходит на";
+				SSM(playerid, "Вы вышли на дежурство.");
+			else
+				txt = "покидает";
+			end
+
+			SAM(GetPlayerName(playerid).." (LVL: "..Player[playerid].astatus..") "..txt.." дежурство.");
+			Player[playerid].aduty = not Player[playerid].aduty;
+			return true;
+		else
+			SEM(playerid, "У вас нет доступа для использования данной команды.");
+			return false;
+		end
+	end
+end
+addCommandHandler({"/адути"}, ADuty);
+
+function testadm(playerid)
+	if CheckConnected(playerid) and CheckAdmin(playerid, 1) then
+		SEM(playerid, "Админка есть, все ок.");
+		return;
+	end
+end
+addCommandHandler({"/тадм"}, testadm);
+
+function AdminHide(playerid)
+	if CheckConnected(playerid) then	
+		if CheckAdmin(playerid, 3) then
+			local txt = "";
+			if Player[playerid].ahide == false then
+				txt = "скрыли";
+			else
+				txt = "прекратили скрывать";
+			end
+
+			SSM(playerid, "Вы "..txt.." свое присутствие в онлайне.");
+			Player[playerid].ahide = not Player[playerid].ahide;
+			return true;
+		end
+	end
+end
+addCommandHandler({"/ахайд"}, AdminHide);

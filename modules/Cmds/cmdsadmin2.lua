@@ -1,14 +1,14 @@
 
 -- говноскрипты дикнайта что ли... или это дерьмище с орс?..
 
-function GetAdminsOnline(pid) 
-	SendPlayerMessage(pid, 0, 0, 0, "");
-	SendPlayerMessage(pid,176,221,247,"Команда сервера on-line:");
-	for id = 0, MAX_PLAYERS - 1 do
-		if IsPlayerConnected(id) == 1 then
-			if Player[id].astatus > 0 and Player[id].astatus < 5 then
-				local message = string.format("%s %s %s%d%s %s","#",Player[id].nickname,"(ID:",id,") -",GetAdminLevel(id));
-				SendPlayerMessage(pid,176,221,247,message);
+function GetAdminsOnline(playerid) 
+	SendPlayerMessage(playerid, 41, 155, 45, "Игровые мастера:");
+	for i = 0, GetMaxPlayers() do 
+		if CheckConnected(i) and Player[i].astatus > 0 and Player[i].ahide == false then
+			if Player[i].aduty then
+				SendPlayerMessage(playerid, 41, 155, 45, "* "..GetPlayerName(i).." (Уровень: "..Player[i].astatus..") - на дежурстве");
+			else
+				SendPlayerMessage(playerid, 158, 158, 158, "* "..GetPlayerName(i).." (Уровень: "..Player[i].astatus..") - не на дежурстве");
 			end
 		end
 	end

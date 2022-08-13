@@ -26,6 +26,9 @@ require "modules/LogCraft/log_craft"
 require "modules/Registration/Registration"
 require "modules/Login/Login"
 
+-- Macroses
+require "modules/macros"
+
 -- Player
 require "modules/Player/PlayerScructure"
 require "modules/Player/ButtonsXYZ"
@@ -404,19 +407,19 @@ function BE_OnPlayerConnect(playerid)
 		local result = string.find(name, " ");
 		
 		if name == "Nickname" then
-			SendPlayerMessage(playerid, 255, 255, 255, "Данный никнейм запрещен.");
+			SEM(playerid, "Данный никнейм запрещен.");
 			Kick(playerid);
 		end
 
 		if result then
-			SendPlayerMessage(playerid, 255, 255, 255, "В нике не должно быть пробелов.");
+			SEM(playerid, "В нике не должно быть пробелов.");
 			Kick(playerid);
 		else
 
 			for _, v in pairs(bad_symbols) do
 				local bad = tostring(v);
 				if string.find(name, bad) then
-					SendPlayerMessage(playerid, 255, 255, 255, "Обнаружены запрещенные символы в нике.")
+					SEM(playerid, "Обнаружены запрещенные символы в нике.")
 					Kick(playerid);
 					break
 				end
@@ -635,6 +638,9 @@ function BE_OnPlayerConnect(playerid)
 			Player[playerid].stepthree = false;
 			Player[playerid].regclass = 0;
 			Player[playerid].animtimer = nil;
+			Player[playerid].exittimer = nil;
+			Player[playerid].aduty = false;
+			Player[playerid].ahide = false;
 			Player[playerid].defclick = 0;
 			Player[playerid].dlg = false;
 			Player[playerid].campos = 0;
@@ -648,8 +654,8 @@ function BE_OnPlayerConnect(playerid)
 			SpawnPlayer(playerid);
 			--LockShowChat(playerid, false); 
 			ShowChat(playerid, 0);
-			SendPlayerMessage(playerid, 255, 255, 255, "Добро пожаловать на Ролевой Уголок!");
-			SendPlayerMessage(playerid, 255, 255, 255, "Чтобы получить помощь по командам, нажмите 'F7'.");
+			SSM(playerid, "Добро пожаловать, "..GetPlayerName(playerid).."!");
+			SYNM(playerid, "Используйте 'F7', чтобы открыть справочник.");
 
 		end
 
@@ -817,44 +823,33 @@ function BE_OnPlayerKey(playerid, keyDown, keyUp)
 	end
 
 	if keyDown == KEY_F8 then
-		if Player[playerid].loggedIn == true then
-
-			for i, v in pairs(HEROES_LIST_ACTIVE) do
-				if v == Player[playerid].hero_use[2] then
-					table.remove(HEROES_LIST_ACTIVE, i);
-				end
-			end
-			
-			if GetPlayerInstance(playerid) == "PC_HERO" and GetPlayerName(playerid) == Player[playerid].nickname then
-				if Player[playerid].hero_use[1] == false and Player[playerid].IsInstance == false then
-					SavePlayer(playerid);
-					SaveStats(playerid);
-					SendPlayerMessage(playerid, 255, 255, 255, "Выход через 5 секунд.")
-					SetTimerEx(_timerToExit, 5000, 0, playerid);
-				else
-					SendPlayerMessage(playerid, 255, 255, 255, "Выход через 5 секунд.")
-					SetTimerEx(_timerToExit, 5000, 0, playerid);
-				end
-			else
-				SendPlayerMessage(playerid, 255, 255, 255, "Выход через 5 секунд.")
-				SetTimerEx(_timerToExit, 5000, 0, playerid);
-			end
-
-			if GetPlayerInstance(playerid) ~= "PC_HERO" and Player[playerid].areorc == 1 then
-				if Player[playerid].hero_use[1] == false and Player[playerid].IsInstance == false then
-					SavePlayer(playerid);
-					SaveStats(playerid);
-					SendPlayerMessage(playerid, 255, 255, 255, "Выход через 5 секунд.")
-					SetTimerEx(_timerToExit, 5000, 0, playerid);
-				else
-					SendPlayerMessage(playerid, 255, 255, 255, "Выход через 5 секунд.")
-					SetTimerEx(_timerToExit, 5000, 0, playerid);
-				end
-			end
-
-		end
+		GameExit(playerid);
 	end
 
+end
+
+function GameExit(playerid)
+	if Player[playerid].loggedIn == true then
+
+		for i, v in pairs(HEROES_LIST_ACTIVE) do
+			if v == Player[playerid].hero_use[2] then
+				table.remove(HEROES_LIST_ACTIVE, i);
+			end
+		end
+		
+		if Player[playerid].exittimer ~= nil then
+			KillTimer(Player[playerid].exittimer);
+			Player[playerid].exittimer = nil;
+			SSM(playerid, "Вы отменили выход из игры.");
+			return true;
+		end
+
+		SavePlayer(playerid);
+		SaveStats(playerid);
+		Player[playerid].exittimer = SetTimerEx(_timerToExit, 5000, 0, playerid);
+		SSM(playerid, "Вы покинете игру через 5 секунд.");
+		SYNM(playerid, "Вы можете ввести /выход (/вых) или нажать F8, чтобы отменить.");
+	end
 end
 
 function _timerToExit(id)
@@ -862,6 +857,8 @@ function _timerToExit(id)
 		ExitGame(id);
 	end
 end
+
+addCommandHandler({"/выход", "/вых"}, GameExit);
 
 function BE_OnPlayerFocus(playerid, focusid)
 	BotsShop_Focus(playerid, focusid);
@@ -955,8 +952,8 @@ function BE_OnPlayerHit(playerid, killerid)
 
 		if Player[playerid].afk == true then
 			if IsNPC(killerid) == 0 then
-				SendPlayerMessage(killerid, 255, 255, 255, "Нельзя атаковать игрока в АФК.");
-				SendPlayerMessage(playerid, 255, 255, 255, "Вас атаковал игрок "..GetPlayerName(killerid))
+				SEM(killerid, "Нельзя атаковать игрока в АФК.");
+				SSM(playerid, "Вы были атакованы, будучи в АФК - "..GetPlayerName(killerid));
 				LogString("Logs/PlayersAll/AFK", Player[killerid].nickname.." атаковал игрокоа в статусе АФК - "..Player[playerid].nickname);
 			end
 		end
@@ -1135,7 +1132,7 @@ function BE_OnPlayerDropItem(playerid, itemid, instance, amount, posX, posY, pos
 				local sum = amount - oldValue;
 				if sum > 1 then
 					DestroyItem(itemid);
-					SendPlayerMessage(playerid,255, 255, 255, "Вы были кикнуты по подозрению в дюпе.");
+					SEM(playerid, "Вы были кикнуты по подозрению в дюпе.");
 					Kick(playerid);
 					LogString("Logs/AC/ac_items",name.." выбросил: "..GetItemName(instance).." (x "..amount.."), имея по БД: "..oldValue.." / "..rhour..":"..rminute.." "..rday.."."..rmonth.."."..ryear);
 				end
@@ -1263,33 +1260,18 @@ function OnPlayerDeath(playerid, p_classid, killerid, k_classid)
 	if killerid ~= -1 and IsNPC(killerid) == 0 and Player[killerid].loggedIn == true then
 
 		if IsNPC(playerid) == 0 then
-
-			for i = 0, GetMaxPlayers() do 
-				if Player[i].astatus > 1 then
-					SendPlayerMessage(i, 255, 255, 255, "    Игрок "..GetPlayerName(killerid).." ("..Player[killerid].nickname..") убил "..GetPlayerName(playerid).." ("..Player[playerid].nickname..").");
-				end
-			end
-
+			SAM("Игрок "..GetPlayerName(killerid).." ("..Player[killerid].nickname..") убил "..GetPlayerName(playerid).." ("..Player[playerid].nickname..").");
 		else
-
-			for i = 0, GetMaxPlayers() do 
-				if Player[i].astatus > 1 then
-					SendPlayerMessage(i, 255, 255, 255, "    Игрок "..GetPlayerName(killerid).." ("..Player[killerid].nickname..") убил "..GetPlayerName(playerid));
-				end
-			end
-
+			SAM("Игрок "..GetPlayerName(killerid).." ("..Player[killerid].nickname..") убил "..GetPlayerName(playerid));
 		end
-
 	end
 
 	if IsNPC(playerid) == 0 and Player[playerid].loggedIn == true then
 
 		SetPlayerHealth(playerid, 0);
 		SaveStats(playerid);
-		SendPlayerMessage(playerid, 255, 255, 255, "Вы погибли!");
-		SendPlayerMessage(playerid, 255, 255, 255, "Если это была РП-смерть - подавайте заявку на новый аккаунт на нашем форуме:");
-		SendPlayerMessage(playerid, 255, 255, 255, "Ссылка: gothic2online.ru");
-
+		SSM(playerid, "Ваш персонаж мёртв.");
+		SYNM(playerid, "Обратитесь к игровым мастерам, если считаете смерть несправедливой.");
 	end
 end
 

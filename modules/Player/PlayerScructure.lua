@@ -89,9 +89,14 @@ for i = 0, GetMaxSlots() - 1 do
 	Player[i].stepthree = false;
 	Player[i].regclass = 0;
 	Player[i].animtimer = nil;
+	Player[i].exittimer = nil;
 	Player[i].defclick = 0;
 	Player[i].dlg = false;
 	Player[i].campos = 0;
+
+
+	Player[i].aduty = false; -- Активация админки
+	Player[i].ahide = false; -- Скрытие админки
 
 	-- golod
 	Player[i].food = 100;
