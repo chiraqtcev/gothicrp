@@ -848,7 +848,7 @@ function GameExit(playerid)
 		SaveStats(playerid);
 		Player[playerid].exittimer = SetTimerEx(_timerToExit, 5000, 0, playerid);
 		SSM(playerid, "Вы покинете игру через 5 секунд.");
-		SYNM(playerid, "Вы можете ввести /выход (/вых) или нажать F8, чтобы отменить.");
+		SYNM(playerid, "Вы можете ввести /выход (/вых) или нажать F8, чтобы отменить выход.");
 	end
 end
 
@@ -954,7 +954,7 @@ function BE_OnPlayerHit(playerid, killerid)
 			if IsNPC(killerid) == 0 then
 				SEM(killerid, "Нельзя атаковать игрока в АФК.");
 				SSM(playerid, "Вы были атакованы, будучи в АФК - "..GetPlayerName(killerid));
-				LogString("Logs/PlayersAll/AFK", Player[killerid].nickname.." атаковал игрокоа в статусе АФК - "..Player[playerid].nickname);
+				LogString("Logs/PlayersAll/AFK", Player[killerid].nickname.." атаковал игрока в статусе АФК - "..Player[playerid].nickname);
 			end
 		end
 
@@ -1189,7 +1189,7 @@ function OnPlayerUseItem(playerid, itemInstance, amount, hand)
 		_fishing(playerid, itemInstance, amount, hand); -- рыбалка
 
 		local potions_code = string.upper(itemInstance);
-		local potions = string.find(potions_code, "ZEQFRN");
+		local potions = string.find(potions_code, "CJCPGP");
 		if potions then
 			SetPlayerVirtualWorld(playerid, math.random(30, 100));
 			SetTimerEx(_goOutVW, 2000, 0, playerid);
@@ -1202,12 +1202,12 @@ function OnPlayerUseItem(playerid, itemInstance, amount, hand)
 				local result, item, value = sscanf(line,"sd");
 				if result == 1 then
 					if string.upper(item) == itemInstance
-					and itemInstance ~= "OOLTYB_ITMI_RAKE"
-					and itemInstance ~= "OOLTYB_ITMI_BRUSH"
-					and itemInstance ~= "OOLTYB_ITMI_SCOOP"
-					and itemInstance ~= "OOLTYB_ITMI_BROOM"
-					and itemInstance ~= "OOLTYB_ITMI_LUTE"
-					and itemInstance ~= "OOLTYB_ITMI_SAW"
+					and itemInstance ~= "AIXOPT_ITMI_RAKE"
+					and itemInstance ~= "AIXOPT_ITMI_BRUSH"
+					and itemInstance ~= "AIXOPT_ITMI_SCOOP"
+					and itemInstance ~= "AIXOPT_ITMI_BROOM"
+					and itemInstance ~= "AIXOPT_ITMI_LUTE"
+					and itemInstance ~= "AIXOPT_ITMI_SAW"
 					then
 						oldValue = value;
 					end
@@ -1226,11 +1226,11 @@ function OnPlayerUseItem(playerid, itemInstance, amount, hand)
 		end
 
 		local item = string.upper(itemInstance); local itfo = string.find(item, "ITFO");
-		if item ~= "JKZTZD_ITMW_2H_AXE_L_01" then
-			if item ~= "OOLTYB_ITMI_SAW" then
-				if item ~= "OOLTYB_ITMI_FISHING" then
-					if item ~= "OOLTYB_ITMI_BRUSH" then
-						if item ~= "OOLTYB_ITMI_BROOM" then
+		if item ~= "GKWQDZ_ITMW_PICKAXE" then
+			if item ~= "AIXOPT_ITMI_SAW" then
+				if item ~= "AIXOPT_ITMI_FISHINGROD" then
+					if item ~= "AIXOPT_ITMI_BRUSH" then
+						if item ~= "AIXOPT_ITMI_BROOM" then
 							local file = io.open("Database/Players/Items/"..Player[playerid].nickname..".db","r+");
 							local tempString = file:read("*a");
 							file:close();
@@ -1282,8 +1282,8 @@ function OnPlayerSpellCast(playerid, itemInstance)
 
 	if GetPlayerInstance(playerid) == "PC_HERO" or Player[playerid].areorc == 1 then
 		if Player[playerid].hero_use[1] == false then
-			local IHPIWN = string.find(itemInstance, "IHPIWN");
-			if IHPIWN then
+			local HYMYRK = string.find(itemInstance, "HYMYRK");
+			if HYMYRK then
 				local item = string.upper(itemInstance);
 				removeItem(playerid, item, 1);
 				SaveItems(playerid);
@@ -1333,11 +1333,11 @@ function _checkArrows(playerid)
     if Player[playerid].hero_use[1] == false then
 	    local animation = GetPlayerAnimationName(playerid)
 	    if animation == "T_BOWRELOAD" then
-			removeItem(playerid, "JKZTZD_ITRW_ARROW", 1);
+			removeItem(playerid, "ITRW_ARROW", 1);
 			SaveItems(playerid);
 
 	    elseif animation == "T_CBOWRELOAD" then
-	    	removeItem(playerid, "JKZTZD_ITRW_BOLT", 1);
+	    	removeItem(playerid, "ITRW_BOLT", 1);
 			SaveItems(playerid);
 
 	    end
