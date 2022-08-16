@@ -18,6 +18,10 @@ function _initChest()
 
 	WORLD = "RPCORNER_KHORINIS.ZEN";
 	_chestArr = {};
+
+	-- #############################################################################
+	-- ДОМА
+	-- #############################################################################
 	
 	-- сундук в доме 1 (Боспер)
 										
@@ -44,105 +48,209 @@ function _initChest()
 	_chestArr[5] = Mob.Create("ChestBig_NW_Normal_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_5", WORLD, 6651.546875, 126.93116760254, 58.411846160889, "chest_5");
 	Mob.SetRotation(_chestArr[5], 0, 142, 0)
 
-	-- сундук в доме 6 (Верхний квартал)
+	-- сундук в доме 6 (Дом на 2 этаже)
 										
-	_chestArr[6] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_6", WORLD, 12377.421875, 1303.2808837891, -4551.0419921875, "chest_6");
-	Mob.SetRotation(_chestArr[6], 0, 274, 0)
+	_chestArr[6] = Mob.Create("ChestBig_NW_Normal_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_6", WORLD, 6835.8671875, 534.24896240234, -386.14410400391, "chest_6");
+	Mob.SetRotation(_chestArr[6], 0, 325, 0)
 
 	-- сундук в доме 7 (Верхний квартал)
 										
-	_chestArr[7] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_7", WORLD, 12839.139648438, 1303.2816162109, -4858.9399414062, "chest_7");
-	Mob.SetRotation(_chestArr[7], 0, 358, 0)
+	_chestArr[7] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_7", WORLD, 12377.421875, 1303.2808837891, -4551.0419921875, "chest_7");
+	Mob.SetRotation(_chestArr[7], 0, 274, 0)
 
 	-- сундук в доме 8 (Верхний квартал)
 										
-	_chestArr[8] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_8", WORLD, 15270.767578125, 903.78149414062, -4158.189453125, "chest_8");
-	Mob.SetRotation(_chestArr[8], 0, 297, 0)
+	_chestArr[8] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_8", WORLD, 12839.139648438, 1303.2816162109, -4858.9399414062, "chest_8");
+	Mob.SetRotation(_chestArr[8], 0, 358, 0)
 
 	-- сундук в доме 9 (Верхний квартал)
 										
-	_chestArr[9] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_9", WORLD, 10099.26953125, 1303.3887939453, -3000.3168945312, "chest_9");
-	Mob.SetRotation(_chestArr[9], 0, 42, 0)
+	_chestArr[9] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_9", WORLD, 15270.767578125, 903.78149414062, -4158.189453125, "chest_9");
+	Mob.SetRotation(_chestArr[9], 0, 297, 0)
 
 	-- сундук в доме 10 (Верхний квартал)
 										
-	_chestArr[10] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_10", WORLD, 16859.7578125, 1303.3405761719, -3122.2102050781, "chest_10");
-	Mob.SetRotation(_chestArr[10], 0, 4, 0)
+	_chestArr[10] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_10", WORLD, 10099.26953125, 1303.3887939453, -3000.3168945312, "chest_10");
+	Mob.SetRotation(_chestArr[10], 0, 42, 0)
 
 	-- сундук в доме 11 (Верхний квартал)
 										
-	_chestArr[11] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_11", WORLD, 10402.536132812, 1303.4384765625, 1347.9136962891, "chest_11");
-	Mob.SetRotation(_chestArr[11], 0, 76, 0)
+	_chestArr[11] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_11", WORLD, 16859.7578125, 1303.3405761719, -3122.2102050781, "chest_11");
+	Mob.SetRotation(_chestArr[11], 0, 4, 0)
 
 	-- сундук в доме 12 (Верхний квартал)
 										
-	_chestArr[12] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_12", WORLD, 11071.19921875, 903.43316650391, 3615.701171875, "chest_12");
-	Mob.SetRotation(_chestArr[12], 0, 147, 0)
+	_chestArr[12] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_12", WORLD, 10402.536132812, 1303.4384765625, 1347.9136962891, "chest_12");
+	Mob.SetRotation(_chestArr[12], 0, 76, 0)
 
+	-- сундук в доме 13 (Верхний квартал)
+										
+	_chestArr[13] = Mob.Create("ChestBig_NW_Rich_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_13", WORLD, 11071.19921875, 903.43316650391, 3615.701171875, "chest_13");
+	Mob.SetRotation(_chestArr[13], 0, 147, 0)
 
-	-- -- нл трактир											
-	-- _chestArr[1] = Mob.Create("CHESTBIG_OCCHESTMEDIUMLOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY1", WORLD, -53945.66796875, 3099.1923828125, 12425.491210938, "chest_1");
-	-- Mob.SetRotation(_chestArr[1], 0, -26, 0)
+	-- сундук в доме 14 (Торговый квартал)
+										
+	_chestArr[14] = Mob.Create("ChestBig_NW_Normal_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_14", WORLD, 6069.255859375, 613.13720703125, 1745.9892578125, "chest_14");
+	Mob.SetRotation(_chestArr[14], 0, 216, 0)
 
-	-- -- генерал											
-	-- _chestArr[2] = Mob.Create("CHESTBIG_OCCHESTMEDIUMLOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY2", WORLD, -60941.0078125, 4021.45703125, 8112.259765625, "chest_2");
-	-- Mob.SetRotation(_chestArr[2], 0, -197, 0)
+	-- сундук в доме 15 (Торговый квартал)
+										
+	_chestArr[15] = Mob.Create("ChestBig_NW_Normal_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_15", WORLD, 4431.9775390625, 593.05865478516, 3039.0932617188, "chest_15");
+	Mob.SetRotation(_chestArr[15], 0, 157, 0)
 
-	-- -- маги нл 1											
-	-- _chestArr[3] = Mob.Create("CHESTBIG_OCCHESTMEDIUMLOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY3", WORLD, -61084.5546875, 3851.9145507812, 2001.4226074219, "chest_3");
-	-- Mob.SetRotation(_chestArr[3], 0, -277, 0)
+	-- сундук в доме 16 (Торговый квартал)
+										
+	_chestArr[16] = Mob.Create("ChestBig_NW_Normal_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_16", WORLD, 9089.375, 660.32177734375, 6121.7211914062, "chest_16");
+	Mob.SetRotation(_chestArr[16], 0, 66, 0)
 
-	-- -- маги нл 2 (руда)											
-	-- _chestArr[4] = Mob.Create("CHESTBIG_NW_RICH_LOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY4", WORLD, -56117.3203125, 933.1787109375, 4293.7578125, "chest_4");
-	-- Mob.SetRotation(_chestArr[4], 0, -248, 0)
+	-- сундук в доме 17 (Торговый квартал)
+										
+	_chestArr[17] = Mob.Create("ChestBig_NW_Normal_Locked.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_17", WORLD, 8220.9765625, 273.16497802734, 3607.4880371094, "chest_17");
+	Mob.SetRotation(_chestArr[17], 0, 65, 0)
 
-	-- -- башня призраков											
-	-- _chestArr[5] = Mob.Create("CHESTBIG_OCCHESTMEDIUMLOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY5", WORLD, 6192.5209960938, -1422.3319091797, -2951.6960449219, "chest_5");
-	-- Mob.SetRotation(_chestArr[5], 0, -84, 0)
+	-- сундук в доме 18 (Портовый квартал)
+										
+	_chestArr[18] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_18", WORLD, 5209.6953125, -178.77725219727, 426.02478027344, "chest_18");
+	Mob.SetRotation(_chestArr[18], 0, 324, 0)
 
-	-- -- склад стражи										
-	-- _chestArr[6] = Mob.Create("CHESTBIG_OCCHESTMEDIUMLOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY6", WORLD, 3919.2465820312, 146.94262695312, 272.84030151367, "chest_6");
-	-- Mob.SetRotation(_chestArr[6], 0, -160, 0)
+	-- сундук в доме 19 (Портовый квартал)
+										
+	_chestArr[19] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_19", WORLD, 4260.5732421875, -100.39962768555, -2145.1137695312, "chest_19");
+	Mob.SetRotation(_chestArr[19], 0, 268, 0)
 
-	-- -- маги огня									
-	-- _chestArr[7] = Mob.Create("CHESTBIG_OCCHESTMEDIUMLOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY7", WORLD, 615.27862548828, 797.61578369141, -3497.7795410156, "chest_7");
-	-- Mob.SetRotation(_chestArr[7], 0, -356, 0)
+	-- сундук в доме 20 (Портовый квартал)
+										
+	_chestArr[20] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_20", WORLD, 3223.2248535156, -5.8509087562561, -1167.2888183594, "chest_20");
+	Mob.SetRotation(_chestArr[20], 0, 359, 0)
 
-	-- -- рудный склад (схрон)										
-	-- _chestArr[8] = Mob.Create("CHESTBIG_NW_RICH_LOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY8", WORLD, -2040.7531738281, -749.36883544922, -2929.357421875, "chest_8");
-	-- Mob.SetRotation(_chestArr[8], 0, 216, 0)
+	-- сундук в доме 21 (Портовый квартал)
+										
+	_chestArr[21] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_21", WORLD, 3073.2004394531, 287.02883911133, -642.05255126953, "chest_21");
+	Mob.SetRotation(_chestArr[21], 0, 180, 0)
 
-	-- -----------------------------------------------------------------
+	-- сундук в доме 22 (Портовый квартал)
+										
+	_chestArr[22] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_22", WORLD, 2191.771484375, -112.00724029541, -2110.8317871094, "chest_22");
+	Mob.SetRotation(_chestArr[22], 0, 271, 0)
 
-	-- -- Дом НЛ (хз)									
-	-- _chestArr[9] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY9", WORLD, -57783.0625, 3101.1977539062, 1289.7855224609, "chest_9");
-	-- Mob.SetRotation(_chestArr[9], 0, -64, 0)
+	-- сундук в доме 23 (Портовый квартал)
+										
+	_chestArr[23] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_23", WORLD, 1337.9248046875, -180.82173156738, -769.01000976562, "chest_23");
+	Mob.SetRotation(_chestArr[23], 0, 91, 0)		
 
-	-- -- Дом СЛ (Линдеман)									
-	-- _chestArr[10] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY10", WORLD, -5552.4975585938, -978, 4768.8369140625, "chest_10");
-	-- Mob.SetRotation(_chestArr[10], 0, -388, 0)
+	-- сундук в доме 24 (Портовый квартал)
+										
+	_chestArr[24] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_24", WORLD, 2106.115234375, -182.44723510742, 1585.6767578125, "chest_24");
+	Mob.SetRotation(_chestArr[24], 0, 173, 0)	
 
-	-- -- Дом НЛ (Вильгельм)									
-	-- _chestArr[11] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY11", WORLD, -55831.2578125, 2897.9697265625, 629.7607421875, "chest_11");
-	-- Mob.SetRotation(_chestArr[11], 0, 26, 0)
+	-- сундук в доме 25 (Портовый квартал)
+										
+	_chestArr[25] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_25", WORLD, 2820.6965332031, -182.38972473145, 311.42663574219, "chest_25");
+	Mob.SetRotation(_chestArr[25], 0, 6, 0)	
 
-	-- _chestArr[12] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY12", WORLD, -62754.39453125, 3942.9921875, 4477.1767578125, "chest_12");
-	-- Mob.SetRotation(_chestArr[12], 0, 77, 0)
-	
-	-- --Гильдия сл
-	-- _chestArr[13] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY13", WORLD, 2443.3405761719, -991.44348144531, -2897.9245605469, "chest_13");
-	-- Mob.SetRotation(_chestArr[13], 0, 270, 0)
-	
-	-- --Сундуки Пост Тимориса
-	-- _chestArr[14] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY13", WORLD, -52450.29296875, 2551.0798339844, 22122.4296875, "chest_14");
-	-- Mob.SetRotation(_chestArr[14], 0, 352, 0)
-	-- _chestArr[15] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY13", WORLD, -50903.62109375, 2587.8703613281, 22583.736328125, "chest_15");
-	-- Mob.SetRotation(_chestArr[15], 0, 80, 0)
-	-- _chestArr[16] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY13", WORLD, -51972.5625, 2188.7192382813, 22869.6484375, "chest_16");
-	-- Mob.SetRotation(_chestArr[16], 0, 350, 0)
+	-- сундук в доме 26 (Портовый квартал)
+										
+	_chestArr[26] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_26", WORLD, 2180.5068359375, -181.99996948242, 2056.0080566406, "chest_26");
+	Mob.SetRotation(_chestArr[26], 0, 250, 0)
 
-	-- _chestArr[17] = Mob.Create("CHESTBIG_OCCRATELARGELOCKED.MDS", "MOBNAME_CHEST", 1, "CHESTBIG", "OOLTYB_CHEST_KEY15", WORLD, -53541.58984375, 2260.1997070312, 4676.3598632812, "chest_17");
-	-- Mob.SetRotation(_chestArr[17], 0, -315, 0)
+	-- сундук в доме 27 (Портовый квартал)
+										
+	_chestArr[27] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_27", WORLD, -192.93263244629, 90.518371582031, 2048.9543457031, "chest_27");
+	Mob.SetRotation(_chestArr[27], 0, 174, 0)
+
+	-- сундук в доме 28 (Портовый квартал)
+										
+	_chestArr[28] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_28", WORLD, -1020.2009277344, -179.66160583496, 2659.9792480469, "chest_28");
+	Mob.SetRotation(_chestArr[28], 0, 268, 0)
+
+	-- сундук в доме 29 (Портовый квартал)
+										
+	_chestArr[29] = Mob.Create("ChestBig_OCChestMediumLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_29", WORLD, -1126.294921875, -170.14253234863, 4600.1083984375, "chest_29");
+	Mob.SetRotation(_chestArr[29], 0, 142, 0)	
+
+	-- сундук в доме 30 (Портовый квартал)
+										
+	_chestArr[30] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_30", WORLD, -599.94482421875, -182.24543762207, -6000.1982421875, "chest_30");
+	Mob.SetRotation(_chestArr[30], 0, 320, 0)		
+
+	-- сундук в доме 31 (Портовый квартал)
+										
+	_chestArr[31] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_31", WORLD, 179.69470214844, -182.24543762207, -5232.4731445312, "chest_31");
+	Mob.SetRotation(_chestArr[31], 0, 313, 0)
+
+	-- сундук в доме 32 (Портовый квартал)
+										
+	_chestArr[32] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_32", WORLD, 1201.8297119141, -182.74584960938, -4819.6860351562, "chest_32");
+	Mob.SetRotation(_chestArr[32], 0, 206, 0)
+
+	-- сундук в доме 33 (Портовый квартал)
+										
+	_chestArr[33] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_33", WORLD, 3293.2700195312, -112.94424438477, -3376.9907226562, "chest_33");
+	Mob.SetRotation(_chestArr[33], 0, 203, 0)
+
+	-- сундук в доме 34 (Портовый квартал)
+										
+	_chestArr[34] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_34", WORLD, 2620.0334472656, -112.94434356689, -3132.2028808594, "chest_34");
+	Mob.SetRotation(_chestArr[34], 0, 196, 0)
+
+	-- сундук в доме 35 (Портовый квартал)
+										
+	_chestArr[35] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_35", WORLD, 3244.2717285156, -112.91236114502, -5470.0747070312, "chest_35");
+	Mob.SetRotation(_chestArr[35], 0, 126, 0)
+
+	-- сундук в доме 36 (Портовый квартал)
+										
+	_chestArr[36] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_36", WORLD, 4633.0888671875, -103.80371856689, -4481.7368164062, "chest_36");
+	Mob.SetRotation(_chestArr[36], 0, 212, 0)
+
+	-- сундук в доме 37 (Портовый квартал)
+										
+	_chestArr[37] = Mob.Create("Chestsmall_NW_Poor_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_keychest_37", WORLD, 4073.7106933594, -111.64363861084, -6803.1879882812, "chest_37");
+	Mob.SetRotation(_chestArr[37], 0, 228, 0)
+
+	-- #############################################################################
+	-- ПРЕДПРИЯТИЯ
+	-- #############################################################################
+
+	-- сундук 1 на складе 1 (Портовый квартал)
+										
+	_chestArr[38] = Mob.Create("ChestBig_OCChestLargeLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_warehouse_01", WORLD, 1869.7169189453, -185.70420837402, 2936.8334960938, "chest_38");
+	Mob.SetRotation(_chestArr[38], 0, 322, 0)
+
+	-- сундук 2 на складе 1 (Портовый квартал)
+										
+	_chestArr[39] = Mob.Create("ChestBig_OCChestLargeLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_warehouse_01", WORLD, 1473.8054199219, 113.15247344971, 2662.1794433594, "chest_39");
+	Mob.SetRotation(_chestArr[39], 0, 340, 0)
+
+	-- сундук 3 на складе 1 (Портовый квартал)
+										
+	_chestArr[40] = Mob.Create("ChestBig_OCChestLargeLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_warehouse_01", WORLD, 1757.5423583984, 113.21334838867, 2907.0024414062, "chest_40");
+	Mob.SetRotation(_chestArr[40], 0, 7, 0)
+
+	-- сундук 1 на складе 2 (Портовый квартал)
+										
+	_chestArr[41] = Mob.Create("ChestBig_OCChestLargeLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_warehouse_02", WORLD, -631.9189453125, -179.52923583984, 1659.8067626953, "chest_41");
+	Mob.SetRotation(_chestArr[41], 0, 93, 0)
+
+	-- сундук 2 на складе 2 (Портовый квартал)
+										
+	_chestArr[42] = Mob.Create("ChestBig_OCChestLargeLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_warehouse_02", WORLD, -413.6643371582, -179.59645080566, 1498.873046875, "chest_42");
+	Mob.SetRotation(_chestArr[42], 0, 330, 0)
+
+	-- сундук 3 на складе 2 (Портовый квартал)
+										
+	_chestArr[43] = Mob.Create("ChestBig_OCChestLargeLocked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_warehouse_02", WORLD, -210.60273742676, -179.60775756836, 1781.0339355469, "chest_43");
+	Mob.SetRotation(_chestArr[43], 0, 224, 0)
+
+	-- сундук в таверне (Портовый квартал)
+										
+	_chestArr[44] = Mob.Create("ChestBig_NW_Normal_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_tavern_02", WORLD, -972.49151611328, -171.55653381348, -992.80139160156, "chest_44");
+	Mob.SetRotation(_chestArr[44], 0, 184, 0)
+
+	-- сундук в таверне (Храмовый квартал)
+										
+	_chestArr[45] = Mob.Create("ChestBig_NW_Normal_Locked.mds", "MOBNAME_CHEST", 1, "CHESTBIG", "qbduuo_itke_key_tavern_01", WORLD, 7715.0859375, 131.8490447998, 1379.6407470703, "chest_45");
+	Mob.SetRotation(_chestArr[45], 0, 121, 0)
 
 
 	print(" ");
@@ -223,9 +331,120 @@ function _useChest(id, sc, chest_id, used)
 			elseif chest_id == "CHEST_17" then
 				Player[id].chest_id = 17;
 				_chestDraw(id, 17);
-			
-			end
 
+			elseif chest_id == "CHEST_18" then
+				Player[id].chest_id = 18;
+				_chestDraw(id, 18);
+
+			elseif chest_id == "CHEST_19" then
+				Player[id].chest_id = 19;
+				_chestDraw(id, 19);
+			
+			elseif chest_id == "CHEST_20" then
+				Player[id].chest_id = 20;
+				_chestDraw(id, 20);
+
+			elseif chest_id == "CHEST_21" then
+				Player[id].chest_id = 21;
+				_chestDraw(id, 21);
+			
+			elseif chest_id == "CHEST_22" then
+				Player[id].chest_id = 22;
+				_chestDraw(id, 22);
+
+			elseif chest_id == "CHEST_23" then
+				Player[id].chest_id = 23;
+				_chestDraw(id, 23);
+			
+			elseif chest_id == "CHEST_24" then
+				Player[id].chest_id = 24;
+				_chestDraw(id, 24);
+
+			elseif chest_id == "CHEST_25" then
+				Player[id].chest_id = 25;
+				_chestDraw(id, 25);
+
+			elseif chest_id == "CHEST_26" then
+				Player[id].chest_id = 26;
+				_chestDraw(id, 26);
+		
+			elseif chest_id == "CHEST_27" then
+				Player[id].chest_id = 27;
+				_chestDraw(id, 27);
+
+			elseif chest_id == "CHEST_28" then
+				Player[id].chest_id = 28;
+				_chestDraw(id, 28);
+
+			elseif chest_id == "CHEST_29" then
+				Player[id].chest_id = 29;
+				_chestDraw(id, 29);
+
+			elseif chest_id == "CHEST_30" then
+				Player[id].chest_id = 30;
+				_chestDraw(id, 30);
+
+			elseif chest_id == "CHEST_31" then
+				Player[id].chest_id = 31;
+				_chestDraw(id, 31);
+
+			elseif chest_id == "CHEST_32" then
+				Player[id].chest_id = 32;
+				_chestDraw(id, 32);
+
+			elseif chest_id == "CHEST_33" then
+				Player[id].chest_id = 33;
+				_chestDraw(id, 33);
+
+			elseif chest_id == "CHEST_34" then
+				Player[id].chest_id = 34;
+				_chestDraw(id, 34);
+
+			elseif chest_id == "CHEST_35" then
+				Player[id].chest_id = 35;
+				_chestDraw(id, 35);
+
+			elseif chest_id == "CHEST_36" then
+				Player[id].chest_id = 36;
+				_chestDraw(id, 36);
+
+			elseif chest_id == "CHEST_37" then
+				Player[id].chest_id = 37;
+				_chestDraw(id, 37);
+
+			elseif chest_id == "CHEST_38" then
+				Player[id].chest_id = 38;
+				_chestDraw(id, 38);
+
+			elseif chest_id == "CHEST_39" then
+				Player[id].chest_id = 39;
+				_chestDraw(id, 39);
+
+			elseif chest_id == "CHEST_40" then
+				Player[id].chest_id = 40;
+				_chestDraw(id, 40);
+
+			elseif chest_id == "CHEST_41" then
+				Player[id].chest_id = 41;
+				_chestDraw(id, 41);
+
+			elseif chest_id == "CHEST_42" then
+				Player[id].chest_id = 42;
+				_chestDraw(id, 42);
+
+			elseif chest_id == "CHEST_43" then
+				Player[id].chest_id = 43;
+				_chestDraw(id, 43);
+
+			elseif chest_id == "CHEST_44" then
+				Player[id].chest_id = 44;
+				_chestDraw(id, 44);
+
+			elseif chest_id == "CHEST_45" then
+				Player[id].chest_id = 45;
+				_chestDraw(id, 45);
+
+			end
 		else
 
 			if Player[id].chest_id ~= 0 then
