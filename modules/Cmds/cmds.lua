@@ -119,52 +119,52 @@ function CMD_WALK(playerid,params)
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_G1STANDARD.mds");
 			Player[playerid].overlay = "HUMANS_G1STANDARD.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена походка ГГ!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка ГГ!");
 		elseif page == 2 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_G1MAGE.mds");
 			Player[playerid].overlay = "HUMANS_G1MAGE.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена походка мага!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка мага!");
 		elseif page == 3 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_G1MILITIA.mds");
 			Player[playerid].overlay = "HUMANS_G1MILITIA.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена походка стража!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка стража!");
 		elseif page == 4 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_G1RELAXED.mds");
 			Player[playerid].overlay = "HUMANS_G1RELAXED.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена раслабленная походка!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена раслабленная походка!");
 		elseif page == 5 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_G1TIRED.mds");
 			Player[playerid].overlay = "HUMANS_G1TIRED.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена уставшая походка!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена уставшая походка!");
 		elseif page == 6 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_G1ARROGANCE.mds");
 			Player[playerid].overlay = "HUMANS_G1ARROGANCE.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена важная походка!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена важная походка!");
 		elseif page == 7 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_BABE.mds");
 			Player[playerid].overlay = "HUMANS_BABE.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена женская походка!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена женская походка!");
 		elseif page == 8 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_WALK_B.mds");
 			Player[playerid].overlay = "HUMANS_WALK_B.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена походка разбойника!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка разбойника!");
 		elseif page == 9 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"HUMANS_G1DRUNKEN.mds");
 			Player[playerid].overlay = "HUMANS_G1DRUNKEN.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена походка пьяницы!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка пьяницы!");
 		elseif page == 10 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"Humans_Mage.mds");
 			Player[playerid].overlay = "Humans_Mage.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Устновлена походка мага из G2!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка мага из G2!");
 			
 		elseif page == 11 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
@@ -174,18 +174,31 @@ function CMD_WALK(playerid,params)
 			
 		elseif page == 12 then
 			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
+			SetPlayerWalk(playerid,"humans_leader.mds");
+			Player[playerid].overlay = "humans_leader.mds"
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка с руками за спиной!");
+
+		elseif page == 13 then
+			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
+			SetPlayerWalk(playerid,"humans_hurt.mds");
+			Player[playerid].overlay = "humans_hurt.mds"
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка легко раненого!");
+
+		elseif page == 14 then
+			RemovePlayerOverlay(playerid, GetPlayerWalk(playerid));
 			SetPlayerWalk(playerid,"humans_wounded.mds");
 			Player[playerid].overlay = "humans_wounded.mds"
-			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка раненого!");
+			SendPlayerMessage(playerid,245,243,200,"(INFO): Установлена походка тяжело раненого!");
 			
 		else
-			SendPlayerMessage(playerid,249,106,106,"(INFO): Ошибка! Используй /походка (1-12).");
+			SendPlayerMessage(playerid,249,106,106,"(INFO): Ошибка! Используй /походка (1-14).");
 		end
 	else
-		SendPlayerMessage(playerid,249,106,106,"(INFO): Ошибка! Используй /походка (1-12).");
+		SendPlayerMessage(playerid,249,106,106,"(INFO): Ошибка! Используй /походка (1-14).");
 	end
 end
 addCommandHandler({"/походка","/walk"}, CMD_WALK)
+
 
 
 addCommandHandler({"/адм","/adm","/аонлайн"}, function(playerid, param)
