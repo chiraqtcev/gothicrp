@@ -35,18 +35,18 @@ end
 function GiveTItem(pid, tid)
 	if IsPlayerConnected(tid) == 1 and IsNPC(tid) == 0 and TTransfer[pid] ~= nil then
 		if TInventory[pid].item[TTransfer[pid]].type == "MISC" then
-			SendPlayerMessage(pid, 218, 165, 32, GetPlayerName(pid).." передал предмет \""..TTransfer[pid].."\" "..GetPlayerName(tid).."у(е)");
-			SendPlayerMessage(tid, 218, 165, 32, GetPlayerName(pid).." передал предмет \""..TTransfer[pid].."\" "..GetPlayerName(tid).."у(е)");
+			SendPlayerMessage(pid, 194, 162, 218, GetPlayerName(pid).." передал предмет \""..TTransfer[pid].."\" "..GetPlayerName(tid).."у(е)");
+			SendPlayerMessage(tid, 194, 162, 218, GetPlayerName(pid).." передал предмет \""..TTransfer[pid].."\" "..GetPlayerName(tid).."у(е)");
 			RemoveTItem(pid, TTransfer[pid], 1);
 			AddTItem(tid, TTransfer[pid], 1);
 		elseif TInventory[pid].item[TTransfer[pid]].type == "BOOK" then
-			SendPlayerMessage(pid, 218, 165, 32, GetPlayerName(pid).." передал книгу "..GetPlayerName(tid).."у(е)");
-			SendPlayerMessage(tid, 218, 165, 32, GetPlayerName(pid).." передал книгу "..GetPlayerName(tid).."у(е)");
+			SendPlayerMessage(pid, 194, 162, 218, GetPlayerName(pid).." передал книгу "..GetPlayerName(tid).."у(е)");
+			SendPlayerMessage(tid, 194, 162, 218, GetPlayerName(pid).." передал книгу "..GetPlayerName(tid).."у(е)");
 			RemoveTItem(pid, TTransfer[pid], 1);
 			AddBookItem(tid, TTransfer[pid], 1);
 		elseif TInventory[pid].item[TTransfer[pid]].type == "LETTER" then
-			SendPlayerMessage(pid, 218, 165, 32, GetPlayerName(pid).." передал письмо "..GetPlayerName(tid).."у(е)");
-			SendPlayerMessage(tid, 218, 165, 32, GetPlayerName(pid).." передал письмо "..GetPlayerName(tid).."у(е)");
+			SendPlayerMessage(pid, 194, 162, 218, GetPlayerName(pid).." передал письмо "..GetPlayerName(tid).."у(е)");
+			SendPlayerMessage(tid, 194, 162, 218, GetPlayerName(pid).." передал письмо "..GetPlayerName(tid).."у(е)");
 			RemoveTItem(pid, TTransfer[pid], 1);
 			AddLetterItem(tid, TTransfer[pid], 1);		
 		end
@@ -58,19 +58,19 @@ function DemoTItem(pid, item)
 		if TInventory[pid].item[item].type == "MISC" then
 			for i = 0, GetMaxPlayers() do
 				if GetDistancePlayers(pid,i) <= 1000 then
-					SendPlayerMessage(i, 218, 165, 32, GetPlayerName(pid).." показал предмет \""..item.."\"");
+					SendPlayerMessage(i, 194, 162, 218, GetPlayerName(pid).." показал предмет \""..item.."\"");
 				end
 			end
 		elseif TInventory[pid].item[item].type == "BOOK" then
 			for i = 0, GetMaxPlayers() do
 				if GetDistancePlayers(pid,i) <= 1000 then
-					SendPlayerMessage(i, 218, 165, 32, GetPlayerName(pid).." показал книгу \""..Handscript[item].title.."\"");
+					SendPlayerMessage(i, 194, 162, 218, GetPlayerName(pid).." показал книгу \""..Handscript[item].title.."\"");
 				end
 			end
 		elseif TInventory[pid].item[item].type == "LETTER" then
 			for i = 0, GetMaxPlayers() do
 				if GetDistancePlayers(pid,i) <= 1000 then
-					SendPlayerMessage(i, 218, 165, 32, GetPlayerName(pid).." показал письмо \""..Handscript[item].title.."\"");
+					SendPlayerMessage(i, 194, 162, 218, GetPlayerName(pid).." показал письмо \""..Handscript[item].title.."\"");
 				end
 			end
 		end
