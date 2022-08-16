@@ -20,9 +20,9 @@ end
 
 function _fishing(id, instance, a, h)
 
-	if instance == "OOLTYB_ITMI_FISHING" then
+	if instance == "AIXOPT_ITMI_FISHINGROD" then
 		_mGetOnline();
-		if ONLINE > 4 then
+		if ONLINE > 0 then
 			if Player[id].energy > 4 then
 				Player[id].energy = Player[id].energy - 5;
 				_updateHud(id);
@@ -66,17 +66,17 @@ function _lF(id)
 
 		elseif rnd == 46 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили мензурку.","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "OOLTYB_ITMI_FLASK", 1);
+			GiveItem(id, "AIXOPT_ITMI_FLASK", 1);
 			SaveItems(id);
 
 		elseif rnd == 47 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили тяжелый сук.","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "JKZTZD_ITMW_1H_BAU_MACE", 1);
+			GiveItem(id, "GKWQDZ_ITMW_1H_BAU_MACE", 1);
 			SaveItems(id);
 
 		elseif rnd == 48 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили стрелу.","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "JKZTZD_ITRW_ARROW", 1);
+			GiveItem(id, "ITRW_ARROW", 1);
 			SaveItems(id);
 
 		elseif rnd == 49 then
@@ -86,17 +86,17 @@ function _lF(id)
 
 		elseif rnd == 50 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили кость.","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "OOLTYB_ITAT_GOBLINBONE", 1);
+			GiveItem(id, "ITAT_GOBLINBONE", 1);
 			SaveItems(id);
 
 		elseif rnd > 50 and rnd <= 80 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили рыбу (х1).","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "ZDPWLA_ITFO_FISH", 1);
+			GiveItem(id, "UHAXLK_ITFO_FISH", 1);
 			SaveItems(id);
 
 		elseif rnd > 80 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили рыбу (х2).","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "ZDPWLA_ITFO_FISH", 2);
+			GiveItem(id, "UHAXLK_ITFO_FISH", 2);
 			SaveItems(id);
 		end
 	end

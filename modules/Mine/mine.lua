@@ -463,11 +463,11 @@ end
 function MINE_OnPlayerUseItem(playerid, itemInstance, amount, hand)
 
 	_mGetOnline();
-	if ONLINE > 4 then
+	if ONLINE > 0 then
 
 		if itemInstance == "OOLTYB_ITMI_SAW" then -- pila 
 			_mGetOnline();
-			if ONLINE > 4 then
+			if ONLINE > 0 then
 				if Player[playerid].mine == 0 then
 					if Player[playerid].energy >= 5 then
 						GameTextForPlayer(playerid, 50, 6000, "Вы начали распиливать полено. Ожидайте несколько секунд.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
@@ -492,12 +492,12 @@ function MINE_OnPlayerUseItem(playerid, itemInstance, amount, hand)
 			end
 		end
 
-		if itemInstance == "JKZTZD_ITMW_2H_AXE_L_01" then -- kirka
+		if itemInstance == "GKWQDZ_ITMW_PICKAXE" then -- kirka
 			_mGetOnline();
-			if ONLINE > 4 then
+			if ONLINE > 0 then
 				if Player[playerid].mine == 0 then
 					if Player[playerid].energy >= 5 then
-						GameTextForPlayer(playerid, 50, 6000, "Вы начали добывать руду. Ожидайте несколько секунд.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+						GameTextForPlayer(playerid, 50, 6000, "Вы начали добывать железную руду. Ожидайте несколько секунд.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 						Player[playerid].mine = 2;
 						Player[playerid].energy = Player[playerid].energy - 5;
 					
@@ -575,14 +575,14 @@ function _wd(playerid)
 
 			local rnd = math.random (1, 100);
 			if rnd <= 48 then
-		    GameTextForPlayer(playerid, 50, 6000, "Вы откололи два куска руды","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_Nugget", 2);
+		    GameTextForPlayer(playerid, 50, 6000, "Вы откололи два куска железной руды","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+		   		GiveItem(playerid, "AIXOPT_ITMI_IRONNUGGET", 2);
 			elseif rnd > 48 and rnd <= 50 then
 	         GameTextForPlayer(playerid, 50, 6000, "Вы откололи горный хрусталь","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_Rockcrystal", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_ROCKCRYSTAL", 1);
 		   	elseif rnd > 50 and rnd <= 80 then
 	         GameTextForPlayer(playerid, 50, 6000, "Вы откололи три куска руды","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_Nugget", 3);
+		   		GiveItem(playerid, "AIXOPT_ITMI_IRONNUGGET", 3);
 		   	elseif rnd > 80 and rnd <= 88 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы откололи рудную крошку","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 		   		GiveItem(playerid, "OOLTYB_ITMI_MAGICORE", 1);
@@ -597,7 +597,7 @@ function _wd(playerid)
 		   		GiveItem(playerid, "OOLTYB_ItMi_Sulfur", 1);
 		   	elseif rnd > 97 and rnd <= 98 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли аквамарин!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_Aquamarine", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_AQUAMARINE", 1);
 		   	elseif rnd > 98 and rnd <= 99 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли золотой самородок!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 		   		GiveItem(playerid, "OOLTYB_ItMi_GoldNugget_Addon", 1);
