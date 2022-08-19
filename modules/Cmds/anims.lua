@@ -53,6 +53,22 @@ function CMD_SIT(playerid)
 end
 addCommandHandler({"/сесть", "/sit"}, CMD_SIT);	
 
+addCommandHandler({"/сесть5"}, function(playerid, param) 
+	PlayAnimation(playerid, "T_SITDOWNEXPERIENCED_STAND_2_S0")
+end);
+
+addCommandHandler({"/сесть6"}, function(playerid, param) 
+	PlayAnimation(playerid, "T_SITDOWNATTENTIVE_STAND_2_S0")
+end);
+
+addCommandHandler({"/сесть7"}, function(playerid, param) 
+	PlayAnimation(playerid, "T_SITDOWNMEDITATE_STAND_2_S0")
+end);
+
+addCommandHandler({"/сесть8"}, function(playerid, param) 
+	PlayAnimation(playerid, "T_SITDOWNCROSSLEGGED_STAND_2_SIT")
+end);
+
 addCommandHandler({"/спать","/sleep"}, function(playerid, param)
 	if GetPlayerInstance(playerid) == "ORCELITE_ROAM" or GetPlayerInstance(playerid) == "ORCSHAMAN_SIT" or GetPlayerInstance(playerid) == "ORCWARRIOR_ROAM" then
 		PlayAnimation(playerid, "T_STAND_2_GUARDSLEEP");
@@ -137,8 +153,20 @@ addCommandHandler({"/добить","/dobit"}, function(playerid, param)
 	PlayAnimation(playerid,"T_1HSFINISH");
 end);
 
-addCommandHandler({"/курить","/smoke"}, function(playerid, param)
+addCommandHandler({"/курить1","/smoke1"}, function(playerid, param)
 	PlayAnimation(playerid,"T_JOINT_S0_2_STAND");
+end);
+
+addCommandHandler({"/курить2","/smoke2"}, function(playerid, param)
+	PlayAnimation(playerid,"T_JOINTSTRONG_S0_2_STAND");
+end);
+
+addCommandHandler({"/толкать","/push"}, function(playerid, param)
+	PlayAnimation(playerid,"S_CANONPUSH_S1");
+end);
+
+addCommandHandler({"/ужас","/fear"}, function(playerid, param)
+	PlayAnimation(playerid,"T_Q405_MARVIN_ONKNEE");
 end);
 
 addCommandHandler({"/молиться","/bless"}, function(playerid, param)
@@ -149,8 +177,12 @@ addCommandHandler({"/молиться2","/bless2"}, function(playerid, param)
 	PlayAnimation(playerid,"S_INNOS_S1");
 end);
 
-addCommandHandler({"/молоток","/hammer"}, function(playerid, param)
+addCommandHandler({"/молоток1","/hammer1"}, function(playerid, param)
 	PlayAnimation(playerid,"S_REPAIR_S1");
+end);
+
+addCommandHandler({"/молоток2","/hammer2"}, function(playerid, param)
+	PlayAnimation(playerid,"T_HAMMERGROUND_S0_2_S1");
 end);
 
 addCommandHandler({"/тренировка","/trenya"}, function(playerid, param)
@@ -201,20 +233,16 @@ addCommandHandler({"/идол","/idol"}, function(playerid, param)
 	PlayAnimation(playerid, "S_IDOL_S1")
 end);
 
-addCommandHandler({"/присесть","/prisest"}, function(playerid, param)
-	PlayAnimation(playerid, "T_CHESTSMALL_STAND_2_S0")
-end);
-
-addCommandHandler({"/присесть","/prisest"}, function(playerid, param)
-	PlayAnimation(playerid, "T_CHESTSMALL_STAND_2_S0")
-end);
-
 addCommandHandler({"/смерть","/dead"}, function(playerid, param)
 	PlayAnimation(playerid, "T_DEAD")
 end);
 
 addCommandHandler({"/смерть2","/dead2"}, function(playerid, param)
 	PlayAnimation(playerid, "T_DEADB")
+end);
+
+addCommandHandler({"/смерть3","/dead3"}, function(playerid, param)
+	PlayAnimation(playerid, "T_DEAD_TRADER")
 end);
 
 addCommandHandler({"/страж1","/guard1"}, function(playerid, param)
@@ -269,12 +297,32 @@ addCommandHandler({"/бар2"}, function(playerid, param)
 	PlayAnimation(playerid, "R_BARRELCONTAINER_DRINK")
 end);
 
-addCommandHandler({"/блевать"}, function(playerid, param) 
-	PlayAnimation(playerid, "S_BREATH")
+addCommandHandler({"/бар3"}, function(playerid, param)
+	PlayAnimation(playerid, "T_INN_S0_2_S1")
+end);
+
+addCommandHandler({"/устал"}, function(playerid, param) 
+	PlayAnimation(playerid, "T_STAND_2_BREATH")
+end);
+
+addCommandHandler({"/пес"}, function(playerid, param) 
+	PlayAnimation(playerid, "T_PET_START")
+end);
+
+addCommandHandler({"/блевать1"}, function(playerid, param) 
+	PlayAnimation(playerid, "R_VOMIT_RANDOM_01")
+end);
+
+addCommandHandler({"/блевать2"}, function(playerid, param) 
+	PlayAnimation(playerid, "R_VOMIT_SUNDER")
 end);
 
 addCommandHandler({"/плакать"}, function(playerid, param)
 	PlayAnimation(playerid, "S_CRY")
+end);
+
+addCommandHandler({"/свист"}, function(playerid, param)
+	PlayAnimation(playerid, "T_WHISTLE")
 end);
 
 addCommandHandler({"/огорчение"}, function(playerid, param)
@@ -302,7 +350,7 @@ addCommandHandler({"/погреться"}, function(playerid, param)
 end);
 
 addCommandHandler({"/уу"}, function(playerid, param)
-	PlayAnimation(playerid, "S_FIREPLACEOAR_S1")
+	PlayAnimation(playerid, "T_FIREPLACEOAR_S0_2_S1")
 end);
 
 --addCommandHandler({"/кричать"}, function(playerid, param)
@@ -311,6 +359,14 @@ end);
 
 addCommandHandler({"/поражение"}, function(playerid, param)
 	PlayAnimation(playerid, "T_JON_KNEEL") 
+end);
+
+addCommandHandler({"/угроза"}, function(playerid, param)
+	PlayAnimation(playerid, "T_THREAT_DEATH") 
+end);
+
+addCommandHandler({"/шок"}, function(playerid, param)
+	PlayAnimation(playerid, "T_SHOCKED_START") 
 end);
 
 addCommandHandler({"/выбить"}, function(playerid, param)
@@ -333,8 +389,13 @@ addCommandHandler({"/с"}, function(playerid, param)
 	PlayAnimation(playerid, "S_OCEAN_S1") 
 end);
 
-addCommandHandler({"/отчаяние"}, function(playerid, param)
-	PlayAnimation(playerid, "S_SITTIRED_S1") 
+
+addCommandHandler({"/отчаяние1"}, function(playerid, param)
+	PlayAnimation(playerid, "T_STAND_2_DEPRESSIONSIT") 
+end);
+
+addCommandHandler({"/отчаяние2"}, function(playerid, param)
+	PlayAnimation(playerid, "T_SITTIRED_S0_2_S1") 
 end);
 
 addCommandHandler({"/корты"}, function(playerid, param)
@@ -358,10 +419,64 @@ addCommandHandler({"/отстань"}, function(playerid, param)
 	PlayAnimation(playerid, "T_PISSOFF") 
 end);
 
-addCommandHandler({"/гопак"}, function(playerid, param)
-	PlayAnimation(playerid, "T_HOPAK") 
+addCommandHandler({"/хлопать"}, function(playerid, param)
+	PlayAnimation(playerid, "T_STAND_2_CLAPHANDS") 
 end);
 
+addCommandHandler({"/бунт1"}, function(playerid, param)
+	PlayAnimation(playerid, "T_ANGRYMOB_01") 
+end);
+
+addCommandHandler({"/бунт2"}, function(playerid, param)
+	PlayAnimation(playerid, "T_ANGRYMOB_02") 
+end);
+
+addCommandHandler({"/бунт3"}, function(playerid, param)
+	PlayAnimation(playerid, "T_ANGRYMOB_03") 
+end);
+
+addCommandHandler({"/бунт4"}, function(playerid, param)
+	PlayAnimation(playerid, "T_MARVIN_FLEX") 
+end);
+
+addCommandHandler({"/испуг"}, function(playerid, param)
+	PlayAnimation(playerid, "T_STAND_2_SCAREDDIALOGUE") 
+	SendPlayerMessage(playerid, 255, 255, 255, "Отменить анимацию - /испуг_отмена")
+end);
+
+addCommandHandler({"/испуг_отмена"}, function(playerid, param)
+	PlayAnimation(playerid, "T_REMOVE_SCAREDDIALOGUE") 
+end);
+
+addCommandHandler({"/смирно"}, function(playerid, param)
+	PlayAnimation(playerid, "T_STAND_2_MILSTAND") 
+	SendPlayerMessage(playerid, 255, 255, 255, "Отменить анимацию - /смирно_отмена")
+end);
+
+addCommandHandler({"/смирно_отмена"}, function(playerid, param)
+	PlayAnimation(playerid, "T_REMOVE_MILSTAND") 
+end);
+
+addCommandHandler({"/честь"}, function(playerid, param)
+	PlayAnimation(playerid, "T_MILSTAND_2_MILJOIN") 
+end);
+
+addCommandHandler({"/собирать"}, function(playerid, param)
+	PlayAnimation(playerid, "T_PICKFRUIT") 
+end);
+
+addCommandHandler({"/отчитать"}, function(playerid, param)
+	PlayAnimation(playerid, "T_YELL") 
+end);
+
+addCommandHandler({"/прилечь1"}, function(playerid, param)
+	PlayAnimation(playerid, "T_LIEDOWNMACHO_STAND_2_S0") 
+end);
+
+addCommandHandler({"/прилечь2"}, function(playerid, param)
+	PlayAnimation(playerid, "T_LIEDOWNRELAXED_STAND_2_S0") 
+end);
+	
 
 addCommandHandler({"/демонстрация"}, function(playerid, param)
 	PlayAnimation(playerid, "S_CHECKSWD_S1") 
@@ -394,17 +509,25 @@ function GesticKey(playerid, keydown, keyup)
 end
 
 	function animlist(playerid)
-	SendPlayerMessage(playerid,255,255,255,"Анимации: /ссать/привет/привет2/страж3/кивок/отогнать/разглядывать/почухать/почесать/переминаться/пинать/незнаю/махнуть"); 
-	SendPlayerMessage(playerid,255,255,255,"/ковать/точить/мешать/маяться/ранен/добить/курить/молиться/молиться2/молоток/тренировка/да/нет/обыск/оглядеться/кушать");
-	SendPlayerMessage(playerid,255,255,255,"копать/обл/обл2/пить/присесть/идол/присесть/присесть/смертьсмерть2/страж1/страж2");
+	SendPlayerMessage(playerid,255,255,255,"Анимации: /ссать/привет/привет2/кивок/отогнать/разглядывать/почухать/почесать/переминаться/пинать/незнаю/махнуть"); 
+	SendPlayerMessage(playerid,255,255,255,"/ковать/точить/мешать/маяться/ранен/добить/курить/молиться/молиться2/молоток1/молоток2/тренировка/да/нет/обыск");
+	SendPlayerMessage(playerid,255,255,255,"/оглядеться/кушать/копать/обл/обл2/пить/присесть/идол/смерть/смерть2/смерть3/страж1/страж2/страж3");
 	SendPlayerMessage(playerid,255,255,255,"Следующая страница /анимлист2");
 	end
 addCommandHandler({"/анимлист"}, animlist)
 
 	function animlist2(playerid)
- SendPlayerMessage(playerid,255,255,255,"/походка1-6(1-мага,2-стража,3-уставшая,4-расслабленная,5-важная,6-разбойника,7-женская)");
-	SendPlayerMessage(playerid,255,255,255,"/бар1/бар2/блевать/плакать/упасть/огорчение/упасть2/осмотреться/пальцы/погреться/уу/кричать");
+ 	SendPlayerMessage(playerid,255,255,255,"/походка 1-14 (1 - ГГ,2 - мага, 3 - стража, 4 - расслабленная, 5 - уставшая, 6 - важная, 7 - женская,8 - разбойника,");
+ 	SendPlayerMessage(playerid,255,255,255,"9 - пьяницы, 10 - мага Г2, 11 - руки в карманах, 12 - руки за спиной, 13 - легко раненого, 14 - тяжело раненого");
+	SendPlayerMessage(playerid,255,255,255,"/бар(1-3)/плакать/упасть/упасть2/огорчение/осмотреться/пальцы/погреться/уу/кричать");
 	SendPlayerMessage(playerid,255,255,255,"/поражение/выбить/обсмеять/взор/схваченный");
-	SendPlayerMessage(playerid,255,255,255,"/с/отчаяние/корты/корты_отмена/черпнуть/обточить/демонстрация/отстань");
+	SendPlayerMessage(playerid,255,255,255,"Следующая страница /анимлист3");
 	end
 	addCommandHandler({"/анимлист2"}, animlist2)
+
+	function animlist3(playerid)
+ 	SendPlayerMessage(playerid,255,255,255,"/бунт(1-4)/честь/смирно/собирать/отчитать/прилечь(1-2)/испуг/хлопать/шок/угроза");
+ 	SendPlayerMessage(playerid,255,255,255,"/ужас/блевать(1-2)/пес/устал/сесть/сесть(2-8)");
+ 	SendPlayerMessage(playerid,255,255,255,"/с/отчаяние(1-2)/корты/корты_отмена/черпнуть/обточить/демонстрация/отстань");
+	end
+	addCommandHandler({"/анимлист3"}, animlist3)
