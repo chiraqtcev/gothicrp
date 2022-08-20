@@ -13,7 +13,7 @@ Player[playerid].Resolution = false
 		SetPlayerInstance(playerid,"DRAGON_SWAMP");
 	elseif dest == "кровомуха" then
 		SetPlayerInstance(playerid,"BLOODFLY");
-		elseif dest == "кротокрыс" then
+	elseif dest == "кротокрыс" then
 		SetPlayerInstance(playerid,"MOLERAT");
 	elseif dest == "дрон" then
 		SetPlayerInstance(playerid,"SWAMPDRONE");
@@ -83,8 +83,6 @@ Player[playerid].Resolution = false
 		SetPlayerInstance(playerid,"GIANT_DESERTRAT")
 	elseif dest == "бкрыса" then
 		SetPlayerInstance(playerid,"SWAMPRAT")
-	elseif dest == "ожж" then
-		SetPlayerInstance(playerid,"SWARM");
 	elseif dest == "гарпи€" then
 		SetPlayerInstance(playerid,"HARPIE");
 		SetPlayerMaxHealth(playerid, 300)
@@ -122,10 +120,6 @@ Player[playerid].Resolution = false
 		SetPlayerInstance(playerid,"ICEGOLEM");
 		SetPlayerHealth(playerid,1000);
 		SetPlayerMaxHealth(playerid,1000);
-	elseif dest == "мголем" then
-		SetPlayerInstance(playerid,"CoalGolem");
-		SetPlayerHealth(playerid,1000);
-		SetPlayerMaxHealth(playerid,1000);
 	elseif dest == "оголем" then
 		SetPlayerInstance(playerid,"FIREGOLEM");
 		SetPlayerHealth(playerid,1000);
@@ -156,17 +150,9 @@ Player[playerid].Resolution = false
 		EquipMeleeWeapon(playerid,"gkwqdz_ItMw_1h_MISC_SworD");
 		SetPlayerMaxHealth(playerid, 300)
 		SetPlayerHealth(playerid, 300)
-	elseif dest == "в1гоблин" then
-		SetPlayerInstance(playerid,"GOBBO_WARRIOR_VISIR");
-		EquipMeleeWeapon(playerid,"gkwqdz_ItMw_1h_Misc_AxE");
-		SetPlayerMaxHealth(playerid, 700)
-		SetPlayerHealth(playerid, 700)
 	elseif dest == "огонек" then
 		SetPlayerInstance(playerid,"WISP");
-		elseif dest == "√облиннаездник" then
-		SetPlayerInstance(playerid,"MOLERAT_GOBBO");
-		elseif dest == "√облиннаездниквоин" then
-		SetPlayerInstance(playerid,"MOLERAT_GOBBO_WARRIOR");
+
 	elseif dest == "богомол" then
 		SetPlayerInstance(playerid,"BLATTCRAWLER");
 	elseif dest == "краулер" then
@@ -180,7 +166,7 @@ Player[playerid].Resolution = false
 	elseif dest == "орк" then
 
 		ClearInventory(playerid);
-		SetPlayerInstance(playerid,"ORC_ROAM");
+		SetPlayerInstance(playerid,"PC_Orc");
 		EquipMeleeWeapon(playerid, "gkwqdz_ITMW_2H_ORCAXE_04");
 		SetPlayerStrength(playerid, 45);
 		SetPlayerMaxHealth(playerid, 300)
@@ -216,18 +202,12 @@ Player[playerid].Resolution = false
 		EquipMeleeWeapon(playerid, "gkwqdz_ITMW_2H_ORCAXE_03");
 
 	elseif dest == "орк-скелет" then
-		SetPlayerInstance(playerid,"SkeletonOrcWarrior");
+		SetPlayerInstance(playerid,"OrcSkeleton");
 		SetPlayerStrength(playerid, 60);
 		SetPlayerMaxHealth(playerid, 400)
 		SetPlayerHealth(playerid, 400)
 		EquipMeleeWeapon(playerid, "gkwqdz_ITMW_2H_ORCAXE_04");
 
-	elseif dest == "орк-храмовник" then
-		SetPlayerInstance(playerid,"OrcTemplar_Roam");
-		SetPlayerStrength(playerid, 60);
-		SetPlayerMaxHealth(playerid, 400)
-		SetPlayerHealth(playerid, 400)
-		EquipMeleeWeapon(playerid, "gkwqdz_ITMW_2H_ORCAXE_04");
 
 	elseif dest == "€щер" then
 		SetPlayerInstance(playerid,"DRACONIAN");
@@ -237,21 +217,12 @@ Player[playerid].Resolution = false
 		EquipMeleeWeapon(playerid, "gkwqdz_ITMW_2H_ORCAXE_04");
 		SetPlayerMagicLevel(playerid, 6);
 
-	elseif dest == "€щерсобиратель" then
-		SetPlayerInstance(playerid,"LizardSobiratel");
-		SetPlayerStrength(playerid, 60);
-		EquipMeleeWeapon(playerid, "gkwqdz_ITMW_STL_WARAXE");
-
-	elseif dest == "€щерохотник" then
-		SetPlayerInstance(playerid,"LIZARDHUNTER");
-		EquipMeleeWeapon(playerid,"gkwqdz_ITMW_STL_WARAXE");
-
 	elseif dest == "орк-нежить" then
 		SetPlayerInstance(playerid,"UNDEADORCWARRIOR");
 		SetPlayerStrength(playerid, 60);
 		EquipMeleeWeapon(playerid, "gkwqdz_ITMW_2H_ORCAXE_02");
 		
-	elseif dest == "алорд" then
+	elseif dest == "скелет-лорд" then
 	
 		ClearInventory(playerid);
 		SetPlayerInstance(playerid,"SKELETON_LORD");
@@ -270,6 +241,36 @@ Player[playerid].Resolution = false
 		SetPlayerMaxHealth(playerid, 350)
 		SetPlayerHealth(playerid, 350)
 
+	elseif dest == "скелет-маг" then
+
+		ClearInventory(playerid);
+		SetPlayerInstance(playerid,"SKELETONMAGE");
+		EquipMeleeWeapon(playerid, "gkwqdz_ItMw_2H_Sword_M_01");
+		SetPlayerMaxHealth(playerid, 500)
+		SetPlayerHealth(playerid, 500)
+		SetPlayerMaxMana(playerid, 700)
+		SetPlayerMana(playerid, 700)
+		GiveItem(playerid, "ITRU_CHARGEFIREBALL", 1);
+		GiveItem(playerid, "ITRU_ICECUBE", 1);
+
+	elseif dest == "скелет-пират" then
+
+		ClearInventory(playerid);
+		SetPlayerInstance(playerid,"SKELETON_PIRATE");
+		EquipMeleeWeapon(playerid, "GKWQDZ_ItMw_Addon_PIR1hSword");
+		SetPlayerStrength(playerid, 50);
+		SetPlayerMaxHealth(playerid, 380)
+		SetPlayerHealth(playerid, 380)
+
+	elseif dest == "скелет-капитан" then
+
+		ClearInventory(playerid);
+		SetPlayerInstance(playerid,"SKELETON_CAPTAIN");
+		EquipMeleeWeapon(playerid, "GKWQDZ_ItMw_Rapier");
+		SetPlayerStrength(playerid, 50);
+		SetPlayerMaxHealth(playerid, 380)
+		SetPlayerHealth(playerid, 380)
+
 	elseif dest == "чдракон" then
 		SetPlayerInstance(playerid,"Dragon_Dark");
 	elseif dest == "нтролль" then
@@ -282,6 +283,12 @@ Player[playerid].Resolution = false
 		SetPlayerInstance(playerid,"BEAR");
 	elseif dest == "мышь" then
 		SetPlayerInstance(playerid,"BAT");
+	elseif dest == "телега1" then
+		SetPlayerInstance(playerid,"CART");
+	elseif dest == "телега2" then
+	SetPlayerInstance(playerid,"BIGCART");
+	elseif dest == "королева" then
+	SetPlayerInstance(playerid,"CRAWLERQUEEN");
 	end
 end
 
