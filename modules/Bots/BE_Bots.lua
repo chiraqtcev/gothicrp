@@ -767,6 +767,27 @@ addMonster("MMM2HBANDIT",
 		blow_time = false,
 		weapon = "gkwqdz_ItMw_2h_Sld_Sword",
 	});	
+
+		addMonster("MMMSkeletonDigger",
+	{
+		ai = "2H",
+		name = "Скелет рудокопа",
+		instance = "Skeleton_Digger",
+		str = 20,
+		dex = 20,
+		skill_1h = 0,
+		skill_2h = 30,
+		skill_bow = 0,
+		skill_cbow = 0,
+		lvl = 7,
+		hp = 210,
+		exp = 0,
+		min_dist = 300,
+		max_dist = 900,
+		respawn = 10000,
+		blow_time = false,
+		weapon = "gkwqdz_itmw_pickaxe",
+	});	
 		
 	addMonster("MMMORCWARRIOR_ROAM",
 		{
@@ -1169,6 +1190,12 @@ function _createNewBot(playerid, params)
 				spawnMonster("MMMSKELETON", x, y+20, z, amount, world, 200, true)
 				toFileType = "MMMSKELETON";
 			end
+
+			if bType == "скелетрудокоп" then
+				spawnMonster("MMMSkeletonDigger", x, y+20, z, amount, world, 200, true)
+				toFileType = "MMMSkeletonDigger";
+			end
+
 
 			if bType == "разбойник" then
 				spawnMonster("MMM2HBANDIT", x, y+20, z, amount, world, 200, true)
