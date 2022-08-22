@@ -67,6 +67,20 @@ function OnFilterscriptInit()
 	SetMovementKey(movement, "qbduuo_itke_key_citygate");
 	-------------------------------------------------------------
 
+	-- Город - ворота в порту
+	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_CLOSED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
+	SetMovementCoordinationAsOpened(movement,-7768.677734375, -1632.5463867188, -9449.916015625, 0, -8, 0);
+	SetMovementCoordinationAsClosed(movement,-7768.677734375, -580.54638671875, -9449.916015625, 0, -8, 0);
+	SetMovementKey(movement, "qbduuo_itke_key_citygate");
+	-------------------------------------------------------------
+
+	-- Замок - ворота
+	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_OPENED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
+	SetMovementCoordinationAsOpened(movement,-2126.1257324219, 1549.8537597656, -8457.240234375, 0, -112, 0);
+	SetMovementCoordinationAsClosed(movement,-2126.1257324219, 2186.8537597656, -8457.240234375, 0, -112, 0);
+	SetMovementKey(movement, "qbduuo_itke_key_citygate");
+	-------------------------------------------------------------
+
 	-- Казарма - ворота 1
 	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_OPENED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
 	SetMovementCoordinationAsClosed(movement,5601.9464054438,98.216674804688,5498.8532150055,0,-30,0);
@@ -81,7 +95,40 @@ function OnFilterscriptInit()
 	SetMovementKey(movement, "qbduuo_itke_key_barracks");
 	-------------------------------------------------------------
 
+	-- Шахта у города
+	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_CLOSED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
+	SetMovementCoordinationAsOpened(movement,28982.583984375, -797.76116943359, -54853.15625, 0, 63, 0);
+	SetMovementCoordinationAsClosed(movement,28982.583984375, -391.76116943359, -54853.15625, 0, 63, 0);
+	SetMovementKey(movement, "qbduuo_itke_key_barracks");
+	-------------------------------------------------------------
 
+	-- Шахта у черного тролля
+	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_CLOSED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
+	SetMovementCoordinationAsOpened(movement,57841.00390625, 5198.5537109375, 26972.267578125, 0, 19, 0);
+	SetMovementCoordinationAsClosed(movement,57841.00390625, 6374.5537109375, 26972.267578125, 0, 19, 0);
+	SetMovementKey(movement, "qbduuo_itke_key_barracks");
+	-------------------------------------------------------------
+
+	-- Шахта у круга Солнца
+	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_CLOSED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
+	SetMovementCoordinationAsOpened(movement,36451.15625, 4215.1591796875, 28865.2109375, 0, 16, 0);
+	SetMovementCoordinationAsClosed(movement,36451.15625, 4671.1591796875, 28865.2109375, 0, 16, 0);
+	SetMovementKey(movement, "qbduuo_itke_key_barracks");
+	-------------------------------------------------------------
+
+	-- Шахта у башни Декстера - 1
+	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_CLOSED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
+	SetMovementCoordinationAsClosed(movement,62483.453125, 3228, -24754.318359375, 0, -136, 0);
+	SetMovementCoordinationAsOpened(movement,62483.453125, 2913, -24754.318359375, 0, -136, 0);
+	SetMovementKey(movement, "qbduuo_itke_key_barracks");
+	-------------------------------------------------------------
+
+	-- Шахта у башни Декстера - 2 (С ЗОМБЯМИ)
+	movement = CreateMovement(MovementType.TYPE_GATE,MovementStatus.STATUS_CLOSED,"OC_LOB_GATE_BIG.3DS","RPCORNER_KHORINIS.ZEN");
+	SetMovementCoordinationAsOpened(movement,61803.06640625, 2802.84765625, -32718.767578125, 0, -80, 0);
+	SetMovementCoordinationAsClosed(movement,61803.06640625, 3292.84765625, -32718.767578125, 0, -80, 0);
+	SetMovementKey(movement, "qbduuo_itke_key_barracks");
+	-------------------------------------------------------------
 
 	-- #############################################################################
 	-- ДВЕРИ
@@ -260,6 +307,7 @@ function OnFilterscriptInit()
 	movement = CreateMovement(MovementType.TYPE_DOOR,MovementStatus.STATUS_CLOSED,"DOOR_NW_Normal_01.MDS","RPCORNER_KHORINIS.ZEN");
 	SetMovementCoordinationAsClosed(movement,-818.621673798,2395.2214355469,15951.992982639,0,150,0 );
 	SetMovementCoordinationAsOpened(movement,-847.88305260646,2393.2482910156,15842.287729541,0,240,0);
+	SetMovementKey(movement, "qbduuo_itke_key_lighthouse");
 
 	-- Монастырь - входная дверь
 	movement = CreateMovement(MovementType.TYPE_DOOR,MovementStatus.STATUS_CLOSED,"Door_NW_Rich_01.MDS","RPCORNER_KHORINIS.ZEN");
@@ -523,7 +571,7 @@ function OnFilterscriptInit()
 
 	-- Портовый квартал - Дом 33
 	movement = CreateMovement(MovementType.TYPE_DOOR,MovementStatus.STATUS_CLOSED,"Door_NW_Poor_01.MDS","RPCORNER_KHORINIS.ZEN");
-	SetMovementCoordinationAsClosed(movement,2905.5561523438, -97.97802734375, -4172.2294921875, 0, 30, 0);
+	SetMovementCoordinationAsClosed(movement,2925.5561523438, -97.97802734375, -4172.2294921875, 0, 30, 0);
 	SetMovementCoordinationAsOpened(movement,2961.2463378906, -100.86268615723, -4254.3999023438, 0, -70, 0);
 	SetMovementKey(movement, "qbduuo_itke_key_33");
 
