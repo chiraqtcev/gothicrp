@@ -409,6 +409,7 @@ inst_Items = {
 	{ item_instance = "aixopt_itmi_linen", 						friendly_name = "Ткань"	 	},
 	{ item_instance = "aixopt_itmi_silk", 						friendly_name = "Шелк"	 	},
 	{ item_instance = "aixopt_itmi_wool", 						friendly_name = "Шерсть"	 	},
+	{ item_instance = "aixopt_itmi_rubin", 						friendly_name = "Рубин"	 	},
 	{ item_instance = "aixopt_itmi_skin", 						friendly_name = "Кожа"	 	},
 	{ item_instance = "aixopt_itmi_fineskin", 						friendly_name = "Качественная кожа"	 	},
 	{ item_instance = "aixopt_itmi_rivetskin", 						friendly_name = "Клепаная кожа"	 	},
