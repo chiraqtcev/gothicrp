@@ -394,30 +394,30 @@ function InitCraftList()
 
 --ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 	
-	AddItemCategory ("Без профессии", "ZDPWLA_ItFoMutton"); ----- Жареное мясо
-	SetCraftAmount("ZDPWLA_ItFoMutton", 3);
-     AddIngre("ZDPWLA_ItFoMutton", "ZDPWLA_ItFoMuttonRaw", 3);
-    SetCraftPenalty("ZDPWLA_ItFoMutton", 5);
-	SetCraftScience("ZDPWLA_ItFoMutton", "Без профессии", 0);
-	SetenergyPenalty("ZDPWLA_ItFoMutton", 50);
+	AddItemCategory ("Без профессии", "uhaxlk_itfo_friedmeat"); ----- Жареное мясо
+	SetCraftAmount("uhaxlk_itfo_friedmeat", 3);
+     AddIngre("uhaxlk_itfo_friedmeat", "uhaxlk_itfo_rawmeat", 3);
+    SetCraftPenalty("uhaxlk_itfo_friedmeat", 5);
+	SetCraftScience("uhaxlk_itfo_friedmeat", "Без профессии", 0);
+	SetenergyPenalty("uhaxlk_itfo_friedmeat", 50);
 
-	AddItemCategory ("Без профессии", "ZDPWLA_ItFo_FishFried"); ----- Жареная рыба
-	SetCraftAmount("ZDPWLA_ItFo_FishFried", 3);
-     AddIngre("ZDPWLA_ItFo_FishFried", "ZDPWLA_ItFo_Fish", 3);
-	SetCraftPenalty("ZDPWLA_ItFo_FishFried", 5);
-	SetCraftScience("ZDPWLA_ItFo_FishFried", "Без профессии", 0);
-	SetenergyPenalty("ZDPWLA_ItFo_FishFried", 50);
+	AddItemCategory ("Без профессии", "uhaxlk_itfo_friedfish"); ----- Жареная рыба
+	SetCraftAmount("uhaxlk_itfo_friedfish", 3);
+     AddIngre("uhaxlk_itfo_friedfish", "uhaxlk_itfo_fish", 3);
+	SetCraftPenalty("uhaxlk_itfo_friedfish", 5);
+	SetCraftScience("uhaxlk_itfo_friedfish", "Без профессии", 0);
+	SetenergyPenalty("uhaxlk_itfo_friedfish", 50);
 	
-	AddItemCategory ("Без профессии", "ZDPWLA_ItFo_Honey"); ----- Мед
-	SetCraftAmount("ZDPWLA_ItFo_Honey", 2);
-     AddIngre("ZDPWLA_ItFo_Honey", "OOLTYB_ITMI_HONEYCOMB", 1);
-	SetCraftPenalty("ZDPWLA_ItFo_Honey", 5);
-	SetCraftScience("ZDPWLA_ItFo_Honey", "Без профессии", 0);
-	SetenergyPenalty("ZDPWLA_ItFo_Honey", 25);
+	AddItemCategory ("Без профессии", "uhaxlk_itfo_honey"); ----- Мед
+	SetCraftAmount("uhaxlk_itfo_honey", 2);
+     AddIngre("uhaxlk_itfo_honey", "AIXOPT_ItMi_HoneyComb", 1);
+	SetCraftPenalty("uhaxlk_itfo_honey", 5);
+	SetCraftScience("uhaxlk_itfo_honey", "Без профессии", 0);
+	SetenergyPenalty("uhaxlk_itfo_honey", 25);
 	
 	AddItemCategory ("Без профессии", "ZDPWLA_ItFo_Addon_Shellflesh"); ----- Мясо моллюска
 	SetCraftAmount("ZDPWLA_ItFo_Addon_Shellflesh", 2);
-     AddIngre("ZDPWLA_ItFo_Addon_Shellflesh", "OOLTYB_ItMi_ReMi2", 1);
+     AddIngre("ZDPWLA_ItFo_Addon_Shellflesh", "uhaxlk_itat_clamflesh", 1);
 	SetCraftPenalty("ZDPWLA_ItFo_Addon_Shellflesh", 5);
 	SetCraftScience("ZDPWLA_ItFo_Addon_Shellflesh", "Без профессии", 0);
 	SetenergyPenalty("ZDPWLA_ItFo_Addon_Shellflesh", 25);
@@ -432,66 +432,65 @@ function InitCraftList()
 	AddItemCategory ("Без профессии", "ZDPWLA_ItFo_PoorSoup"); ----- Суп бедняка
 	SetCraftAmount("ZDPWLA_ItFo_PoorSoup", 3);
      AddIngre("ZDPWLA_ItFo_PoorSoup", "OOLTYB_ItAt_Meatbugflesh", 3);
-	 AddIngre("ZDPWLA_ItFo_PoorSoup", "ZDPWLA_ItPl_Temp_Herb", 3);
+	 AddIngre("ZDPWLA_ItFo_PoorSoup", "hfdpun_itpl_temp_herb", 3);
 	SetCraftPenalty("ZDPWLA_ItFo_PoorSoup", 10);
 	SetCraftScience("ZDPWLA_ItFo_PoorSoup", "Без профессии", 0);
 	SetenergyPenalty("ZDPWLA_ItFo_PoorSoup", 100);
 	
 	AddItemCategory ("Без профессии", "ZDPWLA_ItFo_MushroomOffal"); ----- Грибная требуха
     SetCraftAmount("ZDPWLA_ItFo_MushroomOffal", 3);
-     AddIngre("ZDPWLA_ItFo_MushroomOffal", "ZDPWLA_ItPl_Mushroom_02", 1);
-     AddIngre("ZDPWLA_ItFo_MushroomOffal", "ZDPWLA_ItPl_Mushroom_01", 5);
+     AddIngre("ZDPWLA_ItFo_MushroomOffal", "hfdpun_itpl_mushroom_02", 1);
+     AddIngre("ZDPWLA_ItFo_MushroomOffal", "hfdpun_itpl_mushroom_01", 5);
     SetCraftPenalty("ZDPWLA_ItFo_MushroomOffal", 10);
     SetCraftScience("ZDPWLA_ItFo_MushroomOffal", "Без профессии", 0);
     SetenergyPenalty("ZDPWLA_ItFo_MushroomOffal", 100);
 	
 	AddItemCategory ("Без профессии", "ZDPWLA_ItFo_GrapeJuice"); ----- Виноградный сок
 	SetCraftAmount("ZDPWLA_ItFo_GrapeJuice", 2);
-     AddIngre("ZDPWLA_ItFo_GrapeJuice", "ZDPWLA_ITFO_WINEBERRYS2", 5);
-	 AddIngre("ZDPWLA_ItFo_GrapeJuice", "OOLTYB_ItMi_Flask", 2);
+     AddIngre("ZDPWLA_ItFo_GrapeJuice", "uhaxlk_itfo_wineberry", 5);
+	 AddIngre("ZDPWLA_ItFo_GrapeJuice", "aixopt_itmi_flask", 2);
 	SetCraftPenalty("ZDPWLA_ItFo_GrapeJuice", 5);
 	SetCraftScience("ZDPWLA_ItFo_GrapeJuice", "Без профессии", 0);
 	SetenergyPenalty("ZDPWLA_ItFo_GrapeJuice", 25);
 	
-	AddItemCategory ("Без профессии", "OOLTYB_ITMI_FLOUR"); ----- мука
-	SetCraftAmount("OOLTYB_ITMI_FLOUR", 1);
-     AddIngre("OOLTYB_ITMI_FLOUR", "ZDPWLA_ITFO_RICE", 45);
-	 AddAlterIngre("OOLTYB_ITMI_FLOUR", "zdpwla_itfo_millet", 45);
-	SetCraftPenalty("OOLTYB_ITMI_FLOUR", 5);
-	SetCraftScience("OOLTYB_ITMI_FLOUR", "Без профессии", 0);
-	SetenergyPenalty("OOLTYB_ITMI_FLOUR", 10);
+	AddItemCategory ("Без профессии", "aixopt_itmi_flour"); ----- мука
+	SetCraftAmount("aixopt_itmi_flour", 1);
+     AddIngre("aixopt_itmi_flour", "aixopt_itmi_wheat", 45);
+	 AddAlterIngre("aixopt_itmi_flour", "zdpwla_itfo_millet", 45);
+	SetCraftPenalty("aixopt_itmi_flour", 5);
+	SetCraftScience("aixopt_itmi_flour", "Без профессии", 0);
+	SetenergyPenalty("aixopt_itmi_flour", 10);
 	
-	AddItemCategory ("Без профессии", "OOLTYB_ItMi_Joint"); ----- Самокрутка
-	SetCraftAmount("OOLTYB_ItMi_Joint", 3);
-     AddIngre("OOLTYB_ItMi_Joint", "ZDPWLA_ItPl_SwampHerb", 2);
-     	AddTool("OOLTYB_ItMi_Joint", "ooltyb_itmi_jointrecipe1");
-	SetCraftPenalty("OOLTYB_ItMi_Joint", 5);
-	SetCraftScience("OOLTYB_ItMi_Joint", "Без профессии", 0);
-	SetenergyPenalty("OOLTYB_ItMi_Joint", 25);
+	AddItemCategory ("Без профессии", "aixopt_itmi_joint"); ----- Самокрутка с табаком
+	SetCraftAmount("aixopt_itmi_joint", 5);
+     AddIngre("aixopt_itmi_joint", "aixopt_itmi_apfeltabak", 2);
+	SetCraftPenalty("aixopt_itmi_joint", 5);
+	SetCraftScience("aixopt_itmi_joint", "Без профессии", 0);
+	SetenergyPenalty("aixopt_itmi_joint", 25);
 	
-	AddItemCategory ("Без профессии", "OOLTYB_ItMi_Coal"); ----- Уголь
-	SetCraftAmount("OOLTYB_ItMi_Coal", 15);
-     AddIngre("OOLTYB_ItMi_Coal", "OOLTYB_ITMI_WOOD", 30);
-	SetCraftPenalty("OOLTYB_ItMi_Coal", 5);
-	SetCraftScience("OOLTYB_ItMi_Coal", "Без профессии", 0);
-	SetenergyPenalty("OOLTYB_ItMi_Coal", 25);
+	AddItemCategory ("Без профессии", "aixopt_itmi_coal"); ----- Уголь
+	SetCraftAmount("aixopt_itmi_coal", 15);
+     AddIngre("aixopt_itmi_coal", "aixopt_itmi_rawwood", 30);
+	SetCraftPenalty("aixopt_itmi_coal", 5);
+	SetCraftScience("aixopt_itmi_coal", "Без профессии", 0);
+	SetenergyPenalty("aixopt_itmi_coal", 25);
 	
 	AddItemCategory ("Без профессии", "OOLTYB_ITMI_Stroy"); ---- Строительные материалы
 	SetCraftAmount("OOLTYB_ITMI_Stroy", 2);
-	 AddIngre("OOLTYB_ITMI_Stroy", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddIngre("OOLTYB_ITMI_Stroy", "OOLTYB_ITMI_OBRABOTDER", 1);
-     AddIngre("OOLTYB_ITMI_Stroy", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddIngre("OOLTYB_ITMI_Stroy", "OOLTYB_ITMI_LEATHER", 1);
+	 AddIngre("OOLTYB_ITMI_Stroy", "aixopt_itmi_ironingot", 1);
+	 AddIngre("OOLTYB_ITMI_Stroy", "aixopt_itmi_craftwood", 1);
+     AddIngre("OOLTYB_ITMI_Stroy", "aixopt_itmi_linen", 1);
+	 AddIngre("OOLTYB_ITMI_Stroy", "aixopt_itmi_skin", 1);
 	SetCraftPenalty("OOLTYB_ITMI_Stroy", 10);
-	SetCraftScience("OOLTYB_ItMi_Coal", "Без профессии", 0);
+	SetCraftScience("aixopt_itmi_coal", "Без профессии", 0);
 	SetenergyPenalty("OOLTYB_ITMI_Stroy", 25);
 	
 	AddItemCategory ("Без профессии", "itlstorch"); ---- Факел
 	SetCraftAmount("itlstorch", 15);
-	 AddIngre("itlstorch", "ooltyb_itmi_pitch", 1);
-	 AddIngre("itlstorch", "jkztzd_itmw_1h_bau_mace", 1);
+	 AddIngre("itlstorch", "aixopt_itmi_pitch", 1);
+	 AddIngre("itlstorch", "gkwqdz_itmw_1h_bau_mace", 1);
 	SetCraftPenalty("itlstorch", 1);
-	SetCraftScience("OOLTYB_ItMi_Coal", "Без профессии", 0);
+	SetCraftScience("aixopt_itmi_coal", "Без профессии", 0);
 	SetenergyPenalty("itlstorch", 10);
 	
 	AddItemCategory ("Без профессии", "yfauun_itar_koszyk"); ---- Корзинка для зерна
@@ -499,89 +498,89 @@ function InitCraftList()
 	 AddIngre("yfauun_itar_koszyk", "zdpwla_itfo_rice", 1);
 	 AddIngre("yfauun_itar_koszyk", "zdpwla_itpl_weed", 1);
 	SetCraftPenalty("yfauun_itar_koszyk", 1);
-	SetCraftScience("OOLTYB_ItMi_Coal", "Без профессии", 0);
+	SetCraftScience("aixopt_itmi_coal", "Без профессии", 0);
 	SetenergyPenalty("yfauun_itar_koszyk", 10);
 	
 	AddItemCategory ("Без профессии", "yfauun_itar_koszyk2"); ---- Корзинка для руды
 	SetCraftAmount("yfauun_itar_koszyk2", 1);
-	 AddIngre("yfauun_itar_koszyk2", "ooltyb_itmi_nugget", 1);
+	 AddIngre("yfauun_itar_koszyk2", "aixopt_itmi_ironnugget", 1);
 	SetCraftPenalty("yfauun_itar_koszyk2", 1);
-	SetCraftScience("OOLTYB_ItMi_Coal", "Без профессии", 0);
+	SetCraftScience("aixopt_itmi_coal", "Без профессии", 0);
 	SetenergyPenalty("yfauun_itar_koszyk2", 10);
 	
 	AddItemCategory ("Без профессии", "yfauun_itar_koszyk3"); ---- Корзинка для травы
 	SetCraftAmount("yfauun_itar_koszyk3", 1);
-	 AddIngre("yfauun_itar_koszyk3", "zdpwla_itpl_temp_herb", 1);
+	 AddIngre("yfauun_itar_koszyk3", "hfdpun_itpl_temp_herb", 1);
 	SetCraftPenalty("yfauun_itar_koszyk3", 1);
-	SetCraftScience("OOLTYB_ItMi_Coal", "Без профессии", 0);
+	SetCraftScience("aixopt_itmi_coal", "Без профессии", 0);
 	SetenergyPenalty("yfauun_itar_koszyk3", 10);
 	
 --ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА	
 		
 	
-	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_SausagE"); ----- Колбаса
-	SetCraftAmount("ZDPWLA_ItFo_SausagE", 5);
-	 AddIngre("ZDPWLA_ItFo_SausagE", "ZDPWLA_ItFoMuttonRaW", 9);
-	 AddIngre("ZDPWLA_ItFo_SausagE", "OOLTYB_ItAt_Fat", 1);
-    AddTool("ZDPWLA_ItFo_SausagE", "jkztzd_itmw_1h_knife_01");
-	SetCraftPenalty("ZDPWLA_ItFo_SausagE", 5);
-	SetCraftScience("ZDPWLA_ItFo_SausagE", "Повар", 1);
-	SetenergyPenalty("ZDPWLA_ItFo_SausagE", 25);
-	SetCraftEXP("ZDPWLA_ItFo_SausagE", 25)
-	SetCraftEXP_SKILL("ZDPWLA_ItFo_SausagE", "Повар")
+	AddItemCategory ("Повар (1 уровень)", "uhaxlk_itfo_sausage"); ----- Колбаса
+	SetCraftAmount("uhaxlk_itfo_sausage", 5);
+	 AddIngre("uhaxlk_itfo_sausage", "uhaxlk_itfo_rawmeat", 9);
+	 AddIngre("uhaxlk_itfo_sausage", "aixopt_itat_fat", 1);
+    AddTool("uhaxlk_itfo_sausage", "gkwqdz_itmw_huntknife");
+	SetCraftPenalty("uhaxlk_itfo_sausage", 5);
+	SetCraftScience("uhaxlk_itfo_sausage", "Повар", 1);
+	SetenergyPenalty("uhaxlk_itfo_sausage", 25);
+	SetCraftEXP("uhaxlk_itfo_sausage", 25)
+	SetCraftEXP_SKILL("uhaxlk_itfo_sausage", "Повар")
 	
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_MarinMushroom"); ----- Маринованные грибы
 	SetCraftAmount("ZDPWLA_ItFo_MarinMushroom", 20);
-	 AddIngre("ZDPWLA_ItFo_MarinMushroom", "ZDPWLA_ItPl_Mushroom_01", 5);
-	 AddIngre("ZDPWLA_ItFo_MarinMushroom", "ZDPWLA_ItPl_Mushroom_02", 1);
+	 AddIngre("ZDPWLA_ItFo_MarinMushroom", "hfdpun_itpl_mushroom_01", 5);
+	 AddIngre("ZDPWLA_ItFo_MarinMushroom", "hfdpun_itpl_mushroom_02", 1);
 	 AddIngre("ZDPWLA_ItFo_MarinMushroom", "ZDPWLA_ItMi_Vinegar", 1);
-	 AddIngre("ZDPWLA_ItFo_MarinMushroom", "OOLTYB_ItMi_Flask", 20);
-    AddTool("ZDPWLA_ItFo_MarinMushroom", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_MarinMushroom", "aixopt_itmi_flask", 20);
+    AddTool("ZDPWLA_ItFo_MarinMushroom", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_MarinMushroom", 5);
 	SetCraftScience("ZDPWLA_ItFo_MarinMushroom", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ItFo_MarinMushroom", 50);	
 	SetCraftEXP("ZDPWLA_ItFo_MarinMushroom", 50)
 	SetCraftEXP_SKILL("ZDPWLA_ItFo_MarinMushroom", "Повар")
 
-	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_Bread"); ----- Хлеб
-	SetCraftAmount("ZDPWLA_ItFo_Bread", 20);
-	 AddIngre("ZDPWLA_ItFo_Bread", "OOLTYB_ITMI_DOUGH", 1);
-    AddTool("ZDPWLA_ItFo_Bread", "OOLTYB_ItMi_Scoop");
-	SetCraftPenalty("ZDPWLA_ItFo_Bread", 5);
-	SetCraftScience("ZDPWLA_ItFo_Bread", "Повар", 1);
-	SetenergyPenalty("ZDPWLA_ItFo_Bread", 50);
-	SetCraftEXP("ZDPWLA_ItFo_Bread", 50)
-	SetCraftEXP_SKILL("ZDPWLA_ItFo_Bread", "Повар")
+	AddItemCategory ("Повар (1 уровень)", "uhaxlk_itfo_bread"); ----- Хлеб
+	SetCraftAmount("uhaxlk_itfo_bread", 20);
+	 AddIngre("uhaxlk_itfo_bread", "aixopt_itmi_dough", 1);
+    AddTool("uhaxlk_itfo_bread", "aixopt_itmi_scoop");
+	SetCraftPenalty("uhaxlk_itfo_bread", 5);
+	SetCraftScience("uhaxlk_itfo_bread", "Повар", 1);
+	SetenergyPenalty("uhaxlk_itfo_bread", 50);
+	SetCraftEXP("uhaxlk_itfo_bread", 50)
+	SetCraftEXP_SKILL("uhaxlk_itfo_bread", "Повар")
 
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_Addon_MeatSoup"); ----- Мясная похлебка
 	SetCraftAmount("ZDPWLA_ItFo_Addon_MeatSoup", 5);
-	 AddIngre("ZDPWLA_ItFo_Addon_MeatSoup", "ZDPWLA_ItFoMuttonRaw", 15);
-	 AddIngre("ZDPWLA_ItFo_Addon_MeatSoup", "ZDPWLA_ITFO_RICE", 35);
-	 AddIngre("ZDPWLA_ItFo_Addon_MeatSoup", "OOLTYB_ItMi_Flask", 5);
-    AddTool("ZDPWLA_ItFo_Addon_MeatSoup", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_Addon_MeatSoup", "uhaxlk_itfo_rawmeat", 15);
+	 AddIngre("ZDPWLA_ItFo_Addon_MeatSoup", "aixopt_itmi_wheat", 35);
+	 AddIngre("ZDPWLA_ItFo_Addon_MeatSoup", "aixopt_itmi_flask", 5);
+    AddTool("ZDPWLA_ItFo_Addon_MeatSoup", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_Addon_MeatSoup", 5);
 	SetCraftScience("ZDPWLA_ItFo_Addon_MeatSoup", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ItFo_Addon_MeatSoup", 50);
 	SetCraftEXP("ZDPWLA_ItFo_Addon_MeatSoup", 50)
 	SetCraftEXP_SKILL("ZDPWLA_ItFo_Addon_MeatSoup", "Повар")
 
-	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_FishBatter"); ----- Рыба в кляре
-	SetCraftAmount("ZDPWLA_ItFo_FishBatter", 20);
-	 AddIngre("ZDPWLA_ItFo_FishBatter", "ZDPWLA_ItFo_Fish", 27);
-	 AddIngre("ZDPWLA_ItFo_FishBatter", "OOLTYB_ITMI_FLOUR", 1);
-    AddTool("ZDPWLA_ItFo_FishBatter", "OOLTYB_ItMi_PaN");
-	SetCraftPenalty("ZDPWLA_ItFo_FishBatter", 10);
-	SetCraftScience("ZDPWLA_ItFo_FishBatter", "Повар", 1);
-	SetenergyPenalty("ZDPWLA_ItFo_FishBatter", 100);
-	SetCraftEXP("ZDPWLA_ItFo_FishBatter", 100)
-	SetCraftEXP_SKILL("ZDPWLA_ItFo_FishBatter", "Повар")
+	AddItemCategory ("Повар (1 уровень)", "uhaxlk_itfo_fishBatter"); ----- Рыба в кляре
+	SetCraftAmount("uhaxlk_itfo_fishBatter", 20);
+	 AddIngre("uhaxlk_itfo_fishBatter", "uhaxlk_itfo_fish", 27);
+	 AddIngre("uhaxlk_itfo_fishBatter", "aixopt_itmi_flour", 1);
+    AddTool("uhaxlk_itfo_fishBatter", "aixopt_itmi_pan");
+	SetCraftPenalty("uhaxlk_itfo_fishBatter", 10);
+	SetCraftScience("uhaxlk_itfo_fishBatter", "Повар", 1);
+	SetenergyPenalty("uhaxlk_itfo_fishBatter", 100);
+	SetCraftEXP("uhaxlk_itfo_fishBatter", 100)
+	SetCraftEXP_SKILL("uhaxlk_itfo_fishBatter", "Повар")
 
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ITFO_MEATBUGRAGOUT"); ----- Рагу из жуков
 	SetCraftAmount("ZDPWLA_ITFO_MEATBUGRAGOUT", 5);
 	 AddIngre("ZDPWLA_ITFO_MEATBUGRAGOUT", "OOLTYB_ItAt_Meatbugflesh", 11);
-	 AddIngre("ZDPWLA_ITFO_MEATBUGRAGOUT", "ZDPWLA_ITFO_RICE", 30);
-	 AddIngre("ZDPWLA_ITFO_MEATBUGRAGOUT", "OOLTYB_ItMi_Flask", 5);
-    AddTool("ZDPWLA_ITFO_MEATBUGRAGOUT", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ITFO_MEATBUGRAGOUT", "aixopt_itmi_wheat", 30);
+	 AddIngre("ZDPWLA_ITFO_MEATBUGRAGOUT", "aixopt_itmi_flask", 5);
+    AddTool("ZDPWLA_ITFO_MEATBUGRAGOUT", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ITFO_MEATBUGRAGOUT", 10);
 	SetCraftScience("ZDPWLA_ITFO_MEATBUGRAGOUT", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ITFO_MEATBUGRAGOUT", 50);
@@ -590,33 +589,33 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ITFO_BERRYSALAD"); ----- Ягодный салат
 	SetCraftAmount("ZDPWLA_ITFO_BERRYSALAD", 5);
-	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "ZDPWLA_ItPl_Forestberry", 4);
-	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "ZDPWLA_ITFO_WINEBERRYS2", 2);
-	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 2);
-	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "OOLTYB_ItMi_Flask", 5);
-    AddTool("ZDPWLA_ITFO_BERRYSALAD", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "hfdpun_itpl_forestberry", 4);
+	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "uhaxlk_itfo_wineberry", 2);
+	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "hfdpun_itpl_blueplant", 2);
+	 AddIngre("ZDPWLA_ITFO_BERRYSALAD", "aixopt_itmi_flask", 5);
+    AddTool("ZDPWLA_ITFO_BERRYSALAD", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ITFO_BERRYSALAD", 5);
 	SetCraftScience("ZDPWLA_ITFO_BERRYSALAD", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ITFO_BERRYSALAD", 25);
 	SetCraftEXP("ZDPWLA_ITFO_BERRYSALAD", 25)
 	SetCraftEXP_SKILL("ZDPWLA_ITFO_BERRYSALAD", "Повар")
 
-	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_Cheese"); ----- Сыр
-	SetCraftAmount("ZDPWLA_ItFo_Cheese", 10);
-	 AddIngre("ZDPWLA_ItFo_Cheese", "ZDPWLA_ItFo_Milk", 13);
-    AddTool("ZDPWLA_ItFo_Cheese", "OOLTYB_ItMi_Scoop");
-	SetCraftPenalty("ZDPWLA_ItFo_Cheese", 5);
-	SetCraftScience("ZDPWLA_ItFo_Cheese", "Повар", 1);
-	SetenergyPenalty("ZDPWLA_ItFo_Cheese", 25);
-	SetCraftEXP("ZDPWLA_ItFo_Cheese", 25)
-	SetCraftEXP_SKILL("ZDPWLA_ItFo_Cheese", "Повар")
+	AddItemCategory ("Повар (1 уровень)", "uhaxlk_itfo_cheese"); ----- Сыр
+	SetCraftAmount("uhaxlk_itfo_cheese", 10);
+	 AddIngre("uhaxlk_itfo_cheese", "uhaxlk_itfo_milk", 13);
+    AddTool("uhaxlk_itfo_cheese", "aixopt_itmi_scoop");
+	SetCraftPenalty("uhaxlk_itfo_cheese", 5);
+	SetCraftScience("uhaxlk_itfo_cheese", "Повар", 1);
+	SetenergyPenalty("uhaxlk_itfo_cheese", 25);
+	SetCraftEXP("uhaxlk_itfo_cheese", 25)
+	SetCraftEXP_SKILL("uhaxlk_itfo_cheese", "Повар")
 
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ITFO_TEA"); ----- Чай
 	SetCraftAmount("ZDPWLA_ITFO_TEA", 10);
-	 AddIngre("ZDPWLA_ITFO_TEA", "ZDPWLA_ItPl_Mana_Herb_01", 2);
-	 AddIngre("ZDPWLA_ITFO_TEA", "ZDPWLA_ItPl_Temp_Herb", 4);
-	 AddIngre("ZDPWLA_ITFO_TEA", "OOLTYB_ItMi_Flask", 10);
-    AddTool("ZDPWLA_ITFO_TEA", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ITFO_TEA", "hfdpun_itpl_mana_herb_01", 2);
+	 AddIngre("ZDPWLA_ITFO_TEA", "hfdpun_itpl_temp_herb", 4);
+	 AddIngre("ZDPWLA_ITFO_TEA", "aixopt_itmi_flask", 10);
+    AddTool("ZDPWLA_ITFO_TEA", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ITFO_TEA", 2);
 	SetCraftScience("ZDPWLA_ITFO_TEA", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ITFO_TEA", 25);
@@ -625,9 +624,9 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_Mors"); ----- Морс
 	SetCraftAmount("ZDPWLA_ItFo_Mors", 10);
-	 AddIngre("ZDPWLA_ItFo_Mors", "ZDPWLA_ItPl_Forestberry", 10);
-	 AddIngre("ZDPWLA_ItFo_Mors", "OOLTYB_ItMi_Flask", 10);
-    AddTool("ZDPWLA_ItFo_Mors", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_Mors", "hfdpun_itpl_forestberry", 10);
+	 AddIngre("ZDPWLA_ItFo_Mors", "aixopt_itmi_flask", 10);
+    AddTool("ZDPWLA_ItFo_Mors", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_Mors", 5);
 	SetCraftScience("ZDPWLA_ItFo_Mors", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ItFo_Mors", 25);
@@ -635,24 +634,12 @@ function InitCraftList()
 	SetCraftEXP_SKILL("ZDPWLA_ItFo_Mors", "Повар")
 
 
-	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ITFO_RICEBOOZE"); ----- Рисовый шнапс
-	SetCraftAmount("ZDPWLA_ITFO_RICEBOOZE", 10);
-	 AddIngre("ZDPWLA_ITFO_RICEBOOZE", "ZDPWLA_ITFO_RICE", 50);
-	 AddIngre("ZDPWLA_ITFO_RICEBOOZE", "OOLTYB_ItMi_Flask", 10);
-	 AddIngre("ZDPWLA_ITFO_RICEBOOZE", "OOLTYB_ItMi_Coal", 5);
-    AddTool("ZDPWLA_ITFO_RICEBOOZE", "OOLTYB_ItMi_Scoop");
-	SetCraftPenalty("ZDPWLA_ITFO_RICEBOOZE", 10);
-	SetCraftScience("ZDPWLA_ITFO_RICEBOOZE", "Повар", 1);
-	SetenergyPenalty("ZDPWLA_ITFO_RICEBOOZE", 50);
-	SetCraftEXP("ZDPWLA_ITFO_RICEBOOZE", 50)
-	SetCraftEXP_SKILL("ZDPWLA_ITFO_RICEBOOZE", "Повар")
-
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ITFO_ACORNBOOZE"); ----- Желудевка
 	SetCraftAmount("ZDPWLA_ITFO_ACORNBOOZE", 20);
-	 AddIngre("ZDPWLA_ITFO_ACORNBOOZE", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	 AddIngre("ZDPWLA_ITFO_ACORNBOOZE", "ZDPWLA_ITFO_PLANTS_TOWERWOOD_01", 8);
-	 AddIngre("ZDPWLA_ITFO_ACORNBOOZE", "OOLTYB_ItMi_FlasK", 20);
-    AddTool("ZDPWLA_ITFO_ACORNBOOZE", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ITFO_ACORNBOOZE", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	 AddIngre("ZDPWLA_ITFO_ACORNBOOZE", "hfdpun_itfo_plants_towerwood_01", 8);
+	 AddIngre("ZDPWLA_ITFO_ACORNBOOZE", "aixopt_itmi_flask", 20);
+    AddTool("ZDPWLA_ITFO_ACORNBOOZE", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ITFO_ACORNBOOZE", 20);
 	SetCraftScience("ZDPWLA_ITFO_ACORNBOOZE", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ITFO_ACORNBOOZE", 100);
@@ -661,11 +648,11 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ITFO_SOUP"); ----- Суп из кореньев
 	SetCraftAmount("ZDPWLA_ITFO_SOUP", 10);
-	 AddIngre("ZDPWLA_ITFO_SOUP", "ZDPWLA_ITFO_PLANTS_STONEROOT_01", 1);
-	 AddIngre("ZDPWLA_ITFO_SOUP", "ZDPWLA_ItPl_Mana_Herb_03", 1);
-	 AddIngre("ZDPWLA_ITFO_SOUP", "ZDPWLA_ItPl_Strength_Herb_01", 1);
-	 AddIngre("ZDPWLA_ITFO_SOUP", "OOLTYB_ItMi_FlasK", 10);
-    AddTool("ZDPWLA_ITFO_SOUP", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ITFO_SOUP", "hfdpun_itfo_plants_stoneroot_01", 1);
+	 AddIngre("ZDPWLA_ITFO_SOUP", "hfdpun_itpl_mana_herb_03", 1);
+	 AddIngre("ZDPWLA_ITFO_SOUP", "hfdpun_itpl_strength_herb_01", 1);
+	 AddIngre("ZDPWLA_ITFO_SOUP", "aixopt_itmi_flask", 10);
+    AddTool("ZDPWLA_ITFO_SOUP", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ITFO_SOUP", 20);
 	SetCraftScience("ZDPWLA_ITFO_SOUP", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ITFO_SOUP", 100);	
@@ -674,10 +661,10 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItFo_Medovuha"); ----- Медовуха
 	SetCraftAmount("ZDPWLA_ItFo_Medovuha", 59);
-	 AddIngre("ZDPWLA_ItFo_Medovuha", "ZDPWLA_ItFo_Honey", 7);
-	 AddIngre("ZDPWLA_ItFo_Medovuha", "ZDPWLA_ItPl_Forestberry", 15);
-	 AddIngre("ZDPWLA_ItFo_Medovuha", "OOLTYB_ItMi_FlasK", 59);
-    AddTool("ZDPWLA_ItFo_Medovuha", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_Medovuha", "uhaxlk_itfo_honey", 7);
+	 AddIngre("ZDPWLA_ItFo_Medovuha", "hfdpun_itpl_forestberry", 15);
+	 AddIngre("ZDPWLA_ItFo_Medovuha", "aixopt_itmi_flask", 59);
+    AddTool("ZDPWLA_ItFo_Medovuha", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_Medovuha", 20);
 	SetCraftScience("ZDPWLA_ItFo_Medovuha", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ItFo_Medovuha", 100);
@@ -685,24 +672,24 @@ function InitCraftList()
 	SetCraftEXP_SKILL("ZDPWLA_ItFo_Medovuha", "Повар")	
 	
 	
-	AddItemCategory ("Повар (1 уровень)", "ITMI_SPICES"); ----- Специи
-	SetCraftAmount("ITMI_SPICES", 1);
-	 AddIngre("ITMI_SPICES", "ZDPWLA_ItPl_Dex_Herb_01", 1);
-	 AddIngre("ITMI_SPICES", "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 15);
-	 AddAlterIngre("ITMI_SPICES", "ZDPWLA_ITFO_PLANTS_TROLLBERRYS_01", 1)
-	 AddAlterIngre("ITMI_SPICES", "OOLTYB_ItMi_ReMi", 4)
-	SetCraftPenalty("ITMI_SPICES", 10);
-	SetCraftScience("ITMI_SPICES", "Повар", 1);
-	SetenergyPenalty("ITMI_SPICES", 50);
-	SetCraftEXP("ITMI_SPICES", 50)
-	SetCraftEXP_SKILL("ITMI_SPICES", "Повар")
+	AddItemCategory ("Повар (1 уровень)", "aixopt_itmi_spice"); ----- Специи
+	SetCraftAmount("aixopt_itmi_spice", 1);
+	 AddIngre("aixopt_itmi_spice", "hfdpun_itpl_dex_herb_01", 1);
+	 AddIngre("aixopt_itmi_spice", "hfdpun_itpl_blueplant", 15);
+	 AddAlterIngre("aixopt_itmi_spice", "hfdpun_itfo_plants_trollberrys_01", 1)
+	 AddAlterIngre("aixopt_itmi_spice", "HFDPUN_ITPL_RIVERMIRT", 4)
+	SetCraftPenalty("aixopt_itmi_spice", 10);
+	SetCraftScience("aixopt_itmi_spice", "Повар", 1);
+	SetenergyPenalty("aixopt_itmi_spice", 50);
+	SetCraftEXP("aixopt_itmi_spice", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_spice", "Повар")
 
 
 	AddItemCategory ("Повар (1 уровень)", "ZDPWLA_ItMi_Vinegar"); ----- Уксус
 	SetCraftAmount("ZDPWLA_ItMi_Vinegar", 5);
-	 AddIngre("ZDPWLA_ItMi_Vinegar", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	 AddIngre("ZDPWLA_ItMi_Vinegar", "ZDPWLA_ITFO_WINEBERRYS2", 10);
-	 AddIngre("ZDPWLA_ItMi_Vinegar", "OOLTYB_ItMi_FlasK", 5);
+	 AddIngre("ZDPWLA_ItMi_Vinegar", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	 AddIngre("ZDPWLA_ItMi_Vinegar", "uhaxlk_itfo_wineberry", 10);
+	 AddIngre("ZDPWLA_ItMi_Vinegar", "aixopt_itmi_flask", 5);
 	SetCraftPenalty("ZDPWLA_ItMi_Vinegar", 5);
 	SetCraftScience("ZDPWLA_ItMi_Vinegar", "Повар", 1);
 	SetenergyPenalty("ZDPWLA_ItMi_Vinegar", 25);	
@@ -710,24 +697,24 @@ function InitCraftList()
 	SetCraftEXP_SKILL("ZDPWLA_ItMi_Vinegar", "Повар")
 	
 	
-	AddItemCategory ("Повар (1 уровень)", "OOLTYB_ITMI_DOUGH"); ----- Тесто
-	SetCraftAmount("OOLTYB_ITMI_DOUGH", 1);
-	 AddIngre("OOLTYB_ITMI_DOUGH", "OOLTYB_ITMI_FLOUR", 1);
-	 AddIngre("OOLTYB_ITMI_DOUGH", "ZDPWLA_ITFO_EGG", 1);
-	 AddIngre("OOLTYB_ITMI_DOUGH", "ZDPWLA_ItFo_Milk", 5);
-	SetCraftPenalty("OOLTYB_ITMI_DOUGH", 5);
-	SetCraftScience("OOLTYB_ITMI_DOUGH", "Повар", 1);
-	SetenergyPenalty("OOLTYB_ITMI_DOUGH", 25);
-	SetCraftEXP("OOLTYB_ITMI_DOUGH", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_DOUGH", "Повар")	
+	AddItemCategory ("Повар (1 уровень)", "aixopt_itmi_dough"); ----- Тесто
+	SetCraftAmount("aixopt_itmi_dough", 1);
+	 AddIngre("aixopt_itmi_dough", "aixopt_itmi_flour", 1);
+	 AddIngre("aixopt_itmi_dough", "uhaxlk_itfo_egg", 1);
+	 AddIngre("aixopt_itmi_dough", "uhaxlk_itfo_milk", 5);
+	SetCraftPenalty("aixopt_itmi_dough", 5);
+	SetCraftScience("aixopt_itmi_dough", "Повар", 1);
+	SetenergyPenalty("aixopt_itmi_dough", 25);
+	SetCraftEXP("aixopt_itmi_dough", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_dough", "Повар")	
 	
 	
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ITFO_BARBECUE"); ----- Шашлык
 	SetCraftAmount("ZDPWLA_ITFO_BARBECUE", 13);
-	 AddIngre("ZDPWLA_ITFO_BARBECUE", "ZDPWLA_ItFoMuttonRaW", 18);
-	 AddIngre("ZDPWLA_ITFO_BARBECUE", "OOLTYB_ItMi_Coal", 5);
-	 AddIngre("ZDPWLA_ITFO_BARBECUE", "JKZTZD_ItMw_1h_Bau_Mace", 2);
-    AddTool("ZDPWLA_ITFO_BARBECUE", "jkztzd_itmw_1h_knife_01");
+	 AddIngre("ZDPWLA_ITFO_BARBECUE", "uhaxlk_itfo_rawmeat", 18);
+	 AddIngre("ZDPWLA_ITFO_BARBECUE", "aixopt_itmi_coal", 5);
+	 AddIngre("ZDPWLA_ITFO_BARBECUE", "gkwqdz_ItMw_1h_Bau_Mace", 2);
+    AddTool("ZDPWLA_ITFO_BARBECUE", "gkwqdz_itmw_huntknife");
 	SetCraftPenalty("ZDPWLA_ITFO_BARBECUE", 10);
 	SetCraftScience("ZDPWLA_ITFO_BARBECUE", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ITFO_BARBECUE", 50);
@@ -738,9 +725,9 @@ function InitCraftList()
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_MushroomCutlet"); ----- Грибная котлета
     SetCraftAmount("ZDPWLA_ItFo_MushroomCutlet", 32);
      AddIngre("ZDPWLA_ItFo_MushroomCutlet", "ZDPWLA_ItFo_MushroomOffal", 3);
-     AddIngre("ZDPWLA_ItFo_MushroomCutlet", "OOLTYB_ItMi_ReMi", 7);
-     AddIngre("ZDPWLA_ItFo_MushroomCutlet", "OOLTYB_ITMI_DOUGH", 1);
-    AddTool("ZDPWLA_ItFo_MushroomCutlet", "OOLTYB_ItMi_PaN");
+     AddIngre("ZDPWLA_ItFo_MushroomCutlet", "HFDPUN_ITPL_RIVERMIRT", 7);
+     AddIngre("ZDPWLA_ItFo_MushroomCutlet", "aixopt_itmi_dough", 1);
+    AddTool("ZDPWLA_ItFo_MushroomCutlet", "aixopt_itmi_pan");
     SetCraftPenalty("ZDPWLA_ItFo_MushroomCutlet", 10);
     SetCraftScience("ZDPWLA_ItFo_MushroomCutlet", "Повар", 2);
     SetenergyPenalty("ZDPWLA_ItFo_MushroomCutlet", 100);
@@ -748,38 +735,38 @@ function InitCraftList()
     SetCraftEXP_SKILL("ZDPWLA_ItFo_MushroomCutlet", "Повар")	
 	
 
-	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_FishSouP"); ----- Уха
-	SetCraftAmount("ZDPWLA_ItFo_FishSouP", 13);
-     AddIngre("ZDPWLA_ItFo_FishSouP", "ZDPWLA_ItFo_Fish", 30);
-     AddIngre("ZDPWLA_ItFo_FishSouP", "OOLTYB_ItMi_ReMi", 4);
-	 AddIngre("ZDPWLA_ItFo_FishSouP", "OOLTYB_ItMi_FlasK", 13);
-	 AddTool("ZDPWLA_ItFo_FishSouP", "OOLTYB_ItMi_ScooP");
-	SetCraftPenalty("ZDPWLA_ItFo_FishSouP", 10);
-	SetCraftScience("ZDPWLA_ItFo_FishSouP", "Повар", 2);
-	SetenergyPenalty("ZDPWLA_ItFo_FishSouP", 100);
-	SetCraftEXP("ZDPWLA_ItFo_FishSouP", 200)
-	SetCraftEXP_SKILL("ZDPWLA_ItFo_FishSouP", "Повар")	
+	AddItemCategory ("Повар (2 уровень)", "uhaxlk_itfo_fishSouP"); ----- Уха
+	SetCraftAmount("uhaxlk_itfo_fishSouP", 13);
+     AddIngre("uhaxlk_itfo_fishSouP", "uhaxlk_itfo_fish", 30);
+     AddIngre("uhaxlk_itfo_fishSouP", "HFDPUN_ITPL_RIVERMIRT", 4);
+	 AddIngre("uhaxlk_itfo_fishSouP", "aixopt_itmi_flask", 13);
+	 AddTool("uhaxlk_itfo_fishSouP", "aixopt_itmi_scoop");
+	SetCraftPenalty("uhaxlk_itfo_fishSouP", 10);
+	SetCraftScience("uhaxlk_itfo_fishSouP", "Повар", 2);
+	SetenergyPenalty("uhaxlk_itfo_fishSouP", 100);
+	SetCraftEXP("uhaxlk_itfo_fishSouP", 200)
+	SetCraftEXP_SKILL("uhaxlk_itfo_fishSouP", "Повар")	
 	
 
-	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_WinE"); ----- Вино
-	SetCraftAmount("ZDPWLA_ItFo_WinE", 31);
-     AddIngre("ZDPWLA_ItFo_WinE", "ZDPWLA_ItFo_GrapeJuice", 10);
-	 AddIngre("ZDPWLA_ItFo_WinE", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-     AddIngre("ZDPWLA_ItFo_WinE", "OOLTYB_ItMi_FlasK", 21);
-	 AddTool("ZDPWLA_ItFo_WinE", "OOLTYB_ItMi_ScooP");
-	SetCraftPenalty("ZDPWLA_ItFo_WinE", 20);
-	SetCraftScience("ZDPWLA_ItFo_WinE", "Повар", 2);
-	SetenergyPenalty("ZDPWLA_ItFo_WinE", 100);
-	SetCraftEXP("ZDPWLA_ItFo_WinE", 200)
-	SetCraftEXP_SKILL("ZDPWLA_ItFo_WinE", "Повар")	
+	AddItemCategory ("Повар (2 уровень)", "uhaxlk_itfo_wine"); ----- Вино
+	SetCraftAmount("uhaxlk_itfo_wine", 31);
+     AddIngre("uhaxlk_itfo_wine", "ZDPWLA_ItFo_GrapeJuice", 10);
+	 AddIngre("uhaxlk_itfo_wine", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+     AddIngre("uhaxlk_itfo_wine", "aixopt_itmi_flask", 21);
+	 AddTool("uhaxlk_itfo_wine", "aixopt_itmi_scoop");
+	SetCraftPenalty("uhaxlk_itfo_wine", 20);
+	SetCraftScience("uhaxlk_itfo_wine", "Повар", 2);
+	SetenergyPenalty("uhaxlk_itfo_wine", 100);
+	SetCraftEXP("uhaxlk_itfo_wine", 200)
+	SetCraftEXP_SKILL("uhaxlk_itfo_wine", "Повар")	
 
 
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_HoneyMeat"); ----- Мясо в медовом соусе
 	SetCraftAmount("ZDPWLA_ItFo_HoneyMeat", 30);
-     AddIngre("ZDPWLA_ItFo_HoneyMeat", "ZDPWLA_ItFoMuttonRaW", 20);
-	 AddIngre("ZDPWLA_ItFo_HoneyMeat", "ZDPWLA_ItFo_Honey", 8);
-     AddIngre("ZDPWLA_ItFo_HoneyMeat", "ZDPWLA_ITFO_PLANTS_TROLLBERRYS_01", 1);
-	 AddTool("ZDPWLA_ItFo_HoneyMeat", "OOLTYB_ItMi_PaN");
+     AddIngre("ZDPWLA_ItFo_HoneyMeat", "uhaxlk_itfo_rawmeat", 20);
+	 AddIngre("ZDPWLA_ItFo_HoneyMeat", "uhaxlk_itfo_honey", 8);
+     AddIngre("ZDPWLA_ItFo_HoneyMeat", "hfdpun_itfo_plants_trollberrys_01", 1);
+	 AddTool("ZDPWLA_ItFo_HoneyMeat", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ItFo_HoneyMeat", 10);
 	SetCraftScience("ZDPWLA_ItFo_HoneyMeat", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ItFo_HoneyMeat", 100);
@@ -791,8 +778,8 @@ function InitCraftList()
 	SetCraftAmount("ZDPWLA_ITFO_MEATBUGPATE", 13);
      AddIngre("ZDPWLA_ITFO_MEATBUGPATE", "OOLTYB_ItAt_Meatbugflesh", 8);
 	 AddIngre("ZDPWLA_ITFO_MEATBUGPATE", "ZDPWLA_ItMi_Vinegar", 1);
-     AddIngre("ZDPWLA_ITFO_MEATBUGPATE", "OOLTYB_ItMi_ReMi1", 2);
-	 AddTool("ZDPWLA_ITFO_MEATBUGPATE", "OOLTYB_ItMi_ScooP");
+     AddIngre("ZDPWLA_ITFO_MEATBUGPATE", "HFDPUN_ITPL_SILTMIRT", 2);
+	 AddTool("ZDPWLA_ITFO_MEATBUGPATE", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ITFO_MEATBUGPATE", 10);
 	SetCraftScience("ZDPWLA_ITFO_MEATBUGPATE", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ITFO_MEATBUGPATE", 50);
@@ -802,10 +789,10 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_AcornBread"); ----- Желудевый хлеб
 	SetCraftAmount("ZDPWLA_ItFo_AcornBread", 52);
-     AddIngre("ZDPWLA_ItFo_AcornBread", "OOLTYB_ITMI_DOUGH", 1);
-	 AddIngre("ZDPWLA_ItFo_AcornBread", "ZDPWLA_ITFO_PLANTS_TOWERWOOD_01", 6);
-     AddIngre("ZDPWLA_ItFo_AcornBread", "OOLTYB_ItMi_ReMi", 2);
-	 AddTool("ZDPWLA_ItFo_AcornBread", "OOLTYB_ItMi_ScooP");
+     AddIngre("ZDPWLA_ItFo_AcornBread", "aixopt_itmi_dough", 1);
+	 AddIngre("ZDPWLA_ItFo_AcornBread", "hfdpun_itfo_plants_towerwood_01", 6);
+     AddIngre("ZDPWLA_ItFo_AcornBread", "HFDPUN_ITPL_RIVERMIRT", 2);
+	 AddTool("ZDPWLA_ItFo_AcornBread", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_AcornBread", 20);
 	SetCraftScience("ZDPWLA_ItFo_AcornBread", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ItFo_AcornBread", 100);
@@ -813,27 +800,27 @@ function InitCraftList()
 	SetCraftEXP_SKILL("ZDPWLA_ItFo_AcornBread", "Повар")	
 
 
-	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_BoozE"); ----- Джин
-	SetCraftAmount("ZDPWLA_ItFo_BoozE", 26);
-     AddIngre("ZDPWLA_ItFo_BoozE", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-     AddIngre("ZDPWLA_ItFo_BoozE", "ZDPWLA_ITFO_PLANTS_STONEROOT_01", 1);
-     AddIngre("ZDPWLA_ItFo_BoozE", "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 20);
-     AddIngre("ZDPWLA_ItFo_BoozE", "OOLTYB_ItMi_FlasK", 26);
-	 AddTool("ZDPWLA_ItFo_BoozE", "OOLTYB_ItMi_ScooP");
-	SetCraftPenalty("ZDPWLA_ItFo_BoozE", 10);
-	SetCraftScience("ZDPWLA_ItFo_BoozE", "Повар", 2);
-	SetenergyPenalty("ZDPWLA_ItFo_BoozE", 100);
-	SetCraftEXP("ZDPWLA_ItFo_BoozE", 200)
-	SetCraftEXP_SKILL("ZDPWLA_ItFo_BoozE", "Повар")
+	AddItemCategory ("Повар (2 уровень)", "uhaxlk_itfo_booze"); ----- Джин
+	SetCraftAmount("uhaxlk_itfo_booze", 26);
+     AddIngre("uhaxlk_itfo_booze", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+     AddIngre("uhaxlk_itfo_booze", "hfdpun_itfo_plants_stoneroot_01", 1);
+     AddIngre("uhaxlk_itfo_booze", "hfdpun_itpl_blueplant", 20);
+     AddIngre("uhaxlk_itfo_booze", "aixopt_itmi_flask", 26);
+	 AddTool("uhaxlk_itfo_booze", "aixopt_itmi_scoop");
+	SetCraftPenalty("uhaxlk_itfo_booze", 10);
+	SetCraftScience("uhaxlk_itfo_booze", "Повар", 2);
+	SetenergyPenalty("uhaxlk_itfo_booze", 100);
+	SetCraftEXP("uhaxlk_itfo_booze", 200)
+	SetCraftEXP_SKILL("uhaxlk_itfo_booze", "Повар")
 
 
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_BerryLiqueur"); ----- Ягодная наливка
 	SetCraftAmount("ZDPWLA_ItFo_BerryLiqueur", 26);
-     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "ZDPWLA_ItPl_Forestberry", 25);
-     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "ZDPWLA_ItPl_Dex_Herb_01", 1);
-     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "OOLTYB_ItMi_FlasK", 26);
-	 AddTool("ZDPWLA_ItFo_BerryLiqueur", "OOLTYB_ItMi_ScooP");
+     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "hfdpun_itpl_forestberry", 25);
+     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "hfdpun_itpl_dex_herb_01", 1);
+     AddIngre("ZDPWLA_ItFo_BerryLiqueur", "aixopt_itmi_flask", 26);
+	 AddTool("ZDPWLA_ItFo_BerryLiqueur", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_BerryLiqueur", 10);
 	SetCraftScience("ZDPWLA_ItFo_BerryLiqueur", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ItFo_BerryLiqueur", 100);
@@ -843,11 +830,11 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ITFO_SEASALAD"); ----- Морской салат
 	SetCraftAmount("ZDPWLA_ITFO_SEASALAD", 57);
-     AddIngre("ZDPWLA_ITFO_SEASALAD", "OOLTYB_ItMi_ReMi1", 4);
+     AddIngre("ZDPWLA_ITFO_SEASALAD", "HFDPUN_ITPL_SILTMIRT", 4);
      AddIngre("ZDPWLA_ITFO_SEASALAD", "ZDPWLA_ItMi_Vinegar", 1);
      AddIngre("ZDPWLA_ITFO_SEASALAD", "ZDPWLA_ItFo_Addon_Shellflesh", 5);
-     AddIngre("ZDPWLA_ITFO_SEASALAD", "OOLTYB_ItMi_FlasK", 57);
-	 AddTool("ZDPWLA_ITFO_SEASALAD", "OOLTYB_ItMi_ScooP");
+     AddIngre("ZDPWLA_ITFO_SEASALAD", "aixopt_itmi_flask", 57);
+	 AddTool("ZDPWLA_ITFO_SEASALAD", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ITFO_SEASALAD", 10);
 	SetCraftScience("ZDPWLA_ITFO_SEASALAD", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ITFO_SEASALAD", 100);
@@ -857,10 +844,10 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_MBlinchik"); ----- Блины с медом
 	SetCraftAmount("ZDPWLA_ItFo_MBlinchik", 58);
-	 AddIngre("ZDPWLA_ItFo_MBlinchik", "OOLTYB_ITMI_DOUGH", 2);
-	 AddIngre("ZDPWLA_ItFo_MBlinchik", "ZDPWLA_ItFo_Honey", 6);
-	 AddIngre("ZDPWLA_ItFo_MBlinchik", "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 1);
-	 AddTool("ZDPWLA_ItFo_MBlinchik", "OOLTYB_ItMi_PaN");
+	 AddIngre("ZDPWLA_ItFo_MBlinchik", "aixopt_itmi_dough", 2);
+	 AddIngre("ZDPWLA_ItFo_MBlinchik", "uhaxlk_itfo_honey", 6);
+	 AddIngre("ZDPWLA_ItFo_MBlinchik", "hfdpun_itpl_blueplant", 1);
+	 AddTool("ZDPWLA_ItFo_MBlinchik", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ItFo_MBlinchik", 20);
 	SetCraftScience("ZDPWLA_ItFo_MBlinchik", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ItFo_MBlinchik", 100);
@@ -869,11 +856,11 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (2 уровень)", "ZDPWLA_ItFo_Bomber"); ----- Бомбер
 	SetCraftAmount("ZDPWLA_ItFo_Bomber", 13);
-     AddIngre("ZDPWLA_ItFo_Bomber", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 3);
-     AddIngre("ZDPWLA_ItFo_Bomber", "ZDPWLA_ItPl_Strength_Herb_01", 1);
-     AddIngre("ZDPWLA_ItFo_Bomber", "ZDPWLA_ItPl_Mana_Herb_03", 1);
-     AddIngre("ZDPWLA_ItFo_Bomber", "OOLTYB_ItMi_FlasK", 13);
-	 AddTool("ZDPWLA_ItFo_Bomber", "OOLTYB_ItMi_ScooP");
+     AddIngre("ZDPWLA_ItFo_Bomber", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 3);
+     AddIngre("ZDPWLA_ItFo_Bomber", "hfdpun_itpl_strength_herb_01", 1);
+     AddIngre("ZDPWLA_ItFo_Bomber", "hfdpun_itpl_mana_herb_03", 1);
+     AddIngre("ZDPWLA_ItFo_Bomber", "aixopt_itmi_flask", 13);
+	 AddTool("ZDPWLA_ItFo_Bomber", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_Bomber", 20);
 	SetCraftScience("ZDPWLA_ItFo_Bomber", "Повар", 2);
 	SetenergyPenalty("ZDPWLA_ItFo_Bomber", 100);
@@ -883,33 +870,33 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_Casserole"); ----- Фермерская запеканка
 	SetCraftAmount("ZDPWLA_ItFo_Casserole", 11);
-	 AddIngre("ZDPWLA_ItFo_Casserole", "ZDPWLA_ItFo_Bread", 12);
-	 AddIngre("ZDPWLA_ItFo_Casserole", "ZDPWLA_ItFo_Cheese", 12);
-	 AddIngre("ZDPWLA_ItFo_Casserole", "ZDPWLA_ItFoMuttonRaW", 20);
-	 AddTool("ZDPWLA_ItFo_Casserole", "OOLTYB_ItMi_PaN");
+	 AddIngre("ZDPWLA_ItFo_Casserole", "uhaxlk_itfo_bread", 12);
+	 AddIngre("ZDPWLA_ItFo_Casserole", "uhaxlk_itfo_cheese", 12);
+	 AddIngre("ZDPWLA_ItFo_Casserole", "uhaxlk_itfo_rawmeat", 20);
+	 AddTool("ZDPWLA_ItFo_Casserole", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ItFo_Casserole", 10);
 	SetCraftScience("ZDPWLA_ItFo_Casserole", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_Casserole", 50);
 	
 	
-	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_WineStew"); ----- Тушеное мясо в вине
-	SetCraftAmount("ZDPWLA_ItFo_WineStew", 18);
-	 AddIngre("ZDPWLA_ItFo_WineStew", "ZDPWLA_ItFo_WinE", 4);
-	 AddIngre("ZDPWLA_ItFo_WineStew", "ZDPWLA_ItFoMuttonRaW", 25);
-	 AddIngre("ZDPWLA_ItFo_WineStew", "ITMI_SPICES", 1);
-	 AddIngre("ZDPWLA_ItFo_WineStew", "OOLTYB_ItMi_FlasK", 18);
-	 AddTool("ZDPWLA_ItFo_WineStew", "OOLTYB_ItMi_PaN");
-	SetCraftPenalty("ZDPWLA_ItFo_WineStew", 10);
-	SetCraftScience("ZDPWLA_ItFo_WineStew", "Повар", 3);
-	SetenergyPenalty("ZDPWLA_ItFo_WineStew", 100);		
+	AddItemCategory ("Повар (3 уровень)", "uhaxlk_itfo_wineStew"); ----- Тушеное мясо в вине
+	SetCraftAmount("uhaxlk_itfo_wineStew", 18);
+	 AddIngre("uhaxlk_itfo_wineStew", "uhaxlk_itfo_wine", 4);
+	 AddIngre("uhaxlk_itfo_wineStew", "uhaxlk_itfo_rawmeat", 25);
+	 AddIngre("uhaxlk_itfo_wineStew", "aixopt_itmi_spice", 1);
+	 AddIngre("uhaxlk_itfo_wineStew", "aixopt_itmi_flask", 18);
+	 AddTool("uhaxlk_itfo_wineStew", "aixopt_itmi_pan");
+	SetCraftPenalty("uhaxlk_itfo_wineStew", 10);
+	SetCraftScience("uhaxlk_itfo_wineStew", "Повар", 3);
+	SetenergyPenalty("uhaxlk_itfo_wineStew", 100);		
 	
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ITFO_FRIEDEGG"); ----- Яичница с колбасой
 	SetCraftAmount("ZDPWLA_ITFO_FRIEDEGG", 9);
-	 AddIngre("ZDPWLA_ITFO_FRIEDEGG", "ZDPWLA_ITFO_EGG", 2);
-	 AddIngre("ZDPWLA_ITFO_FRIEDEGG", "ZDPWLA_ItFo_SausagE", 4);
-	 AddIngre("ZDPWLA_ITFO_FRIEDEGG", "OOLTYB_ItMi_FlasK", 8);
-	 AddTool("ZDPWLA_ITFO_FRIEDEGG", "OOLTYB_ItMi_PaN");
+	 AddIngre("ZDPWLA_ITFO_FRIEDEGG", "uhaxlk_itfo_egg", 2);
+	 AddIngre("ZDPWLA_ITFO_FRIEDEGG", "uhaxlk_itfo_sausage", 4);
+	 AddIngre("ZDPWLA_ITFO_FRIEDEGG", "aixopt_itmi_flask", 8);
+	 AddTool("ZDPWLA_ITFO_FRIEDEGG", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ITFO_FRIEDEGG", 5);
 	SetCraftScience("ZDPWLA_ITFO_FRIEDEGG", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ITFO_FRIEDEGG", 25);		
@@ -917,10 +904,10 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_Bacon"); ----- Окорок
 	SetCraftAmount("ZDPWLA_ItFo_Bacon", 32);
-	 AddIngre("ZDPWLA_ItFo_Bacon", "ZDPWLA_ItFoMuttonRaW", 20);
-	 AddIngre("ZDPWLA_ItFo_Bacon", "OOLTYB_ItMi_Coal", 10);
-	 AddIngre("ZDPWLA_ItFo_Bacon", "ITMI_SPICES", 1);
-	 AddTool("ZDPWLA_ItFo_Bacon", "jkztzd_itmw_1h_knife_01");
+	 AddIngre("ZDPWLA_ItFo_Bacon", "uhaxlk_itfo_rawmeat", 20);
+	 AddIngre("ZDPWLA_ItFo_Bacon", "aixopt_itmi_coal", 10);
+	 AddIngre("ZDPWLA_ItFo_Bacon", "aixopt_itmi_spice", 1);
+	 AddTool("ZDPWLA_ItFo_Bacon", "gkwqdz_itmw_huntknife");
 	SetCraftPenalty("ZDPWLA_ItFo_Bacon", 10);
 	SetCraftScience("ZDPWLA_ItFo_Bacon", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_Bacon", 100);	
@@ -928,10 +915,10 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_SmokedFish"); ----- Копченая рыба
 	SetCraftAmount("ZDPWLA_ItFo_SmokedFish", 32);
-	 AddIngre("ZDPWLA_ItFo_SmokedFish", "ZDPWLA_ItFo_Fish", 20);
-	 AddIngre("ZDPWLA_ItFo_SmokedFish", "OOLTYB_ItMi_Coal", 5);
-	 AddIngre("ZDPWLA_ItFo_SmokedFish", "ITMI_SPICES", 1);
-	 AddTool("ZDPWLA_ItFo_SmokedFish", "OOLTYB_ItMi_PaN");
+	 AddIngre("ZDPWLA_ItFo_SmokedFish", "uhaxlk_itfo_fish", 20);
+	 AddIngre("ZDPWLA_ItFo_SmokedFish", "aixopt_itmi_coal", 5);
+	 AddIngre("ZDPWLA_ItFo_SmokedFish", "aixopt_itmi_spice", 1);
+	 AddTool("ZDPWLA_ItFo_SmokedFish", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ItFo_SmokedFish", 10);
 	SetCraftScience("ZDPWLA_ItFo_SmokedFish", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_SmokedFish", 100);		
@@ -939,9 +926,9 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ITFO_HONEYBISCUIT"); ----- Медовое печенье
 	SetCraftAmount("ZDPWLA_ITFO_HONEYBISCUIT", 180);
-	 AddIngre("ZDPWLA_ITFO_HONEYBISCUIT", "OOLTYB_ITMI_DOUGH", 2);
-	 AddIngre("ZDPWLA_ITFO_HONEYBISCUIT", "ZDPWLA_ItFo_Honey", 8);
-	 AddTool("ZDPWLA_ITFO_HONEYBISCUIT", "OOLTYB_ItMi_PaN");
+	 AddIngre("ZDPWLA_ITFO_HONEYBISCUIT", "aixopt_itmi_dough", 2);
+	 AddIngre("ZDPWLA_ITFO_HONEYBISCUIT", "uhaxlk_itfo_honey", 8);
+	 AddTool("ZDPWLA_ITFO_HONEYBISCUIT", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ITFO_HONEYBISCUIT", 20);
 	SetCraftScience("ZDPWLA_ITFO_HONEYBISCUIT", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ITFO_HONEYBISCUIT", 100);			
@@ -949,10 +936,10 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_BerryPie"); ----- Ягодный пирог
 	SetCraftAmount("ZDPWLA_ItFo_BerryPie", 32);
-	 AddIngre("ZDPWLA_ItFo_BerryPie", "OOLTYB_ITMI_DOUGH", 1);
-	 AddIngre("ZDPWLA_ItFo_BerryPie", "ZDPWLA_ItPl_Forestberry", 10);
-	 AddIngre("ZDPWLA_ItFo_BerryPie", "ZDPWLA_ITFO_WINEBERRYS2", 5);
-	 AddTool("ZDPWLA_ItFo_BerryPie", "OOLTYB_ItMi_PaN");
+	 AddIngre("ZDPWLA_ItFo_BerryPie", "aixopt_itmi_dough", 1);
+	 AddIngre("ZDPWLA_ItFo_BerryPie", "hfdpun_itpl_forestberry", 10);
+	 AddIngre("ZDPWLA_ItFo_BerryPie", "uhaxlk_itfo_wineberry", 5);
+	 AddTool("ZDPWLA_ItFo_BerryPie", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ItFo_BerryPie", 10);
 	SetCraftScience("ZDPWLA_ItFo_BerryPie", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_BerryPie", 50);		
@@ -960,10 +947,10 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_BeafPie"); ----- Пирог со шкварками
 	SetCraftAmount("ZDPWLA_ItFo_BeafPie", 64);
-	 AddIngre("ZDPWLA_ItFo_BeafPie", "OOLTYB_ITMI_DOUGH", 1);
-	 AddIngre("ZDPWLA_ItFo_BeafPie", "OOLTYB_ItAt_Fat", 3);
-	 AddIngre("ZDPWLA_ItFo_BeafPie", "ITMI_SPICES", 1);
-	 AddTool("ZDPWLA_ItFo_BeafPie", "OOLTYB_ItMi_PaN");
+	 AddIngre("ZDPWLA_ItFo_BeafPie", "aixopt_itmi_dough", 1);
+	 AddIngre("ZDPWLA_ItFo_BeafPie", "aixopt_itat_fat", 3);
+	 AddIngre("ZDPWLA_ItFo_BeafPie", "aixopt_itmi_spice", 1);
+	 AddTool("ZDPWLA_ItFo_BeafPie", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ItFo_BeafPie", 20);
 	SetCraftScience("ZDPWLA_ItFo_BeafPie", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_BeafPie", 100);	
@@ -972,10 +959,10 @@ function InitCraftList()
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_MagicSoup"); ----- Волшебный суп
 	SetCraftAmount("ZDPWLA_ItFo_MagicSoup", 25);
 	 AddIngre("ZDPWLA_ItFo_MagicSoup", "ZDPWLA_ItMi_Vinegar", 1);
-	 AddIngre("ZDPWLA_ItFo_MagicSoup", "ZDPWLA_ItPl_Mushroom_04", 4);
+	 AddIngre("ZDPWLA_ItFo_MagicSoup", "HFDPUN_ITPL_MUHOMOR", 4);
 	 AddIngre("ZDPWLA_ItFo_MagicSoup", "ZDPWLA_ItFo_MushroomOffal", 9);
-	 AddIngre("ZDPWLA_ItFo_MagicSoup", "OOLTYB_ItMi_FlasK", 25);
-	 AddTool("ZDPWLA_ItFo_MagicSoup", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_MagicSoup", "aixopt_itmi_flask", 25);
+	 AddTool("ZDPWLA_ItFo_MagicSoup", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_MagicSoup", 20);
 	SetCraftScience("ZDPWLA_ItFo_MagicSoup", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_MagicSoup", 100);	
@@ -983,10 +970,10 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_Addon_FireSteW"); ----- Пламенная нарезка
 	SetCraftAmount("ZDPWLA_ItFo_Addon_FireSteW", 16);
-	 AddIngre("ZDPWLA_ItFo_Addon_FireSteW", "OOLTYB_ItAt_WaranFiretongue", 1); 
-	 AddIngre("ZDPWLA_ItFo_Addon_FireSteW", "ZDPWLA_ItPl_Mana_Herb_01", 3);
+	 AddIngre("ZDPWLA_ItFo_Addon_FireSteW", "aixopt_itat_waranfiretongue", 1); 
+	 AddIngre("ZDPWLA_ItFo_Addon_FireSteW", "hfdpun_itpl_mana_herb_01", 3);
      AddIngre("ZDPWLA_ItFo_Addon_FireSteW", "ZDPWLA_ItMi_Vinegar", 1);	 
-	 AddTool("ZDPWLA_ItFo_Addon_FireSteW", "OOLTYB_ItMi_PaN");
+	 AddTool("ZDPWLA_ItFo_Addon_FireSteW", "aixopt_itmi_pan");
 	SetCraftPenalty("ZDPWLA_ItFo_Addon_FireSteW", 10);
 	SetCraftScience("ZDPWLA_ItFo_Addon_FireSteW", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_Addon_FireSteW", 50);
@@ -994,10 +981,10 @@ function InitCraftList()
 	
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ITFO_SHAURMA"); ----- Амброзия в лаваше
 	SetCraftAmount("ZDPWLA_ITFO_SHAURMA", 16);
-	 AddIngre("ZDPWLA_ITFO_SHAURMA", "OOLTYB_ITMI_DOUGH", 1); 
-	 AddIngre("ZDPWLA_ITFO_SHAURMA", "ITMI_SPICES", 1);
-     AddIngre("ZDPWLA_ITFO_SHAURMA", "ZDPWLA_ItFoMuttonRaW", 16);	 
-	 AddTool("ZDPWLA_ITFO_SHAURMA", "JKZTZD_ITMW_1H_KNIFE_01");
+	 AddIngre("ZDPWLA_ITFO_SHAURMA", "aixopt_itmi_dough", 1); 
+	 AddIngre("ZDPWLA_ITFO_SHAURMA", "aixopt_itmi_spice", 1);
+     AddIngre("ZDPWLA_ITFO_SHAURMA", "uhaxlk_itfo_rawmeat", 16);	 
+	 AddTool("ZDPWLA_ITFO_SHAURMA", "gkwqdz_itmw_huntknife");
 	SetCraftPenalty("ZDPWLA_ITFO_SHAURMA", 20);
 	SetCraftScience("ZDPWLA_ITFO_SHAURMA", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ITFO_SHAURMA", 100);
@@ -1005,11 +992,11 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_Managa"); ----- Манага
 	SetCraftAmount("ZDPWLA_ItFo_Managa", 32);
-	 AddIngre("ZDPWLA_ItFo_Managa", "ZDPWLA_ItFo_Milk", 10);
-	 AddIngre("ZDPWLA_ItFo_Managa", "ZDPWLA_ItPl_SwampHerb", 15);
-	 AddIngre("ZDPWLA_ItFo_Managa", "ITMI_SPICES", 1);
-	 AddIngre("ZDPWLA_ItFo_Managa", "OOLTYB_ItMi_FlasK", 32);
-	 AddTool("ZDPWLA_ItFo_Managa", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_Managa", "uhaxlk_itfo_milk", 10);
+	 AddIngre("ZDPWLA_ItFo_Managa", "hfdpun_itpl_swampherb", 15);
+	 AddIngre("ZDPWLA_ItFo_Managa", "aixopt_itmi_spice", 1);
+	 AddIngre("ZDPWLA_ItFo_Managa", "aixopt_itmi_flask", 32);
+	 AddTool("ZDPWLA_ItFo_Managa", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_Managa", 10);
 	SetCraftScience("ZDPWLA_ItFo_Managa", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_Managa", 100);	
@@ -1017,11 +1004,11 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_Baron"); ----- Победа Дорра
 	SetCraftAmount("ZDPWLA_ItFo_Baron", 32);
-	 AddIngre("ZDPWLA_ItFo_Baron", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	 AddIngre("ZDPWLA_ItFo_Baron", "ITMI_SPICES", 1);
-	 AddIngre("ZDPWLA_ItFo_Baron", "ZDPWLA_ItFo_Milk", 15);
-	 AddIngre("ZDPWLA_ItFo_Baron", "OOLTYB_ItMi_FlasK", 32);
-	 AddTool("ZDPWLA_ItFo_Baron", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_Baron", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	 AddIngre("ZDPWLA_ItFo_Baron", "aixopt_itmi_spice", 1);
+	 AddIngre("ZDPWLA_ItFo_Baron", "uhaxlk_itfo_milk", 15);
+	 AddIngre("ZDPWLA_ItFo_Baron", "aixopt_itmi_flask", 32);
+	 AddTool("ZDPWLA_ItFo_Baron", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_Baron", 20);
 	SetCraftScience("ZDPWLA_ItFo_Baron", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_Baron", 100);	
@@ -1029,11 +1016,11 @@ function InitCraftList()
 
 	AddItemCategory ("Повар (3 уровень)", "ZDPWLA_ItFo_Freedom"); ----- Глоток свободы
 	SetCraftAmount("ZDPWLA_ItFo_Freedom", 17);
-	 AddIngre("ZDPWLA_ItFo_Freedom", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	 AddIngre("ZDPWLA_ItFo_Freedom", "ZDPWLA_ItPl_SwampHerb", 12);
-	 AddIngre("ZDPWLA_ItFo_Freedom", "ZDPWLA_ItFo_Honey", 4);
-	 AddIngre("ZDPWLA_ItFo_Freedom", "OOLTYB_ItMi_FlasK", 17);
-	 AddTool("ZDPWLA_ItFo_Freedom", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_Freedom", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	 AddIngre("ZDPWLA_ItFo_Freedom", "hfdpun_itpl_swampherb", 12);
+	 AddIngre("ZDPWLA_ItFo_Freedom", "uhaxlk_itfo_honey", 4);
+	 AddIngre("ZDPWLA_ItFo_Freedom", "aixopt_itmi_flask", 17);
+	 AddTool("ZDPWLA_ItFo_Freedom", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_Freedom", 10);
 	SetCraftScience("ZDPWLA_ItFo_Freedom", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_Freedom", 50);	
@@ -1043,10 +1030,10 @@ function InitCraftList()
 	SetCraftAmount("ZDPWLA_ItFo_OysterSoup", 18);
 	 AddIngre("ZDPWLA_ItFo_OysterSoup", "ZDPWLA_ItFo_Addon_Shellflesh", 2);
 	 AddIngre("ZDPWLA_ItFo_OysterSoup", "ZDPWLA_ItMi_Vinegar", 1);
-	 AddIngre("ZDPWLA_ItFo_OysterSoup", "ITMI_SPICES", 1);
-	 AddIngre("ZDPWLA_ItFo_OysterSoup", "OOLTYB_ItMi_ReMi1", 5);
-	 AddIngre("ZDPWLA_ItFo_OysterSoup", "OOLTYB_ItMi_FlasK", 18);
-	 AddTool("ZDPWLA_ItFo_OysterSoup", "OOLTYB_ItMi_Scoop");
+	 AddIngre("ZDPWLA_ItFo_OysterSoup", "aixopt_itmi_spice", 1);
+	 AddIngre("ZDPWLA_ItFo_OysterSoup", "HFDPUN_ITPL_SILTMIRT", 5);
+	 AddIngre("ZDPWLA_ItFo_OysterSoup", "aixopt_itmi_flask", 18);
+	 AddTool("ZDPWLA_ItFo_OysterSoup", "aixopt_itmi_scoop");
 	SetCraftPenalty("ZDPWLA_ItFo_OysterSoup", 20);
 	SetCraftScience("ZDPWLA_ItFo_OysterSoup", "Повар", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_OysterSoup", 100);	
@@ -1055,22 +1042,22 @@ function InitCraftList()
 --ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "OOLTYB_ITMI_JOINT_1");  ----- Вялый Джо
-	SetCraftAmount("OOLTYB_ITMI_JOINT_1", 5);
-	 AddIngre("OOLTYB_ITMI_JOINT_1", "ZDPWLA_ItPl_SwampHerb", 4);
-	 AddTool("OOLTYB_ITMI_JOINT_1", "OOLTYB_ITMI_JOINTRECIPE1");
-	SetCraftPenalty("OOLTYB_ITMI_JOINT_1", 5);
-	SetCraftScience("OOLTYB_ITMI_JOINT_1", "Алхимия", 1);
-	SetenergyPenalty("OOLTYB_ITMI_JOINT_1", 25);
-	SetCraftEXP("OOLTYB_ITMI_JOINT_1", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_JOINT_1", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "aixopt_itmi_joint_1");  ----- Зеленый послушник
+	SetCraftAmount("aixopt_itmi_joint_1", 5);
+	 AddIngre("aixopt_itmi_joint_1", "hfdpun_itpl_swampherb", 4);
+	 AddTool("aixopt_itmi_joint_1", "AIXOPT_ItMi_UNIQUERECIPE");
+	SetCraftPenalty("aixopt_itmi_joint_1", 5);
+	SetCraftScience("aixopt_itmi_joint_1", "Алхимия", 1);
+	SetenergyPenalty("aixopt_itmi_joint_1", 25);
+	SetCraftEXP("aixopt_itmi_joint_1", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_joint_1", "Алхимия")
 
 	AddItemCategory ("Алхимия (1 уровень)", "OOLTYB_ITMI_PRIPARKA");  ----- Лечебная припарка
 	SetCraftAmount("OOLTYB_ITMI_PRIPARKA", 10);
-	 AddIngre("OOLTYB_ITMI_PRIPARKA", "ZDPWLA_ItPl_Health_Herb_01", 1);
-	 AddIngre("OOLTYB_ITMI_PRIPARKA", "ZDPWLA_ITFO_PLANTS_MOUNTAINMOSS_01", 1);
-	 AddIngre("OOLTYB_ITMI_PRIPARKA", "OOLTYB_ItAt_Fat", 1);
-	 AddTool("OOLTYB_ITMI_PRIPARKA", "OOLTYB_ItMi_Scoop");
+	 AddIngre("OOLTYB_ITMI_PRIPARKA", "hfdpun_itpl_health_herb_01", 1);
+	 AddIngre("OOLTYB_ITMI_PRIPARKA", "hfdpun_itfo_plants_mountainmoss_01", 1);
+	 AddIngre("OOLTYB_ITMI_PRIPARKA", "aixopt_itat_fat", 1);
+	 AddTool("OOLTYB_ITMI_PRIPARKA", "aixopt_itmi_scoop");
 	SetCraftPenalty("OOLTYB_ITMI_PRIPARKA", 10);
 	SetCraftScience("OOLTYB_ITMI_PRIPARKA", "Алхимия", 1);
 	SetenergyPenalty("OOLTYB_ITMI_PRIPARKA", 50);
@@ -1078,151 +1065,151 @@ function InitCraftList()
 	SetCraftEXP_SKILL("OOLTYB_ITMI_PRIPARKA", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "ZEQFRN_ItPo_Health_01");  ----- Лечебная эссенция
-	SetCraftAmount("ZEQFRN_ItPo_Health_01", 20);
-	AddIngre("ZEQFRN_ItPo_Health_01", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("ZEQFRN_ItPo_Health_01", "ZDPWLA_ItPl_Health_Herb_01", 8);
-    AddIngre("ZEQFRN_ItPo_Health_01", "OOLTYB_ItMi_FlasK", 20);
-	SetCraftPenalty("ZEQFRN_ItPo_Health_01", 20);
-	SetCraftScience("ZEQFRN_ItPo_Health_01", "Алхимия", 1);
-	SetenergyPenalty("ZEQFRN_ItPo_Health_01", 100);
-	SetCraftEXP("ZEQFRN_ItPo_Health_01", 100)
-	SetCraftEXP_SKILL("ZEQFRN_ItPo_Health_01", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "cjcpgp_ItPo_Health_01");  ----- Лечебная эссенция
+	SetCraftAmount("cjcpgp_ItPo_Health_01", 20);
+	AddIngre("cjcpgp_ItPo_Health_01", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("cjcpgp_ItPo_Health_01", "hfdpun_itpl_health_herb_01", 8);
+    AddIngre("cjcpgp_ItPo_Health_01", "aixopt_itmi_flask", 20);
+	SetCraftPenalty("cjcpgp_ItPo_Health_01", 20);
+	SetCraftScience("cjcpgp_ItPo_Health_01", "Алхимия", 1);
+	SetenergyPenalty("cjcpgp_ItPo_Health_01", 100);
+	SetCraftEXP("cjcpgp_ItPo_Health_01", 100)
+	SetCraftEXP_SKILL("cjcpgp_ItPo_Health_01", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "ZEQFRN_ItPo_Mana_01"); ---- Эссенция маны
-	SetCraftAmount("ZEQFRN_ItPo_Mana_01", 10);
-	AddIngre("ZEQFRN_ItPo_Mana_01", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("ZEQFRN_ItPo_Mana_01", "ZDPWLA_ItPl_Mana_Herb_01", 8);
-	AddIngre("ZEQFRN_ItPo_Mana_01", "OOLTYB_ItMi_FlasK", 10);
-	SetCraftPenalty("ZEQFRN_ItPo_Mana_01", 20);
-	SetCraftScience("ZEQFRN_ItPo_Mana_01", "Алхимия", 1);
-	SetenergyPenalty("ZEQFRN_ItPo_Mana_01", 100);
-	SetCraftEXP("ZEQFRN_ItPo_Mana_01", 100)
-	SetCraftEXP_SKILL("ZEQFRN_ItPo_Mana_01", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "cjcpgp_ItPo_Mana_01"); ---- Эссенция маны
+	SetCraftAmount("cjcpgp_ItPo_Mana_01", 10);
+	AddIngre("cjcpgp_ItPo_Mana_01", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("cjcpgp_ItPo_Mana_01", "hfdpun_itpl_mana_herb_01", 8);
+	AddIngre("cjcpgp_ItPo_Mana_01", "aixopt_itmi_flask", 10);
+	SetCraftPenalty("cjcpgp_ItPo_Mana_01", 20);
+	SetCraftScience("cjcpgp_ItPo_Mana_01", "Алхимия", 1);
+	SetenergyPenalty("cjcpgp_ItPo_Mana_01", 100);
+	SetCraftEXP("cjcpgp_ItPo_Mana_01", 100)
+	SetCraftEXP_SKILL("cjcpgp_ItPo_Mana_01", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "OOLTYB_ITMI_TAN");  ---- Дубильный состав
-	SetCraftAmount("OOLTYB_ITMI_TAN", 2);
-	AddIngre("OOLTYB_ITMI_TAN", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("OOLTYB_ITMI_TAN", "ZDPWLA_ITFO_PLANTS_TOWERWOOD_01", 5);
-	SetCraftPenalty("OOLTYB_ITMI_TAN", 10);
-	SetCraftScience("OOLTYB_ITMI_TAN", "Алхимия", 1);
-	SetenergyPenalty("OOLTYB_ITMI_TAN", 50);
-	SetCraftEXP("OOLTYB_ITMI_TAN", 50)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_TAN", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "aixopt_itmi_tanning");  ---- Дубильный состав
+	SetCraftAmount("aixopt_itmi_tanning", 2);
+	AddIngre("aixopt_itmi_tanning", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("aixopt_itmi_tanning", "hfdpun_itfo_plants_towerwood_01", 5);
+	SetCraftPenalty("aixopt_itmi_tanning", 10);
+	SetCraftScience("aixopt_itmi_tanning", "Алхимия", 1);
+	SetenergyPenalty("aixopt_itmi_tanning", 50);
+	SetCraftEXP("aixopt_itmi_tanning", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_tanning", "Алхимия")
 	
 
-	AddItemCategory ("Алхимия (1 уровень)", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01");  ---- Спирт
-	SetCraftAmount("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", "ZDPWLA_ItPl_Temp_Herb", 12);
-	AddIngre("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", "OOLTYB_ItMi_FlasK", 1);
-	AddAlterIngre("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", "zdpwla_itfo_plants_seraphis_01", 12);
-	AddAlterIngre("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", "OOLTYB_ItMi_FlasK", 1);
-	SetCraftPenalty("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 5);
-	SetCraftScience("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", "Алхимия", 1);
-	SetenergyPenalty("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 20);
-	SetCraftEXP("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 20)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "AIXOPT_ItMi_ALCHEMY_ALCOHOL");  ---- Спирт
+	SetCraftAmount("AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("AIXOPT_ItMi_ALCHEMY_ALCOHOL", "hfdpun_itpl_temp_herb", 12);
+	AddIngre("AIXOPT_ItMi_ALCHEMY_ALCOHOL", "aixopt_itmi_flask", 1);
+	AddAlterIngre("AIXOPT_ItMi_ALCHEMY_ALCOHOL", "hfdpun_itpl_blueplant", 12);
+	AddAlterIngre("AIXOPT_ItMi_ALCHEMY_ALCOHOL", "aixopt_itmi_flask", 1);
+	SetCraftPenalty("AIXOPT_ItMi_ALCHEMY_ALCOHOL", 5);
+	SetCraftScience("AIXOPT_ItMi_ALCHEMY_ALCOHOL", "Алхимия", 1);
+	SetenergyPenalty("AIXOPT_ItMi_ALCHEMY_ALCOHOL", 20);
+	SetCraftEXP("AIXOPT_ItMi_ALCHEMY_ALCOHOL", 20)
+	SetCraftEXP_SKILL("AIXOPT_ItMi_ALCHEMY_ALCOHOL", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "ZDPWLA_ItMi_Acid");  ---- Кислота
-	SetCraftAmount("ZDPWLA_ItMi_Acid", 2);
-	AddIngre("ZDPWLA_ItMi_Acid", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("ZDPWLA_ItMi_Acid", "OOLTYB_ItMi_Sulfur", 5);
-	SetCraftPenalty("ZDPWLA_ItMi_Acid", 10);
-	SetCraftScience("ZDPWLA_ItMi_Acid", "Алхимия", 1);
-	SetenergyPenalty("ZDPWLA_ItMi_Acid", 50);
-	SetCraftEXP("ZDPWLA_ItMi_Acid", 50)
-	SetCraftEXP_SKILL("ZDPWLA_ItMi_Acid", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "aixopt_itmi_acid");  ---- Кислота
+	SetCraftAmount("aixopt_itmi_acid", 2);
+	AddIngre("aixopt_itmi_acid", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("aixopt_itmi_acid", "aixopt_itmi_sulfur", 5);
+	SetCraftPenalty("aixopt_itmi_acid", 10);
+	SetCraftScience("aixopt_itmi_acid", "Алхимия", 1);
+	SetenergyPenalty("aixopt_itmi_acid", 50);
+	SetCraftEXP("aixopt_itmi_acid", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_acid", "Алхимия")
 
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "ZDPWLA_ItMi_Glue");  ---- Клей
-	SetCraftAmount("ZDPWLA_ItMi_Glue", 2);
-	AddIngre("ZDPWLA_ItMi_Glue", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("ZDPWLA_ItMi_Glue", "OOLTYB_ItMi_Sulfur", 1);
-	AddIngre("ZDPWLA_ItMi_Glue", "OOLTYB_ItMi_Pitch", 3);	
-	SetCraftPenalty("ZDPWLA_ItMi_Glue", 10);
-	SetCraftScience("ZDPWLA_ItMi_Glue", "Алхимия", 1);
-	SetenergyPenalty("ZDPWLA_ItMi_Glue", 50);
-	SetCraftEXP("ZDPWLA_ItMi_Glue", 50)
-	SetCraftEXP_SKILL("ZDPWLA_ItMi_Glue", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "aixopt_itmi_glue");  ---- Клей
+	SetCraftAmount("aixopt_itmi_glue", 2);
+	AddIngre("aixopt_itmi_glue", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("aixopt_itmi_glue", "aixopt_itmi_sulfur", 1);
+	AddIngre("aixopt_itmi_glue", "aixopt_itmi_pitch", 3);	
+	SetCraftPenalty("aixopt_itmi_glue", 10);
+	SetCraftScience("aixopt_itmi_glue", "Алхимия", 1);
+	SetenergyPenalty("aixopt_itmi_glue", 50);
+	SetCraftEXP("aixopt_itmi_glue", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_glue", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "ZDPWLA_ItMi_Dye");  ---- Краска
-	SetCraftAmount("ZDPWLA_ItMi_Dye", 2);
-	AddIngre("ZDPWLA_ItMi_Dye", "OOLTYB_ItMi_ReMi2", 2);
-	AddIngre("ZDPWLA_ItMi_Dye", "ZDPWLA_ITFO_PLANTS_NIGHTSHADOW_02", 3);
-	AddIngre("ZDPWLA_ItMi_Dye", "ZDPWLA_ITFO_PLANTS_NIGHTSHADOW_01", 3);	
-	AddIngre("ZDPWLA_ItMi_Dye", "ZDPWLA_ITFO_EGG", 2);
-	SetCraftPenalty("ZDPWLA_ItMi_Dye", 10);
-	SetCraftScience("ZDPWLA_ItMi_Dye", "Алхимия", 1);
-	SetenergyPenalty("ZDPWLA_ItMi_Dye", 50);
-	SetCraftEXP("ZDPWLA_ItMi_Dye", 50)
-	SetCraftEXP_SKILL("ZDPWLA_ItMi_Dye", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "aixopt_itmi_dye");  ---- Краска
+	SetCraftAmount("aixopt_itmi_dye", 2);
+	AddIngre("aixopt_itmi_dye", "uhaxlk_itat_clamflesh", 2);
+	AddIngre("aixopt_itmi_dye", "hfdpun_itfo_plants_nightshadow_02", 3);
+	AddIngre("aixopt_itmi_dye", "hfdpun_itfo_plants_nightshadow_01", 3);	
+	AddIngre("aixopt_itmi_dye", "uhaxlk_itfo_egg", 2);
+	SetCraftPenalty("aixopt_itmi_dye", 10);
+	SetCraftScience("aixopt_itmi_dye", "Алхимия", 1);
+	SetenergyPenalty("aixopt_itmi_dye", 50);
+	SetCraftEXP("aixopt_itmi_dye", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_dye", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "ZDPWLA_ItMi_AlchBasis"); ----- Алхимическая основа
-	SetCraftAmount("ZDPWLA_ItMi_AlchBasis", 1);
-	AddIngre("ZDPWLA_ItMi_AlchBasis", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("ZDPWLA_ItMi_AlchBasis", "OOLTYB_ItMi_ReMi1", 3);
-	AddIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ITFO_PLANTS_STONEROOT_01", 1);
-	AddIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ITFO_PLANTS_NIGHTSHADOW_01", 3);
-	AddIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ItPl_Strength_Herb_01", 1);
-	AddIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ITFO_PLANTS_TROLLBERRYS_01", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchBasis", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 12);
-    AddAlterIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ItPl_Perm_Herb", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ItPl_Dex_Herb_01", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ITFO_PLANTS_NIGHTSHADOW_02", 3);
-	AddAlterIngre("ZDPWLA_ItMi_AlchBasis", "ZDPWLA_ITFO_PLANTS_MOUNTAINMOSS_01", 2)
-	SetCraftPenalty("ZDPWLA_ItMi_AlchBasis", 10);
-	SetCraftScience("ZDPWLA_ItMi_AlchBasis", "Алхимия", 1);
-	SetenergyPenalty("ZDPWLA_ItMi_AlchBasis", 50);
-	SetCraftEXP("ZDPWLA_ItMi_AlchBasis", 50)
-	SetCraftEXP_SKILL("ZDPWLA_ItMi_AlchBasis", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "aixopt_itmi_alchbasis"); ----- Алхимическая основа
+	SetCraftAmount("aixopt_itmi_alchbasis", 1);
+	AddIngre("aixopt_itmi_alchbasis", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("aixopt_itmi_alchbasis", "HFDPUN_ITPL_SILTMIRT", 3);
+	AddIngre("aixopt_itmi_alchbasis", "hfdpun_itfo_plants_stoneroot_01", 1);
+	AddIngre("aixopt_itmi_alchbasis", "hfdpun_itfo_plants_nightshadow_01", 3);
+	AddIngre("aixopt_itmi_alchbasis", "hfdpun_itpl_strength_herb_01", 1);
+	AddIngre("aixopt_itmi_alchbasis", "hfdpun_itfo_plants_trollberrys_01", 1);
+	AddAlterIngre("aixopt_itmi_alchbasis", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddAlterIngre("aixopt_itmi_alchbasis", "hfdpun_itpl_blueplant", 12);
+    AddAlterIngre("aixopt_itmi_alchbasis", "hfdpun_itpl_perm_herb", 1);
+	AddAlterIngre("aixopt_itmi_alchbasis", "hfdpun_itpl_dex_herb_01", 1);
+	AddAlterIngre("aixopt_itmi_alchbasis", "hfdpun_itfo_plants_nightshadow_02", 3);
+	AddAlterIngre("aixopt_itmi_alchbasis", "hfdpun_itfo_plants_mountainmoss_01", 2)
+	SetCraftPenalty("aixopt_itmi_alchbasis", 10);
+	SetCraftScience("aixopt_itmi_alchbasis", "Алхимия", 1);
+	SetenergyPenalty("aixopt_itmi_alchbasis", 50);
+	SetCraftEXP("aixopt_itmi_alchbasis", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_alchbasis", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (1 уровень)", "ZDPWLA_ItMi_AlchSub"); ----- Алхимический субстрат
-	SetCraftAmount("ZDPWLA_ItMi_AlchSub", 1);
-	AddIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ItAt_BugMandibles", 1);
-	AddIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ItAt_Sting", 1);
-	AddIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ItAt_WaranFiretongue", 1);
-	AddIngre("ZDPWLA_ItMi_AlchSub", "ZDPWLA_ITFO_PLANTS_STONEROOT_01", 1);
-	AddIngre("ZDPWLA_ItMi_AlchSub", "ZDPWLA_ItPl_Perm_Herb", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ItAt_CrawlerMandibles", 1);
-    AddAlterIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ItAt_Wing", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchSub", "ZDPWLA_ItPl_Mushroom_04", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchSub", "ZDPWLA_ItPl_Strength_Herb_01", 1);
-	AddAlterIngre("ZDPWLA_ItMi_AlchSub", "OOLTYB_ItMi_ReMi", 4)
-	SetCraftPenalty("ZDPWLA_ItMi_AlchSub", 10);
-	SetCraftScience("ZDPWLA_ItMi_AlchSub", "Алхимия", 1);
-	SetenergyPenalty("ZDPWLA_ItMi_AlchSub", 50);
-	SetCraftEXP("ZDPWLA_ItMi_AlchSub", 50)
-	SetCraftEXP_SKILL("ZDPWLA_ItMi_AlchSub", "Алхимия")
+	AddItemCategory ("Алхимия (1 уровень)", "aixopt_itmi_alchsub"); ----- Алхимический субстрат
+	SetCraftAmount("aixopt_itmi_alchsub", 1);
+	AddIngre("aixopt_itmi_alchsub", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddIngre("aixopt_itmi_alchsub", "aixopt_itat_bugmandibles", 1);
+	AddIngre("aixopt_itmi_alchsub", "aixopt_itat_sting", 1);
+	AddIngre("aixopt_itmi_alchsub", "aixopt_itat_waranfiretongue", 1);
+	AddIngre("aixopt_itmi_alchsub", "hfdpun_itfo_plants_stoneroot_01", 1);
+	AddIngre("aixopt_itmi_alchsub", "hfdpun_itpl_perm_herb", 1);
+	AddAlterIngre("aixopt_itmi_alchsub", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	AddAlterIngre("aixopt_itmi_alchsub", "aixopt_itat_crawlermandibles", 1);
+    AddAlterIngre("aixopt_itmi_alchsub", "aixopt_itat_wing", 1);
+	AddAlterIngre("aixopt_itmi_alchsub", "HFDPUN_ITPL_MUHOMOR", 1);
+	AddAlterIngre("aixopt_itmi_alchsub", "hfdpun_itpl_strength_herb_01", 1);
+	AddAlterIngre("aixopt_itmi_alchsub", "HFDPUN_ITPL_RIVERMIRT", 4)
+	SetCraftPenalty("aixopt_itmi_alchsub", 10);
+	SetCraftScience("aixopt_itmi_alchsub", "Алхимия", 1);
+	SetenergyPenalty("aixopt_itmi_alchsub", 50);
+	SetCraftEXP("aixopt_itmi_alchsub", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_alchsub", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (2 уровень)", "OOLTYB_ITMI_JOINT_2");  ----- Северный темный
-	SetCraftAmount("OOLTYB_ITMI_JOINT_2", 6);
-	 AddIngre("OOLTYB_ITMI_JOINT_2", "ZDPWLA_ItPl_SwampHerb", 3);
-	 AddIngre("OOLTYB_ITMI_JOINT_2", "ZDPWLA_ITFO_PLANTS_MOUNTAINMOSS_01", 1);
-	 AddTool("OOLTYB_ITMI_JOINT_2", "OOLTYB_ITMI_JOINTRECIPE_2");
-	SetCraftPenalty("OOLTYB_ITMI_JOINT_2", 10);
-	SetCraftScience("OOLTYB_ITMI_JOINT_2", "Алхимия", 2);
-	SetenergyPenalty("OOLTYB_ITMI_JOINT_2", 50);
-	SetCraftEXP("OOLTYB_ITMI_JOINT_2", 100)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_JOINT_2", "Алхимия")
+	AddItemCategory ("Алхимия (2 уровень)", "aixopt_itmi_joint_2");  ----- Северный темный
+	SetCraftAmount("aixopt_itmi_joint_2", 6);
+	 AddIngre("aixopt_itmi_joint_2", "hfdpun_itpl_swampherb", 3);
+	 AddIngre("aixopt_itmi_joint_2", "hfdpun_itfo_plants_mountainmoss_01", 1);
+	 AddTool("aixopt_itmi_joint_2", "aixopt_itmi_jointrecipe_01");
+	SetCraftPenalty("aixopt_itmi_joint_2", 10);
+	SetCraftScience("aixopt_itmi_joint_2", "Алхимия", 2);
+	SetenergyPenalty("aixopt_itmi_joint_2", 50);
+	SetCraftEXP("aixopt_itmi_joint_2", 100)
+	SetCraftEXP_SKILL("aixopt_itmi_joint_2", "Алхимия")
 
 
 	AddItemCategory ("Алхимия (2 уровень)", "OOLTYB_ITMI_APTEKA");  ----- Аптечка
 	SetCraftAmount("OOLTYB_ITMI_APTEKA", 5);
 	 AddIngre("OOLTYB_ITMI_APTEKA", "OOLTYB_ITMI_PRIPARKA", 1);
 	 AddIngre("OOLTYB_ITMI_APTEKA", "OOLTYB_ITMI_BINT", 1);
-	 AddIngre("OOLTYB_ITMI_APTEKA", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	 AddTool("OOLTYB_ITMI_APTEKA", "JKZTZD_ITMW_1H_KNIFE_01");
+	 AddIngre("OOLTYB_ITMI_APTEKA", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	 AddTool("OOLTYB_ITMI_APTEKA", "gkwqdz_itmw_huntknife");
 	SetCraftPenalty("OOLTYB_ITMI_APTEKA", 10);
 	SetCraftScience("OOLTYB_ITMI_APTEKA", "Алхимия", 2);
 	SetenergyPenalty("OOLTYB_ITMI_APTEKA", 50);
@@ -1230,1919 +1217,1919 @@ function InitCraftList()
 	SetCraftEXP_SKILL("OOLTYB_ITMI_APTEKA", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (2 уровень)", "ZEQFRN_ItPo_Health_02"); ----- Лечебный экстракт
-	SetCraftAmount("ZEQFRN_ItPo_Health_02", 30);
-	AddIngre("ZEQFRN_ItPo_Health_02", "ZDPWLA_ItMi_AlchBasis", 1);
-	AddIngre("ZEQFRN_ItPo_Health_02", "ZDPWLA_ItPl_Health_Herb_02", 5);
-	AddIngre("ZEQFRN_ItPo_Health_02", "OOLTYB_ItMi_FlasK", 30);
-	AddAlterIngre("ZEQFRN_ItPo_Health_02", "ZDPWLA_ItMi_AlchSub", 1);
-	AddAlterIngre("ZEQFRN_ItPo_Health_02", "ZDPWLA_ItPl_Health_Herb_02", 5);
-	AddAlterIngre("ZEQFRN_ItPo_Health_02", "OOLTYB_ItMi_FlasK", 30);
-	SetCraftPenalty("ZEQFRN_ItPo_Health_02", 20);
-	SetCraftScience("ZEQFRN_ItPo_Health_02", "Алхимия", 2);
-	SetenergyPenalty("ZEQFRN_ItPo_Health_02", 100);
-	SetCraftEXP("ZEQFRN_ItPo_Health_02", 200)
-	SetCraftEXP_SKILL("ZEQFRN_ItPo_Health_02", "Алхимия")
+	AddItemCategory ("Алхимия (2 уровень)", "cjcpgp_ItPo_Health_02"); ----- Лечебный экстракт
+	SetCraftAmount("cjcpgp_ItPo_Health_02", 30);
+	AddIngre("cjcpgp_ItPo_Health_02", "aixopt_itmi_alchbasis", 1);
+	AddIngre("cjcpgp_ItPo_Health_02", "hfdpun_itpl_health_herb_02", 5);
+	AddIngre("cjcpgp_ItPo_Health_02", "aixopt_itmi_flask", 30);
+	AddAlterIngre("cjcpgp_ItPo_Health_02", "aixopt_itmi_alchsub", 1);
+	AddAlterIngre("cjcpgp_ItPo_Health_02", "hfdpun_itpl_health_herb_02", 5);
+	AddAlterIngre("cjcpgp_ItPo_Health_02", "aixopt_itmi_flask", 30);
+	SetCraftPenalty("cjcpgp_ItPo_Health_02", 20);
+	SetCraftScience("cjcpgp_ItPo_Health_02", "Алхимия", 2);
+	SetenergyPenalty("cjcpgp_ItPo_Health_02", 100);
+	SetCraftEXP("cjcpgp_ItPo_Health_02", 200)
+	SetCraftEXP_SKILL("cjcpgp_ItPo_Health_02", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (2 уровень)", "ZEQFRN_ItPo_Mana_02"); --- Экстракт маны
-	SetCraftAmount("ZEQFRN_ItPo_Mana_02", 15);
-	AddIngre("ZEQFRN_ItPo_Mana_02", "ZDPWLA_ItMi_AlchBasis", 1);
-	AddIngre("ZEQFRN_ItPo_Mana_02", "ZDPWLA_ItPl_Mana_Herb_02", 5);
-	AddIngre("ZEQFRN_ItPo_Mana_02", "OOLTYB_ItMi_FlasK", 15);
-	AddAlterIngre("ZEQFRN_ItPo_Mana_02", "ZDPWLA_ItMi_AlchSub", 1);
-	AddAlterIngre("ZEQFRN_ItPo_Mana_02", "ZDPWLA_ItPl_Mana_Herb_02", 5);
-	AddAlterIngre("ZEQFRN_ItPo_Mana_02", "OOLTYB_ItMi_FlasK", 15);
-	SetCraftPenalty("ZEQFRN_ItPo_Mana_02", 20);
-	SetCraftScience("ZEQFRN_ItPo_Mana_02", "Алхимия", 2);
-	SetenergyPenalty("ZEQFRN_ItPo_Mana_02", 100);
-	SetCraftEXP("ZEQFRN_ItPo_Mana_02", 200)
-	SetCraftEXP_SKILL("ZEQFRN_ItPo_Mana_02", "Алхимия")
+	AddItemCategory ("Алхимия (2 уровень)", "cjcpgp_ItPo_Mana_02"); --- Экстракт маны
+	SetCraftAmount("cjcpgp_ItPo_Mana_02", 15);
+	AddIngre("cjcpgp_ItPo_Mana_02", "aixopt_itmi_alchbasis", 1);
+	AddIngre("cjcpgp_ItPo_Mana_02", "hfdpun_itpl_mana_herb_02", 5);
+	AddIngre("cjcpgp_ItPo_Mana_02", "aixopt_itmi_flask", 15);
+	AddAlterIngre("cjcpgp_ItPo_Mana_02", "aixopt_itmi_alchsub", 1);
+	AddAlterIngre("cjcpgp_ItPo_Mana_02", "hfdpun_itpl_mana_herb_02", 5);
+	AddAlterIngre("cjcpgp_ItPo_Mana_02", "aixopt_itmi_flask", 15);
+	SetCraftPenalty("cjcpgp_ItPo_Mana_02", 20);
+	SetCraftScience("cjcpgp_ItPo_Mana_02", "Алхимия", 2);
+	SetenergyPenalty("cjcpgp_ItPo_Mana_02", 100);
+	SetCraftEXP("cjcpgp_ItPo_Mana_02", 200)
+	SetCraftEXP_SKILL("cjcpgp_ItPo_Mana_02", "Алхимия")
 
 
-	AddItemCategory ("Алхимия (3 уровень)", "OOLTYB_ITMI_JOINT_3");  ----- Мечта рудокопа
-	SetCraftAmount("OOLTYB_ITMI_JOINT_3", 7);
-	 AddIngre("OOLTYB_ITMI_JOINT_3", "ZDPWLA_ItPl_SwampHerb", 8);
-	 AddIngre("OOLTYB_ITMI_JOINT_3", "ZDPWLA_ItPl_Mushroom_04", 1);
-	 AddTool("OOLTYB_ITMI_JOINT_3", "OOLTYB_ITMI_JOINTRECIPE_2");
-	SetCraftPenalty("OOLTYB_ITMI_JOINT_3", 20);
-	SetCraftScience("OOLTYB_ITMI_JOINT_3", "Алхимия", 3);
-	SetenergyPenalty("OOLTYB_ITMI_JOINT_3", 100);
+	AddItemCategory ("Алхимия (3 уровень)", "aixopt_itmi_joint_3");  ----- Мечта рудокопа
+	SetCraftAmount("aixopt_itmi_joint_3", 7);
+	 AddIngre("aixopt_itmi_joint_3", "hfdpun_itpl_swampherb", 8);
+	 AddIngre("aixopt_itmi_joint_3", "HFDPUN_ITPL_MUHOMOR", 1);
+	 AddTool("aixopt_itmi_joint_3", "aixopt_itmi_jointrecipe_01");
+	SetCraftPenalty("aixopt_itmi_joint_3", 20);
+	SetCraftScience("aixopt_itmi_joint_3", "Алхимия", 3);
+	SetenergyPenalty("aixopt_itmi_joint_3", 100);
 	
 	
 	AddItemCategory ("Алхимия (3 уровень)", "ZDPWLA_ItFo_Opus");  ----- Опус Максима
 	SetCraftAmount("ZDPWLA_ItFo_Opus", 15);
-	 AddIngre("ZDPWLA_ItFo_Opus", "ZDPWLA_ItMi_AlchBasis", 1);
-	 AddIngre("ZDPWLA_ItFo_Opus", "ZDPWLA_ItMi_AlchSub", 1);
-	 AddIngre("ZEQFRN_ItPo_Health_03", "OOLTYB_ItMi_FlasK", 15);
+	 AddIngre("ZDPWLA_ItFo_Opus", "aixopt_itmi_alchbasis", 1);
+	 AddIngre("ZDPWLA_ItFo_Opus", "aixopt_itmi_alchsub", 1);
+	 AddIngre("cjcpgp_ItPo_Health_03", "aixopt_itmi_flask", 15);
 	 AddTool("ZDPWLA_ItFo_Opus", "OOLTYB_ITMI_OPUSRECIPE");
 	SetCraftPenalty("ZDPWLA_ItFo_Opus", 20);
 	SetCraftScience("ZDPWLA_ItFo_Opus", "Алхимия", 3);
 	SetenergyPenalty("ZDPWLA_ItFo_Opus", 100);	
 
 
-	AddItemCategory ("Алхимия (3 уровень)", "ZEQFRN_ItPo_Health_03"); ---- Лечебный эликсир
-	SetCraftAmount("ZEQFRN_ItPo_Health_03", 20);
-	AddIngre("ZEQFRN_ItPo_Health_03", "ZDPWLA_ItMi_AlchBasis", 1);
-	AddIngre("ZEQFRN_ItPo_Health_03", "ZDPWLA_ItPl_Health_Herb_03", 5);
-	AddIngre("ZEQFRN_ItPo_Health_03", "OOLTYB_ItMi_FlasK", 20);
-	AddAlterIngre("ZEQFRN_ItPo_Health_03", "ZDPWLA_ItMi_AlchSub", 1);
-	AddAlterIngre("ZEQFRN_ItPo_Health_03", "ZDPWLA_ItPl_Health_Herb_03", 5);
-	AddAlterIngre("ZEQFRN_ItPo_Health_03", "OOLTYB_ItMi_FlasK", 20);
-	SetCraftPenalty("ZEQFRN_ItPo_Health_03", 20);
-	SetCraftScience("ZEQFRN_ItPo_Health_03", "Алхимия", 3);
-	SetenergyPenalty("ZEQFRN_ItPo_Health_03", 100);
+	AddItemCategory ("Алхимия (3 уровень)", "cjcpgp_ItPo_Health_03"); ---- Лечебный эликсир
+	SetCraftAmount("cjcpgp_ItPo_Health_03", 20);
+	AddIngre("cjcpgp_ItPo_Health_03", "aixopt_itmi_alchbasis", 1);
+	AddIngre("cjcpgp_ItPo_Health_03", "hfdpun_itpl_health_herb_03", 5);
+	AddIngre("cjcpgp_ItPo_Health_03", "aixopt_itmi_flask", 20);
+	AddAlterIngre("cjcpgp_ItPo_Health_03", "aixopt_itmi_alchsub", 1);
+	AddAlterIngre("cjcpgp_ItPo_Health_03", "hfdpun_itpl_health_herb_03", 5);
+	AddAlterIngre("cjcpgp_ItPo_Health_03", "aixopt_itmi_flask", 20);
+	SetCraftPenalty("cjcpgp_ItPo_Health_03", 20);
+	SetCraftScience("cjcpgp_ItPo_Health_03", "Алхимия", 3);
+	SetenergyPenalty("cjcpgp_ItPo_Health_03", 100);
 
 
-	AddItemCategory ("Алхимия (3 уровень)", "ZEQFRN_ItPo_Mana_03"); ---- Эликсир маны
-	SetCraftAmount("ZEQFRN_ItPo_Mana_03", 10);
-	AddIngre("ZEQFRN_ItPo_Mana_03", "ZDPWLA_ItMi_AlchBasis", 1);
-	AddIngre("ZEQFRN_ItPo_Mana_03", "ZDPWLA_ItPl_Mana_Herb_03", 5);
-	AddIngre("ZEQFRN_ItPo_Mana_03", "OOLTYB_ItMi_FlasK", 10);
-	AddAlterIngre("ZEQFRN_ItPo_Mana_03", "ZDPWLA_ItMi_AlchSub", 1);
-	AddAlterIngre("ZEQFRN_ItPo_Mana_03", "ZDPWLA_ItPl_Mana_Herb_03", 5);
-	AddAlterIngre("ZEQFRN_ItPo_Mana_03", "OOLTYB_ItMi_FlasK", 10);
-	SetCraftPenalty("ZEQFRN_ItPo_Mana_03", 20);
-	SetCraftScience("ZEQFRN_ItPo_Mana_03", "Алхимия", 3);
-	SetenergyPenalty("ZEQFRN_ItPo_Mana_03", 100);
+	AddItemCategory ("Алхимия (3 уровень)", "cjcpgp_ItPo_Mana_03"); ---- Эликсир маны
+	SetCraftAmount("cjcpgp_ItPo_Mana_03", 10);
+	AddIngre("cjcpgp_ItPo_Mana_03", "aixopt_itmi_alchbasis", 1);
+	AddIngre("cjcpgp_ItPo_Mana_03", "hfdpun_itpl_mana_herb_03", 5);
+	AddIngre("cjcpgp_ItPo_Mana_03", "aixopt_itmi_flask", 10);
+	AddAlterIngre("cjcpgp_ItPo_Mana_03", "aixopt_itmi_alchsub", 1);
+	AddAlterIngre("cjcpgp_ItPo_Mana_03", "hfdpun_itpl_mana_herb_03", 5);
+	AddAlterIngre("cjcpgp_ItPo_Mana_03", "aixopt_itmi_flask", 10);
+	SetCraftPenalty("cjcpgp_ItPo_Mana_03", 20);
+	SetCraftScience("cjcpgp_ItPo_Mana_03", "Алхимия", 3);
+	SetenergyPenalty("cjcpgp_ItPo_Mana_03", 100);
 	
 
-	AddItemCategory ("Алхимия (3 уровень)", "ZEQFRN_ITPO_SON");  ---- Снотворное
-	SetCraftAmount("ZEQFRN_ITPO_SON", 1);
-	AddIngre("ZEQFRN_ITPO_SON", "ZDPWLA_ItPl_SwampHerb", 6);
-	AddIngre("ZEQFRN_ITPO_SON", "ZDPWLA_ITFO_PLANTS_NIGHTSHADOW_02", 5);
-	AddIngre("ZEQFRN_ITPO_SON", "OOLTYB_ItMi_FlasK", 1);
-	SetCraftPenalty("ZEQFRN_ITPO_SON", 20);
-	SetCraftScience("ZEQFRN_ITPO_SON", "Алхимия", 3);
-	SetenergyPenalty("ZEQFRN_ITPO_SON", 100);
+	AddItemCategory ("Алхимия (3 уровень)", "cjcpgp_itpo_poison_sleep");  ---- Снотворное
+	SetCraftAmount("cjcpgp_itpo_poison_sleep", 1);
+	AddIngre("cjcpgp_itpo_poison_sleep", "hfdpun_itpl_swampherb", 6);
+	AddIngre("cjcpgp_itpo_poison_sleep", "hfdpun_itfo_plants_nightshadow_02", 5);
+	AddIngre("cjcpgp_itpo_poison_sleep", "aixopt_itmi_flask", 1);
+	SetCraftPenalty("cjcpgp_itpo_poison_sleep", 20);
+	SetCraftScience("cjcpgp_itpo_poison_sleep", "Алхимия", 3);
+	SetenergyPenalty("cjcpgp_itpo_poison_sleep", 100);
 
 	
-	AddItemCategory ("Алхимия (3 уровень)", "ZEQFRN_ITPO_IAD");  ---- Яд
-	SetCraftAmount("ZEQFRN_ITPO_IAD", 1);
-	AddIngre("ZEQFRN_ITPO_IAD", "OOLTYB_ItAt_SharkTeeth", 1);
-	AddIngre("ZEQFRN_ITPO_IAD", "OOLTYB_ItAt_Sting", 1);
-	AddIngre("ZEQFRN_ITPO_IAD", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 1);
-	SetCraftPenalty("ZEQFRN_ITPO_IAD", 20);
-	SetCraftScience("ZEQFRN_ITPO_IAD", "Алхимия", 3);
-	SetenergyPenalty("ZEQFRN_ITPO_IAD", 100);
+	AddItemCategory ("Алхимия (3 уровень)", "cjcpgp_itpo_poison_kill");  ---- Яд
+	SetCraftAmount("cjcpgp_itpo_poison_kill", 1);
+	AddIngre("cjcpgp_itpo_poison_kill", "aixopt_itat_sharkteeth", 1);
+	AddIngre("cjcpgp_itpo_poison_kill", "aixopt_itat_sting", 1);
+	AddIngre("cjcpgp_itpo_poison_kill", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 1);
+	SetCraftPenalty("cjcpgp_itpo_poison_kill", 20);
+	SetCraftScience("cjcpgp_itpo_poison_kill", "Алхимия", 3);
+	SetenergyPenalty("cjcpgp_itpo_poison_kill", 100);
 	
 	
-	AddItemCategory ("Алхимия (3 уровень)", "ZEQFRN_ITPO_ANTIDOTE");  ---- Антидот
-	SetCraftAmount("ZEQFRN_ITPO_ANTIDOTE", 1);
-	AddIngre("ZEQFRN_ITPO_ANTIDOTE", "OOLTYB_ItAt_SharkTeeth", 5);
-	AddIngre("ZEQFRN_ITPO_ANTIDOTE", "OOLTYB_ItAt_Sting", 1);
-	AddIngre("ZEQFRN_ITPO_ANTIDOTE", "ZDPWLA_ItPl_Health_Herb_03", 5);
-	AddIngre("ZEQFRN_ITPO_ANTIDOTE", "OOLTYB_ITMI_ALCHEMY_ALCOHOL_01", 3);
-	SetCraftPenalty("ZEQFRN_ITPO_ANTIDOTE", 20);
-	SetCraftScience("ZEQFRN_ITPO_ANTIDOTE", "Алхимия", 3);
-	SetenergyPenalty("ZEQFRN_ITPO_ANTIDOTE", 100);
+	AddItemCategory ("Алхимия (3 уровень)", "cjcpgp_ITPO_ANTIDOTE");  ---- Антидот
+	SetCraftAmount("cjcpgp_ITPO_ANTIDOTE", 1);
+	AddIngre("cjcpgp_ITPO_ANTIDOTE", "aixopt_itat_sharkteeth", 5);
+	AddIngre("cjcpgp_ITPO_ANTIDOTE", "aixopt_itat_sting", 1);
+	AddIngre("cjcpgp_ITPO_ANTIDOTE", "hfdpun_itpl_health_herb_03", 5);
+	AddIngre("cjcpgp_ITPO_ANTIDOTE", "AIXOPT_ItMi_ALCHEMY_ALCOHOL", 3);
+	SetCraftPenalty("cjcpgp_ITPO_ANTIDOTE", 20);
+	SetCraftScience("cjcpgp_ITPO_ANTIDOTE", "Алхимия", 3);
+	SetenergyPenalty("cjcpgp_ITPO_ANTIDOTE", 100);
 
 
 --АААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААаа
 
 	
-	AddItemCategory ("Кузнец (Расходники)", "OOLTYB_ITMI_S_IGNOT"); ----- Слиток
-	SetCraftAmount("OOLTYB_ITMI_S_IGNOT", 1);
-	 AddIngre("OOLTYB_ITMI_S_IGNOT", "OOLTYB_ItMi_Nugget", 20);
-	 AddIngre("OOLTYB_ITMI_S_IGNOT", "OOLTYB_ItMi_CoaL", 5);
-	 AddTool("OOLTYB_ITMI_S_IGNOT", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("OOLTYB_ITMI_S_IGNOT", 5);
-	SetCraftScience("OOLTYB_ITMI_S_IGNOT", "Кузнец", 1);
-	SetenergyPenalty("OOLTYB_ITMI_S_IGNOT", 25);
-	SetCraftEXP("OOLTYB_ITMI_S_IGNOT", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_S_IGNOT", "Бронник")
-	SetCraftEXP("OOLTYB_ITMI_S_IGNOT", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_S_IGNOT", "Оружейник")
+	AddItemCategory ("Кузнец (Расходники)", "aixopt_itmi_ironingot"); ----- Слиток
+	SetCraftAmount("aixopt_itmi_ironingot", 1);
+	 AddIngre("aixopt_itmi_ironingot", "aixopt_itmi_ironnugget", 20);
+	 AddIngre("aixopt_itmi_ironingot", "aixopt_itmi_coal", 5);
+	 AddTool("aixopt_itmi_ironingot", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_ironingot", 5);
+	SetCraftScience("aixopt_itmi_ironingot", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_ironingot", 25);
+	SetCraftEXP("aixopt_itmi_ironingot", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_ironingot", "Бронник")
+	SetCraftEXP("aixopt_itmi_ironingot", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_ironingot", "Оружейник")
 	
 	
 	
-	AddItemCategory ("Кузнец (Расходники)", "OOLTYB_ITMI_RIVET"); ----- Заклепка
-	SetCraftAmount("OOLTYB_ITMI_RIVET", 10);
-	 AddIngre("OOLTYB_ITMI_RIVET", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("OOLTYB_ITMI_RIVET", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("OOLTYB_ITMI_RIVET", 10);
-	SetCraftScience("OOLTYB_ITMI_RIVET", "Кузнец", 1);
-	SetenergyPenalty("OOLTYB_ITMI_RIVET", 25);
-	SetCraftEXP("OOLTYB_ITMI_RIVET", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_RIVET", "Бронник")
-	SetCraftEXP("OOLTYB_ITMI_RIVET", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_RIVET", "Оружейник")
+	AddItemCategory ("Кузнец (Расходники)", "aixopt_itmi_rivet"); ----- Заклепка
+	SetCraftAmount("aixopt_itmi_rivet", 10);
+	 AddIngre("aixopt_itmi_rivet", "aixopt_itmi_ironingot", 1);
+	 AddTool("aixopt_itmi_rivet", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_rivet", 10);
+	SetCraftScience("aixopt_itmi_rivet", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_rivet", 25);
+	SetCraftEXP("aixopt_itmi_rivet", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_rivet", "Бронник")
+	SetCraftEXP("aixopt_itmi_rivet", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_rivet", "Оружейник")
 	
 
-	AddItemCategory ("Кузнец (Расходники)", "yvnzmz_itmi_bizha"); ----- Бижутерия
-	SetCraftAmount("yvnzmz_itmi_bizha", 1);
-	 AddIngre("yvnzmz_itmi_bizha", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddIngre("yvnzmz_itmi_bizha", "OOLTYB_ItMi_GoldNugget_Addon", 2);
-	 AddAlterIngre("yvnzmz_itmi_bizha", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddAlterIngre("yvnzmz_itmi_bizha", "OOLTYB_ItMi_SilverNugget", 2);
-	 AddTool("yvnzmz_itmi_bizha", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("yvnzmz_itmi_bizha", 10);
-	SetCraftScience("yvnzmz_itmi_bizha", "Кузнец", 1);
-	SetenergyPenalty("yvnzmz_itmi_bizha", 50);
-	SetCraftEXP("yvnzmz_itmi_bizha", 50)
-	SetCraftEXP_SKILL("yvnzmz_itmi_bizha", "Бронник")
-	SetCraftEXP("yvnzmz_itmi_bizha", 50)
-	SetCraftEXP_SKILL("yvnzmz_itmi_bizha", "Оружейник")
+	AddItemCategory ("Кузнец (Расходники)", "aixopt_itmi_jewelery"); ----- Бижутерия
+	SetCraftAmount("aixopt_itmi_jewelery", 1);
+	 AddIngre("aixopt_itmi_jewelery", "aixopt_itmi_ironingot", 1);
+	 AddIngre("aixopt_itmi_jewelery", "aixopt_itmi_goldnugget", 2);
+	 AddAlterIngre("aixopt_itmi_jewelery", "aixopt_itmi_ironingot", 1);
+	 AddAlterIngre("aixopt_itmi_jewelery", "aixopt_itmi_silvernugget", 2);
+	 AddTool("aixopt_itmi_jewelery", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_jewelery", 10);
+	SetCraftScience("aixopt_itmi_jewelery", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_jewelery", 50);
+	SetCraftEXP("aixopt_itmi_jewelery", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_jewelery", "Бронник")
+	SetCraftEXP("aixopt_itmi_jewelery", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_jewelery", "Оружейник")
 	
 	
-	AddItemCategory ("Кузнец (Расходники)", "OOLTYB_ItMiSwordraw"); ----- Обработанная сталь
-	SetCraftAmount("OOLTYB_ItMiSwordraw", 1);
-	 AddIngre("OOLTYB_ItMiSwordraw", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddIngre("OOLTYB_ItMiSwordraw", "ZDPWLA_ItMi_Acid", 1);
-	 AddTool("OOLTYB_ItMiSwordraw", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("OOLTYB_ItMiSwordraw", 10);
-	SetCraftScience("OOLTYB_ItMiSwordraw", "Кузнец", 1);
-	SetenergyPenalty("OOLTYB_ItMiSwordraw", 50);
-	SetCraftEXP("OOLTYB_ItMiSwordraw", 50)
-	SetCraftEXP_SKILL("OOLTYB_ItMiSwordraw", "Бронник")
-	SetCraftEXP("OOLTYB_ItMiSwordraw", 50)
-	SetCraftEXP_SKILL("OOLTYB_ItMiSwordraw", "Оружейник")	
+	AddItemCategory ("Кузнец (Расходники)", "aixopt_itmirawsteel"); ----- Обработанная сталь
+	SetCraftAmount("aixopt_itmirawsteel", 1);
+	 AddIngre("aixopt_itmirawsteel", "aixopt_itmi_ironingot", 1);
+	 AddIngre("aixopt_itmirawsteel", "aixopt_itmi_acid", 1);
+	 AddTool("aixopt_itmirawsteel", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmirawsteel", 10);
+	SetCraftScience("aixopt_itmirawsteel", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmirawsteel", 50);
+	SetCraftEXP("aixopt_itmirawsteel", 50)
+	SetCraftEXP_SKILL("aixopt_itmirawsteel", "Бронник")
+	SetCraftEXP("aixopt_itmirawsteel", 50)
+	SetCraftEXP_SKILL("aixopt_itmirawsteel", "Оружейник")	
 	
 	
-	AddItemCategory ("Кузнец (Расходники)", "OOLTYB_ITMI_LINKAGE"); --- Рычажный механизм
-	SetCraftAmount("OOLTYB_ITMI_LINKAGE", 1);
-	 AddIngre("OOLTYB_ITMI_LINKAGE", "OOLTYB_ITMI_S_IGNOT", 4);
-	 AddTool("OOLTYB_ITMI_LINKAGE", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("OOLTYB_ITMI_LINKAGE", 10);
-	SetCraftScience("OOLTYB_ITMI_LINKAGE", "Кузнец", 1);
-	SetenergyPenalty("OOLTYB_ITMI_LINKAGE", 50);
-	SetCraftEXP("OOLTYB_ITMI_LINKAGE", 50)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_LINKAGE", "Бронник")
-	SetCraftEXP("OOLTYB_ITMI_LINKAGE", 50)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_LINKAGE", "Оружейник")
+	AddItemCategory ("Кузнец (Расходники)", "aixopt_itmi_linkage"); --- Рычажный механизм
+	SetCraftAmount("aixopt_itmi_linkage", 1);
+	 AddIngre("aixopt_itmi_linkage", "aixopt_itmi_ironingot", 4);
+	 AddTool("aixopt_itmi_linkage", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_linkage", 10);
+	SetCraftScience("aixopt_itmi_linkage", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_linkage", 50);
+	SetCraftEXP("aixopt_itmi_linkage", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_linkage", "Бронник")
+	SetCraftEXP("aixopt_itmi_linkage", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_linkage", "Оружейник")
 	
 	
-	AddItemCategory ("Кузнец (Расходники)", "ooltyb_itmi_rudecoin"); --- Рудная фишка
-    SetCraftAmount("ooltyb_itmi_rudecoin", 10);
-     AddIngre("ooltyb_itmi_rudecoin", "ooltyb_itmi_magicore", 1);
-     AddTool("ooltyb_itmi_rudecoin", "OOLTYB_ITMI_CHIPRECIPE");
-     AddTool("ooltyb_itmi_rudecoin", "JKZTZD_ItMw_1H_Mace_L_04");
-    SetCraftPenalty("ooltyb_itmi_rudecoin", 5);
-    SetCraftScience("ooltyb_itmi_rudecoin", "Кузнец", 1);
-    SetenergyPenalty("ooltyb_itmi_rudecoin", 10);
-    SetCraftEXP("ooltyb_itmi_rudecoin", 10)
-    SetCraftEXP_SKILL("ooltyb_itmi_rudecoin", "Бронник")
-    SetCraftEXP("ooltyb_itmi_rudecoin", 10)
-    SetCraftEXP_SKILL("ooltyb_itmi_rudecoin", "Оружейник")
+	-- AddItemCategory ("Кузнец (Расходники)", "ooltyb_itmi_rudecoin"); --- Рудная фишка
+ --    SetCraftAmount("ooltyb_itmi_rudecoin", 10);
+ --     AddIngre("ooltyb_itmi_rudecoin", "ooltyb_itmi_magicore", 1);
+ --     AddTool("ooltyb_itmi_rudecoin", "OOLTYB_ITMI_CHIPRECIPE");
+ --     AddTool("ooltyb_itmi_rudecoin", "gkwqdz_ItMw_1H_Mace_L_04");
+ --    SetCraftPenalty("ooltyb_itmi_rudecoin", 5);
+ --    SetCraftScience("ooltyb_itmi_rudecoin", "Кузнец", 1);
+ --    SetenergyPenalty("ooltyb_itmi_rudecoin", 10);
+ --    SetCraftEXP("ooltyb_itmi_rudecoin", 10)
+ --    SetCraftEXP_SKILL("ooltyb_itmi_rudecoin", "Бронник")
+ --    SetCraftEXP("ooltyb_itmi_rudecoin", 10)
+ --    SetCraftEXP_SKILL("ooltyb_itmi_rudecoin", "Оружейник")
 	
-	AddItemCategory ("Кузнец (Расходники)", "yvnzmz_itmi_zamok"); --- Замок
-	SetCraftAmount("yvnzmz_itmi_zamok", 1);
-	 AddIngre("yvnzmz_itmi_zamok", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("yvnzmz_itmi_zamok", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("yvnzmz_itmi_zamok", 5);
-	SetCraftScience("yvnzmz_itmi_zamok", "Кузнец", 1);
-	SetenergyPenalty("yvnzmz_itmi_zamok", 25);
-	SetCraftEXP("yvnzmz_itmi_zamok", 25)
-	SetCraftEXP_SKILL("yvnzmz_itmi_zamok", "Бронник")
-	SetCraftEXP("yvnzmz_itmi_zamok", 25)
-	SetCraftEXP_SKILL("yvnzmz_itmi_zamok", "Оружейник")
+	AddItemCategory ("Кузнец (Расходники)", "aixopt_itmi_lock"); --- Замок
+	SetCraftAmount("aixopt_itmi_lock", 1);
+	 AddIngre("aixopt_itmi_lock", "aixopt_itmi_ironingot", 1);
+	 AddTool("aixopt_itmi_lock", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_lock", 5);
+	SetCraftScience("aixopt_itmi_lock", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_lock", 25);
+	SetCraftEXP("aixopt_itmi_lock", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_lock", "Бронник")
+	SetCraftEXP("aixopt_itmi_lock", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_lock", "Оружейник")
 	
-	AddItemCategory ("Кузнец (Расходники)", "yvnzmz_itmi_bolvanka"); --- Болванка ключей
-	SetCraftAmount("yvnzmz_itmi_bolvanka", 5);
-	 AddIngre("yvnzmz_itmi_bolvanka", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("yvnzmz_itmi_bolvanka", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("yvnzmz_itmi_bolvanka", 5);
-	SetCraftScience("yvnzmz_itmi_bolvanka", "Кузнец", 1);
-	SetenergyPenalty("yvnzmz_itmi_bolvanka", 25);
-	SetCraftEXP("yvnzmz_itmi_bolvanka", 25)
-	SetCraftEXP_SKILL("yvnzmz_itmi_bolvanka", "Бронник")
-	SetCraftEXP("yvnzmz_itmi_bolvanka", 25)
-	SetCraftEXP_SKILL("yvnzmz_itmi_bolvanka", "Оружейник")
+	AddItemCategory ("Кузнец (Расходники)", "aixopt_itmi_keydummy"); --- Болванка ключей
+	SetCraftAmount("aixopt_itmi_keydummy", 5);
+	 AddIngre("aixopt_itmi_keydummy", "aixopt_itmi_ironingot", 1);
+	 AddTool("aixopt_itmi_keydummy", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_keydummy", 5);
+	SetCraftScience("aixopt_itmi_keydummy", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_keydummy", 25);
+	SetCraftEXP("aixopt_itmi_keydummy", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_keydummy", "Бронник")
+	SetCraftEXP("aixopt_itmi_keydummy", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_keydummy", "Оружейник")
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
-	AddItemCategory ("Кузнец (Инструменты)", "ooltyb_itke_lockpick"); --- Отмычка
-	SetCraftAmount("ooltyb_itke_lockpick", 1);
-	 AddIngre("ooltyb_itke_lockpick", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("ooltyb_itke_lockpick", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("ooltyb_itke_lockpick", 5);
-	SetCraftScience("ooltyb_itke_lockpick", "Кузнец", 1);
-	SetenergyPenalty("ooltyb_itke_lockpick", 25);
-	SetCraftEXP("ooltyb_itke_lockpick", 25)
-	SetCraftEXP_SKILL("ooltyb_itke_lockpick", "Бронник")
-	SetCraftEXP("ooltyb_itke_lockpick", 25)
-	SetCraftEXP_SKILL("ooltyb_itke_lockpick", "Оружейник")
+	AddItemCategory ("Кузнец (Инструменты)", "qbduuo_itke_lockpick"); --- Отмычка
+	SetCraftAmount("qbduuo_itke_lockpick", 3);
+	 AddIngre("qbduuo_itke_lockpick", "aixopt_itmi_ironingot", 1);
+	 AddTool("qbduuo_itke_lockpick", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("qbduuo_itke_lockpick", 5);
+	SetCraftScience("qbduuo_itke_lockpick", "Кузнец", 1);
+	SetenergyPenalty("qbduuo_itke_lockpick", 25);
+	SetCraftEXP("qbduuo_itke_lockpick", 25)
+	SetCraftEXP_SKILL("qbduuo_itke_lockpick", "Бронник")
+	SetCraftEXP("qbduuo_itke_lockpick", 25)
+	SetCraftEXP_SKILL("qbduuo_itke_lockpick", "Оружейник")
 
-	AddItemCategory ("Кузнец (Инструменты)", "JKZTZD_ItMw_1h_Vlk_AxE"); ---- Топорик
-	SetCraftAmount("JKZTZD_ItMw_1h_Vlk_AxE", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Vlk_Axe", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("JKZTZD_ItMw_1h_Vlk_Axe", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("JKZTZD_ItMw_1h_Vlk_Axe", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Vlk_Axe", 2);
-	SetCraftScience("JKZTZD_ItMw_1h_Vlk_Axe", "Кузнец", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Vlk_Axe", 10);
-	SetCraftEXP("JKZTZD_ItMw_1h_Vlk_Axe", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Vlk_Axe", "Бронник")
-	SetCraftEXP("JKZTZD_ItMw_1h_Vlk_Axe", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Vlk_Axe", "Оружейник")	
-	
-
-	AddItemCategory ("Кузнец (Инструменты)", "ZDPWLA_ITMI_BUCKET"); ---- Ведро
-	SetCraftAmount("ZDPWLA_ITMI_BUCKET", 1);
-	 AddIngre("ZDPWLA_ITMI_BUCKET", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("ZDPWLA_ITMI_BUCKET", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("ZDPWLA_ITMI_BUCKET", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("ZDPWLA_ITMI_BUCKET", 2);
-	SetCraftScience("ZDPWLA_ITMI_BUCKET", "Кузнец", 1);
-	SetenergyPenalty("ZDPWLA_ITMI_BUCKET", 10);
-	SetCraftEXP("ZDPWLA_ITMI_BUCKET", 10)
-	SetCraftEXP_SKILL("ZDPWLA_ITMI_BUCKET", "Бронник")
-	SetCraftEXP("ZDPWLA_ITMI_BUCKET", 10)
-	SetCraftEXP_SKILL("ZDPWLA_ITMI_BUCKET", "Оружейник")
-
-
-	AddItemCategory ("Кузнец (Инструменты)", "JKZTZD_ItMw_2H_Axe_L_01"); ---- Кирка
-	SetCraftAmount("JKZTZD_ItMw_2H_Axe_L_01", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Axe_L_01", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("JKZTZD_ItMw_2H_Axe_L_01", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("JKZTZD_ItMw_2H_Axe_L_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Axe_L_01", 2);
-	SetCraftScience("JKZTZD_ItMw_2H_Axe_L_01", "Кузнец", 1);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Axe_L_01", 10);
-	SetCraftEXP("JKZTZD_ItMw_2H_Axe_L_01", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_2H_Axe_L_01", "Бронник")
-	SetCraftEXP("JKZTZD_ItMw_2H_Axe_L_01", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_2H_Axe_L_01", "Оружейник")
-	
-	
-	AddItemCategory ("Кузнец (Инструменты)", "JKZTZD_ItMw_1h_Bau_Axe"); ---- Серп
-	SetCraftAmount("JKZTZD_ItMw_1h_Bau_Axe", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Bau_Axe", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("JKZTZD_ItMw_1h_Bau_Axe", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("JKZTZD_ItMw_1h_Bau_Axe", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Bau_Axe", 2);
-	SetCraftScience("JKZTZD_ItMw_1h_Bau_Axe", "Кузнец", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Bau_Axe", 10);
-	SetCraftEXP("JKZTZD_ItMw_1h_Bau_Axe", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Bau_Axe", "Бронник")
-	SetCraftEXP("JKZTZD_ItMw_1h_Bau_Axe", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Bau_Axe", "Оружейник")
+	AddItemCategory ("Кузнец (Инструменты)", "gkwqdz_ItMw_1h_Vlk_AxE"); ---- Топорик
+	SetCraftAmount("gkwqdz_ItMw_1h_Vlk_AxE", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Vlk_Axe", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("gkwqdz_ItMw_1h_Vlk_Axe", "aixopt_itmi_rawwood", 5)
+	 AddTool("gkwqdz_ItMw_1h_Vlk_Axe", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Vlk_Axe", 2);
+	SetCraftScience("gkwqdz_ItMw_1h_Vlk_Axe", "Кузнец", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Vlk_Axe", 10);
+	SetCraftEXP("gkwqdz_ItMw_1h_Vlk_Axe", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Vlk_Axe", "Бронник")
+	SetCraftEXP("gkwqdz_ItMw_1h_Vlk_Axe", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Vlk_Axe", "Оружейник")	
 	
 
-	AddItemCategory ("Кузнец (Инструменты)", "JKZTZD_ItMw_1H_Mace_L_04"); ---- Кузнечный молот
-	SetCraftAmount("JKZTZD_ItMw_1H_Mace_L_04", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Mace_L_04", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("JKZTZD_ItMw_1H_Mace_L_04", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("JKZTZD_ItMw_1H_Mace_L_04", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Mace_L_04", 2);
-	SetCraftScience("JKZTZD_ItMw_1H_Mace_L_04", "Кузнец", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Mace_L_04", 10);
-	SetCraftEXP("JKZTZD_ItMw_1H_Mace_L_04", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1H_Mace_L_04", "Бронник")
-	SetCraftEXP("JKZTZD_ItMw_1H_Mace_L_04", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1H_Mace_L_04", "Оружейник")
-	
-	
-	AddItemCategory ("Кузнец (Инструменты)", "OOLTYB_ItMi_PaN"); --- Сковородка
-	SetCraftAmount("OOLTYB_ItMi_PaN", 1);
-	 AddIngre("OOLTYB_ItMi_Pan", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("OOLTYB_ItMi_Pan", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("OOLTYB_ItMi_Pan", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("OOLTYB_ItMi_Pan", 2);
-	SetCraftScience("OOLTYB_ItMi_Pan", "Кузнец", 1);
-	SetenergyPenalty("OOLTYB_ItMi_Pan", 10);
-	SetCraftEXP("OOLTYB_ItMi_Pan", 10)
-	SetCraftEXP_SKILL("OOLTYB_ItMi_Pan", "Бронник")
-	SetCraftEXP("OOLTYB_ItMi_Pan", 10)
-	SetCraftEXP_SKILL("OOLTYB_ItMi_Pan", "Оружейник")
-	
-	
-	AddItemCategory ("Кузнец (Инструменты)", "ooltyb_itmi_saw"); ---- Пила
-	SetCraftAmount("ooltyb_itmi_saw", 1);
-	 AddIngre("ooltyb_itmi_saw", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("ooltyb_itmi_saw", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("ooltyb_itmi_saw", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("ooltyb_itmi_saw", 2);
-	SetCraftScience("ooltyb_itmi_saw", "Кузнец", 1);
-	SetenergyPenalty("ooltyb_itmi_saw", 10);
-	SetCraftEXP("ooltyb_itmi_saw", 10)
-	SetCraftEXP_SKILL("ooltyb_itmi_saw", "Бронник")
-	SetCraftEXP("ooltyb_itmi_saw", 10)
-	SetCraftEXP_SKILL("ooltyb_itmi_saw", "Оружейник")	
-
-	
-	AddItemCategory ("Кузнец (Инструменты)", "OOLTYB_ITMI_SCISSORS"); ---- Ножницы
-	SetCraftAmount("OOLTYB_ITMI_SCISSORS", 1);
-	 AddIngre("OOLTYB_ITMI_SCISSORS", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("OOLTYB_ITMI_SCISSORS", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("OOLTYB_ITMI_SCISSORS", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("OOLTYB_ITMI_SCISSORS", 2);
-	SetCraftScience("OOLTYB_ITMI_SCISSORS", "Кузнец", 1);
-	SetenergyPenalty("OOLTYB_ITMI_SCISSORS", 10);
-	SetCraftEXP("OOLTYB_ITMI_SCISSORS", 10)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_SCISSORS", "Бронник")
-	SetCraftEXP("OOLTYB_ITMI_SCISSORS", 10)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_SCISSORS", "Оружейник")	
+	AddItemCategory ("Кузнец (Инструменты)", "aixopt_itmi_bucket"); ---- Ведро
+	SetCraftAmount("aixopt_itmi_bucket", 1);
+	 AddIngre("aixopt_itmi_bucket", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("aixopt_itmi_bucket", "aixopt_itmi_rawwood", 5)
+	 AddTool("aixopt_itmi_bucket", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_bucket", 2);
+	SetCraftScience("aixopt_itmi_bucket", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_bucket", 10);
+	SetCraftEXP("aixopt_itmi_bucket", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_bucket", "Бронник")
+	SetCraftEXP("aixopt_itmi_bucket", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_bucket", "Оружейник")
 
 
-	AddItemCategory ("Кузнец (Инструменты)", "jkztzd_itmw_1h_knife_01"); ---- Нож
-	SetCraftAmount("jkztzd_itmw_1h_knife_01", 1);
-	 AddIngre("jkztzd_itmw_1h_knife_01", "OOLTYB_ItMi_Nugget", 5);
-	 AddIngre("jkztzd_itmw_1h_knife_01", "OOLTYB_ITMI_WOOD", 5)
-	 AddTool("jkztzd_itmw_1h_knife_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("jkztzd_itmw_1h_knife_01", 2);
-	SetCraftScience("jkztzd_itmw_1h_knife_01", "Кузнец", 1);
-	SetenergyPenalty("jkztzd_itmw_1h_knife_01", 10);
-	SetCraftEXP("jkztzd_itmw_1h_knife_01", 10)
-	SetCraftEXP_SKILL("jkztzd_itmw_1h_knife_01", "Бронник")
-	SetCraftEXP("jkztzd_itmw_1h_knife_01", 10)
-	SetCraftEXP_SKILL("jkztzd_itmw_1h_knife_01", "Оружейник")		
+	AddItemCategory ("Кузнец (Инструменты)", "gkwqdz_itmw_pickaxe"); ---- Кирка
+	SetCraftAmount("gkwqdz_itmw_pickaxe", 1);
+	 AddIngre("gkwqdz_itmw_pickaxe", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("gkwqdz_itmw_pickaxe", "aixopt_itmi_rawwood", 5)
+	 AddTool("gkwqdz_itmw_pickaxe", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_pickaxe", 2);
+	SetCraftScience("gkwqdz_itmw_pickaxe", "Кузнец", 1);
+	SetenergyPenalty("gkwqdz_itmw_pickaxe", 10);
+	SetCraftEXP("gkwqdz_itmw_pickaxe", 10)
+	SetCraftEXP_SKILL("gkwqdz_itmw_pickaxe", "Бронник")
+	SetCraftEXP("gkwqdz_itmw_pickaxe", 10)
+	SetCraftEXP_SKILL("gkwqdz_itmw_pickaxe", "Оружейник")
 	
 	
-	AddItemCategory ("Кузнец (Инструменты)", "YVNZMZ_ITMI_NEEDLE"); --- Игла OOLTYB_ITMI_blank5
-	SetCraftAmount("YVNZMZ_ITMI_NEEDLE", 1);
-	 AddIngre("YVNZMZ_ITMI_NEEDLE", "OOLTYB_ItMi_Nugget", 5);
-	 AddTool("YVNZMZ_ITMI_NEEDLE", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("YVNZMZ_ITMI_NEEDLE", 2);
-	SetCraftScience("YVNZMZ_ITMI_NEEDLE", "Кузнец", 1);
-	SetenergyPenalty("YVNZMZ_ITMI_NEEDLE", 10);	
-	SetCraftEXP("YVNZMZ_ITMI_NEEDLE", 10)
-	SetCraftEXP_SKILL("YVNZMZ_ITMI_NEEDLE", "Бронник")
-	SetCraftEXP("YVNZMZ_ITMI_NEEDLE", 10)
-	SetCraftEXP_SKILL("YVNZMZ_ITMI_NEEDLE", "Оружейник")	
+	AddItemCategory ("Кузнец (Инструменты)", "gkwqdz_itmw_sickle"); ---- Серп
+	SetCraftAmount("gkwqdz_itmw_sickle", 1);
+	 AddIngre("gkwqdz_itmw_sickle", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("gkwqdz_itmw_sickle", "aixopt_itmi_rawwood", 5)
+	 AddTool("gkwqdz_itmw_sickle", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_sickle", 2);
+	SetCraftScience("gkwqdz_itmw_sickle", "Кузнец", 1);
+	SetenergyPenalty("gkwqdz_itmw_sickle", 10);
+	SetCraftEXP("gkwqdz_itmw_sickle", 10)
+	SetCraftEXP_SKILL("gkwqdz_itmw_sickle", "Бронник")
+	SetCraftEXP("gkwqdz_itmw_sickle", 10)
+	SetCraftEXP_SKILL("gkwqdz_itmw_sickle", "Оружейник")
+	
+
+	AddItemCategory ("Кузнец (Инструменты)", "gkwqdz_ItMw_1H_Mace_L_04"); ---- Кузнечный молот
+	SetCraftAmount("gkwqdz_ItMw_1H_Mace_L_04", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Mace_L_04", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("gkwqdz_ItMw_1H_Mace_L_04", "aixopt_itmi_rawwood", 5)
+	 AddTool("gkwqdz_ItMw_1H_Mace_L_04", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Mace_L_04", 2);
+	SetCraftScience("gkwqdz_ItMw_1H_Mace_L_04", "Кузнец", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Mace_L_04", 10);
+	SetCraftEXP("gkwqdz_ItMw_1H_Mace_L_04", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1H_Mace_L_04", "Бронник")
+	SetCraftEXP("gkwqdz_ItMw_1H_Mace_L_04", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1H_Mace_L_04", "Оружейник")
+	
+	
+	AddItemCategory ("Кузнец (Инструменты)", "aixopt_itmi_pan"); --- Сковородка
+	SetCraftAmount("aixopt_itmi_pan", 1);
+	 AddIngre("aixopt_itmi_pan", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("aixopt_itmi_pan", "aixopt_itmi_rawwood", 5)
+	 AddTool("aixopt_itmi_pan", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_pan", 2);
+	SetCraftScience("aixopt_itmi_pan", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_pan", 10);
+	SetCraftEXP("aixopt_itmi_pan", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_pan", "Бронник")
+	SetCraftEXP("aixopt_itmi_pan", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_pan", "Оружейник")
+	
+	
+	AddItemCategory ("Кузнец (Инструменты)", "aixopt_itmi_saw"); ---- Пила
+	SetCraftAmount("aixopt_itmi_saw", 1);
+	 AddIngre("aixopt_itmi_saw", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("aixopt_itmi_saw", "aixopt_itmi_rawwood", 5)
+	 AddTool("aixopt_itmi_saw", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("aixopt_itmi_saw", 2);
+	SetCraftScience("aixopt_itmi_saw", "Кузнец", 1);
+	SetenergyPenalty("aixopt_itmi_saw", 10);
+	SetCraftEXP("aixopt_itmi_saw", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_saw", "Бронник")
+	SetCraftEXP("aixopt_itmi_saw", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_saw", "Оружейник")	
+
+	
+	AddItemCategory ("Кузнец (Инструменты)", "AIXOPT_ItMi_Scissors"); ---- Ножницы
+	SetCraftAmount("AIXOPT_ItMi_Scissors", 1);
+	 AddIngre("AIXOPT_ItMi_Scissors", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("AIXOPT_ItMi_Scissors", "aixopt_itmi_rawwood", 5)
+	 AddTool("AIXOPT_ItMi_Scissors", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("AIXOPT_ItMi_Scissors", 2);
+	SetCraftScience("AIXOPT_ItMi_Scissors", "Кузнец", 1);
+	SetenergyPenalty("AIXOPT_ItMi_Scissors", 10);
+	SetCraftEXP("AIXOPT_ItMi_Scissors", 10)
+	SetCraftEXP_SKILL("AIXOPT_ItMi_Scissors", "Бронник")
+	SetCraftEXP("AIXOPT_ItMi_Scissors", 10)
+	SetCraftEXP_SKILL("AIXOPT_ItMi_Scissors", "Оружейник")	
+
+
+	AddItemCategory ("Кузнец (Инструменты)", "gkwqdz_itmw_huntknife"); ---- Нож
+	SetCraftAmount("gkwqdz_itmw_huntknife", 1);
+	 AddIngre("gkwqdz_itmw_huntknife", "aixopt_itmi_ironnugget", 5);
+	 AddIngre("gkwqdz_itmw_huntknife", "aixopt_itmi_rawwood", 5)
+	 AddTool("gkwqdz_itmw_huntknife", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_huntknife", 2);
+	SetCraftScience("gkwqdz_itmw_huntknife", "Кузнец", 1);
+	SetenergyPenalty("gkwqdz_itmw_huntknife", 10);
+	SetCraftEXP("gkwqdz_itmw_huntknife", 10)
+	SetCraftEXP_SKILL("gkwqdz_itmw_huntknife", "Бронник")
+	SetCraftEXP("gkwqdz_itmw_huntknife", 10)
+	SetCraftEXP_SKILL("gkwqdz_itmw_huntknife", "Оружейник")		
+	
+	
+	AddItemCategory ("Кузнец (Инструменты)", "AIXOPT_ItMi_Needle"); --- Игла OOLTYB_ITMI_blank5
+	SetCraftAmount("AIXOPT_ItMi_Needle", 1);
+	 AddIngre("AIXOPT_ItMi_Needle", "aixopt_itmi_ironnugget", 5);
+	 AddTool("AIXOPT_ItMi_Needle", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("AIXOPT_ItMi_Needle", 2);
+	SetCraftScience("AIXOPT_ItMi_Needle", "Кузнец", 1);
+	SetenergyPenalty("AIXOPT_ItMi_Needle", 10);	
+	SetCraftEXP("AIXOPT_ItMi_Needle", 10)
+	SetCraftEXP_SKILL("AIXOPT_ItMi_Needle", "Бронник")
+	SetCraftEXP("AIXOPT_ItMi_Needle", 10)
+	SetCraftEXP_SKILL("AIXOPT_ItMi_Needle", "Оружейник")	
 
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
 
-	AddItemCategory ("(О)Кузнец (Без уровня)", "JKZTZD_ItMw_1h_Vlk_DaggeR"); ---- Кинжал
-	SetCraftAmount("JKZTZD_ItMw_1h_Vlk_DaggeR", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Vlk_DaggeR", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("JKZTZD_ItMw_1h_Vlk_DaggeR", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Vlk_DaggeR", 10);
-	SetCraftScience("JKZTZD_ItMw_1h_Vlk_DaggeR", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Vlk_DaggeR", 10);
-	SetCraftEXP("JKZTZD_ItMw_1h_Vlk_DaggeR", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Vlk_DaggeR", "Оружейник")
+	AddItemCategory ("(О)Кузнец (Без уровня)", "gkwqdz_ItMw_1h_Vlk_DaggeR"); ---- Кинжал
+	SetCraftAmount("gkwqdz_ItMw_1h_Vlk_DaggeR", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Vlk_DaggeR", "aixopt_itmi_ironingot", 1);
+	 AddTool("gkwqdz_ItMw_1h_Vlk_DaggeR", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Vlk_DaggeR", 10);
+	SetCraftScience("gkwqdz_ItMw_1h_Vlk_DaggeR", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Vlk_DaggeR", 10);
+	SetCraftEXP("gkwqdz_ItMw_1h_Vlk_DaggeR", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Vlk_DaggeR", "Оружейник")
 
 
-    AddItemCategory ("(О)Кузнец (Без уровня)", "JKZTZD_ItMw_1H_Sword_L_03"); ---- Волчий нож
-	SetCraftAmount("JKZTZD_ItMw_1H_Sword_L_03", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Sword_L_03", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("JKZTZD_ItMw_1H_Sword_L_03", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Sword_L_03", 10);
-	SetCraftScience("JKZTZD_ItMw_1H_Sword_L_03", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Sword_L_03", 10);
-	SetCraftEXP("JKZTZD_ItMw_1H_Sword_L_03", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1H_Sword_L_03", "Оружейник")
+    AddItemCategory ("(О)Кузнец (Без уровня)", "gkwqdz_ItMw_1H_Sword_L_03"); ---- Волчий нож
+	SetCraftAmount("gkwqdz_ItMw_1H_Sword_L_03", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Sword_L_03", "aixopt_itmi_ironingot", 1);
+	 AddTool("gkwqdz_ItMw_1H_Sword_L_03", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Sword_L_03", 10);
+	SetCraftScience("gkwqdz_ItMw_1H_Sword_L_03", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Sword_L_03", 10);
+	SetCraftEXP("gkwqdz_ItMw_1H_Sword_L_03", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1H_Sword_L_03", "Оружейник")
 	
-	AddItemCategory ("(О)Кузнец (Без уровня)", "JKZTZD_ItMw_2h_Bau_Axe"); ---- Топор лесоруба
-	SetCraftAmount("JKZTZD_ItMw_2h_Bau_Axe", 1);
-	 AddIngre("JKZTZD_ItMw_2h_Bau_Axe", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("JKZTZD_ItMw_2h_Bau_Axe", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2h_Bau_Axe", 10);
-	SetCraftScience("JKZTZD_ItMw_2h_Bau_Axe", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_2h_Bau_Axe", 10);
-	SetCraftEXP("JKZTZD_ItMw_2h_Bau_Axe", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_2h_Bau_Axe", "Оружейник")
+	AddItemCategory ("(О)Кузнец (Без уровня)", "gkwqdz_itmw_lumberjack"); ---- Топор лесоруба
+	SetCraftAmount("gkwqdz_itmw_lumberjack", 1);
+	 AddIngre("gkwqdz_itmw_lumberjack", "aixopt_itmi_ironingot", 1);
+	 AddTool("gkwqdz_itmw_lumberjack", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_lumberjack", 10);
+	SetCraftScience("gkwqdz_itmw_lumberjack", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_itmw_lumberjack", 10);
+	SetCraftEXP("gkwqdz_itmw_lumberjack", 10)
+	SetCraftEXP_SKILL("gkwqdz_itmw_lumberjack", "Оружейник")
 	
-	AddItemCategory ("(О)Кузнец (Без уровня)", "JKZTZD_ItMw_Nagelkeule2"); ---- Тяжелая дубина с шипами
-	SetCraftAmount("JKZTZD_ItMw_Nagelkeule2", 1);
-	 AddIngre("JKZTZD_ItMw_Nagelkeule2", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("JKZTZD_ItMw_Nagelkeule2", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Nagelkeule2", 10);
-	SetCraftScience("JKZTZD_ItMw_Nagelkeule2", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Nagelkeule2", 10);
-	SetCraftEXP("JKZTZD_ItMw_Nagelkeule2", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Nagelkeule2", "Оружейник")
+	AddItemCategory ("(О)Кузнец (Без уровня)", "gkwqdz_ItMw_Nagelkeule2"); ---- Тяжелая дубина с шипами
+	SetCraftAmount("gkwqdz_ItMw_Nagelkeule2", 1);
+	 AddIngre("gkwqdz_ItMw_Nagelkeule2", "aixopt_itmi_ironingot", 1);
+	 AddTool("gkwqdz_ItMw_Nagelkeule2", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Nagelkeule2", 10);
+	SetCraftScience("gkwqdz_ItMw_Nagelkeule2", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Nagelkeule2", 10);
+	SetCraftEXP("gkwqdz_ItMw_Nagelkeule2", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Nagelkeule2", "Оружейник")
 	
-	AddItemCategory ("(О)Кузнец (Без уровня)", "JKZTZD_ItMw_Sense"); ---- Малая коса
-	SetCraftAmount("JKZTZD_ItMw_Sense", 1);
-	 AddIngre("JKZTZD_ItMw_Sense", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("JKZTZD_ItMw_Sense", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Sense", 10);
-	SetCraftScience("JKZTZD_ItMw_Sense", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Sense", 10);
-	SetCraftEXP("JKZTZD_ItMw_Sense", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Sense", "Оружейник")
+	AddItemCategory ("(О)Кузнец (Без уровня)", "gkwqdz_ItMw_Sense"); ---- Малая коса
+	SetCraftAmount("gkwqdz_ItMw_Sense", 1);
+	 AddIngre("gkwqdz_ItMw_Sense", "aixopt_itmi_ironingot", 1);
+	 AddTool("gkwqdz_ItMw_Sense", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Sense", 10);
+	SetCraftScience("gkwqdz_ItMw_Sense", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Sense", 10);
+	SetCraftEXP("gkwqdz_ItMw_Sense", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Sense", "Оружейник")
 
-	AddItemCategory ("(О)Кузнец (Без уровня)", "JKZTZD_ItMw_ShortSword1"); --- Короткий меч ополчения
-	SetCraftAmount("JKZTZD_ItMw_ShortSword1", 1);
-	 AddIngre("JKZTZD_ItMw_ShortSword1", "OOLTYB_ITMI_S_IGNOT", 1);
-	 AddTool("JKZTZD_ItMw_ShortSword1", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_ShortSword1", 10);
-	SetCraftScience("JKZTZD_ItMw_ShortSword1", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_ShortSword1", 10);
-	SetCraftEXP("JKZTZD_ItMw_ShortSword1", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_ShortSword1", "Оружейник")
-
-
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_ShortSword2"); --- Военный короткий меч
-	SetCraftAmount("JKZTZD_ItMw_ShortSword2", 1);
-	 AddIngre("JKZTZD_ItMw_ShortSword2", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_ShortSword2", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_ShortSword2", 10);
-	SetCraftScience("JKZTZD_ItMw_ShortSword2", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_ShortSword2", 25);
-	SetCraftEXP("JKZTZD_ItMw_ShortSword2", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_ShortSword2", "Оружейник")
+	AddItemCategory ("(О)Кузнец (Без уровня)", "gkwqdz_ItMw_ShortSword1"); --- Короткий меч ополчения
+	SetCraftAmount("gkwqdz_ItMw_ShortSword1", 1);
+	 AddIngre("gkwqdz_ItMw_ShortSword1", "aixopt_itmi_ironingot", 1);
+	 AddTool("gkwqdz_ItMw_ShortSword1", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_ShortSword1", 10);
+	SetCraftScience("gkwqdz_ItMw_ShortSword1", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_ShortSword1", 10);
+	SetCraftEXP("gkwqdz_ItMw_ShortSword1", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_ShortSword1", "Оружейник")
 
 
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_1h_Vlk_SworD"); ---- Шпага
-	SetCraftAmount("JKZTZD_ItMw_1h_Vlk_SworD", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Vlk_SworD", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_1h_Vlk_SworD", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Vlk_SworD", 10);
-	SetCraftScience("JKZTZD_ItMw_1h_Vlk_SworD", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Vlk_SworD", 25);
-	SetCraftEXP("JKZTZD_ItMw_1h_Vlk_SworD", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Vlk_SworD", "Оружейник")
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_ShortSword2"); --- Военный короткий меч
+	SetCraftAmount("gkwqdz_ItMw_ShortSword2", 1);
+	 AddIngre("gkwqdz_ItMw_ShortSword2", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_ShortSword2", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_ShortSword2", 10);
+	SetCraftScience("gkwqdz_ItMw_ShortSword2", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_ShortSword2", 25);
+	SetCraftEXP("gkwqdz_ItMw_ShortSword2", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_ShortSword2", "Оружейник")
 
 
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_1h_Sld_AxE"); ---- Солдатский топор
-	SetCraftAmount("JKZTZD_ItMw_1h_Sld_AxE", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Sld_AxE", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_1h_Sld_AxE", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Sld_AxE", 10);
-	SetCraftScience("JKZTZD_ItMw_1h_Sld_AxE", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Sld_AxE", 25);
-	SetCraftEXP("JKZTZD_ItMw_1h_Sld_AxE", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Sld_AxE", "Оружейник")
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_1h_Vlk_SworD"); ---- Шпага
+	SetCraftAmount("gkwqdz_ItMw_1h_Vlk_SworD", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Vlk_SworD", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_1h_Vlk_SworD", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Vlk_SworD", 10);
+	SetCraftScience("gkwqdz_ItMw_1h_Vlk_SworD", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Vlk_SworD", 25);
+	SetCraftEXP("gkwqdz_ItMw_1h_Vlk_SworD", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Vlk_SworD", "Оружейник")
 
 
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_ShortSword3"); --- Короткий меч
-	SetCraftAmount("JKZTZD_ItMw_ShortSword3", 1);
-	 AddIngre("JKZTZD_ItMw_ShortSword3", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_ShortSword3", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_ShortSword3", 10);
-	SetCraftScience("JKZTZD_ItMw_ShortSword3", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_ShortSword3", 25);
-	SetCraftEXP("JKZTZD_ItMw_ShortSword3", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_ShortSword3", "Оружейник")
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_1h_Sld_AxE"); ---- Солдатский топор
+	SetCraftAmount("gkwqdz_ItMw_1h_Sld_AxE", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Sld_AxE", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_1h_Sld_AxE", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Sld_AxE", 10);
+	SetCraftScience("gkwqdz_ItMw_1h_Sld_AxE", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Sld_AxE", 25);
+	SetCraftEXP("gkwqdz_ItMw_1h_Sld_AxE", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Sld_AxE", "Оружейник")
 
 
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_ShortSword4"); --- Волчий зуб
-	SetCraftAmount("JKZTZD_ItMw_ShortSword4", 1);
-	 AddIngre("JKZTZD_ItMw_ShortSword4", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_ShortSword4", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_ShortSword4", 10);
-	SetCraftScience("JKZTZD_ItMw_ShortSword4", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_ShortSword4", 25);
-	SetCraftEXP("JKZTZD_ItMw_ShortSword4", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_ShortSword4", "Оружейник")
-	
-	
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_ShortSword5"); ---- Изысканный короткий меч
-	SetCraftAmount("JKZTZD_ItMw_ShortSword5", 1);
-	 AddIngre("JKZTZD_ItMw_ShortSword5", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_ShortSword5", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_ShortSword5", 10);
-	SetCraftScience("JKZTZD_ItMw_ShortSword5", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_ShortSword5", 25);
-	SetCraftEXP("JKZTZD_ItMw_ShortSword5", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_ShortSword5", "Оружейник")
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_ShortSword3"); --- Короткий меч
+	SetCraftAmount("gkwqdz_ItMw_ShortSword3", 1);
+	 AddIngre("gkwqdz_ItMw_ShortSword3", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_ShortSword3", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_ShortSword3", 10);
+	SetCraftScience("gkwqdz_ItMw_ShortSword3", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_ShortSword3", 25);
+	SetCraftEXP("gkwqdz_ItMw_ShortSword3", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_ShortSword3", "Оружейник")
 
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_SchiffsaxT"); --- корабельный топор
-	SetCraftAmount("JKZTZD_ItMw_SchiffsaxT", 1);
-     AddIngre("JKZTZD_ItMw_SchiffsaxT", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_SchiffsaxT", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_SchiffsaxT", 10);
-	SetCraftScience("JKZTZD_ItMw_SchiffsaxT", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_SchiffsaxT", 25);
-	SetCraftEXP("JKZTZD_ItMw_SchiffsaxT", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_SchiffsaxT", "Оружейник")
-	
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_1H_Common_01"); --- Простой меч
-	SetCraftAmount("JKZTZD_ItMw_1H_Common_01", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Common_01", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_1H_Common_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Common_01", 10);
-	SetCraftScience("JKZTZD_ItMw_1H_Common_01", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Common_01", 25);
-	SetCraftEXP("JKZTZD_ItMw_1H_Common_01", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1H_Common_01", "Оружейник")
+
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_ShortSword4"); --- Волчий зуб
+	SetCraftAmount("gkwqdz_ItMw_ShortSword4", 1);
+	 AddIngre("gkwqdz_ItMw_ShortSword4", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_ShortSword4", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_ShortSword4", 10);
+	SetCraftScience("gkwqdz_ItMw_ShortSword4", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_ShortSword4", 25);
+	SetCraftEXP("gkwqdz_ItMw_ShortSword4", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_ShortSword4", "Оружейник")
 	
 	
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_Franciss"); ---- Хороший кинжал
-	SetCraftAmount("JKZTZD_ItMw_Franciss", 1);
-	 AddIngre("JKZTZD_ItMw_Franciss", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_Franciss", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Franciss", 10);
-	SetCraftScience("JKZTZD_ItMw_Franciss", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Franciss", 25);
-	SetCraftEXP("JKZTZD_ItMw_Franciss", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Franciss", "Оружейник")
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_ShortSword5"); ---- Изысканный короткий меч
+	SetCraftAmount("gkwqdz_ItMw_ShortSword5", 1);
+	 AddIngre("gkwqdz_ItMw_ShortSword5", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_ShortSword5", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_ShortSword5", 10);
+	SetCraftScience("gkwqdz_ItMw_ShortSword5", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_ShortSword5", 25);
+	SetCraftEXP("gkwqdz_ItMw_ShortSword5", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_ShortSword5", "Оружейник")
+
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_SchiffsaxT"); --- корабельный топор
+	SetCraftAmount("gkwqdz_ItMw_SchiffsaxT", 1);
+     AddIngre("gkwqdz_ItMw_SchiffsaxT", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_SchiffsaxT", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_SchiffsaxT", 10);
+	SetCraftScience("gkwqdz_ItMw_SchiffsaxT", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_SchiffsaxT", 25);
+	SetCraftEXP("gkwqdz_ItMw_SchiffsaxT", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_SchiffsaxT", "Оружейник")
+	
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_1H_Common_01"); --- Простой меч
+	SetCraftAmount("gkwqdz_ItMw_1H_Common_01", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Common_01", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_1H_Common_01", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Common_01", 10);
+	SetCraftScience("gkwqdz_ItMw_1H_Common_01", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Common_01", 25);
+	SetCraftEXP("gkwqdz_ItMw_1H_Common_01", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1H_Common_01", "Оружейник")
 	
 	
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_Addon_PIR1hAxE"); ---- Абордажный топор
-	SetCraftAmount("JKZTZD_ItMw_Addon_PIR1hAxE", 1);
-	 AddIngre("JKZTZD_ItMw_Addon_PIR1hAxE", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_Addon_PIR1hAxE", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Addon_PIR1hAxE", 10);
-	SetCraftScience("JKZTZD_ItMw_Addon_PIR1hAxE", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Addon_PIR1hAxE", 25);
-	SetCraftEXP("JKZTZD_ItMw_Addon_PIR1hAxE", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Addon_PIR1hAxE", "Оружейник")
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_itmw_finedagger"); ---- Хороший кинжал
+	SetCraftAmount("gkwqdz_itmw_finedagger", 1);
+	 AddIngre("gkwqdz_itmw_finedagger", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_itmw_finedagger", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_finedagger", 10);
+	SetCraftScience("gkwqdz_itmw_finedagger", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_itmw_finedagger", 25);
+	SetCraftEXP("gkwqdz_itmw_finedagger", 50)
+	SetCraftEXP_SKILL("gkwqdz_itmw_finedagger", "Оружейник")
 	
 	
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_HellebardE");  ---  Короткая алебадра
-	SetCraftAmount("JKZTZD_ItMw_HellebardE", 1);
-     AddIngre("JKZTZD_ItMw_HellebardE", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_HellebardE", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_HellebardE", 10);
-	SetCraftScience("JKZTZD_ItMw_HellebardE", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_HellebardE", 25);
-	SetCraftEXP("JKZTZD_ItMw_HellebardE", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_HellebardE", "Оружейник")
-
-
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_Stabkeule");  ---  Палица
-	SetCraftAmount("JKZTZD_ItMw_Stabkeule", 1);
-     AddIngre("JKZTZD_ItMw_Stabkeule", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_Stabkeule", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Stabkeule", 10);
-	SetCraftScience("JKZTZD_ItMw_Stabkeule", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Stabkeule", 25);
-	SetCraftEXP("JKZTZD_ItMw_Stabkeule", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Stabkeule", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_Addon_PIR1hAxE"); ---- Абордажный топор
+	SetCraftAmount("gkwqdz_ItMw_Addon_PIR1hAxE", 1);
+	 AddIngre("gkwqdz_ItMw_Addon_PIR1hAxE", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_Addon_PIR1hAxE", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Addon_PIR1hAxE", 10);
+	SetCraftScience("gkwqdz_ItMw_Addon_PIR1hAxE", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Addon_PIR1hAxE", 25);
+	SetCraftEXP("gkwqdz_ItMw_Addon_PIR1hAxE", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Addon_PIR1hAxE", "Оружейник")
 	
 	
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_Zweihaender1"); ---- легкий двуручный меч
-	SetCraftAmount("JKZTZD_ItMw_Zweihaender1", 1);
-     AddIngre("JKZTZD_ItMw_Zweihaender1", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_Zweihaender1", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Zweihaender1", 10);
-	SetCraftScience("JKZTZD_ItMw_Zweihaender1", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Zweihaender1", 25);
-	SetCraftEXP("JKZTZD_ItMw_Zweihaender1", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Zweihaender1", "Оружейник")		
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_HellebardE");  ---  Короткая алебадра
+	SetCraftAmount("gkwqdz_ItMw_HellebardE", 1);
+     AddIngre("gkwqdz_ItMw_HellebardE", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_HellebardE", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_HellebardE", 10);
+	SetCraftScience("gkwqdz_ItMw_HellebardE", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_HellebardE", 25);
+	SetCraftEXP("gkwqdz_ItMw_HellebardE", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_HellebardE", "Оружейник")
 
 
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_Streitaxt1"); --- Легкий боевой топор
-	SetCraftAmount("JKZTZD_ItMw_Streitaxt1", 1);
-     AddIngre("JKZTZD_ItMw_Streitaxt1", "OOLTYB_ITMI_S_IGNOT", 2);;
-	 AddTool("JKZTZD_ItMw_Streitaxt1", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Streitaxt1", 10);
-	SetCraftScience("JKZTZD_ItMw_Streitaxt1", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Streitaxt1", 25);
-	SetCraftEXP("JKZTZD_ItMw_Streitaxt1", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Streitaxt1", "Оружейник")		
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_Stabkeule");  ---  Палица
+	SetCraftAmount("gkwqdz_ItMw_Stabkeule", 1);
+     AddIngre("gkwqdz_ItMw_Stabkeule", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_Stabkeule", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Stabkeule", 10);
+	SetCraftScience("gkwqdz_ItMw_Stabkeule", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Stabkeule", 25);
+	SetCraftEXP("gkwqdz_ItMw_Stabkeule", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Stabkeule", "Оружейник")	
+	
+	
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_Zweihaender1"); ---- легкий двуручный меч
+	SetCraftAmount("gkwqdz_ItMw_Zweihaender1", 1);
+     AddIngre("gkwqdz_ItMw_Zweihaender1", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_Zweihaender1", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Zweihaender1", 10);
+	SetCraftScience("gkwqdz_ItMw_Zweihaender1", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Zweihaender1", 25);
+	SetCraftEXP("gkwqdz_ItMw_Zweihaender1", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Zweihaender1", "Оружейник")		
 
 
-	AddItemCategory ("(О)Кузнец (1 уровень)", "JKZTZD_ItMw_Folteraxt"); --- Топор палача
-	SetCraftAmount("JKZTZD_ItMw_Folteraxt", 1);
-     AddIngre("JKZTZD_ItMw_Folteraxt", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("JKZTZD_ItMw_Folteraxt", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Folteraxt", 10);
-	SetCraftScience("JKZTZD_ItMw_Folteraxt", "Оружейник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Folteraxt", 25);	
-	SetCraftEXP("JKZTZD_ItMw_Folteraxt", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Folteraxt", "Оружейник")
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_Streitaxt1"); --- Легкий боевой топор
+	SetCraftAmount("gkwqdz_ItMw_Streitaxt1", 1);
+     AddIngre("gkwqdz_ItMw_Streitaxt1", "aixopt_itmi_ironingot", 2);;
+	 AddTool("gkwqdz_ItMw_Streitaxt1", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Streitaxt1", 10);
+	SetCraftScience("gkwqdz_ItMw_Streitaxt1", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Streitaxt1", 25);
+	SetCraftEXP("gkwqdz_ItMw_Streitaxt1", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Streitaxt1", "Оружейник")		
+
+
+	AddItemCategory ("(О)Кузнец (1 уровень)", "gkwqdz_ItMw_Folteraxt"); --- Топор палача
+	SetCraftAmount("gkwqdz_ItMw_Folteraxt", 1);
+     AddIngre("gkwqdz_ItMw_Folteraxt", "aixopt_itmi_ironingot", 2);
+	 AddTool("gkwqdz_ItMw_Folteraxt", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Folteraxt", 10);
+	SetCraftScience("gkwqdz_ItMw_Folteraxt", "Оружейник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Folteraxt", 25);	
+	SetCraftEXP("gkwqdz_ItMw_Folteraxt", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Folteraxt", "Оружейник")
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_1h_Mil_SworD"); --- Грубый палаш
-	SetCraftAmount("JKZTZD_ItMw_1h_Mil_SworD", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Mil_SworD", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_1h_Mil_SworD", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Mil_SworD", 10);
-	SetCraftScience("JKZTZD_ItMw_1h_Mil_SworD", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Mil_SworD", 50);
-	SetCraftEXP("JKZTZD_ItMw_1h_Mil_SworD", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Mil_SworD", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_1h_Mil_SworD"); --- Грубый палаш
+	SetCraftAmount("gkwqdz_ItMw_1h_Mil_SworD", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Mil_SworD", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_1h_Mil_SworD", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Mil_SworD", 10);
+	SetCraftScience("gkwqdz_ItMw_1h_Mil_SworD", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Mil_SworD", 50);
+	SetCraftEXP("gkwqdz_ItMw_1h_Mil_SworD", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Mil_SworD", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_1h_Sld_Sword"); --- Военный меч
-	SetCraftAmount("JKZTZD_ItMw_1h_Sld_Sword", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Sld_Sword", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_1h_Sld_Sword", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Sld_Sword", 10);
-	SetCraftScience("JKZTZD_ItMw_1h_Sld_Sword", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Sld_Sword", 50);
-	SetCraftEXP("JKZTZD_ItMw_1h_Sld_Sword", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Sld_Sword", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_1h_Sld_Sword"); --- Военный меч
+	SetCraftAmount("gkwqdz_ItMw_1h_Sld_Sword", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Sld_Sword", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_1h_Sld_Sword", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Sld_Sword", 10);
+	SetCraftScience("gkwqdz_ItMw_1h_Sld_Sword", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Sld_Sword", 50);
+	SetCraftEXP("gkwqdz_ItMw_1h_Sld_Sword", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Sld_Sword", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Kriegskeule"); --- Военная дубина
-	SetCraftAmount("JKZTZD_ItMw_Kriegskeule", 1);
-	 AddIngre("JKZTZD_ItMw_Kriegskeule", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Kriegskeule", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Kriegskeule", 10);
-	SetCraftScience("JKZTZD_ItMw_Kriegskeule", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Kriegskeule", 50);
-	SetCraftEXP("JKZTZD_ItMw_Kriegskeule", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Kriegskeule", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Kriegskeule"); --- Военная дубина
+	SetCraftAmount("gkwqdz_ItMw_Kriegskeule", 1);
+	 AddIngre("gkwqdz_ItMw_Kriegskeule", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Kriegskeule", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Kriegskeule", 10);
+	SetCraftScience("gkwqdz_ItMw_Kriegskeule", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Kriegskeule", 50);
+	SetCraftEXP("gkwqdz_ItMw_Kriegskeule", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Kriegskeule", "Оружейник")	
 
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Kriegshammer1"); --- Боевой молот
-	SetCraftAmount("JKZTZD_ItMw_Kriegshammer1", 1);
-	 AddIngre("JKZTZD_ItMw_Kriegshammer1", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Kriegshammer1", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Kriegshammer1", 10);
-	SetCraftScience("JKZTZD_ItMw_Kriegshammer1", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Kriegshammer1", 50);
-	SetCraftEXP("JKZTZD_ItMw_Kriegshammer1", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Kriegshammer1", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Kriegshammer1"); --- Боевой молот
+	SetCraftAmount("gkwqdz_ItMw_Kriegshammer1", 1);
+	 AddIngre("gkwqdz_ItMw_Kriegshammer1", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Kriegshammer1", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Kriegshammer1", 10);
+	SetCraftScience("gkwqdz_ItMw_Kriegshammer1", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Kriegshammer1", 50);
+	SetCraftEXP("gkwqdz_ItMw_Kriegshammer1", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Kriegshammer1", "Оружейник")	
 	
 
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Piratensaebel"); --- Пиратская абордажная сабля
-	SetCraftAmount("JKZTZD_ItMw_Piratensaebel", 1);
-	 AddIngre("JKZTZD_ItMw_Piratensaebel", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Piratensaebel", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Piratensaebel", 10);
-	SetCraftScience("JKZTZD_ItMw_Piratensaebel", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Piratensaebel", 50);
-	SetCraftEXP("JKZTZD_ItMw_Piratensaebel", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Piratensaebel", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Piratensaebel"); --- Пиратская абордажная сабля
+	SetCraftAmount("gkwqdz_ItMw_Piratensaebel", 1);
+	 AddIngre("gkwqdz_ItMw_Piratensaebel", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Piratensaebel", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Piratensaebel", 10);
+	SetCraftScience("gkwqdz_ItMw_Piratensaebel", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Piratensaebel", 50);
+	SetCraftEXP("gkwqdz_ItMw_Piratensaebel", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Piratensaebel", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Schwert"); --- Грубый длинный меч
-	SetCraftAmount("JKZTZD_ItMw_Schwert", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Schwert", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Schwert", 10);
-	SetCraftScience("JKZTZD_ItMw_Schwert", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Schwert", 50);
-	SetCraftEXP("JKZTZD_ItMw_Schwert", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Schwert", "Оружейник")		
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Schwert"); --- Грубый длинный меч
+	SetCraftAmount("gkwqdz_ItMw_Schwert", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Schwert", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Schwert", 10);
+	SetCraftScience("gkwqdz_ItMw_Schwert", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Schwert", 50);
+	SetCraftEXP("gkwqdz_ItMw_Schwert", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Schwert", "Оружейник")		
 
 
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Steinbrecher"); --- Дробитель камней
-	SetCraftAmount("JKZTZD_ItMw_Steinbrecher", 1);
-	 AddIngre("JKZTZD_ItMw_Steinbrecher", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Steinbrecher", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Steinbrecher", 10);
-	SetCraftScience("JKZTZD_ItMw_Steinbrecher", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Steinbrecher", 50);
-	SetCraftEXP("JKZTZD_ItMw_Steinbrecher", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Steinbrecher", "Оружейник")		
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Steinbrecher"); --- Дробитель камней
+	SetCraftAmount("gkwqdz_ItMw_Steinbrecher", 1);
+	 AddIngre("gkwqdz_ItMw_Steinbrecher", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Steinbrecher", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Steinbrecher", 10);
+	SetCraftScience("gkwqdz_ItMw_Steinbrecher", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Steinbrecher", 50);
+	SetCraftEXP("gkwqdz_ItMw_Steinbrecher", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Steinbrecher", "Оружейник")		
 	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Spicker"); --- Раскалыватель черепов
-	SetCraftAmount("JKZTZD_ItMw_Spicker", 1);
-	 AddIngre("JKZTZD_ItMw_Spicker", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Spicker", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Spicker", 10);
-	SetCraftScience("JKZTZD_ItMw_Spicker", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Spicker", 50);
-	SetCraftEXP("JKZTZD_ItMw_Spicker", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Spicker", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Spicker"); --- Раскалыватель черепов
+	SetCraftAmount("gkwqdz_ItMw_Spicker", 1);
+	 AddIngre("gkwqdz_ItMw_Spicker", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Spicker", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Spicker", 10);
+	SetCraftScience("gkwqdz_ItMw_Spicker", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Spicker", 50);
+	SetCraftEXP("gkwqdz_ItMw_Spicker", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Spicker", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Schwert1"); --- Изысканный меч
-	SetCraftAmount("JKZTZD_ItMw_Schwert1", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert1", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Schwert1", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Schwert1", 10);
-	SetCraftScience("JKZTZD_ItMw_Schwert1", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Schwert1", 50);
-	SetCraftEXP("JKZTZD_ItMw_Schwert1", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Schwert1", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Schwert1"); --- Изысканный меч
+	SetCraftAmount("gkwqdz_ItMw_Schwert1", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert1", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Schwert1", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Schwert1", 10);
+	SetCraftScience("gkwqdz_ItMw_Schwert1", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Schwert1", 50);
+	SetCraftEXP("gkwqdz_ItMw_Schwert1", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Schwert1", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Schwert2"); --- Длинный меч
-	SetCraftAmount("JKZTZD_ItMw_Schwert2", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert2", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Schwert2", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Schwert2", 10);
-	SetCraftScience("JKZTZD_ItMw_Schwert2", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Schwert2", 50);
-	SetCraftEXP("JKZTZD_ItMw_Schwert2", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Schwert2", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Schwert2"); --- Длинный меч
+	SetCraftAmount("gkwqdz_ItMw_Schwert2", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert2", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Schwert2", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Schwert2", 10);
+	SetCraftScience("gkwqdz_ItMw_Schwert2", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Schwert2", 50);
+	SetCraftEXP("gkwqdz_ItMw_Schwert2", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Schwert2", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Schwert3"); --- Грубый полуторный меч
-	SetCraftAmount("JKZTZD_ItMw_Schwert3", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert3", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Schwert3", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Schwert3", 10);
-	SetCraftScience("JKZTZD_ItMw_Schwert3", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Schwert3", 50);
-	SetCraftEXP("JKZTZD_ItMw_Schwert3", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Schwert3", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Schwert3"); --- Грубый полуторный меч
+	SetCraftAmount("gkwqdz_ItMw_Schwert3", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert3", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Schwert3", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Schwert3", 10);
+	SetCraftScience("gkwqdz_ItMw_Schwert3", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Schwert3", 50);
+	SetCraftEXP("gkwqdz_ItMw_Schwert3", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Schwert3", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Rapier"); --- Рапира
-	SetCraftAmount("JKZTZD_ItMw_Rapier", 1);
-	 AddIngre("JKZTZD_ItMw_Rapier", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Rapier", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Rapier", 10);
-	SetCraftScience("JKZTZD_ItMw_Rapier", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Rapier", 50);
-	SetCraftEXP("JKZTZD_ItMw_Rapier", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Rapier", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Rapier"); --- Рапира
+	SetCraftAmount("gkwqdz_ItMw_Rapier", 1);
+	 AddIngre("gkwqdz_ItMw_Rapier", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Rapier", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Rapier", 10);
+	SetCraftScience("gkwqdz_ItMw_Rapier", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Rapier", 50);
+	SetCraftEXP("gkwqdz_ItMw_Rapier", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Rapier", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Rubinklinge"); --- Рубиновый клинок
-	SetCraftAmount("JKZTZD_ItMw_Rubinklinge", 1);
-	 AddIngre("JKZTZD_ItMw_Rubinklinge", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Rubinklinge", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Rubinklinge", 10);
-	SetCraftScience("JKZTZD_ItMw_Rubinklinge", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Rubinklinge", 50);
-	SetCraftEXP("JKZTZD_ItMw_Rubinklinge", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Rubinklinge", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Rubinklinge"); --- Рубиновый клинок
+	SetCraftAmount("gkwqdz_ItMw_Rubinklinge", 1);
+	 AddIngre("gkwqdz_ItMw_Rubinklinge", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Rubinklinge", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Rubinklinge", 10);
+	SetCraftScience("gkwqdz_ItMw_Rubinklinge", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Rubinklinge", 50);
+	SetCraftEXP("gkwqdz_ItMw_Rubinklinge", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Rubinklinge", "Оружейник")	
 
 
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_1H_Special_01"); --- Длинный рудный меч
-	SetCraftAmount("JKZTZD_ItMw_1H_Special_01", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Special_01", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_1H_Special_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Special_01", 10);
-	SetCraftScience("JKZTZD_ItMw_1H_Special_01", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Special_01", 50);
-	SetCraftEXP("JKZTZD_ItMw_1H_Special_01", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1H_Special_01", "Оружейник")		
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_1H_Special_01"); --- Длинный рудный меч
+	SetCraftAmount("gkwqdz_ItMw_1H_Special_01", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Special_01", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_1H_Special_01", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Special_01", 10);
+	SetCraftScience("gkwqdz_ItMw_1H_Special_01", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Special_01", 50);
+	SetCraftEXP("gkwqdz_ItMw_1H_Special_01", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1H_Special_01", "Оружейник")		
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Addon_PIR1hm"); --- Абордажный нож
-	SetCraftAmount("JKZTZD_ItMw_Addon_PIR1hm", 1);
-	 AddIngre("JKZTZD_ItMw_Addon_PIR1hm", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Addon_PIR1hm", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Addon_PIR1hm", 10);
-	SetCraftScience("JKZTZD_ItMw_Addon_PIR1hm", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Addon_PIR1hm", 50);
-	SetCraftEXP("JKZTZD_ItMw_Addon_PIR1hm", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Addon_PIR1hm", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_itmw_addon_pir1hsword"); --- Абордажная сабля
+	SetCraftAmount("gkwqdz_itmw_addon_pir1hsword", 1);
+	 AddIngre("gkwqdz_itmw_addon_pir1hsword", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_itmw_addon_pir1hsword", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_addon_pir1hsword", 10);
+	SetCraftScience("gkwqdz_itmw_addon_pir1hsword", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_itmw_addon_pir1hsword", 50);
+	SetCraftEXP("gkwqdz_itmw_addon_pir1hsword", 150)
+	SetCraftEXP_SKILL("gkwqdz_itmw_addon_pir1hsword", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMW_Hacker_01"); --- Мачете
-	SetCraftAmount("JKZTZD_ItMW_Hacker_01", 1);
-	 AddIngre("JKZTZD_ItMW_Hacker_01", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMW_Hacker_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMW_Hacker_01", 10);
-	SetCraftScience("JKZTZD_ItMW_Hacker_01", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMW_Hacker_01", 50);
-	SetCraftEXP("JKZTZD_ItMW_Hacker_01", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMW_Hacker_01", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_itmw_addon_hacker_1h_01"); --- Мачете
+	SetCraftAmount("gkwqdz_itmw_addon_hacker_1h_01", 1);
+	 AddIngre("gkwqdz_itmw_addon_hacker_1h_01", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_itmw_addon_hacker_1h_01", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_addon_hacker_1h_01", 10);
+	SetCraftScience("gkwqdz_itmw_addon_hacker_1h_01", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_itmw_addon_hacker_1h_01", 50);
+	SetCraftEXP("gkwqdz_itmw_addon_hacker_1h_01", 150)
+	SetCraftEXP_SKILL("gkwqdz_itmw_addon_hacker_1h_01", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_2h_Sld_Axe"); --- Тяжелый солдатский топор
-	SetCraftAmount("JKZTZD_ItMw_2h_Sld_Axe", 1);
-	 AddIngre("JKZTZD_ItMw_2h_Sld_Axe", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_2h_Sld_Axe", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2h_Sld_Axe", 10);
-	SetCraftScience("JKZTZD_ItMw_2h_Sld_Axe", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_2h_Sld_Axe", 50);	
-	SetCraftEXP("JKZTZD_ItMw_2h_Sld_Axe", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_2h_Sld_Axe", "Оружейник")
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_2h_Sld_Axe"); --- Тяжелый солдатский топор
+	SetCraftAmount("gkwqdz_ItMw_2h_Sld_Axe", 1);
+	 AddIngre("gkwqdz_ItMw_2h_Sld_Axe", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_2h_Sld_Axe", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2h_Sld_Axe", 10);
+	SetCraftScience("gkwqdz_ItMw_2h_Sld_Axe", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_2h_Sld_Axe", 50);	
+	SetCraftEXP("gkwqdz_ItMw_2h_Sld_Axe", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_2h_Sld_Axe", "Оружейник")
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_2h_Sld_Sword"); --- Солдатский двуручный меч
-	SetCraftAmount("JKZTZD_ItMw_2h_Sld_Sword", 1);
-	 AddIngre("JKZTZD_ItMw_2h_Sld_Sword", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_2h_Sld_Sword", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2h_Sld_Sword", 10);
-	SetCraftScience("JKZTZD_ItMw_2h_Sld_Sword", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_2h_Sld_Sword", 50);
-	SetCraftEXP("JKZTZD_ItMw_2h_Sld_Sword", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_2h_Sld_Sword", "Оружейник")	
-	
-	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_2h_Pal_Sword"); --- Изыскнный двуручный меч
-	SetCraftAmount("JKZTZD_ItMw_2h_Pal_Sword", 1);
-	 AddIngre("JKZTZD_ItMw_2h_Pal_Sword", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_2h_Pal_Sword", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2h_Pal_Sword", 10);
-	SetCraftScience("JKZTZD_ItMw_2h_Pal_Sword", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_2h_Pal_Sword", 50);
-	SetCraftEXP("JKZTZD_ItMw_2h_Pal_Sword", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_2h_Pal_Sword", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_2h_Sld_Sword"); --- Солдатский двуручный меч
+	SetCraftAmount("gkwqdz_ItMw_2h_Sld_Sword", 1);
+	 AddIngre("gkwqdz_ItMw_2h_Sld_Sword", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_2h_Sld_Sword", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2h_Sld_Sword", 10);
+	SetCraftScience("gkwqdz_ItMw_2h_Sld_Sword", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_2h_Sld_Sword", 50);
+	SetCraftEXP("gkwqdz_ItMw_2h_Sld_Sword", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_2h_Sld_Sword", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Zweihaender2"); --- Двуручный меч
-	SetCraftAmount("JKZTZD_ItMw_Zweihaender2", 1);
-	 AddIngre("JKZTZD_ItMw_Zweihaender2", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Zweihaender2", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Zweihaender2", 10);
-	SetCraftScience("JKZTZD_ItMw_Zweihaender2", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Zweihaender2", 50);
-	SetCraftEXP("JKZTZD_ItMw_Zweihaender2", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Zweihaender2", "Оружейник")	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_2h_Pal_Sword"); --- Изыскнный двуручный меч
+	SetCraftAmount("gkwqdz_ItMw_2h_Pal_Sword", 1);
+	 AddIngre("gkwqdz_ItMw_2h_Pal_Sword", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_2h_Pal_Sword", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2h_Pal_Sword", 10);
+	SetCraftScience("gkwqdz_ItMw_2h_Pal_Sword", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_2h_Pal_Sword", 50);
+	SetCraftEXP("gkwqdz_ItMw_2h_Pal_Sword", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_2h_Pal_Sword", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Streitaxt2"); --- Боевой топор
-	SetCraftAmount("JKZTZD_ItMw_Streitaxt2", 1);
-	 AddIngre("JKZTZD_ItMw_Streitaxt2", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Streitaxt2", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Streitaxt2", 10);
-	SetCraftScience("JKZTZD_ItMw_Streitaxt2", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Streitaxt2", 50);	
-	SetCraftEXP("JKZTZD_ItMw_Streitaxt2", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Streitaxt2", "Оружейник")
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Zweihaender2"); --- Двуручный меч
+	SetCraftAmount("gkwqdz_ItMw_Zweihaender2", 1);
+	 AddIngre("gkwqdz_ItMw_Zweihaender2", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Zweihaender2", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Zweihaender2", 10);
+	SetCraftScience("gkwqdz_ItMw_Zweihaender2", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Zweihaender2", 50);
+	SetCraftEXP("gkwqdz_ItMw_Zweihaender2", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Zweihaender2", "Оружейник")	
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Zweihaender4"); --- Тяжелый двуручный меч
-	SetCraftAmount("JKZTZD_ItMw_Zweihaender4", 1);
-	 AddIngre("JKZTZD_ItMw_Zweihaender4", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Zweihaender4", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Zweihaender4", 10);
-	SetCraftScience("JKZTZD_ItMw_Zweihaender4", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Zweihaender4", 50);
-	SetCraftEXP("JKZTZD_ItMw_Zweihaender4", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Zweihaender4", "Оружейник")
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Streitaxt2"); --- Боевой топор
+	SetCraftAmount("gkwqdz_ItMw_Streitaxt2", 1);
+	 AddIngre("gkwqdz_ItMw_Streitaxt2", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Streitaxt2", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Streitaxt2", 10);
+	SetCraftScience("gkwqdz_ItMw_Streitaxt2", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Streitaxt2", 50);	
+	SetCraftEXP("gkwqdz_ItMw_Streitaxt2", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Streitaxt2", "Оружейник")
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMw_Schlachtaxt"); --- Военный топор
-	SetCraftAmount("JKZTZD_ItMw_Schlachtaxt", 1);
-	 AddIngre("JKZTZD_ItMw_Schlachtaxt", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMw_Schlachtaxt", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Schlachtaxt", 10);
-	SetCraftScience("JKZTZD_ItMw_Schlachtaxt", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Schlachtaxt", 50);
-	SetCraftEXP("JKZTZD_ItMw_Schlachtaxt", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Schlachtaxt", "Оружейник")
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Zweihaender4"); --- Тяжелый двуручный меч
+	SetCraftAmount("gkwqdz_ItMw_Zweihaender4", 1);
+	 AddIngre("gkwqdz_ItMw_Zweihaender4", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Zweihaender4", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Zweihaender4", 10);
+	SetCraftScience("gkwqdz_ItMw_Zweihaender4", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Zweihaender4", 50);
+	SetCraftEXP("gkwqdz_ItMw_Zweihaender4", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Zweihaender4", "Оружейник")
 	
 	
-	AddItemCategory ("(О)Кузнец (2 уровень)", "JKZTZD_ItMW_Hacker_03"); --- Гигантское мачете
-	SetCraftAmount("JKZTZD_ItMW_Hacker_03", 1);
-	 AddIngre("JKZTZD_ItMW_Hacker_03", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("JKZTZD_ItMW_Hacker_03", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMW_Hacker_03", 10);
-	SetCraftScience("JKZTZD_ItMW_Hacker_03", "Оружейник", 2);
-	SetenergyPenalty("JKZTZD_ItMW_Hacker_03", 50);
-	SetCraftEXP("JKZTZD_ItMW_Hacker_03", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMW_Hacker_03", "Оружейник")
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_ItMw_Schlachtaxt"); --- Военный топор
+	SetCraftAmount("gkwqdz_ItMw_Schlachtaxt", 1);
+	 AddIngre("gkwqdz_ItMw_Schlachtaxt", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_ItMw_Schlachtaxt", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Schlachtaxt", 10);
+	SetCraftScience("gkwqdz_ItMw_Schlachtaxt", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Schlachtaxt", 50);
+	SetCraftEXP("gkwqdz_ItMw_Schlachtaxt", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Schlachtaxt", "Оружейник")
+	
+	
+	AddItemCategory ("(О)Кузнец (2 уровень)", "gkwqdz_itmw_addon_hacker_2h_01"); --- Гигантское мачете
+	SetCraftAmount("gkwqdz_itmw_addon_hacker_2h_01", 1);
+	 AddIngre("gkwqdz_itmw_addon_hacker_2h_01", "aixopt_itmi_ironingot", 5);
+	 AddTool("gkwqdz_itmw_addon_hacker_2h_01", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_addon_hacker_2h_01", 10);
+	SetCraftScience("gkwqdz_itmw_addon_hacker_2h_01", "Оружейник", 2);
+	SetenergyPenalty("gkwqdz_itmw_addon_hacker_2h_01", 50);
+	SetCraftEXP("gkwqdz_itmw_addon_hacker_2h_01", 150)
+	SetCraftEXP_SKILL("gkwqdz_itmw_addon_hacker_2h_01", "Оружейник")
 
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Morgenstern"); --- Булава с шипами
-	SetCraftAmount("JKZTZD_ItMw_Morgenstern", 1);
-	 AddIngre("JKZTZD_ItMw_Morgenstern", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Morgenstern", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Morgenstern", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Morgenstern", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Morgenstern", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Morgenstern", 20);
-	SetCraftScience("JKZTZD_ItMw_Morgenstern", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Morgenstern", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Morgenstern"); --- Булава с шипами
+	SetCraftAmount("gkwqdz_ItMw_Morgenstern", 1);
+	 AddIngre("gkwqdz_ItMw_Morgenstern", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Morgenstern", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Morgenstern", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Morgenstern", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Morgenstern", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Morgenstern", 20);
+	SetCraftScience("gkwqdz_ItMw_Morgenstern", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Morgenstern", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Doppelaxt"); --- Двойной топор
-	SetCraftAmount("JKZTZD_ItMw_Doppelaxt", 1);
-	 AddIngre("JKZTZD_ItMw_Doppelaxt", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Doppelaxt", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_Doppelaxt", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Doppelaxt", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Doppelaxt", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Doppelaxt", 20);
-	SetCraftScience("JKZTZD_ItMw_Doppelaxt", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Doppelaxt", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Doppelaxt"); --- Двойной топор
+	SetCraftAmount("gkwqdz_ItMw_Doppelaxt", 1);
+	 AddIngre("gkwqdz_ItMw_Doppelaxt", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Doppelaxt", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_Doppelaxt", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_Doppelaxt", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Doppelaxt", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Doppelaxt", 20);
+	SetCraftScience("gkwqdz_ItMw_Doppelaxt", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Doppelaxt", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_1h_Pal_Sword"); --- Меч офицера
-	SetCraftAmount("JKZTZD_ItMw_1h_Pal_Sword", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Pal_Sword", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_1h_Pal_Sword", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_1h_Pal_Sword", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Pal_Sword", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1h_Pal_Sword", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_1h_Pal_Sword", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_1h_Pal_Sword", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1h_Pal_Sword", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_1h_Pal_Sword", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Pal_Sword", 20);
-	SetCraftScience("JKZTZD_ItMw_1h_Pal_Sword", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Pal_Sword", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_1h_Pal_Sword"); --- Меч офицера
+	SetCraftAmount("gkwqdz_ItMw_1h_Pal_Sword", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_1h_Pal_Sword", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Pal_Sword", 20);
+	SetCraftScience("gkwqdz_ItMw_1h_Pal_Sword", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Pal_Sword", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Bartaxt"); --- Короткий бердыш
-	SetCraftAmount("JKZTZD_ItMw_Bartaxt", 1);
-	 AddIngre("JKZTZD_ItMw_Bartaxt", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Bartaxt", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_Bartaxt", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Bartaxt", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Bartaxt", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Bartaxt", 20);
-	SetCraftScience("JKZTZD_ItMw_Bartaxt", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Bartaxt", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Bartaxt"); --- Короткий бердыш
+	SetCraftAmount("gkwqdz_ItMw_Bartaxt", 1);
+	 AddIngre("gkwqdz_ItMw_Bartaxt", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Bartaxt", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_Bartaxt", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_Bartaxt", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Bartaxt", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Bartaxt", 20);
+	SetCraftScience("gkwqdz_ItMw_Bartaxt", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Bartaxt", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Schwert4"); --- Изысканный длинный меч
-	SetCraftAmount("JKZTZD_ItMw_Schwert4", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert4", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Schwert4", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Schwert4", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert4", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert4", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert4", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert4", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert4", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_Schwert4", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Schwert4", 20);
-	SetCraftScience("JKZTZD_ItMw_Schwert4", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Schwert4", 100);			
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Schwert4"); --- Изысканный длинный меч
+	SetCraftAmount("gkwqdz_ItMw_Schwert4", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_Schwert4", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Schwert4", 20);
+	SetCraftScience("gkwqdz_ItMw_Schwert4", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Schwert4", 100);			
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Streitkolben"); --- Булава
-	SetCraftAmount("JKZTZD_ItMw_Streitkolben", 1);
-	 AddIngre("JKZTZD_ItMw_Streitkolben", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Streitkolben", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Streitkolben", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Streitkolben", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Streitkolben", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Streitkolben", 20);
-	SetCraftScience("JKZTZD_ItMw_Streitkolben", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Streitkolben", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Streitkolben"); --- Булава
+	SetCraftAmount("gkwqdz_ItMw_Streitkolben", 1);
+	 AddIngre("gkwqdz_ItMw_Streitkolben", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Streitkolben", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Streitkolben", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Streitkolben", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Streitkolben", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Streitkolben", 20);
+	SetCraftScience("gkwqdz_ItMw_Streitkolben", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Streitkolben", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Runenschwert"); --- Лунный меч
-	SetCraftAmount("JKZTZD_ItMw_Runenschwert", 1);
-	 AddIngre("JKZTZD_ItMw_Runenschwert", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Runenschwert", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Runenschwert", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Runenschwert", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Runenschwert", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_Runenschwert", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_Runenschwert", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Runenschwert", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_Runenschwert", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Runenschwert", 20);
-	SetCraftScience("JKZTZD_ItMw_Runenschwert", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Runenschwert", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Runenschwert"); --- Лунный меч
+	SetCraftAmount("gkwqdz_ItMw_Runenschwert", 1);
+	 AddIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_Runenschwert", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Runenschwert", 20);
+	SetCraftScience("gkwqdz_ItMw_Runenschwert", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Runenschwert", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Rabenschnabel"); --- Клюв ворона
-	SetCraftAmount("JKZTZD_ItMw_Rabenschnabel", 1);
-	 AddIngre("JKZTZD_ItMw_Rabenschnabel", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Rabenschnabel", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Rabenschnabel", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Rabenschnabel", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Rabenschnabel", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Rabenschnabel", 20);
-	SetCraftScience("JKZTZD_ItMw_Rabenschnabel", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Rabenschnabel", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Rabenschnabel"); --- Клюв ворона
+	SetCraftAmount("gkwqdz_ItMw_Rabenschnabel", 1);
+	 AddIngre("gkwqdz_ItMw_Rabenschnabel", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Rabenschnabel", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Rabenschnabel", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Rabenschnabel", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Rabenschnabel", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Rabenschnabel", 20);
+	SetCraftScience("gkwqdz_ItMw_Rabenschnabel", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Rabenschnabel", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Schwert5"); --- Изысканный полуторный меч
-	SetCraftAmount("JKZTZD_ItMw_Schwert5", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert5", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Schwert5", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Schwert5", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Schwert5", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert5", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert5", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert5", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Schwert5", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_Schwert5", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Schwert5", 20);
-	SetCraftScience("JKZTZD_ItMw_Schwert5", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Schwert5", 100);
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Schwert5"); --- Изысканный полуторный меч
+	SetCraftAmount("gkwqdz_ItMw_Schwert5", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_Schwert5", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Schwert5", 20);
+	SetCraftScience("gkwqdz_ItMw_Schwert5", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Schwert5", 100);
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Inquisitor"); --- Инквизитор
-	SetCraftAmount("JKZTZD_ItMw_Inquisitor", 1);
-	 AddIngre("JKZTZD_ItMw_Inquisitor", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Inquisitor", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Inquisitor", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Inquisitor", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Inquisitor", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Inquisitor", 20);
-	SetCraftScience("JKZTZD_ItMw_Inquisitor", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Inquisitor", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Inquisitor"); --- Инквизитор
+	SetCraftAmount("gkwqdz_ItMw_Inquisitor", 1);
+	 AddIngre("gkwqdz_ItMw_Inquisitor", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Inquisitor", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Inquisitor", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Inquisitor", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Inquisitor", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Inquisitor", 20);
+	SetCraftScience("gkwqdz_ItMw_Inquisitor", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Inquisitor", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_ElBastardo"); --- Эль-бастардо
-	SetCraftAmount("JKZTZD_ItMw_ElBastardo", 1);
-	 AddIngre("JKZTZD_ItMw_ElBastardo", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_ElBastardo", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_ElBastardo", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_ElBastardo", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_ElBastardo", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_ElBastardo", 20);
-	SetCraftScience("JKZTZD_ItMw_ElBastardo", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_ElBastardo", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_ElBastardo"); --- Эль-бастардо
+	SetCraftAmount("gkwqdz_ItMw_ElBastardo", 1);
+	 AddIngre("gkwqdz_ItMw_ElBastardo", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_ElBastardo", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_ElBastardo", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_ElBastardo", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_ElBastardo", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_ElBastardo", 20);
+	SetCraftScience("gkwqdz_ItMw_ElBastardo", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_ElBastardo", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Kriegshammer2"); --- Тяжелый боевой молот
-	SetCraftAmount("JKZTZD_ItMw_Kriegshammer2", 1);
-	 AddIngre("JKZTZD_ItMw_Kriegshammer2", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Kriegshammer2", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Kriegshammer2", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Kriegshammer2", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Kriegshammer2", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Kriegshammer2", 20);
-	SetCraftScience("JKZTZD_ItMw_Kriegshammer2", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Kriegshammer2", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Kriegshammer2"); --- Тяжелый боевой молот
+	SetCraftAmount("gkwqdz_ItMw_Kriegshammer2", 1);
+	 AddIngre("gkwqdz_ItMw_Kriegshammer2", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Kriegshammer2", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Kriegshammer2", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Kriegshammer2", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Kriegshammer2", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Kriegshammer2", 20);
+	SetCraftScience("gkwqdz_ItMw_Kriegshammer2", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Kriegshammer2", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Meisterdegen"); --- Шпага мастера
-	SetCraftAmount("JKZTZD_ItMw_Meisterdegen", 1);
-	 AddIngre("JKZTZD_ItMw_Meisterdegen", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Meisterdegen", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Meisterdegen", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Meisterdegen", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Meisterdegen", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_Meisterdegen", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_Meisterdegen", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_Meisterdegen", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_Meisterdegen", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Meisterdegen", 20);
-	SetCraftScience("JKZTZD_ItMw_Meisterdegen", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Meisterdegen", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Meisterdegen"); --- Шпага мастера
+	SetCraftAmount("gkwqdz_ItMw_Meisterdegen", 1);
+	 AddIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_Meisterdegen", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Meisterdegen", 20);
+	SetCraftScience("gkwqdz_ItMw_Meisterdegen", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Meisterdegen", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Orkschlaecht"); --- Убийца орков
-	SetCraftAmount("JKZTZD_ItMw_Orkschlaecht", 1);
-	 AddIngre("JKZTZD_ItMw_Orkschlaecht", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Orkschlaecht", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Orkschlaecht", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Orkschlaecht", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Orkschlaecht", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Orkschlaecht", 20);
-	SetCraftScience("JKZTZD_ItMw_Orkschlaecht", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Orkschlaecht", 100);			
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Orkschlaechter"); --- Убийца орков
+	SetCraftAmount("gkwqdz_ItMw_Orkschlaechter", 1);
+	 AddIngre("gkwqdz_ItMw_Orkschlaechter", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Orkschlaechter", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Orkschlaechter", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Orkschlaechter", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Orkschlaechter", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Orkschlaechter", 20);
+	SetCraftScience("gkwqdz_ItMw_Orkschlaechter", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Orkschlaechter", 100);			
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_1H_Blessed_01"); --- Одноручный рудный клинок
-	SetCraftAmount("JKZTZD_ItMw_1H_Blessed_01", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_01", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_01", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_01", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_01", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Blessed_01", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Blessed_01", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Blessed_01", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Blessed_01", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_1H_Blessed_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Blessed_01", 20);
-	SetCraftScience("JKZTZD_ItMw_1H_Blessed_01", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Blessed_01", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_1H_Blessed_01"); --- Одноручный рудный клинок
+	SetCraftAmount("gkwqdz_ItMw_1H_Blessed_01", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_1H_Blessed_01", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Blessed_01", 20);
+	SetCraftScience("gkwqdz_ItMw_1H_Blessed_01", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Blessed_01", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_1H_Special_02"); --- Полуторный рудный меч
-	SetCraftAmount("JKZTZD_ItMw_1H_Special_02", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Special_02", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_1H_Special_02", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_1H_Special_02", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Special_02", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_02", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_02", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_02", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_02", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_1H_Special_02", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Special_02", 20);
-	SetCraftScience("JKZTZD_ItMw_1H_Special_02", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Special_02", 100);			
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_1H_Special_02"); --- Полуторный рудный меч
+	SetCraftAmount("gkwqdz_ItMw_1H_Special_02", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_1H_Special_02", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Special_02", 20);
+	SetCraftScience("gkwqdz_ItMw_1H_Special_02", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Special_02", 100);			
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_1H_Special_03"); --- Рудный боевой клинок
-	SetCraftAmount("JKZTZD_ItMw_1H_Special_03", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Special_03", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_1H_Special_03", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_1H_Special_03", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Special_03", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_03", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_03", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_03", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_1H_Special_03", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_1H_Special_03", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Special_03", 20);
-	SetCraftScience("JKZTZD_ItMw_1H_Special_03", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Special_03", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_1H_Special_03"); --- Рудный боевой клинок
+	SetCraftAmount("gkwqdz_ItMw_1H_Special_03", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_1H_Special_03", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Special_03", 20);
+	SetCraftScience("gkwqdz_ItMw_1H_Special_03", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Special_03", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Addon_Betty"); --- Бетти
-	SetCraftAmount("JKZTZD_ItMw_Addon_Betty", 1);
-	 AddIngre("JKZTZD_ItMw_Addon_Betty", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Addon_Betty", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Addon_Betty", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Addon_Betty", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Addon_Betty", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Addon_Betty", 20);
-	SetCraftScience("JKZTZD_ItMw_Addon_Betty", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Addon_Betty", 100);
+	-- AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Addon_Betty"); --- Бетти
+	-- SetCraftAmount("gkwqdz_ItMw_Addon_Betty", 1);
+	--  AddIngre("gkwqdz_ItMw_Addon_Betty", "aixopt_itmi_ironingot", 10);
+	--  AddIngre("gkwqdz_ItMw_Addon_Betty", "aixopt_itmirawsteel", 5);
+	--  AddIngre("gkwqdz_ItMw_Addon_Betty", "aixopt_itmi_handle", 1);
+	--  AddIngre("gkwqdz_ItMw_Addon_Betty", "aixopt_itmi_skin", 1);
+	--  AddTool("gkwqdz_ItMw_Addon_Betty", "gkwqdz_ItMw_1H_Mace_L_04");
+	-- SetCraftPenalty("gkwqdz_ItMw_Addon_Betty", 20);
+	-- SetCraftScience("gkwqdz_ItMw_Addon_Betty", "Оружейник", 3);
+	-- SetenergyPenalty("gkwqdz_ItMw_Addon_Betty", 100);
 
 
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Krummschwert"); --- Абордажная сабля
-	SetCraftAmount("JKZTZD_ItMw_Krummschwert", 1);
-	 AddIngre("JKZTZD_ItMw_Krummschwert", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Krummschwert", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Krummschwert", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Krummschwert", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Krummschwert", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Krummschwert", 20);
-	SetCraftScience("JKZTZD_ItMw_Krummschwert", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Krummschwert", 100);
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Krummschwert"); --- Абордажная сабля
+	SetCraftAmount("gkwqdz_ItMw_Krummschwert", 1);
+	 AddIngre("gkwqdz_ItMw_Krummschwert", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Krummschwert", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Krummschwert", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Krummschwert", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Krummschwert", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Krummschwert", 20);
+	SetCraftScience("gkwqdz_ItMw_Krummschwert", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Krummschwert", 100);
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Barbarenstr"); --- Боевой топор варваров
-	SetCraftAmount("JKZTZD_ItMw_Barbarenstr", 1);
-	 AddIngre("JKZTZD_ItMw_Barbarenstr", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Barbarenstr", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_Barbarenstr", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Barbarenstr", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Barbarenstr", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Barbarenstr", 20);
-	SetCraftScience("JKZTZD_ItMw_Barbarenstr", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Barbarenstr", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_itmw_barbarenstreitaxt"); --- Боевой топор варваров
+	SetCraftAmount("gkwqdz_itmw_barbarenstreitaxt", 1);
+	 AddIngre("gkwqdz_itmw_barbarenstreitaxt", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_itmw_barbarenstreitaxt", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_itmw_barbarenstreitaxt", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_itmw_barbarenstreitaxt", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_itmw_barbarenstreitaxt", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_itmw_barbarenstreitaxt", 20);
+	SetCraftScience("gkwqdz_itmw_barbarenstreitaxt", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_itmw_barbarenstreitaxt", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Berserkeraxt"); --- Топор берсеркера
-	SetCraftAmount("JKZTZD_ItMw_Berserkeraxt", 1);
-	 AddIngre("JKZTZD_ItMw_Berserkeraxt", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Berserkeraxt", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_Berserkeraxt", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Berserkeraxt", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Berserkeraxt", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Berserkeraxt", 20);
-	SetCraftScience("JKZTZD_ItMw_Berserkeraxt", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Berserkeraxt", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Berserkeraxt"); --- Топор берсеркера
+	SetCraftAmount("gkwqdz_ItMw_Berserkeraxt", 1);
+	 AddIngre("gkwqdz_ItMw_Berserkeraxt", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Berserkeraxt", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_Berserkeraxt", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_Berserkeraxt", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Berserkeraxt", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Berserkeraxt", 20);
+	SetCraftScience("gkwqdz_ItMw_Berserkeraxt", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Berserkeraxt", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Sturmbringer"); --- Верный друг
-	SetCraftAmount("JKZTZD_ItMw_Sturmbringer", 1);
-	 AddIngre("JKZTZD_ItMw_Sturmbringer", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Sturmbringer", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_Sturmbringer", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_Sturmbringer", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Sturmbringer", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Sturmbringer", 20);
-	SetCraftScience("JKZTZD_ItMw_Sturmbringer", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Sturmbringer", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Sturmbringer"); --- Несущий бурю
+	SetCraftAmount("gkwqdz_ItMw_Sturmbringer", 1);
+	 AddIngre("gkwqdz_ItMw_Sturmbringer", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Sturmbringer", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_Sturmbringer", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_Sturmbringer", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Sturmbringer", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Sturmbringer", 20);
+	SetCraftScience("gkwqdz_ItMw_Sturmbringer", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Sturmbringer", 100);	
 
 
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_2H_Blessed_01"); --- Грубый рудный клинок
-	SetCraftAmount("JKZTZD_ItMw_2H_Blessed_01", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_01", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_01", "OOLTYB_ItMiSwordraw", 5);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_01", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_01", "OOLTYB_ItMi_Aquamarine", 1);
-	 AddAlterIngre("JKZTZD_ItMw_2H_Blessed_01", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddAlterIngre("JKZTZD_ItMw_2H_Blessed_01", "OOLTYB_ItMiSwordraw", 5);
-	 AddAlterIngre("JKZTZD_ItMw_2H_Blessed_01", "OOLTYB_ITMI_HANDLE", 1);
-	 AddAlterIngre("JKZTZD_ItMw_2H_Blessed_01", "ooltyb_itmi_rubin", 1);
-	 AddTool("JKZTZD_ItMw_2H_Blessed_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Blessed_01", 20);
-	SetCraftScience("JKZTZD_ItMw_2H_Blessed_01", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Blessed_01", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_2H_Blessed_01"); --- Грубый рудный клинок
+	SetCraftAmount("gkwqdz_ItMw_2H_Blessed_01", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmirawsteel", 5);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_handle", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_aquamarine", 1);
+	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_ironingot", 10);
+	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmirawsteel", 5);
+	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_handle", 1);
+	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "ooltyb_itmi_rubin", 1);
+	 AddTool("gkwqdz_ItMw_2H_Blessed_01", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2H_Blessed_01", 20);
+	SetCraftScience("gkwqdz_ItMw_2H_Blessed_01", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_2H_Blessed_01", 100);	
 
 
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_2H_Blessed_02"); --- Меч ордена
-	SetCraftAmount("JKZTZD_ItMw_2H_Blessed_02", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_02", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_02", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_02", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_02", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_2H_Blessed_02", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Blessed_02", 20);
-	SetCraftScience("JKZTZD_ItMw_2H_Blessed_02", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Blessed_02", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_2H_Blessed_02"); --- Меч ордена
+	SetCraftAmount("gkwqdz_ItMw_2H_Blessed_02", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_02", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_02", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_02", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_02", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_2H_Blessed_02", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2H_Blessed_02", 20);
+	SetCraftScience("gkwqdz_ItMw_2H_Blessed_02", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_2H_Blessed_02", 100);		
 	
 	
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_2H_Special_02"); --- Тяжелый рудный двуручник
-	SetCraftAmount("JKZTZD_ItMw_2H_Special_02", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Special_02", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_2H_Special_02", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_2H_Special_02", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Special_02", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_2H_Special_02", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Special_02", 20);
-	SetCraftScience("JKZTZD_ItMw_2H_Special_02", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Special_02", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_2H_Special_02"); --- Тяжелый рудный двуручник
+	SetCraftAmount("gkwqdz_ItMw_2H_Special_02", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Special_02", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_2H_Special_02", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_2H_Special_02", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Special_02", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_2H_Special_02", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2H_Special_02", 20);
+	SetCraftScience("gkwqdz_ItMw_2H_Special_02", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_2H_Special_02", 100);		
 	
 
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_Addon_PIR2hAx"); --- Крушитель досок
-	SetCraftAmount("JKZTZD_ItMw_Addon_PIR2hAx", 1);
-	 AddIngre("JKZTZD_ItMw_Addon_PIR2hAx", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_Addon_PIR2hAx", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_Addon_PIR2hAx", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Addon_PIR2hAx", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_Addon_PIR2hAx", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Addon_PIR2hAx", 20);
-	SetCraftScience("JKZTZD_ItMw_Addon_PIR2hAx", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Addon_PIR2hAx", 100);		
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_Addon_PIR2hAxe"); --- Крушитель досок
+	SetCraftAmount("gkwqdz_ItMw_Addon_PIR2hAxe", 1);
+	 AddIngre("gkwqdz_ItMw_Addon_PIR2hAxe", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_Addon_PIR2hAxe", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_Addon_PIR2hAxe", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_Addon_PIR2hAxe", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_Addon_PIR2hAxe", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Addon_PIR2hAxe", 20);
+	SetCraftScience("gkwqdz_ItMw_Addon_PIR2hAxe", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Addon_PIR2hAxe", 100);		
 
-	AddItemCategory ("(О)Кузнец (3 уровень)", "JKZTZD_ItMw_2H_Special_01"); --- Королевский клинок
-	SetCraftAmount("JKZTZD_ItMw_2H_Special_01", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Special_01", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("JKZTZD_ItMw_2H_Special_01", "OOLTYB_ItMiSwordraw", 4);
-	 AddIngre("JKZTZD_ItMw_2H_Special_01", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Special_01", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("JKZTZD_ItMw_2H_Special_01", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Special_01", 20);
-	SetCraftScience("JKZTZD_ItMw_2H_Special_01", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Special_01", 100);	
+	AddItemCategory ("(О)Кузнец (3 уровень)", "gkwqdz_ItMw_2H_Special_01"); --- Королевский клинок
+	SetCraftAmount("gkwqdz_ItMw_2H_Special_01", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Special_01", "aixopt_itmi_ironingot", 10);
+	 AddIngre("gkwqdz_ItMw_2H_Special_01", "aixopt_itmirawsteel", 4);
+	 AddIngre("gkwqdz_ItMw_2H_Special_01", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Special_01", "aixopt_itmi_skin", 1);
+	 AddTool("gkwqdz_ItMw_2H_Special_01", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2H_Special_01", 20);
+	SetCraftScience("gkwqdz_ItMw_2H_Special_01", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_2H_Special_01", 100);	
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА	
 
 
-	AddItemCategory ("(О)Кузнец (4 уровень)", "JKZTZD_ItMw_1H_Blessed_02"); --- Освященный рудный клинок
-	SetCraftAmount("JKZTZD_ItMw_1H_Blessed_02", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_02", "OOLTYB_ITMI_S_IGNOT", 8);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_02", "OOLTYB_ItMiSwordraw", 8);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_02", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_02", "OOLTYB_ITMI_DLEATHER", 2);
-	 AddIngre("JKZTZD_ItMw_1H_Blessed_02", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItMw_1H_Blessed_02", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Blessed_02", 20);
-	SetCraftScience("JKZTZD_ItMw_1H_Blessed_02", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Blessed_02", 100);		
+	AddItemCategory ("(О)Кузнец (4 уровень)", "gkwqdz_ItMw_1H_Blessed_02"); --- Освященный рудный клинок
+	SetCraftAmount("gkwqdz_ItMw_1H_Blessed_02", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_02", "aixopt_itmi_ironingot", 8);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_02", "aixopt_itmirawsteel", 8);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_02", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_02", "aixopt_itmi_tannedskin", 2);
+	 AddIngre("gkwqdz_ItMw_1H_Blessed_02", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("gkwqdz_ItMw_1H_Blessed_02", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Blessed_02", 20);
+	SetCraftScience("gkwqdz_ItMw_1H_Blessed_02", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Blessed_02", 100);		
 
 
-	AddItemCategory ("(О)Кузнец (4 уровень)", "JKZTZD_ItMw_Zweihaender3"); --- Сила рун
-	SetCraftAmount("JKZTZD_ItMw_Zweihaender3", 1);
-	 AddIngre("JKZTZD_ItMw_Zweihaender3", "OOLTYB_ITMI_S_IGNOT", 8);
-	 AddIngre("JKZTZD_ItMw_Zweihaender3", "OOLTYB_ItMiSwordraw", 8);
-	 AddIngre("JKZTZD_ItMw_Zweihaender3", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Zweihaender3", "OOLTYB_ITMI_DLEATHER", 2);
-	 AddIngre("JKZTZD_ItMw_Zweihaender3", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItMw_Zweihaender3", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Zweihaender3", 20);
-	SetCraftScience("JKZTZD_ItMw_Zweihaender3", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Zweihaender3", 100);
+	AddItemCategory ("(О)Кузнец (4 уровень)", "gkwqdz_ItMw_Zweihaender3"); --- Сила рун
+	SetCraftAmount("gkwqdz_ItMw_Zweihaender3", 1);
+	 AddIngre("gkwqdz_ItMw_Zweihaender3", "aixopt_itmi_ironingot", 8);
+	 AddIngre("gkwqdz_ItMw_Zweihaender3", "aixopt_itmirawsteel", 8);
+	 AddIngre("gkwqdz_ItMw_Zweihaender3", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_Zweihaender3", "aixopt_itmi_tannedskin", 2);
+	 AddIngre("gkwqdz_ItMw_Zweihaender3", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("gkwqdz_ItMw_Zweihaender3", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Zweihaender3", 20);
+	SetCraftScience("gkwqdz_ItMw_Zweihaender3", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Zweihaender3", 100);
 	
 	
-	AddItemCategory ("(О)Кузнец (4 уровень)", "JKZTZD_ItMw_Drachenschne"); --- Гроза драконов
-	SetCraftAmount("JKZTZD_ItMw_Drachenschne", 1);
-	 AddIngre("JKZTZD_ItMw_Drachenschne", "OOLTYB_ITMI_S_IGNOT", 8);
-	 AddIngre("JKZTZD_ItMw_Drachenschne", "OOLTYB_ItMiSwordraw", 8);
-	 AddIngre("JKZTZD_ItMw_Drachenschne", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Drachenschne", "OOLTYB_ITMI_DLEATHER", 2);
-	 AddIngre("JKZTZD_ItMw_Drachenschne", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItMw_Drachenschne", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Drachenschne", 20);
-	SetCraftScience("JKZTZD_ItMw_Drachenschne", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Drachenschne", 100);	
+	AddItemCategory ("(О)Кузнец (4 уровень)", "gkwqdz_ItMw_Drachenschneide"); --- Гроза драконов
+	SetCraftAmount("gkwqdz_ItMw_Drachenschneide", 1);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide", "aixopt_itmi_ironingot", 8);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide", "aixopt_itmirawsteel", 8);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide", "aixopt_itmi_tannedskin", 2);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("gkwqdz_ItMw_Drachenschneide", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Drachenschneide", 20);
+	SetCraftScience("gkwqdz_ItMw_Drachenschneide", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Drachenschneide", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (4 уровень)", "JKZTZD_ItMw_2H_Blessed_03"); --- Святой палач
-	SetCraftAmount("JKZTZD_ItMw_2H_Blessed_03", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_03", "OOLTYB_ITMI_S_IGNOT", 8);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_03", "OOLTYB_ItMiSwordraw", 8);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_03", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_03", "OOLTYB_ITMI_DLEATHER", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Blessed_03", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItMw_2H_Blessed_03", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Blessed_03", 20);
-	SetCraftScience("JKZTZD_ItMw_2H_Blessed_03", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Blessed_03", 100);	
+	AddItemCategory ("(О)Кузнец (4 уровень)", "gkwqdz_ItMw_2H_Blessed_03"); --- Святой палач
+	SetCraftAmount("gkwqdz_ItMw_2H_Blessed_03", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_03", "aixopt_itmi_ironingot", 8);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_03", "aixopt_itmirawsteel", 8);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_03", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_03", "aixopt_itmi_tannedskin", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Blessed_03", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("gkwqdz_ItMw_2H_Blessed_03", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2H_Blessed_03", 20);
+	SetCraftScience("gkwqdz_ItMw_2H_Blessed_03", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_2H_Blessed_03", 100);	
 	
 		
-	AddItemCategory ("(О)Кузнец (4 уровень)", "JKZTZD_ItMw_2H_Special03"); --- Тяжелый рудный боевой клинок
-	SetCraftAmount("JKZTZD_ItMw_2H_Special03", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Special03", "OOLTYB_ITMI_S_IGNOT", 8);
-	 AddIngre("JKZTZD_ItMw_2H_Special03", "OOLTYB_ItMiSwordraw", 8);
-	 AddIngre("JKZTZD_ItMw_2H_Special03", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Special03", "OOLTYB_ITMI_DLEATHER", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Special03", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItMw_2H_Special03", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Special03", 20);
-	SetCraftScience("JKZTZD_ItMw_2H_Special03", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Special03", 100);	
+	AddItemCategory ("(О)Кузнец (4 уровень)", "gkwqdz_ItMw_2H_Special_03"); --- Тяжелый рудный боевой клинок
+	SetCraftAmount("gkwqdz_ItMw_2H_Special03", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Special03", "aixopt_itmi_ironingot", 8);
+	 AddIngre("gkwqdz_ItMw_2H_Special03", "aixopt_itmirawsteel", 8);
+	 AddIngre("gkwqdz_ItMw_2H_Special03", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Special03", "aixopt_itmi_tannedskin", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Special03", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("gkwqdz_ItMw_2H_Special03", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2H_Special03", 20);
+	SetCraftScience("gkwqdz_ItMw_2H_Special03", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_2H_Special03", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (4 уровень)", "JKZTZD_ItMw_2H_Special_04"); --- Двуручный Убийца Драконов
-	SetCraftAmount("JKZTZD_ItMw_2H_Special_04", 1);
-	 AddIngre("JKZTZD_ItMw_2H_Special_04", "OOLTYB_ITMI_S_IGNOT", 8);
-	 AddIngre("JKZTZD_ItMw_2H_Special_04", "OOLTYB_ItMiSwordraw", 8);
-	 AddIngre("JKZTZD_ItMw_2H_Special_04", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Special_04", "OOLTYB_ITMI_DLEATHER", 2);
-	 AddIngre("JKZTZD_ItMw_2H_Special_04", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItMw_2H_Special_04", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_2H_Special_04", 20);
-	SetCraftScience("JKZTZD_ItMw_2H_Special_04", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_2H_Special_04", 100);	
+	AddItemCategory ("(О)Кузнец (4 уровень)", "gkwqdz_ItMw_2H_Special_04"); --- Двуручный Убийца Драконов
+	SetCraftAmount("gkwqdz_ItMw_2H_Special_04", 1);
+	 AddIngre("gkwqdz_ItMw_2H_Special_04", "aixopt_itmi_ironingot", 8);
+	 AddIngre("gkwqdz_ItMw_2H_Special_04", "aixopt_itmirawsteel", 8);
+	 AddIngre("gkwqdz_ItMw_2H_Special_04", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Special_04", "aixopt_itmi_tannedskin", 2);
+	 AddIngre("gkwqdz_ItMw_2H_Special_04", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("gkwqdz_ItMw_2H_Special_04", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_2H_Special_04", 20);
+	SetCraftScience("gkwqdz_ItMw_2H_Special_04", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_2H_Special_04", 100);	
 	
 	
-	AddItemCategory ("(О)Кузнец (4 уровень)", "JKZTZD_ItMw_Drachenschne1"); --- Огромный меч
-	SetCraftAmount("JKZTZD_ItMw_Drachenschne1", 1);
-	 AddIngre("JKZTZD_ItMw_Drachenschne1", "OOLTYB_ITMI_S_IGNOT", 8);
-	 AddIngre("JKZTZD_ItMw_Drachenschne1", "OOLTYB_ItMiSwordraw", 8);
-	 AddIngre("JKZTZD_ItMw_Drachenschne1", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItMw_Drachenschne1", "OOLTYB_ITMI_DLEATHER", 2);
-	 AddIngre("JKZTZD_ItMw_Drachenschne1", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItMw_Drachenschne1", "JKZTZD_ItMw_1H_Mace_L_04");
-	SetCraftPenalty("JKZTZD_ItMw_Drachenschne1", 20);
-	SetCraftScience("JKZTZD_ItMw_Drachenschne1", "Оружейник", 3);
-	SetenergyPenalty("JKZTZD_ItMw_Drachenschne1", 100);	
+	AddItemCategory ("(О)Кузнец (4 уровень)", "gkwqdz_ItMw_Drachenschneide1"); --- Огромный меч
+	SetCraftAmount("gkwqdz_ItMw_Drachenschneide1", 1);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide1", "aixopt_itmi_ironingot", 8);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide1", "aixopt_itmirawsteel", 8);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide1", "aixopt_itmi_handle", 2);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide1", "aixopt_itmi_tannedskin", 2);
+	 AddIngre("gkwqdz_ItMw_Drachenschneide1", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("gkwqdz_ItMw_Drachenschneide1", "gkwqdz_ItMw_1H_Mace_L_04");
+	SetCraftPenalty("gkwqdz_ItMw_Drachenschneide1", 20);
+	SetCraftScience("gkwqdz_ItMw_Drachenschneide1", "Оружейник", 3);
+	SetenergyPenalty("gkwqdz_ItMw_Drachenschneide1", 100);	
 	
 
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
 
-	AddItemCategory ("Плотник (Расходники)", "OOLTYB_ITMI_OBRABOTDER"); --- Обработанная древесина
-	SetCraftAmount("OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddIngre("OOLTYB_ITMI_OBRABOTDER", "OOLTYB_ITMI_WOOD", 20);
-	 AddIngre("OOLTYB_ITMI_OBRABOTDER", "OOLTYB_ItMi_Coal", 5);
-	 AddTool("OOLTYB_ITMI_OBRABOTDER", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("OOLTYB_ITMI_OBRABOTDER", 5);
-	SetCraftScience("OOLTYB_ITMI_OBRABOTDER", "Плотник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_OBRABOTDER", 25);
-	SetCraftEXP("OOLTYB_ITMI_OBRABOTDER", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_OBRABOTDER", "Плотник")
+	AddItemCategory ("Плотник (Расходники)", "aixopt_itmi_craftwood"); --- Обработанная древесина
+	SetCraftAmount("aixopt_itmi_craftwood", 1);
+	 AddIngre("aixopt_itmi_craftwood", "aixopt_itmi_rawwood", 20);
+	 AddIngre("aixopt_itmi_craftwood", "aixopt_itmi_coal", 5);
+	 AddTool("aixopt_itmi_craftwood", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_craftwood", 5);
+	SetCraftScience("aixopt_itmi_craftwood", "Плотник", 1);
+	SetenergyPenalty("aixopt_itmi_craftwood", 25);
+	SetCraftEXP("aixopt_itmi_craftwood", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_craftwood", "Плотник")
 
 
-	AddItemCategory ("Плотник (Расходники)", "OOLTYB_ITMI_HANDLE"); --- Рукоять
-	SetCraftAmount("OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("OOLTYB_ITMI_HANDLE", "OOLTYB_ITMI_OBRABOTDER", 4);
-	 AddTool("OOLTYB_ITMI_HANDLE", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("OOLTYB_ITMI_HANDLE", 10);
-	SetCraftScience("OOLTYB_ITMI_HANDLE", "Плотник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_HANDLE", 50);
-	SetCraftEXP("OOLTYB_ITMI_HANDLE", 50)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_HANDLE", "Плотник")
+	AddItemCategory ("Плотник (Расходники)", "aixopt_itmi_handle"); --- Рукоять
+	SetCraftAmount("aixopt_itmi_handle", 1);
+	 AddIngre("aixopt_itmi_handle", "aixopt_itmi_craftwood", 4);
+	 AddTool("aixopt_itmi_handle", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_handle", 10);
+	SetCraftScience("aixopt_itmi_handle", "Плотник", 1);
+	SetenergyPenalty("aixopt_itmi_handle", 50);
+	SetCraftEXP("aixopt_itmi_handle", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_handle", "Плотник")
 
 
-	AddItemCategory ("Плотник (Расходники)", "OOLTYB_ItMi_FlasK"); --- Мензурка
-	SetCraftAmount("OOLTYB_ItMi_FlasK", 40);
-	 AddIngre("OOLTYB_ItMi_FlasK", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("OOLTYB_ItMi_FlasK", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("OOLTYB_ItMi_FlasK", 5);
-	SetCraftScience("OOLTYB_ItMi_FlasK", "Плотник", 1);
-	SetenergyPenalty("OOLTYB_ItMi_FlasK", 25);
-	SetCraftEXP("OOLTYB_ItMi_FlasK", 25)
-	SetCraftEXP_SKILL("OOLTYB_ItMi_FlasK", "Плотник")
+	AddItemCategory ("Плотник (Расходники)", "aixopt_itmi_flask"); --- Мензурка
+	SetCraftAmount("aixopt_itmi_flask", 40);
+	 AddIngre("aixopt_itmi_flask", "aixopt_itmi_craftwood", 1);
+	 AddTool("aixopt_itmi_flask", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_flask", 5);
+	SetCraftScience("aixopt_itmi_flask", "Плотник", 1);
+	SetenergyPenalty("aixopt_itmi_flask", 25);
+	SetCraftEXP("aixopt_itmi_flask", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_flask", "Плотник")
 	
 	
-	AddItemCategory ("Плотник (Расходники)", "JKZTZD_ItRw_Arrow"); --- Стрела
-	SetCraftAmount("JKZTZD_ItRw_Arrow", 40);
-	 AddIngre("JKZTZD_ItRw_Arrow", "OOLTYB_ITMI_WOOD", 10);
-	 AddIngre("JKZTZD_ItRw_Arrow", "OOLTYB_ItMi_Nugget", 5);
-	 AddAlterIngre("JKZTZD_ItRw_Arrow", "JKZTZD_ItMw_1h_Bau_Mace", 1);
-	 AddAlterIngre("JKZTZD_ItRw_Arrow", "OOLTYB_ItMi_Nugget", 5);
-	 AddTool("JKZTZD_ItRw_Arrow", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Arrow", 5);
-	SetCraftScience("JKZTZD_ItRw_Arrow", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Arrow", 10);
-	SetCraftEXP("JKZTZD_ItRw_Arrow", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Arrow", "Плотник")	
+	AddItemCategory ("Плотник (Расходники)", "ItRw_Arrow"); --- Стрела
+	SetCraftAmount("ItRw_Arrow", 40);
+	 AddIngre("ItRw_Arrow", "aixopt_itmi_rawwood", 10);
+	 AddIngre("ItRw_Arrow", "aixopt_itmi_ironnugget", 5);
+	 AddAlterIngre("ItRw_Arrow", "gkwqdz_ItMw_1h_Bau_Mace", 1);
+	 AddAlterIngre("ItRw_Arrow", "aixopt_itmi_ironnugget", 5);
+	 AddTool("ItRw_Arrow", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("ItRw_Arrow", 5);
+	SetCraftScience("ItRw_Arrow", "Плотник", 1);
+	SetenergyPenalty("ItRw_Arrow", 10);
+	SetCraftEXP("ItRw_Arrow", 10)
+	SetCraftEXP_SKILL("ItRw_Arrow", "Плотник")	
 	
 	
-	AddItemCategory ("Плотник (Расходники)", "JKZTZD_ItRw_Bolt"); --- Болт
-	SetCraftAmount("JKZTZD_ItRw_Bolt", 40);
-	 AddIngre("JKZTZD_ItRw_Bolt", "OOLTYB_ITMI_WOOD", 10);
-	 AddIngre("JKZTZD_ItRw_Bolt", "OOLTYB_ItMi_Nugget", 5);
-	 AddAlterIngre("JKZTZD_ItRw_Bolt", "JKZTZD_ItMw_1h_Bau_Mace", 1);
-	 AddAlterIngre("JKZTZD_ItRw_Bolt", "OOLTYB_ItMi_Nugget", 5);
-	 AddTool("JKZTZD_ItRw_Bolt", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bolt", 5);
-	SetCraftScience("JKZTZD_ItRw_Bolt", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Bolt", 10);
-	SetCraftEXP("JKZTZD_ItRw_Bolt", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bolt", "Плотник")	
+	AddItemCategory ("Плотник (Расходники)", "ItRw_Bolt"); --- Болт
+	SetCraftAmount("ItRw_Bolt", 40);
+	 AddIngre("ItRw_Bolt", "aixopt_itmi_rawwood", 10);
+	 AddIngre("ItRw_Bolt", "aixopt_itmi_ironnugget", 5);
+	 AddAlterIngre("ItRw_Bolt", "gkwqdz_ItMw_1h_Bau_Mace", 1);
+	 AddAlterIngre("ItRw_Bolt", "aixopt_itmi_ironnugget", 5);
+	 AddTool("ItRw_Bolt", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("ItRw_Bolt", 5);
+	SetCraftScience("ItRw_Bolt", "Плотник", 1);
+	SetenergyPenalty("ItRw_Bolt", 10);
+	SetCraftEXP("ItRw_Bolt", 10)
+	SetCraftEXP_SKILL("ItRw_Bolt", "Плотник")	
 
 
-	AddItemCategory ("Плотник (Расходники)", "ooltyb_itmi_paper"); --- Бумага
-	SetCraftAmount("ooltyb_itmi_paper", 50);
-	 AddIngre("ooltyb_itmi_paper", "OOLTYB_ITMI_WOOD", 25);
-	SetCraftPenalty("ooltyb_itmi_paper", 5);
-	SetCraftScience("ooltyb_itmi_paper", "Плотник", 1);
-	SetenergyPenalty("ooltyb_itmi_paper", 10);
-	SetCraftEXP("ooltyb_itmi_paper", 10)
-	SetCraftEXP_SKILL("ooltyb_itmi_paper", "Плотник")	
+	AddItemCategory ("Плотник (Расходники)", "aixopt_itmi_paper"); --- Бумага
+	SetCraftAmount("aixopt_itmi_paper", 50);
+	 AddIngre("aixopt_itmi_paper", "aixopt_itmi_rawwood", 25);
+	SetCraftPenalty("aixopt_itmi_paper", 5);
+	SetCraftScience("aixopt_itmi_paper", "Плотник", 1);
+	SetenergyPenalty("aixopt_itmi_paper", 10);
+	SetCraftEXP("aixopt_itmi_paper", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_paper", "Плотник")	
 	
-	AddItemCategory ("Плотник (Расходники)", "ooltyb_itmi_chest1"); --- Сундук
-	SetCraftAmount("ooltyb_itmi_chest1", 1);
-	 AddIngre("ooltyb_itmi_chest1", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("ooltyb_itmi_chest1", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("ooltyb_itmi_chest1", 5);
-	SetCraftScience("ooltyb_itmi_chest1", "Плотник", 1);
-	SetenergyPenalty("ooltyb_itmi_chest1", 25);
-	SetCraftEXP("ooltyb_itmi_chest1", 25)
-	SetCraftEXP_SKILL("ooltyb_itmi_chest1", "Плотник")	
+	AddItemCategory ("Плотник (Расходники)", "aixopt_itmi_chest_01"); --- Сундук
+	SetCraftAmount("aixopt_itmi_chest_01", 1);
+	 AddIngre("aixopt_itmi_chest_01", "aixopt_itmi_craftwood", 1);
+	 AddTool("aixopt_itmi_chest_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_chest_01", 5);
+	SetCraftScience("aixopt_itmi_chest_01", "Плотник", 1);
+	SetenergyPenalty("aixopt_itmi_chest_01", 25);
+	SetCraftEXP("aixopt_itmi_chest_01", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_chest_01", "Плотник")	
 	
-	AddItemCategory ("Плотник (Расходники)", "ooltyb_itmi_chest2"); --- кРЕПКИЙ сундук
-	SetCraftAmount("ooltyb_itmi_chest2", 1);
-	 AddIngre("ooltyb_itmi_chest2", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddIngre("ooltyb_itmi_chest2", "yvnzmz_itmi_zamok", 1);
-	 AddTool("ooltyb_itmi_chest2", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("ooltyb_itmi_chest2", 5);
-	SetCraftScience("ooltyb_itmi_chest2", "Плотник", 2);
-	SetenergyPenalty("ooltyb_itmi_chest2", 25);
-	SetCraftEXP("ooltyb_itmi_chest2", 25)
-	SetCraftEXP_SKILL("ooltyb_itmi_chest2", "Плотник")
+	AddItemCategory ("Плотник (Расходники)", "aixopt_itmi_chest_02"); --- кРЕПКИЙ сундук
+	SetCraftAmount("aixopt_itmi_chest_02", 1);
+	 AddIngre("aixopt_itmi_chest_02", "aixopt_itmi_craftwood", 2);
+	 AddIngre("aixopt_itmi_chest_02", "aixopt_itmi_lock", 1);
+	 AddTool("aixopt_itmi_chest_02", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_chest_02", 5);
+	SetCraftScience("aixopt_itmi_chest_02", "Плотник", 2);
+	SetenergyPenalty("aixopt_itmi_chest_02", 25);
+	SetCraftEXP("aixopt_itmi_chest_02", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_chest_02", "Плотник")
 	
-	AddItemCategory ("Плотник (Расходники)", "ooltyb_itmi_chest3"); --- прочный сундук
-	SetCraftAmount("ooltyb_itmi_chest3", 1);
-	 AddIngre("ooltyb_itmi_chest3", "OOLTYB_ITMI_OBRABOTDER", 3);
-	 AddIngre("ooltyb_itmi_chest3", "yvnzmz_itmi_zamok", 1);
-	 AddTool("ooltyb_itmi_chest3", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("ooltyb_itmi_chest3", 5);
-	SetCraftScience("ooltyb_itmi_chest3", "Плотник", 3);
-	SetenergyPenalty("ooltyb_itmi_chest3", 25);
-	SetCraftEXP("ooltyb_itmi_chest3", 25)
-	SetCraftEXP_SKILL("ooltyb_itmi_chest3", "Плотник")	
+	AddItemCategory ("Плотник (Расходники)", "aixopt_itmi_chest_03"); --- прочный сундук
+	SetCraftAmount("aixopt_itmi_chest_03", 1);
+	 AddIngre("aixopt_itmi_chest_03", "aixopt_itmi_craftwood", 3);
+	 AddIngre("aixopt_itmi_chest_03", "aixopt_itmi_lock", 1);
+	 AddTool("aixopt_itmi_chest_03", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_chest_03", 5);
+	SetCraftScience("aixopt_itmi_chest_03", "Плотник", 3);
+	SetenergyPenalty("aixopt_itmi_chest_03", 25);
+	SetCraftEXP("aixopt_itmi_chest_03", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_chest_03", "Плотник")	
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
 	
-	AddItemCategory ("Плотник (1 уровень)", "OOLTYB_ITMI_FISHING"); --- Удочка
-	SetCraftAmount("OOLTYB_ITMI_FISHING", 1);
-	 AddIngre("OOLTYB_ITMI_FISHING", "JKZTZD_ItMw_1h_Bau_Mace", 1);
-	 AddIngre("OOLTYB_ITMI_FISHING", "OOLTYB_ITMI_SHEEP", 1);
-	 AddTool("OOLTYB_ITMI_FISHING", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("OOLTYB_ITMI_FISHING", 5);
-	SetCraftScience("OOLTYB_ITMI_FISHING", "Плотник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_FISHING", 10);
-	SetCraftEXP("OOLTYB_ITMI_FISHING", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_FISHING", "Плотник")	
+	AddItemCategory ("Плотник (1 уровень)", "AIXOPT_ITMI_FISHINGROD"); --- Удочка
+	SetCraftAmount("AIXOPT_ITMI_FISHINGROD", 1);
+	 AddIngre("AIXOPT_ITMI_FISHINGROD", "gkwqdz_ItMw_1h_Bau_Mace", 1);
+	 AddIngre("AIXOPT_ITMI_FISHINGROD", "aixopt_itmi_wool", 1);
+	 AddTool("AIXOPT_ITMI_FISHINGROD", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("AIXOPT_ITMI_FISHINGROD", 5);
+	SetCraftScience("AIXOPT_ITMI_FISHINGROD", "Плотник", 1);
+	SetenergyPenalty("AIXOPT_ITMI_FISHINGROD", 10);
+	SetCraftEXP("AIXOPT_ITMI_FISHINGROD", 25)
+	SetCraftEXP_SKILL("AIXOPT_ITMI_FISHINGROD", "Плотник")	
 
 	
-	AddItemCategory ("Плотник (1 уровень)", "OOLTYB_ItMi_Scoop"); --- Ложка
-	SetCraftAmount("OOLTYB_ItMi_Scoop", 1);
-	 AddIngre("OOLTYB_ItMi_Scoop", "OOLTYB_ITMI_WOOD", 10);
-	 AddTool("OOLTYB_ItMi_Scoop", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("OOLTYB_ItMi_Scoop", 5);
-	SetCraftScience("OOLTYB_ItMi_Scoop", "Плотник", 1);
-	SetenergyPenalty("OOLTYB_ItMi_Scoop", 10);
-	SetCraftEXP("OOLTYB_ItMi_Scoop", 10)
-	SetCraftEXP_SKILL("OOLTYB_ItMi_Scoop", "Плотник")		
+	AddItemCategory ("Плотник (1 уровень)", "aixopt_itmi_scoop"); --- Ложка
+	SetCraftAmount("aixopt_itmi_scoop", 1);
+	 AddIngre("aixopt_itmi_scoop", "aixopt_itmi_rawwood", 10);
+	 AddTool("aixopt_itmi_scoop", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_scoop", 5);
+	SetCraftScience("aixopt_itmi_scoop", "Плотник", 1);
+	SetenergyPenalty("aixopt_itmi_scoop", 10);
+	SetCraftEXP("aixopt_itmi_scoop", 10)
+	SetCraftEXP_SKILL("aixopt_itmi_scoop", "Плотник")		
 	
 
-	AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_1h_Vlk_Mace"); --- Трость
-	SetCraftAmount("JKZTZD_ItMw_1h_Vlk_Mace", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Vlk_Mace", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("JKZTZD_ItMw_1h_Vlk_Mace", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Vlk_Mace", 5);
-	SetCraftScience("JKZTZD_ItMw_1h_Vlk_Mace", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Vlk_Mace", 10);
-	SetCraftEXP("JKZTZD_ItMw_1h_Vlk_Mace", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Vlk_Mace", "Плотник")		
+	AddItemCategory ("Плотник (Без уровня)", "gkwqdz_ItMw_1h_Vlk_Mace"); --- Трость
+	SetCraftAmount("gkwqdz_ItMw_1h_Vlk_Mace", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Vlk_Mace", "aixopt_itmi_craftwood", 1);
+	 AddTool("gkwqdz_ItMw_1h_Vlk_Mace", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Vlk_Mace", 5);
+	SetCraftScience("gkwqdz_ItMw_1h_Vlk_Mace", "Плотник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Vlk_Mace", 10);
+	SetCraftEXP("gkwqdz_ItMw_1h_Vlk_Mace", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Vlk_Mace", "Плотник")		
 
 
-	AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_1H_Mace_L_03"); --- Дубина
-	SetCraftAmount("JKZTZD_ItMw_1H_Mace_L_03", 1);
-	 AddIngre("JKZTZD_ItMw_1H_Mace_L_03", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("JKZTZD_ItMw_1H_Mace_L_03", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMw_1H_Mace_L_03", 5);
-	SetCraftScience("JKZTZD_ItMw_1H_Mace_L_03", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1H_Mace_L_03", 10);
-	SetCraftEXP("JKZTZD_ItMw_1H_Mace_L_03", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1H_Mace_L_03", "Плотник")	
+	AddItemCategory ("Плотник (Без уровня)", "gkwqdz_ItMw_1H_Mace_L_03"); --- Дубина
+	SetCraftAmount("gkwqdz_ItMw_1H_Mace_L_03", 1);
+	 AddIngre("gkwqdz_ItMw_1H_Mace_L_03", "aixopt_itmi_craftwood", 1);
+	 AddTool("gkwqdz_ItMw_1H_Mace_L_03", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("gkwqdz_ItMw_1H_Mace_L_03", 5);
+	SetCraftScience("gkwqdz_ItMw_1H_Mace_L_03", "Плотник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1H_Mace_L_03", 10);
+	SetCraftEXP("gkwqdz_ItMw_1H_Mace_L_03", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1H_Mace_L_03", "Плотник")	
 
-AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_Nagelknueppel"); --- Палица с шипами
-	SetCraftAmount("JKZTZD_ItMw_Nagelknueppel", 1);
-	 AddIngre("JKZTZD_ItMw_Nagelknueppel", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("JKZTZD_ItMw_Nagelknueppel", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMw_Nagelknueppel", 5);
-	SetCraftScience("JKZTZD_ItMw_Nagelknueppel", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Nagelknueppel", 10);
-	SetCraftEXP("JKZTZD_ItMw_Nagelknueppel", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Nagelknueppel", "Плотник")	
+AddItemCategory ("Плотник (Без уровня)", "gkwqdz_ItMw_Nagelknueppel"); --- Палица с шипами
+	SetCraftAmount("gkwqdz_ItMw_Nagelknueppel", 1);
+	 AddIngre("gkwqdz_ItMw_Nagelknueppel", "aixopt_itmi_craftwood", 1);
+	 AddTool("gkwqdz_ItMw_Nagelknueppel", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("gkwqdz_ItMw_Nagelknueppel", 5);
+	SetCraftScience("gkwqdz_ItMw_Nagelknueppel", "Плотник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Nagelknueppel", 10);
+	SetCraftEXP("gkwqdz_ItMw_Nagelknueppel", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Nagelknueppel", "Плотник")	
 
-	AddItemCategory ("Плотник (1 уровень)", "JKZTZD_ItMw_1h_Nov_Mace"); --- Боевой посох
-	SetCraftAmount("JKZTZD_ItMw_1h_Nov_Mace", 1);
-	 AddIngre("JKZTZD_ItMw_1h_Nov_Mace", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddTool("JKZTZD_ItMw_1h_Nov_Mace", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMw_1h_Nov_Mace", 5);
-	SetCraftScience("JKZTZD_ItMw_1h_Nov_Mace", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_1h_Nov_Mace", 25);
-	SetCraftEXP("JKZTZD_ItMw_1h_Nov_Mace", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_1h_Nov_Mace", "Плотник")
+	AddItemCategory ("Плотник (1 уровень)", "gkwqdz_ItMw_1h_Nov_Mace"); --- Боевой посох
+	SetCraftAmount("gkwqdz_ItMw_1h_Nov_Mace", 1);
+	 AddIngre("gkwqdz_ItMw_1h_Nov_Mace", "aixopt_itmi_craftwood", 2);
+	 AddTool("gkwqdz_ItMw_1h_Nov_Mace", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("gkwqdz_ItMw_1h_Nov_Mace", 5);
+	SetCraftScience("gkwqdz_ItMw_1h_Nov_Mace", "Плотник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_1h_Nov_Mace", 25);
+	SetCraftEXP("gkwqdz_ItMw_1h_Nov_Mace", 50)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_1h_Nov_Mace", "Плотник")
 	
 	
-	AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItRw_Bow_L_01"); --- Короткий лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_L_01", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_L_01", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("JKZTZD_ItRw_Bow_L_01", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_L_01", 5);
-	SetCraftScience("JKZTZD_ItRw_Bow_L_01", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_L_01", 25);
-	SetCraftEXP("JKZTZD_ItRw_Bow_L_01", 25)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_L_01", "Плотник")	
-	
-
-	AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItRw_Crossbow_L_01"); --- Охотничий арбалет
-	SetCraftAmount("JKZTZD_ItRw_Crossbow_L_01", 1);
-	 AddIngre("JKZTZD_ItRw_Crossbow_L_01", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("JKZTZD_ItRw_Crossbow_L_01", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Crossbow_L_01", 5);
-	SetCraftScience("JKZTZD_ItRw_Crossbow_L_01", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Crossbow_L_01", 25);
-	SetCraftEXP("JKZTZD_ItRw_Crossbow_L_01", 25)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Crossbow_L_01", "Плотник")
+	AddItemCategory ("Плотник (Без уровня)", "eyqtds_itrw_bow_l_01"); --- Короткий лук
+	SetCraftAmount("eyqtds_itrw_bow_l_01", 1);
+	 AddIngre("eyqtds_itrw_bow_l_01", "aixopt_itmi_craftwood", 1);
+	 AddTool("eyqtds_itrw_bow_l_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_l_01", 5);
+	SetCraftScience("eyqtds_itrw_bow_l_01", "Плотник", 1);
+	SetenergyPenalty("eyqtds_itrw_bow_l_01", 25);
+	SetCraftEXP("eyqtds_itrw_bow_l_01", 25)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_l_01", "Плотник")	
 	
 
-	AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_Nagelkeule"); --- Дубина с шипами
-	SetCraftAmount("JKZTZD_ItMw_Nagelkeule", 1);
-	 AddIngre("JKZTZD_ItMw_Nagelkeule", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddTool("JKZTZD_ItMw_Nagelkeule", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMw_Nagelkeule", 10);
-	SetCraftScience("JKZTZD_ItMw_Nagelkeule", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItMw_Nagelkeule", 10);
-	SetCraftEXP("JKZTZD_ItMw_Nagelkeule", 10)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Nagelkeule", "Плотник")
-	
-	
-	AddItemCategory ("Плотник (1 уровень)", "JKZTZD_ItMW_Addon2h"); --- Дубинка бури
-	SetCraftAmount("JKZTZD_ItMW_Addon2h", 1);
-	 AddIngre("JKZTZD_ItMW_Addon2h", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddTool("JKZTZD_ItMW_Addon2h", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMW_Addon2h", 10);
-	SetCraftScience("JKZTZD_ItMW_Addon2h", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItMW_Addon2h", 25);
-	SetCraftEXP("JKZTZD_ItMW_Addon2h", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItMW_Addon2h", "Плотник")
-	
-	
-	AddItemCategory ("Плотник (1 уровень)", "JKZTZD_ItRw_Sld_Bow"); --- Солдатский лук
-	SetCraftAmount("JKZTZD_ItRw_Sld_Bow", 1);
-	 AddIngre("JKZTZD_ItRw_Sld_Bow", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddTool("JKZTZD_ItRw_Sld_Bow", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Sld_Bow", 10);
-	SetCraftScience("JKZTZD_ItRw_Sld_Bow", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Sld_Bow", 25);
-	SetCraftEXP("JKZTZD_ItRw_Sld_Bow", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Sld_Bow", "Плотник")
+	AddItemCategory ("Плотник (Без уровня)", "eyqtds_itrw_crossbow_l_01"); --- Охотничий арбалет
+	SetCraftAmount("eyqtds_itrw_crossbow_l_01", 1);
+	 AddIngre("eyqtds_itrw_crossbow_l_01", "aixopt_itmi_craftwood", 1);
+	 AddTool("eyqtds_itrw_crossbow_l_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_crossbow_l_01", 5);
+	SetCraftScience("eyqtds_itrw_crossbow_l_01", "Плотник", 1);
+	SetenergyPenalty("eyqtds_itrw_crossbow_l_01", 25);
+	SetCraftEXP("eyqtds_itrw_crossbow_l_01", 25)
+	SetCraftEXP_SKILL("eyqtds_itrw_crossbow_l_01", "Плотник")
 	
 
-	AddItemCategory ("Плотник (1 уровень)", "JKZTZD_ItRw_Bow_L_02"); --- Ивовый лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_L_02", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_L_02", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddTool("JKZTZD_ItRw_Bow_L_02", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_L_02", 10);
-	SetCraftScience("JKZTZD_ItRw_Bow_L_02", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_L_02", 25);
-	SetCraftEXP("JKZTZD_ItRw_Bow_L_02", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_L_02", "Плотник")
+	AddItemCategory ("Плотник (Без уровня)", "gkwqdz_ItMw_Nagelkeule"); --- Дубина с шипами
+	SetCraftAmount("gkwqdz_ItMw_Nagelkeule", 1);
+	 AddIngre("gkwqdz_ItMw_Nagelkeule", "aixopt_itmi_craftwood", 1);
+	 AddTool("gkwqdz_ItMw_Nagelkeule", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("gkwqdz_ItMw_Nagelkeule", 10);
+	SetCraftScience("gkwqdz_ItMw_Nagelkeule", "Плотник", 1);
+	SetenergyPenalty("gkwqdz_ItMw_Nagelkeule", 10);
+	SetCraftEXP("gkwqdz_ItMw_Nagelkeule", 10)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Nagelkeule", "Плотник")
+	
+	
+	AddItemCategory ("Плотник (1 уровень)", "GKWQDZ_ItMw_Addon_Keule_1h_01"); --- Дубинка бури
+	SetCraftAmount("GKWQDZ_ItMw_Addon_Keule_1h_01", 1);
+	 AddIngre("GKWQDZ_ItMw_Addon_Keule_1h_01", "aixopt_itmi_craftwood", 2);
+	 AddTool("GKWQDZ_ItMw_Addon_Keule_1h_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("GKWQDZ_ItMw_Addon_Keule_1h_01", 10);
+	SetCraftScience("GKWQDZ_ItMw_Addon_Keule_1h_01", "Плотник", 1);
+	SetenergyPenalty("GKWQDZ_ItMw_Addon_Keule_1h_01", 25);
+	SetCraftEXP("GKWQDZ_ItMw_Addon_Keule_1h_01", 50)
+	SetCraftEXP_SKILL("GKWQDZ_ItMw_Addon_Keule_1h_01", "Плотник")
+	
+	
+	AddItemCategory ("Плотник (1 уровень)", "eyqtds_itrw_sld_bow"); --- Солдатский лук
+	SetCraftAmount("eyqtds_itrw_sld_bow", 1);
+	 AddIngre("eyqtds_itrw_sld_bow", "aixopt_itmi_craftwood", 2);
+	 AddTool("eyqtds_itrw_sld_bow", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_sld_bow", 10);
+	SetCraftScience("eyqtds_itrw_sld_bow", "Плотник", 1);
+	SetenergyPenalty("eyqtds_itrw_sld_bow", 25);
+	SetCraftEXP("eyqtds_itrw_sld_bow", 50)
+	SetCraftEXP_SKILL("eyqtds_itrw_sld_bow", "Плотник")
+	
+
+	AddItemCategory ("Плотник (1 уровень)", "eyqtds_itrw_bow_l_02"); --- Ивовый лук
+	SetCraftAmount("eyqtds_itrw_bow_l_02", 1);
+	 AddIngre("eyqtds_itrw_bow_l_02", "aixopt_itmi_craftwood", 2);
+	 AddTool("eyqtds_itrw_bow_l_02", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_l_02", 10);
+	SetCraftScience("eyqtds_itrw_bow_l_02", "Плотник", 1);
+	SetenergyPenalty("eyqtds_itrw_bow_l_02", 25);
+	SetCraftEXP("eyqtds_itrw_bow_l_02", 50)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_l_02", "Плотник")
 
 
-	AddItemCategory ("Плотник (1 уровень)", "JKZTZD_ItRw_Mil_Crossbow"); --- Арбалет
-	SetCraftAmount("JKZTZD_ItRw_Mil_Crossbow", 1);
-	 AddIngre("JKZTZD_ItRw_Mil_Crossbow", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddTool("JKZTZD_ItRw_Mil_Crossbow", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Mil_Crossbow", 10);
-	SetCraftScience("JKZTZD_ItRw_Mil_Crossbow", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Mil_Crossbow", 25);
-	SetCraftEXP("JKZTZD_ItRw_Mil_Crossbow", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Mil_Crossbow", "Плотник")	
+	AddItemCategory ("Плотник (1 уровень)", "eyqtds_itrw_mil_crossbow"); --- Арбалет
+	SetCraftAmount("eyqtds_itrw_mil_crossbow", 1);
+	 AddIngre("eyqtds_itrw_mil_crossbow", "aixopt_itmi_craftwood", 2);
+	 AddTool("eyqtds_itrw_mil_crossbow", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_mil_crossbow", 10);
+	SetCraftScience("eyqtds_itrw_mil_crossbow", "Плотник", 1);
+	SetenergyPenalty("eyqtds_itrw_mil_crossbow", 25);
+	SetCraftEXP("eyqtds_itrw_mil_crossbow", 50)
+	SetCraftEXP_SKILL("eyqtds_itrw_mil_crossbow", "Плотник")	
 	
 	
-	AddItemCategory ("Плотник (1 уровень)", "JKZTZD_ItRw_Crossbow_L_02"); --- Легкий арбалет
-	SetCraftAmount("JKZTZD_ItRw_Crossbow_L_02", 1);
-	 AddIngre("JKZTZD_ItRw_Crossbow_L_02", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddTool("JKZTZD_ItRw_Crossbow_L_02", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Crossbow_L_02", 10);
-	SetCraftScience("JKZTZD_ItRw_Crossbow_L_02", "Плотник", 1);
-	SetenergyPenalty("JKZTZD_ItRw_Crossbow_L_02", 25);
-	SetCraftEXP("JKZTZD_ItRw_Crossbow_L_02", 50)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Crossbow_L_02", "Плотник")	
+	AddItemCategory ("Плотник (1 уровень)", "eyqtds_itrw_crossbow_l_02"); --- Легкий арбалет
+	SetCraftAmount("eyqtds_itrw_crossbow_l_02", 1);
+	 AddIngre("eyqtds_itrw_crossbow_l_02", "aixopt_itmi_craftwood", 2);
+	 AddTool("eyqtds_itrw_crossbow_l_02", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_crossbow_l_02", 10);
+	SetCraftScience("eyqtds_itrw_crossbow_l_02", "Плотник", 1);
+	SetenergyPenalty("eyqtds_itrw_crossbow_l_02", 25);
+	SetCraftEXP("eyqtds_itrw_crossbow_l_02", 50)
+	SetCraftEXP_SKILL("eyqtds_itrw_crossbow_l_02", "Плотник")	
 
 
-	AddItemCategory ("Плотник (1 уровень)", "YFAUUN_ITSH_SHIELD_01"); --- Деревянный щит
-	SetCraftAmount("YFAUUN_ITSH_SHIELD_01", 1);
-	 AddIngre("YFAUUN_ITSH_SHIELD_01", "OOLTYB_ITMI_OBRABOTDER", 2);
-	 AddTool("YFAUUN_ITSH_SHIELD_01", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("YFAUUN_ITSH_SHIELD_01", 10);
-	SetCraftScience("YFAUUN_ITSH_SHIELD_01", "Плотник", 1);
-	SetenergyPenalty("YFAUUN_ITSH_SHIELD_01", 25);
-	SetCraftEXP("YFAUUN_ITSH_SHIELD_01", 50)
-	SetCraftEXP_SKILL("YFAUUN_ITSH_SHIELD_01", "Плотник")
+	AddItemCategory ("Плотник (1 уровень)", "mcyzod_itsh_shield_01"); --- Деревянный щит
+	SetCraftAmount("mcyzod_itsh_shield_01", 1);
+	 AddIngre("mcyzod_itsh_shield_01", "aixopt_itmi_craftwood", 2);
+	 AddTool("mcyzod_itsh_shield_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("mcyzod_itsh_shield_01", 10);
+	SetCraftScience("mcyzod_itsh_shield_01", "Плотник", 1);
+	SetenergyPenalty("mcyzod_itsh_shield_01", 25);
+	SetCraftEXP("mcyzod_itsh_shield_01", 50)
+	SetCraftEXP_SKILL("mcyzod_itsh_shield_01", "Плотник")
 	
-	AddItemCategory ("Плотник (Без уровня)", "ooltyb_itmi_lute"); --- Лютня
-	SetCraftAmount("ooltyb_itmi_lute", 1);
-	 AddIngre("ooltyb_itmi_lute", "OOLTYB_ITMI_OBRABOTDER", 1);
-	 AddIngre("ooltyb_itmi_lute", "ZDPWLA_ItMi_Glue", 1);
-	 AddTool("ooltyb_itmi_lute", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("ooltyb_itmi_lute", 10);
-	SetCraftScience("ooltyb_itmi_lute", "Плотник", 1);
-	SetenergyPenalty("ooltyb_itmi_lute", 25);
-	SetCraftEXP("ooltyb_itmi_lute", 25)
-	SetCraftEXP_SKILL("ooltyb_itmi_lute", "Плотник")
-
--- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
-
-
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItMW_AddonKeu"); --- Дубинка ветра
-	SetCraftAmount("JKZTZD_ItMW_AddonKeu", 1);
-	 AddIngre("JKZTZD_ItMW_AddonKeu", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItMW_AddonKeu", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMW_AddonKeu", 10);
-	SetCraftScience("JKZTZD_ItMW_AddonKeu", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItMW_AddonKeu", 50);
-	SetCraftEXP("JKZTZD_ItMW_AddonKeu", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMW_AddonKeu", "Плотник")
-
-
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Bow_L_03"); --- Охотничий лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_L_03", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_L_03", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Bow_L_03", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_L_03", 10);
-	SetCraftScience("JKZTZD_ItRw_Bow_L_03", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_L_03", 50);
-	SetCraftEXP("JKZTZD_ItRw_Bow_L_03", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_L_03", "Плотник")
-	
-	
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Bow_L_04"); --- Вязовый лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_L_04", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_L_04", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Bow_L_04", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_L_04", 10);
-	SetCraftScience("JKZTZD_ItRw_Bow_L_04", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_L_04", 50);
-	SetCraftEXP("JKZTZD_ItRw_Bow_L_04", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_L_04", "Плотник")
-	
-	
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Bow_M_01"); --- Композитный лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_M_01", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_M_01", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Bow_M_01", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_M_01", 10);
-	SetCraftScience("JKZTZD_ItRw_Bow_M_01", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_M_01", 50);
-	SetCraftEXP("JKZTZD_ItRw_Bow_M_01", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_M_01", "Плотник")
-	
-	
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Bow_M_02"); --- Ясеневый лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_M_02", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_M_02", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Bow_M_02", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_M_02", 10);
-	SetCraftScience("JKZTZD_ItRw_Bow_M_02", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_M_02", 50);
-	SetCraftEXP("JKZTZD_ItRw_Bow_M_02", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_M_02", "Плотник")
-	
-	
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Bow_M_03"); --- Длинный лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_M_03", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_M_03", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Bow_M_03", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_M_03", 10);
-	SetCraftScience("JKZTZD_ItRw_Bow_M_03", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_M_03", 50);
-	SetCraftEXP("JKZTZD_ItRw_Bow_M_03", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_M_03", "Плотник")
-	
-	
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Bow_M_04"); --- Буковый лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_M_04", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_M_04", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Bow_M_04", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_M_04", 10);
-	SetCraftScience("JKZTZD_ItRw_Bow_M_04", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_M_04", 50);
-	SetCraftEXP("JKZTZD_ItRw_Bow_M_04", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Bow_M_04", "Плотник")
-
-
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Crossbow_M_01"); --- Арбалет ополчения
-	SetCraftAmount("JKZTZD_ItRw_Crossbow_M_01", 1);
-	 AddIngre("JKZTZD_ItRw_Crossbow_M_01", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Crossbow_M_01", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Crossbow_M_01", 10);
-	SetCraftScience("JKZTZD_ItRw_Crossbow_M_01", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Crossbow_M_01", 50);
-	SetCraftEXP("JKZTZD_ItRw_Crossbow_M_01", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Crossbow_M_01", "Плотник")	
-	
-	
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItRw_Crossbow_M_02"); --- Военный арбалет
-	SetCraftAmount("JKZTZD_ItRw_Crossbow_M_02", 1);
-	 AddIngre("JKZTZD_ItRw_Crossbow_M_02", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItRw_Crossbow_M_02", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Crossbow_M_02", 10);
-	SetCraftScience("JKZTZD_ItRw_Crossbow_M_02", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItRw_Crossbow_M_02", 50);
-	SetCraftEXP("JKZTZD_ItRw_Crossbow_M_02", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItRw_Crossbow_M_02", "Плотник")	
-	
-	
-	AddItemCategory ("Плотник (2 уровень)", "YFAUUN_ITSH_SHIELD_02"); --- Круглый щит
-	SetCraftAmount("YFAUUN_ITSH_SHIELD_02", 1);
-	 AddIngre("YFAUUN_ITSH_SHIELD_02", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("YFAUUN_ITSH_SHIELD_02", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("YFAUUN_ITSH_SHIELD_02", 10);
-	SetCraftScience("YFAUUN_ITSH_SHIELD_02", "Плотник", 2);
-	SetenergyPenalty("YFAUUN_ITSH_SHIELD_02", 50);
-	SetCraftEXP("YFAUUN_ITSH_SHIELD_02", 150)
-	SetCraftEXP_SKILL("YFAUUN_ITSH_SHIELD_02", "Плотник")		
-	
-	AddItemCategory ("Плотник (2 уровень)", "JKZTZD_ItMw_Richtstab"); --- Посох судьи
-	SetCraftAmount("JKZTZD_ItMw_Richtstab", 1);
-     AddIngre("JKZTZD_ItMw_Richtstab", "OOLTYB_ITMI_OBRABOTDER", 5);
-	 AddTool("JKZTZD_ItMw_Richtstab", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItMw_Richtstab", 10);
-	SetCraftScience("JKZTZD_ItMw_Richtstab", "Плотник", 2);
-	SetenergyPenalty("JKZTZD_ItMw_Richtstab", 50);
-	SetCraftEXP("JKZTZD_ItMw_Richtstab", 150)
-	SetCraftEXP_SKILL("JKZTZD_ItMw_Richtstab", "Плотник")		
+	AddItemCategory ("Плотник (Без уровня)", "aixopt_itmi_lute"); --- Лютня
+	SetCraftAmount("aixopt_itmi_lute", 1);
+	 AddIngre("aixopt_itmi_lute", "aixopt_itmi_craftwood", 1);
+	 AddIngre("aixopt_itmi_lute", "aixopt_itmi_glue", 1);
+	 AddTool("aixopt_itmi_lute", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("aixopt_itmi_lute", 10);
+	SetCraftScience("aixopt_itmi_lute", "Плотник", 1);
+	SetenergyPenalty("aixopt_itmi_lute", 25);
+	SetCraftEXP("aixopt_itmi_lute", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_lute", "Плотник")
 
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
-	AddItemCategory ("Плотник (3 уровень)", "JKZTZD_ItRw_Bow_H_01"); --- Костяной лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_H_01", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_H_01", "OOLTYB_ITMI_OBRABOTDER", 15);
-	 AddIngre("JKZTZD_ItRw_Bow_H_01", "ZDPWLA_ItMi_Glue", 8);
-	 AddTool("JKZTZD_ItRw_Bow_H_01", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_H_01", 20);
-	SetCraftScience("JKZTZD_ItRw_Bow_H_01", "Плотник", 3);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_H_01", 100);
+
+	AddItemCategory ("Плотник (2 уровень)", "GKWQDZ_ItMw_Addon_Keule_2h_01"); --- Дубинка ветра
+	SetCraftAmount("GKWQDZ_ItMw_Addon_Keule_2h_01", 1);
+	 AddIngre("GKWQDZ_ItMw_Addon_Keule_2h_01", "aixopt_itmi_craftwood", 5);
+	 AddTool("GKWQDZ_ItMw_Addon_Keule_2h_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("GKWQDZ_ItMw_Addon_Keule_2h_01", 10);
+	SetCraftScience("GKWQDZ_ItMw_Addon_Keule_2h_01", "Плотник", 2);
+	SetenergyPenalty("GKWQDZ_ItMw_Addon_Keule_2h_01", 50);
+	SetCraftEXP("GKWQDZ_ItMw_Addon_Keule_2h_01", 150)
+	SetCraftEXP_SKILL("GKWQDZ_ItMw_Addon_Keule_2h_01", "Плотник")
 
 
-	AddItemCategory ("Плотник (3 уровень)", "JKZTZD_ItRw_Bow_H_02"); --- Дубовый лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_H_02", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_H_02", "OOLTYB_ITMI_OBRABOTDER", 15);
-	 AddIngre("JKZTZD_ItRw_Bow_H_02", "ZDPWLA_ItMi_Glue", 8);
-	 AddTool("JKZTZD_ItRw_Bow_H_02", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_H_02", 20);
-	SetCraftScience("JKZTZD_ItRw_Bow_H_02", "Плотник", 3);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_H_02", 100);
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_bow_l_03"); --- Охотничий лук
+	SetCraftAmount("eyqtds_itrw_bow_l_03", 1);
+	 AddIngre("eyqtds_itrw_bow_l_03", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_bow_l_03", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_l_03", 10);
+	SetCraftScience("eyqtds_itrw_bow_l_03", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_bow_l_03", 50);
+	SetCraftEXP("eyqtds_itrw_bow_l_03", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_l_03", "Плотник")
+	
+	
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_bow_l_04"); --- Вязовый лук
+	SetCraftAmount("eyqtds_itrw_bow_l_04", 1);
+	 AddIngre("eyqtds_itrw_bow_l_04", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_bow_l_04", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_l_04", 10);
+	SetCraftScience("eyqtds_itrw_bow_l_04", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_bow_l_04", 50);
+	SetCraftEXP("eyqtds_itrw_bow_l_04", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_l_04", "Плотник")
+	
+	
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_bow_m_01"); --- Композитный лук
+	SetCraftAmount("eyqtds_itrw_bow_m_01", 1);
+	 AddIngre("eyqtds_itrw_bow_m_01", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_bow_m_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_m_01", 10);
+	SetCraftScience("eyqtds_itrw_bow_m_01", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_bow_m_01", 50);
+	SetCraftEXP("eyqtds_itrw_bow_m_01", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_m_01", "Плотник")
+	
+	
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_bow_m_02"); --- Ясеневый лук
+	SetCraftAmount("eyqtds_itrw_bow_m_02", 1);
+	 AddIngre("eyqtds_itrw_bow_m_02", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_bow_m_02", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_m_02", 10);
+	SetCraftScience("eyqtds_itrw_bow_m_02", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_bow_m_02", 50);
+	SetCraftEXP("eyqtds_itrw_bow_m_02", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_m_02", "Плотник")
+	
+	
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_bow_m_03"); --- Длинный лук
+	SetCraftAmount("eyqtds_itrw_bow_m_03", 1);
+	 AddIngre("eyqtds_itrw_bow_m_03", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_bow_m_03", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_m_03", 10);
+	SetCraftScience("eyqtds_itrw_bow_m_03", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_bow_m_03", 50);
+	SetCraftEXP("eyqtds_itrw_bow_m_03", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_m_03", "Плотник")
+	
+	
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_bow_m_04"); --- Буковый лук
+	SetCraftAmount("eyqtds_itrw_bow_m_04", 1);
+	 AddIngre("eyqtds_itrw_bow_m_04", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_bow_m_04", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_m_04", 10);
+	SetCraftScience("eyqtds_itrw_bow_m_04", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_bow_m_04", 50);
+	SetCraftEXP("eyqtds_itrw_bow_m_04", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_bow_m_04", "Плотник")
 
 
-	AddItemCategory ("Плотник (3 уровень)", "JKZTZD_ItRw_Bow_H_03"); --- Военный лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_H_03", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_H_03", "OOLTYB_ITMI_OBRABOTDER", 15);
-	 AddIngre("JKZTZD_ItRw_Bow_H_03", "ZDPWLA_ItMi_Glue", 8);
-	 AddTool("JKZTZD_ItRw_Bow_H_03", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_H_03", 20);
-	SetCraftScience("JKZTZD_ItRw_Bow_H_03", "Плотник", 3);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_H_03", 100);
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_crossbow_m_01"); --- Арбалет ополчения
+	SetCraftAmount("eyqtds_itrw_crossbow_m_01", 1);
+	 AddIngre("eyqtds_itrw_crossbow_m_01", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_crossbow_m_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_crossbow_m_01", 10);
+	SetCraftScience("eyqtds_itrw_crossbow_m_01", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_crossbow_m_01", 50);
+	SetCraftEXP("eyqtds_itrw_crossbow_m_01", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_crossbow_m_01", "Плотник")	
 	
 	
-	AddItemCategory ("Плотник (3 уровень)", "JKZTZD_ItRw_Crossbow_H_01"); --- Тяжелый арбалет
-	SetCraftAmount("JKZTZD_ItRw_Crossbow_H_01", 1);
-	 AddIngre("JKZTZD_ItRw_Crossbow_H_01", "OOLTYB_ITMI_OBRABOTDER", 16);
-	 AddIngre("JKZTZD_ItRw_Crossbow_H_01", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("JKZTZD_ItRw_Crossbow_H_01", "OOLTYB_ITMI_LINKAGE", 3);
-	 AddTool("JKZTZD_ItRw_Crossbow_H_01", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Crossbow_H_01", 20);
-	SetCraftScience("JKZTZD_ItRw_Crossbow_H_01", "Плотник", 3);
-	SetenergyPenalty("JKZTZD_ItRw_Crossbow_H_01", 100);	
+	AddItemCategory ("Плотник (2 уровень)", "eyqtds_itrw_crossbow_m_02"); --- Военный арбалет
+	SetCraftAmount("eyqtds_itrw_crossbow_m_02", 1);
+	 AddIngre("eyqtds_itrw_crossbow_m_02", "aixopt_itmi_craftwood", 5);
+	 AddTool("eyqtds_itrw_crossbow_m_02", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_crossbow_m_02", 10);
+	SetCraftScience("eyqtds_itrw_crossbow_m_02", "Плотник", 2);
+	SetenergyPenalty("eyqtds_itrw_crossbow_m_02", 50);
+	SetCraftEXP("eyqtds_itrw_crossbow_m_02", 150)
+	SetCraftEXP_SKILL("eyqtds_itrw_crossbow_m_02", "Плотник")	
 	
 	
-	AddItemCategory ("Плотник (3 уровень)", "YFAUUN_ITSH_SHIELD_03"); --- Железный щит
-	SetCraftAmount("YFAUUN_ITSH_SHIELD_03", 1);
-	 AddIngre("YFAUUN_ITSH_SHIELD_03", "OOLTYB_ITMI_OBRABOTDER", 6);
-	 AddIngre("YFAUUN_ITSH_SHIELD_03", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("YFAUUN_ITSH_SHIELD_03", "OOLTYB_ItMiSwordraw", 3);
-	 AddIngre("YFAUUN_ITSH_SHIELD_03", "OOLTYB_ITMI_DLEATHER", 3);
-	 AddTool("YFAUUN_ITSH_SHIELD_03", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("YFAUUN_ITSH_SHIELD_03", 20);
-	SetCraftScience("YFAUUN_ITSH_SHIELD_03", "Плотник", 3);
-	SetenergyPenalty("YFAUUN_ITSH_SHIELD_03", 100);	
+	AddItemCategory ("Плотник (2 уровень)", "mcyzod_itsh_shield_06"); --- Круглый щит
+	SetCraftAmount("mcyzod_itsh_shield_06", 1);
+	 AddIngre("mcyzod_itsh_shield_06", "aixopt_itmi_craftwood", 5);
+	 AddTool("mcyzod_itsh_shield_06", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("mcyzod_itsh_shield_06", 10);
+	SetCraftScience("mcyzod_itsh_shield_06", "Плотник", 2);
+	SetenergyPenalty("mcyzod_itsh_shield_06", 50);
+	SetCraftEXP("mcyzod_itsh_shield_06", 150)
+	SetCraftEXP_SKILL("mcyzod_itsh_shield_06", "Плотник")		
+	
+	AddItemCategory ("Плотник (2 уровень)", "gkwqdz_ItMw_Richtstab"); --- Посох судьи
+	SetCraftAmount("gkwqdz_ItMw_Richtstab", 1);
+     AddIngre("gkwqdz_ItMw_Richtstab", "aixopt_itmi_craftwood", 5);
+	 AddTool("gkwqdz_ItMw_Richtstab", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("gkwqdz_ItMw_Richtstab", 10);
+	SetCraftScience("gkwqdz_ItMw_Richtstab", "Плотник", 2);
+	SetenergyPenalty("gkwqdz_ItMw_Richtstab", 50);
+	SetCraftEXP("gkwqdz_ItMw_Richtstab", 150)
+	SetCraftEXP_SKILL("gkwqdz_ItMw_Richtstab", "Плотник")		
+
+-- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
+
+	AddItemCategory ("Плотник (3 уровень)", "eyqtds_itrw_bow_h_01"); --- Костяной лук
+	SetCraftAmount("eyqtds_itrw_bow_h_01", 1);
+	 AddIngre("eyqtds_itrw_bow_h_01", "aixopt_itmi_craftwood", 15);
+	 AddIngre("eyqtds_itrw_bow_h_01", "aixopt_itmi_glue", 8);
+	 AddTool("eyqtds_itrw_bow_h_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_h_01", 20);
+	SetCraftScience("eyqtds_itrw_bow_h_01", "Плотник", 3);
+	SetenergyPenalty("eyqtds_itrw_bow_h_01", 100);
+
+
+	AddItemCategory ("Плотник (3 уровень)", "eyqtds_itrw_bow_h_02"); --- Дубовый лук
+	SetCraftAmount("eyqtds_itrw_bow_h_02", 1);
+	 AddIngre("eyqtds_itrw_bow_h_02", "aixopt_itmi_craftwood", 15);
+	 AddIngre("eyqtds_itrw_bow_h_02", "aixopt_itmi_glue", 8);
+	 AddTool("eyqtds_itrw_bow_h_02", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_h_02", 20);
+	SetCraftScience("eyqtds_itrw_bow_h_02", "Плотник", 3);
+	SetenergyPenalty("eyqtds_itrw_bow_h_02", 100);
+
+
+	AddItemCategory ("Плотник (3 уровень)", "eyqtds_itrw_bow_h_03"); --- Военный лук
+	SetCraftAmount("eyqtds_itrw_bow_h_03", 1);
+	 AddIngre("eyqtds_itrw_bow_h_03", "aixopt_itmi_craftwood", 15);
+	 AddIngre("eyqtds_itrw_bow_h_03", "aixopt_itmi_glue", 8);
+	 AddTool("eyqtds_itrw_bow_h_03", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_h_03", 20);
+	SetCraftScience("eyqtds_itrw_bow_h_03", "Плотник", 3);
+	SetenergyPenalty("eyqtds_itrw_bow_h_03", 100);
+	
+	
+	AddItemCategory ("Плотник (3 уровень)", "eyqtds_itrw_crossbow_h_01"); --- Тяжелый арбалет
+	SetCraftAmount("eyqtds_itrw_crossbow_h_01", 1);
+	 AddIngre("eyqtds_itrw_crossbow_h_01", "aixopt_itmi_craftwood", 16);
+	 AddIngre("eyqtds_itrw_crossbow_h_01", "aixopt_itmi_handle", 1);
+	 AddIngre("eyqtds_itrw_crossbow_h_01", "aixopt_itmi_linkage", 3);
+	 AddTool("eyqtds_itrw_crossbow_h_01", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_crossbow_h_01", 20);
+	SetCraftScience("eyqtds_itrw_crossbow_h_01", "Плотник", 3);
+	SetenergyPenalty("eyqtds_itrw_crossbow_h_01", 100);	
+	
+	
+	AddItemCategory ("Плотник (3 уровень)", "mcyzod_itsh_shield_03"); --- Железный щит
+	SetCraftAmount("mcyzod_itsh_shield_03", 1);
+	 AddIngre("mcyzod_itsh_shield_03", "aixopt_itmi_craftwood", 6);
+	 AddIngre("mcyzod_itsh_shield_03", "aixopt_itmi_handle", 1);
+	 AddIngre("mcyzod_itsh_shield_03", "aixopt_itmirawsteel", 3);
+	 AddIngre("mcyzod_itsh_shield_03", "aixopt_itmi_tannedskin", 3);
+	 AddTool("mcyzod_itsh_shield_03", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("mcyzod_itsh_shield_03", 20);
+	SetCraftScience("mcyzod_itsh_shield_03", "Плотник", 3);
+	SetenergyPenalty("mcyzod_itsh_shield_03", 100);	
 	
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА	
 	
 	
-	AddItemCategory ("Плотник (4 уровень)", "JKZTZD_ItRw_Crossbow_H_02"); --- Арбалет охотника на драконов
-	SetCraftAmount("JKZTZD_ItRw_Crossbow_H_02", 1);
-	 AddIngre("JKZTZD_ItRw_Crossbow_H_02", "OOLTYB_ITMI_OBRABOTDER", 28);
-	 AddIngre("JKZTZD_ItRw_Crossbow_H_02", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItRw_Crossbow_H_02", "OOLTYB_ITMI_LINKAGE", 4);
-	 AddIngre("JKZTZD_ItRw_Crossbow_H_02", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItRw_Crossbow_H_02", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Crossbow_H_02", 20);
-	SetCraftScience("JKZTZD_ItRw_Crossbow_H_02", "Плотник", 4);
-	SetenergyPenalty("JKZTZD_ItRw_Crossbow_H_02", 100);	
+	AddItemCategory ("Плотник (4 уровень)", "eyqtds_itrw_crossbow_h_02"); --- Осадный арбалет
+	SetCraftAmount("eyqtds_itrw_crossbow_h_02", 1);
+	 AddIngre("eyqtds_itrw_crossbow_h_02", "aixopt_itmi_craftwood", 28);
+	 AddIngre("eyqtds_itrw_crossbow_h_02", "aixopt_itmi_handle", 2);
+	 AddIngre("eyqtds_itrw_crossbow_h_02", "aixopt_itmi_linkage", 4);
+	 AddIngre("eyqtds_itrw_crossbow_h_02", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("eyqtds_itrw_crossbow_h_02", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_crossbow_h_02", 20);
+	SetCraftScience("eyqtds_itrw_crossbow_h_02", "Плотник", 4);
+	SetenergyPenalty("eyqtds_itrw_crossbow_h_02", 100);	
 	
 	
-	AddItemCategory ("Плотник (4 уровень)", "JKZTZD_ItRw_Addon_MagicCrossbow"); --- Магический арбалет
-	SetCraftAmount("JKZTZD_ItRw_Addon_MagicCrossbow", 1);
-	 AddIngre("JKZTZD_ItRw_Addon_MagicCrossbow", "OOLTYB_ITMI_OBRABOTDER", 28);
-	 AddIngre("JKZTZD_ItRw_Addon_MagicCrossbow", "OOLTYB_ITMI_HANDLE", 2);
-	 AddIngre("JKZTZD_ItRw_Addon_MagicCrossbow", "OOLTYB_ITMI_LINKAGE", 4);
-	 AddIngre("JKZTZD_ItRw_Addon_MagicCrossbow", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItRw_Addon_MagicCrossbow", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Addon_MagicCrossbow", 20);
-	SetCraftScience("JKZTZD_ItRw_Addon_MagicCrossbow", "Плотник", 4);
-	SetenergyPenalty("JKZTZD_ItRw_Addon_MagicCrossbow", 100);	
+	AddItemCategory ("Плотник (4 уровень)", "eyqtds_itrw_magiccrossbow"); --- Магический арбалет
+	SetCraftAmount("eyqtds_itrw_magiccrossbow", 1);
+	 AddIngre("eyqtds_itrw_magiccrossbow", "aixopt_itmi_craftwood", 28);
+	 AddIngre("eyqtds_itrw_magiccrossbow", "aixopt_itmi_handle", 2);
+	 AddIngre("eyqtds_itrw_magiccrossbow", "aixopt_itmi_linkage", 4);
+	 AddIngre("eyqtds_itrw_magiccrossbow", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("eyqtds_itrw_magiccrossbow", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_magiccrossbow", 20);
+	SetCraftScience("eyqtds_itrw_magiccrossbow", "Плотник", 4);
+	SetenergyPenalty("eyqtds_itrw_magiccrossbow", 100);	
 	
 	
-	AddItemCategory ("Плотник (4 уровень)", "JKZTZD_ItRw_Bow_H_04"); --- Драконий лук
-	SetCraftAmount("JKZTZD_ItRw_Bow_H_04", 1);
-	 AddIngre("JKZTZD_ItRw_Bow_H_04", "OOLTYB_ITMI_OBRABOTDER", 31);
-	 AddIngre("JKZTZD_ItRw_Bow_H_04", "ZDPWLA_ItMi_Glue", 10);
-	 AddIngre("JKZTZD_ItRw_Bow_H_04", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItRw_Bow_H_04", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Bow_H_04", 20);
-	SetCraftScience("JKZTZD_ItRw_Bow_H_04", "Плотник", 4);
-	SetenergyPenalty("JKZTZD_ItRw_Bow_H_04", 100);	
+	AddItemCategory ("Плотник (4 уровень)", "eyqtds_itrw_bow_h_04"); --- Драконий лук
+	SetCraftAmount("eyqtds_itrw_bow_h_04", 1);
+	 AddIngre("eyqtds_itrw_bow_h_04", "aixopt_itmi_craftwood", 31);
+	 AddIngre("eyqtds_itrw_bow_h_04", "aixopt_itmi_glue", 10);
+	 AddIngre("eyqtds_itrw_bow_h_04", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("eyqtds_itrw_bow_h_04", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_bow_h_04", 20);
+	SetCraftScience("eyqtds_itrw_bow_h_04", "Плотник", 4);
+	SetenergyPenalty("eyqtds_itrw_bow_h_04", 100);	
 	
 	
-	AddItemCategory ("Плотник (4 уровень)", "JKZTZD_ItRw_Addon_MagicBow"); --- Магический лук
-	SetCraftAmount("JKZTZD_ItRw_Addon_MagicBow", 1);
-	 AddIngre("JKZTZD_ItRw_Addon_MagicBow", "OOLTYB_ITMI_OBRABOTDER", 31);
-	 AddIngre("JKZTZD_ItRw_Addon_MagicBow", "ZDPWLA_ItMi_Glue", 10);
-	 AddIngre("JKZTZD_ItRw_Addon_MagicBow", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItRw_Addon_MagicBow", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Addon_MagicBow", 20);
-	SetCraftScience("JKZTZD_ItRw_Addon_MagicBow", "Плотник", 4);
-	SetenergyPenalty("JKZTZD_ItRw_Addon_MagicBow", 100);	
+	AddItemCategory ("Плотник (4 уровень)", "eyqtds_itrw_magicbow"); --- Магический лук
+	SetCraftAmount("eyqtds_itrw_magicbow", 1);
+	 AddIngre("eyqtds_itrw_magicbow", "aixopt_itmi_craftwood", 31);
+	 AddIngre("eyqtds_itrw_magicbow", "aixopt_itmi_glue", 10);
+	 AddIngre("eyqtds_itrw_magicbow", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("eyqtds_itrw_magicbow", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_magicbow", 20);
+	SetCraftScience("eyqtds_itrw_magicbow", "Плотник", 4);
+	SetenergyPenalty("eyqtds_itrw_magicbow", 100);	
 	
 	
-	AddItemCategory ("Плотник (4 уровень)", "JKZTZD_ItRw_Addon_FireBow"); --- Огненный лук
-	SetCraftAmount("JKZTZD_ItRw_Addon_FireBow", 1);
-	 AddIngre("JKZTZD_ItRw_Addon_FireBow", "OOLTYB_ITMI_OBRABOTDER", 31);
-	 AddIngre("JKZTZD_ItRw_Addon_FireBow", "ZDPWLA_ItMi_Glue", 10);
-	 AddIngre("JKZTZD_ItRw_Addon_FireBow", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("JKZTZD_ItRw_Addon_FireBow", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("JKZTZD_ItRw_Addon_FireBow", 20);
-	SetCraftScience("JKZTZD_ItRw_Addon_FireBow", "Плотник", 4);
-	SetenergyPenalty("JKZTZD_ItRw_Addon_FireBow", 100);	
+	AddItemCategory ("Плотник (4 уровень)", "eyqtds_itrw_firebow"); --- Огненный лук
+	SetCraftAmount("eyqtds_itrw_firebow", 1);
+	 AddIngre("eyqtds_itrw_firebow", "aixopt_itmi_craftwood", 31);
+	 AddIngre("eyqtds_itrw_firebow", "aixopt_itmi_glue", 10);
+	 AddIngre("eyqtds_itrw_firebow", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("eyqtds_itrw_firebow", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("eyqtds_itrw_firebow", 20);
+	SetCraftScience("eyqtds_itrw_firebow", "Плотник", 4);
+	SetenergyPenalty("eyqtds_itrw_firebow", 100);	
 	
 
-	AddItemCategory ("Плотник (4 уровень)", "YFAUUN_ITSH_SHIELD_04"); --- Костяной щит
-	SetCraftAmount("YFAUUN_ITSH_SHIELD_04", 1);
-	 AddIngre("YFAUUN_ITSH_SHIELD_04", "OOLTYB_ITMI_OBRABOTDER", 8);
-	 AddIngre("YFAUUN_ITSH_SHIELD_04", "OOLTYB_ITMI_HANDLE", 1);
-	 AddIngre("YFAUUN_ITSH_SHIELD_04", "OOLTYB_ItMiSwordraw", 6);
-	 AddIngre("YFAUUN_ITSH_SHIELD_04", "OOLTYB_ITMI_DLEATHER", 6);
-	 AddIngre("YFAUUN_ITSH_SHIELD_04", "OOLTYB_ITMI_UNIQUERECIPE", 1);
-	 AddTool("YFAUUN_ITSH_SHIELD_04", "JKZTZD_ItMw_1h_Vlk_AxE");
-	SetCraftPenalty("YFAUUN_ITSH_SHIELD_04", 20);
-	SetCraftScience("YFAUUN_ITSH_SHIELD_04", "Плотник", 4);
-	SetenergyPenalty("YFAUUN_ITSH_SHIELD_04", 100);	
+	AddItemCategory ("Плотник (4 уровень)", "mcyzod_itsh_shield_04"); --- Костяной щит
+	SetCraftAmount("mcyzod_itsh_shield_04", 1);
+	 AddIngre("mcyzod_itsh_shield_04", "aixopt_itmi_craftwood", 8);
+	 AddIngre("mcyzod_itsh_shield_04", "aixopt_itmi_handle", 1);
+	 AddIngre("mcyzod_itsh_shield_04", "aixopt_itmirawsteel", 6);
+	 AddIngre("mcyzod_itsh_shield_04", "aixopt_itmi_tannedskin", 6);
+	 AddIngre("mcyzod_itsh_shield_04", "AIXOPT_ItMi_UNIQUERECIPE", 1);
+	 AddTool("mcyzod_itsh_shield_04", "gkwqdz_ItMw_1h_Vlk_AxE");
+	SetCraftPenalty("mcyzod_itsh_shield_04", 20);
+	SetCraftScience("mcyzod_itsh_shield_04", "Плотник", 4);
+	SetenergyPenalty("mcyzod_itsh_shield_04", 100);	
 	
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
 
-	AddItemCategory ("Кожевник (Расходники)", "OOLTYB_ITMI_LEATHER"); --- Кожа
-	SetCraftAmount("OOLTYB_ITMI_LEATHER", 1);
-	 AddIngre("OOLTYB_ITMI_LEATHER", "OOLTYB_ItAt_WolfFur", 2);
-	 AddAlterIngre("OOLTYB_ITMI_LEATHER", "OOLTYB_itat_LurkerSkin", 2);
-	SetCraftPenalty("OOLTYB_ITMI_LEATHER", 5);
-	SetCraftScience("OOLTYB_ITMI_LEATHER", "Кожевник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_LEATHER", 25);
-	SetCraftEXP("OOLTYB_ITMI_LEATHER", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_LEATHER", "Кожевник")
+	AddItemCategory ("Кожевник (Расходники)", "aixopt_itmi_skin"); --- Кожа
+	SetCraftAmount("aixopt_itmi_skin", 1);
+	 AddIngre("aixopt_itmi_skin", "aixopt_itat_wolffur", 2);
+	 AddAlterIngre("aixopt_itmi_skin", "aixopt_itat_lurkerskin", 2);
+	SetCraftPenalty("aixopt_itmi_skin", 5);
+	SetCraftScience("aixopt_itmi_skin", "Кожевник", 1);
+	SetenergyPenalty("aixopt_itmi_skin", 25);
+	SetCraftEXP("aixopt_itmi_skin", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_skin", "Кожевник")
 
 
-	AddItemCategory ("Кожевник (Расходники)", "OOLTYB_ITMI_QLEATHER"); --- Качественная кожа
-	SetCraftAmount("OOLTYB_ITMI_QLEATHER", 1);
-	 AddIngre("OOLTYB_ITMI_QLEATHER", "OOLTYB_ItAt_ShadowFur", 2);
-	 AddAlterIngre("OOLTYB_ITMI_QLEATHER", "OOLTYB_ItAt_TrollFur", 1);
-	SetCraftPenalty("OOLTYB_ITMI_QLEATHER", 10);
-	SetCraftScience("OOLTYB_ITMI_QLEATHER", "Кожевник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_QLEATHER", 50);
-	SetCraftEXP("OOLTYB_ITMI_QLEATHER", 50)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_QLEATHER", "Кожевник")
+	AddItemCategory ("Кожевник (Расходники)", "aixopt_itmi_fineskin"); --- Качественная кожа
+	SetCraftAmount("aixopt_itmi_fineskin", 1);
+	 AddIngre("aixopt_itmi_fineskin", "aixopt_itat_shadowfur", 2);
+	 AddAlterIngre("aixopt_itmi_fineskin", "aixopt_itat_trollfur", 1);
+	SetCraftPenalty("aixopt_itmi_fineskin", 10);
+	SetCraftScience("aixopt_itmi_fineskin", "Кожевник", 1);
+	SetenergyPenalty("aixopt_itmi_fineskin", 50);
+	SetCraftEXP("aixopt_itmi_fineskin", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_fineskin", "Кожевник")
 
---[[	AddItemCategory ("Кожевник (Расходники)", "OOLTYB_ITMI_QLEATHER"); --- Качественная кожа
-	SetCraftAmount("OOLTYB_ITMI_QLEATHER", 2);
-	 AddIngre("OOLTYB_ITMI_QLEATHER", "OOLTYB_ItAt_TrollFur", 1);
-	SetCraftPenalty("OOLTYB_ITMI_QLEATHER", 10);
-	SetCraftScience("OOLTYB_ITMI_QLEATHER", "Кожевник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_QLEATHER", 50);]]
+--[[	AddItemCategory ("Кожевник (Расходники)", "aixopt_itmi_fineskin"); --- Качественная кожа
+	SetCraftAmount("aixopt_itmi_fineskin", 2);
+	 AddIngre("aixopt_itmi_fineskin", "aixopt_itat_trollfur", 1);
+	SetCraftPenalty("aixopt_itmi_fineskin", 10);
+	SetCraftScience("aixopt_itmi_fineskin", "Кожевник", 1);
+	SetenergyPenalty("aixopt_itmi_fineskin", 50);]]
 	
 	
-	AddItemCategory ("Кожевник (Расходники)", "OOLTYB_ITMI_SLEATHER"); --- Клепаная кожа
-	SetCraftAmount("OOLTYB_ITMI_SLEATHER", 1);
-	 AddIngre("OOLTYB_ITMI_SLEATHER", "OOLTYB_ITMI_QLEATHER", 1);
-	 AddIngre("OOLTYB_ITMI_SLEATHER", "OOLTYB_ITMI_RIVET", 10);
-	SetCraftPenalty("OOLTYB_ITMI_SLEATHER", 10);
-	SetCraftScience("OOLTYB_ITMI_SLEATHER", "Кожевник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_SLEATHER", 50);
-	SetCraftEXP("OOLTYB_ITMI_SLEATHER", 50)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_SLEATHER", "Кожевник")
+	AddItemCategory ("Кожевник (Расходники)", "aixopt_itmi_rivetskin"); --- Клепаная кожа
+	SetCraftAmount("aixopt_itmi_rivetskin", 1);
+	 AddIngre("aixopt_itmi_rivetskin", "aixopt_itmi_fineskin", 1);
+	 AddIngre("aixopt_itmi_rivetskin", "aixopt_itmi_rivet", 10);
+	SetCraftPenalty("aixopt_itmi_rivetskin", 10);
+	SetCraftScience("aixopt_itmi_rivetskin", "Кожевник", 1);
+	SetenergyPenalty("aixopt_itmi_rivetskin", 50);
+	SetCraftEXP("aixopt_itmi_rivetskin", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_rivetskin", "Кожевник")
 	
 	
-	AddItemCategory ("Кожевник (Расходники)", "OOLTYB_ITMI_DLEATHER"); --- Дубленая кожа
-	SetCraftAmount("OOLTYB_ITMI_DLEATHER", 1);
-	 AddIngre("OOLTYB_ITMI_DLEATHER", "OOLTYB_ITMI_QLEATHER", 1);
-	 AddIngre("OOLTYB_ITMI_DLEATHER", "OOLTYB_ITMI_TAB", 1);
-	SetCraftPenalty("OOLTYB_ITMI_DLEATHER", 10);
-	SetCraftScience("OOLTYB_ITMI_DLEATHER", "Кожевник", 1);
-	SetenergyPenalty("OOLTYB_ITMI_DLEATHER", 50);
-	SetCraftEXP("OOLTYB_ITMI_DLEATHER", 50)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_DLEATHER", "Кожевник")
+	AddItemCategory ("Кожевник (Расходники)", "aixopt_itmi_tannedskin"); --- Дубленая кожа
+	SetCraftAmount("aixopt_itmi_tannedskin", 1);
+	 AddIngre("aixopt_itmi_tannedskin", "aixopt_itmi_fineskin", 1);
+	 AddIngre("aixopt_itmi_tannedskin", "aixopt_itmi_tanning", 1);
+	SetCraftPenalty("aixopt_itmi_tannedskin", 10);
+	SetCraftScience("aixopt_itmi_tannedskin", "Кожевник", 1);
+	SetenergyPenalty("aixopt_itmi_tannedskin", 50);
+	SetCraftEXP("aixopt_itmi_tannedskin", 50)
+	SetCraftEXP_SKILL("aixopt_itmi_tannedskin", "Кожевник")
 	
 -- ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА	
 	
 	AddItemCategory ("Кожевник (Без уровня)", "YFAUUN_ITAR_WOODCUTTER"); --- Одежда лесоруба
 	SetCraftAmount("YFAUUN_ITAR_WOODCUTTER", 1);
-	 AddIngre("YFAUUN_ITAR_WOODCUTTER", "OOLTYB_ITMI_LEATHER", 1);
-	 AddTool("YFAUUN_ITAR_WOODCUTTER", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_WOODCUTTER", "aixopt_itmi_skin", 1);
+	 AddTool("YFAUUN_ITAR_WOODCUTTER", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_WOODCUTTER", 10);
 	SetCraftScience("YFAUUN_ITAR_WOODCUTTER", "Кожевник", 1);
 	SetenergyPenalty("YFAUUN_ITAR_WOODCUTTER", 10);
@@ -3151,8 +3138,8 @@ AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_Nagelknueppel"); --- Палиц
 	
 	AddItemCategory ("Кожевник (1 уровень)", "YFAUUN_ITAR_Leather_L"); --- Кожаные доспехи
 	SetCraftAmount("YFAUUN_ITAR_Leather_L", 1);
-	 AddIngre("YFAUUN_ITAR_Leather_L", "OOLTYB_ITMI_LEATHER", 2);
-	 AddTool("YFAUUN_ITAR_Leather_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Leather_L", "aixopt_itmi_skin", 2);
+	 AddTool("YFAUUN_ITAR_Leather_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Leather_L", 10);
 	SetCraftScience("YFAUUN_ITAR_Leather_L", "Кожевник", 1);
 	SetenergyPenalty("YFAUUN_ITAR_Leather_L", 25);
@@ -3161,8 +3148,8 @@ AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_Nagelknueppel"); --- Палиц
 	
 	AddItemCategory ("Кожевник (1 уровень)", "YFAUUN_ITAR_BABE_LEATHER_L"); --- Женские кожаные доспехи
 	SetCraftAmount("YFAUUN_ITAR_BABE_LEATHER_L", 1);
-	 AddIngre("YFAUUN_ITAR_BABE_LEATHER_L", "OOLTYB_ITMI_LEATHER", 2);
-	 AddTool("YFAUUN_ITAR_BABE_LEATHER_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BABE_LEATHER_L", "aixopt_itmi_skin", 2);
+	 AddTool("YFAUUN_ITAR_BABE_LEATHER_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BABE_LEATHER_L", 10);
 	SetCraftScience("YFAUUN_ITAR_BABE_LEATHER_L", "Кожевник", 1);
 	SetenergyPenalty("YFAUUN_ITAR_BABE_LEATHER_L", 25);
@@ -3171,8 +3158,8 @@ AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_Nagelknueppel"); --- Палиц
 	
 	AddItemCategory ("Кожевник (1 уровень)", "YFAUUN_ItAr_HNT_L"); --- Легкая охотничья одежда
 	SetCraftAmount("YFAUUN_ItAr_HNT_L", 1);
-	 AddIngre("YFAUUN_ItAr_HNT_L", "OOLTYB_ITMI_LEATHER", 2);
-	 AddTool("YFAUUN_ItAr_HNT_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ItAr_HNT_L", "aixopt_itmi_skin", 2);
+	 AddTool("YFAUUN_ItAr_HNT_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ItAr_HNT_L", 10);
 	SetCraftScience("YFAUUN_ItAr_HNT_L", "Кожевник", 1);
 	SetenergyPenalty("YFAUUN_ItAr_HNT_L", 25);
@@ -3181,8 +3168,8 @@ AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_Nagelknueppel"); --- Палиц
 
 	AddItemCategory ("Кожевник (1 уровень)", "YFAUUN_ITAR_PIR_M_HORINIS"); --- Одежда моряка
 	SetCraftAmount("YFAUUN_ITAR_PIR_M_HORINIS", 1);
-	 AddIngre("YFAUUN_ITAR_PIR_M_HORINIS", "OOLTYB_ITMI_LEATHER", 2);
-	 AddTool("YFAUUN_ITAR_PIR_M_HORINIS", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_PIR_M_HORINIS", "aixopt_itmi_skin", 2);
+	 AddTool("YFAUUN_ITAR_PIR_M_HORINIS", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_PIR_M_HORINIS", 10);
 	SetCraftScience("YFAUUN_ITAR_PIR_M_HORINIS", "Кожевник", 1);
 	SetenergyPenalty("YFAUUN_ITAR_PIR_M_HORINIS", 25);
@@ -3191,9 +3178,9 @@ AddItemCategory ("Плотник (Без уровня)", "JKZTZD_ItMw_Nagelknueppel"); --- Палиц
 
 AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_OLDCAMP_L"); --- Одежда Тени
 	SetCraftAmount("YFAUUN_ITAR_OLDCAMP_L", 1);
-	 AddIngre("YFAUUN_ITAR_OLDCAMP_L", "OOLTYB_ITMI_LEATHER", 2);
+	 AddIngre("YFAUUN_ITAR_OLDCAMP_L", "aixopt_itmi_skin", 2);
 	 AddTool("YFAUUN_ITAR_OLDCAMP_L", "OOLTYB_ITMI_RECIPESWSL");
-	 AddTool("YFAUUN_ITAR_OLDCAMP_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("YFAUUN_ITAR_OLDCAMP_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_OLDCAMP_L", 10);
 	SetCraftScience("YFAUUN_ITAR_OLDCAMP_L", "Кожевник", 1);
 	SetenergyPenalty("YFAUUN_ITAR_OLDCAMP_L", 25);
@@ -3203,9 +3190,9 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_OLDCAMP_L"); --- Одежда Те
 	
 	AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_NEWCAMP_L"); --- Одежда вора
 	SetCraftAmount("YFAUUN_ITAR_NEWCAMP_L", 1);
-	 AddIngre("YFAUUN_ITAR_NEWCAMP_L", "OOLTYB_ITMI_LEATHER", 2);
+	 AddIngre("YFAUUN_ITAR_NEWCAMP_L", "aixopt_itmi_skin", 2);
 	 AddTool("YFAUUN_ITAR_NEWCAMP_L", "OOLTYB_ITMI_RECIPETFNL");
-	 AddTool("YFAUUN_ITAR_NEWCAMP_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("YFAUUN_ITAR_NEWCAMP_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEWCAMP_L", 10);
 	SetCraftScience("YFAUUN_ITAR_NEWCAMP_L", "Кожевник", 1);
 	SetenergyPenalty("YFAUUN_ITAR_NEWCAMP_L", 25);
@@ -3216,8 +3203,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_OLDCAMP_L"); --- Одежда Те
 
 AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_NEUTRAL11"); --- Укрепленные кожаные доспехи
 	SetCraftAmount("YFAUUN_ITAR_NEUTRAL11", 1);
-	 AddIngre("YFAUUN_ITAR_NEUTRAL11", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ITAR_NEUTRAL11", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_NEUTRAL11", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ITAR_NEUTRAL11", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEUTRAL11", 10);
 	SetCraftScience("YFAUUN_ITAR_NEUTRAL11", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_NEUTRAL11", 50);
@@ -3226,8 +3213,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_NEUTRAL11"); --- Укрепленн
 
 AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охотника
 	SetCraftAmount("YFAUUN_ITAR_HUNTER3", 1);
-	 AddIngre("YFAUUN_ITAR_HUNTER3", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ITAR_HUNTER3", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_HUNTER3", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ITAR_HUNTER3", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_HUNTER3", 10);
 	SetCraftScience("YFAUUN_ITAR_HUNTER3", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_HUNTER3", 50);
@@ -3236,8 +3223,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охот
 
 		AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_PIR_L_Addon"); --- Одежда пирата
 	SetCraftAmount("YFAUUN_ITAR_PIR_L_Addon", 1);
-	 AddIngre("YFAUUN_ITAR_PIR_L_Addon", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ITAR_PIR_L_Addon", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_PIR_L_Addon", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ITAR_PIR_L_Addon", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_PIR_L_Addon", 10);
 	SetCraftScience("YFAUUN_ITAR_PIR_L_Addon", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_PIR_L_Addon", 50);
@@ -3246,8 +3233,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охот
 		
 	AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_WALKER"); --- Кожаный плащ
 	SetCraftAmount("YFAUUN_ITAR_WALKER", 1);
-	 AddIngre("YFAUUN_ITAR_WALKER", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ITAR_WALKER", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_WALKER", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ITAR_WALKER", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_WALKER", 10);
 	SetCraftScience("YFAUUN_ITAR_WALKER", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_WALKER", 50);
@@ -3256,8 +3243,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охот
 	
 	AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_PIR_M_HORINIS2"); --- Одежда авантюриста
 	SetCraftAmount("YFAUUN_ITAR_PIR_M_HORINIS2", 1);
-	 AddIngre("YFAUUN_ITAR_PIR_M_HORINIS2", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ITAR_PIR_M_HORINIS2", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_PIR_M_HORINIS2", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ITAR_PIR_M_HORINIS2", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_PIR_M_HORINIS2", 10);
 	SetCraftScience("YFAUUN_ITAR_PIR_M_HORINIS2", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_PIR_M_HORINIS2", 50);
@@ -3266,8 +3253,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охот
 
 	AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ItAr_ALBINO"); --- Доспехи альбиноса
 	SetCraftAmount("YFAUUN_ItAr_ALBINO", 1);
-	 AddIngre("YFAUUN_ItAr_ALBINO", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ItAr_ALBINO", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ItAr_ALBINO", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ItAr_ALBINO", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ItAr_ALBINO", 10);
 	SetCraftScience("YFAUUN_ItAr_ALBINO", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ItAr_ALBINO", 50);
@@ -3276,8 +3263,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охот
 
 	AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_TRAVELER"); ---Толстый кожаный плащ
 	SetCraftAmount("YFAUUN_ITAR_TRAVELER", 1);
-	 AddIngre("YFAUUN_ITAR_TRAVELER", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ITAR_TRAVELER", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_TRAVELER", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ITAR_TRAVELER", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_TRAVELER", 10);
 	SetCraftScience("YFAUUN_ITAR_TRAVELER", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_TRAVELER", 50);
@@ -3286,8 +3273,8 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охот
 
 	AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_NEUTRAL"); --- Прочная одежда охотника
 	SetCraftAmount("YFAUUN_ITAR_NEUTRAL", 1);
-	 AddIngre("YFAUUN_ITAR_NEUTRAL", "OOLTYB_ITMI_LEATHER", 5);
-	 AddTool("YFAUUN_ITAR_NEUTRAL", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_NEUTRAL", "aixopt_itmi_skin", 5);
+	 AddTool("YFAUUN_ITAR_NEUTRAL", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEUTRAL", 10);
 	SetCraftScience("YFAUUN_ITAR_NEUTRAL", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_NEUTRAL", 50);
@@ -3296,9 +3283,9 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_HUNTER3"); --- Одежда охот
 
 AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_REDSHAR"); --- Доспехи тени
 	SetCraftAmount("YFAUUN_ITAR_REDSHAR", 1);
-	 AddIngre("YFAUUN_ITAR_REDSHAR", "OOLTYB_ITMI_LEATHER", 5);
+	 AddIngre("YFAUUN_ITAR_REDSHAR", "aixopt_itmi_skin", 5);
 	 AddTool("YFAUUN_ITAR_REDSHAR", "OOLTYB_ITMI_RECIPESWSL");
-	 AddTool("YFAUUN_ITAR_REDSHAR", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("YFAUUN_ITAR_REDSHAR", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_REDSHAR", 10);
 	SetCraftScience("YFAUUN_ITAR_REDSHAR", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_REDSHAR", 50);
@@ -3307,9 +3294,9 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_REDSHAR"); --- Доспехи тен
 	
 	AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ORG_NEWCAMP_M"); --- Средние доспехи вора
 	SetCraftAmount("YFAUUN_ORG_NEWCAMP_M", 1);
-	 AddIngre("YFAUUN_ORG_NEWCAMP_M", "OOLTYB_ITMI_LEATHER", 5);
+	 AddIngre("YFAUUN_ORG_NEWCAMP_M", "aixopt_itmi_skin", 5);
 	 AddTool("YFAUUN_ORG_NEWCAMP_M", "OOLTYB_ITMI_RECIPETFNL");
-	 AddTool("YFAUUN_ORG_NEWCAMP_M", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("YFAUUN_ORG_NEWCAMP_M", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ORG_NEWCAMP_M", 10);
 	SetCraftScience("YFAUUN_ORG_NEWCAMP_M", "Кожевник", 2);
 	SetenergyPenalty("YFAUUN_ORG_NEWCAMP_M", 50);
@@ -3320,90 +3307,90 @@ AddItemCategory ("Кожевник (2 уровень)", "YFAUUN_ITAR_REDSHAR"); --- Доспехи тен
 
 AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ORG_NEWCAMP_H"); --- Тяжелые доспехи вора 
 	SetCraftAmount("YFAUUN_ORG_NEWCAMP_H", 1);
-	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "OOLTYB_ITMI_LEATHER", 10);
-	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "zdpwla_itmi_dye", 1);
-	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "ooltyb_itmi_sleather", 3);
-	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "ooltyb_itmi_dleather", 3);
+	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "aixopt_itmi_skin", 10);
+	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "aixopt_itmi_dye", 1);
+	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "aixopt_itmi_rivetskin", 3);
+	 AddIngre("YFAUUN_ORG_NEWCAMP_H", "aixopt_itmi_tannedskin", 3);
 	 AddTool("YFAUUN_ORG_NEWCAMP_H", "OOLTYB_ITMI_RECIPETFNL");
-	 AddTool("YFAUUN_ORG_NEWCAMP_H", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("YFAUUN_ORG_NEWCAMP_H", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ORG_NEWCAMP_H", 10);
 	SetCraftScience("YFAUUN_ORG_NEWCAMP_H", "Кожевник", 3);
 	SetenergyPenalty("YFAUUN_ORG_NEWCAMP_H", 100);
 	
 	AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ITAR_OLDCAMP_M"); --- Средние Доспехи призрака
 	SetCraftAmount("YFAUUN_ITAR_OLDCAMP_M", 1);
-	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "OOLTYB_ITMI_LEATHER", 10);
-	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "zdpwla_itmi_dye", 1);
-	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "ooltyb_itmi_sleather", 3);
-	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "ooltyb_itmi_dleather", 3);
+	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "aixopt_itmi_skin", 10);
+	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "aixopt_itmi_dye", 1);
+	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "aixopt_itmi_rivetskin", 3);
+	 AddIngre("YFAUUN_ITAR_OLDCAMP_M", "aixopt_itmi_tannedskin", 3);
 	 AddTool("YFAUUN_ITAR_OLDCAMP_M", "OOLTYB_ITMI_RECIPESWSL");
-	 AddTool("YFAUUN_ITAR_OLDCAMP_M", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("YFAUUN_ITAR_OLDCAMP_M", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_OLDCAMP_M", 10);
 	SetCraftScience("YFAUUN_ITAR_OLDCAMP_M", "Кожевник", 3);
 	SetenergyPenalty("YFAUUN_ITAR_OLDCAMP_M", 100);
 	
 	AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ItAr_BDT_H"); --- тяжелая одежда из шкур с шарфом
 	SetCraftAmount("YFAUUN_ItAr_BDT_H", 1);
-	 AddIngre("YFAUUN_ItAr_BDT_H", "OOLTYB_ITMI_LEATHER", 10);
-	 AddIngre("YFAUUN_ItAr_BDT_H", "ooltyb_itmi_qleather", 4);
-	 AddIngre("YFAUUN_ItAr_BDT_H", "ooltyb_itmi_whool_holst", 3);
-	 AddIngre("YFAUUN_ItAr_BDT_H", "ooltyb_itmi_dleather", 4);
-	 AddTool("YFAUUN_ItAr_BDT_H", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ItAr_BDT_H", "aixopt_itmi_skin", 10);
+	 AddIngre("YFAUUN_ItAr_BDT_H", "aixopt_itmi_fineskin", 4);
+	 AddIngre("YFAUUN_ItAr_BDT_H", "aixopt_itmi_linen", 3);
+	 AddIngre("YFAUUN_ItAr_BDT_H", "aixopt_itmi_tannedskin", 4);
+	 AddTool("YFAUUN_ItAr_BDT_H", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ItAr_BDT_H", 10);
 	SetCraftScience("YFAUUN_ItAr_BDT_H", "Кожевник", 3);
 	SetenergyPenalty("YFAUUN_ItAr_BDT_H", 100);
 	
 	AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ItAr_COL"); --- доспехи колониста
 	SetCraftAmount("YFAUUN_ItAr_COL", 1);
-	 AddIngre("YFAUUN_ItAr_COL", "OOLTYB_ITMI_LEATHER", 10);
-	 AddIngre("YFAUUN_ItAr_COL", "ooltyb_itmi_qleather", 4);
-	 AddIngre("YFAUUN_ItAr_COL", "ooltyb_itmi_whool_holst", 3);
-	 AddIngre("YFAUUN_ItAr_COL", "ooltyb_itmi_sleather", 4);
-	 AddTool("YFAUUN_ItAr_COL", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ItAr_COL", "aixopt_itmi_skin", 10);
+	 AddIngre("YFAUUN_ItAr_COL", "aixopt_itmi_fineskin", 4);
+	 AddIngre("YFAUUN_ItAr_COL", "aixopt_itmi_linen", 3);
+	 AddIngre("YFAUUN_ItAr_COL", "aixopt_itmi_rivetskin", 4);
+	 AddTool("YFAUUN_ItAr_COL", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ItAr_COL", 10);
 	SetCraftScience("YFAUUN_ItAr_COL", "Кожевник", 3);
 	SetenergyPenalty("YFAUUN_ItAr_COL", 100);
 	
 	AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ITAR_HUNTER4"); --- куртка охотника из качественных шкур
 	SetCraftAmount("YFAUUN_ITAR_HUNTER4", 1);
-	 AddIngre("YFAUUN_ITAR_HUNTER4", "OOLTYB_ITMI_LEATHER", 10);
-	 AddIngre("YFAUUN_ITAR_HUNTER4", "ooltyb_itmi_qleather", 4);
-	 AddIngre("YFAUUN_ITAR_HUNTER4", "ooltyb_itmi_whool_holst", 3);
-	 AddIngre("YFAUUN_ITAR_HUNTER4", "ooltyb_itmi_dleather", 4);
-	 AddTool("YFAUUN_ITAR_HUNTER4", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_HUNTER4", "aixopt_itmi_skin", 10);
+	 AddIngre("YFAUUN_ITAR_HUNTER4", "aixopt_itmi_fineskin", 4);
+	 AddIngre("YFAUUN_ITAR_HUNTER4", "aixopt_itmi_linen", 3);
+	 AddIngre("YFAUUN_ITAR_HUNTER4", "aixopt_itmi_tannedskin", 4);
+	 AddTool("YFAUUN_ITAR_HUNTER4", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_HUNTER4", 10);
 	SetCraftScience("YFAUUN_ITAR_HUNTER4", "Кожевник", 3);
 	SetenergyPenalty("YFAUUN_ITAR_HUNTER4", 100);
 	
 	AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ITAR_NEUTRALM"); --- доспехи убийцы
 	SetCraftAmount("YFAUUN_ITAR_NEUTRALM", 1);
-	  AddIngre("YFAUUN_ITAR_NEUTRALM", "OOLTYB_ITMI_LEATHER", 10);
-	 AddIngre("YFAUUN_ITAR_NEUTRALM", "zdpwla_itmi_dye", 1);
-	 AddIngre("YFAUUN_ITAR_NEUTRALM", "ooltyb_itmi_sleather", 3);
-	 AddIngre("YFAUUN_ITAR_NEUTRALM", "ooltyb_itmi_dleather", 3);
-	 AddTool("YFAUUN_ITAR_NEUTRALM", "YVNZMZ_ITMI_NEEDLE");
+	  AddIngre("YFAUUN_ITAR_NEUTRALM", "aixopt_itmi_skin", 10);
+	 AddIngre("YFAUUN_ITAR_NEUTRALM", "aixopt_itmi_dye", 1);
+	 AddIngre("YFAUUN_ITAR_NEUTRALM", "aixopt_itmi_rivetskin", 3);
+	 AddIngre("YFAUUN_ITAR_NEUTRALM", "aixopt_itmi_tannedskin", 3);
+	 AddTool("YFAUUN_ITAR_NEUTRALM", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEUTRALM", 10);
 	SetCraftScience("YFAUUN_ITAR_NEUTRALM", "Кожевник", 3);
 	SetenergyPenalty("YFAUUN_ITAR_NEUTRALM", 100);
 	
 	--AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ITAR_CRAWLER_L"); --- легкие доспехи из панцирных пластин
 	--SetCraftAmount("YFAUUN_ITAR_CRAWLER_L", 1);
-	 -- AddIngre("YFAUUN_ITAR_CRAWLER_L", "OOLTYB_ITMI_LEATHER", 15);
+	 -- AddIngre("YFAUUN_ITAR_CRAWLER_L", "aixopt_itmi_skin", 15);
 	 --AddIngre("YFAUUN_ITAR_CRAWLER_L", "yfauun_itar_underarmor", 1);
-	 --AddIngre("YFAUUN_ITAR_CRAWLER_L", "ooltyb_itmi_sleather", 3);
-	-- AddIngre("YFAUUN_ITAR_CRAWLER_L", "ooltyb_itmi_dleather", 3);
-	-- AddTool("YFAUUN_ITAR_CRAWLER_L", "YVNZMZ_ITMI_NEEDLE");
+	 --AddIngre("YFAUUN_ITAR_CRAWLER_L", "aixopt_itmi_rivetskin", 3);
+	-- AddIngre("YFAUUN_ITAR_CRAWLER_L", "aixopt_itmi_tannedskin", 3);
+	-- AddTool("YFAUUN_ITAR_CRAWLER_L", "AIXOPT_ItMi_Needle");
 	--SetCraftPenalty("YFAUUN_ITAR_CRAWLER_L", 10);
 	--SetCraftScience("YFAUUN_ITAR_CRAWLER_L", "Кожевник", 3);
 	--SetenergyPenalty("YFAUUN_ITAR_CRAWLER_L", 100);
 	
 	AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ITAR_PIR_M_Addon"); --- доспехи пирата
 	SetCraftAmount("YFAUUN_ITAR_PIR_M_Addon", 1);
-	  AddIngre("YFAUUN_ITAR_PIR_M_Addon", "OOLTYB_ITMI_LEATHER", 10);
-	 AddIngre("YFAUUN_ITAR_PIR_M_Addon", "zdpwla_itmi_dye", 1);
-	 AddIngre("YFAUUN_ITAR_PIR_M_Addon", "ooltyb_itmi_sleather", 3);
-	 AddIngre("YFAUUN_ITAR_PIR_M_Addon", "ooltyb_itmi_dleather", 3);
-	 AddTool("YFAUUN_ITAR_PIR_M_Addon", "YVNZMZ_ITMI_NEEDLE");
+	  AddIngre("YFAUUN_ITAR_PIR_M_Addon", "aixopt_itmi_skin", 10);
+	 AddIngre("YFAUUN_ITAR_PIR_M_Addon", "aixopt_itmi_dye", 1);
+	 AddIngre("YFAUUN_ITAR_PIR_M_Addon", "aixopt_itmi_rivetskin", 3);
+	 AddIngre("YFAUUN_ITAR_PIR_M_Addon", "aixopt_itmi_tannedskin", 3);
+	 AddTool("YFAUUN_ITAR_PIR_M_Addon", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_PIR_M_Addon", 10);
 	SetCraftScience("YFAUUN_ITAR_PIR_M_Addon", "Кожевник", 3);
 	SetenergyPenalty("YFAUUN_ITAR_PIR_M_Addon", 100);
@@ -3415,8 +3402,8 @@ AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ORG_NEWCAMP_H"); --- Тяжелые до
 
 	AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_ItAr_RANGER_H"); --- Кольчуга с кожаной курткой
 	SetCraftAmount("YFAUUN_ItAr_RANGER_H", 1);
-	 AddIngre("YFAUUN_ItAr_RANGER_H", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("YFAUUN_ItAr_RANGER_H", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ItAr_RANGER_H", "aixopt_itmi_ironingot", 2);
+	 AddTool("YFAUUN_ItAr_RANGER_H", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ItAr_RANGER_H", 10);
 	SetCraftScience("YFAUUN_ItAr_RANGER_H", "Бронник", 1);
 	SetenergyPenalty("YFAUUN_ItAr_RANGER_H", 25);
@@ -3425,8 +3412,8 @@ AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ORG_NEWCAMP_H"); --- Тяжелые до
 
 	AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_ItAr_GHRB"); --- Легкие доспехи
 	SetCraftAmount("YFAUUN_ItAr_GHRB", 1);
-	 AddIngre("YFAUUN_ItAr_GHRB", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("YFAUUN_ItAr_GHRB", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ItAr_GHRB", "aixopt_itmi_ironingot", 2);
+	 AddTool("YFAUUN_ItAr_GHRB", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ItAr_GHRB", 10);
 	SetCraftScience("YFAUUN_ItAr_GHRB", "Бронник", 1);
 	SetenergyPenalty("YFAUUN_ItAr_GHRB", 25);
@@ -3435,8 +3422,8 @@ AddItemCategory ("Кожевник (3 уровень)", "YFAUUN_ORG_NEWCAMP_H"); --- Тяжелые до
 
 AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_SLD_ARMOR_L3"); --- Наплечник наемника
 	SetCraftAmount("YFAUUN_SLD_ARMOR_L3", 1);
-	 AddIngre("YFAUUN_SLD_ARMOR_L3", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("YFAUUN_SLD_ARMOR_L3", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_SLD_ARMOR_L3", "aixopt_itmi_ironingot", 2);
+	 AddTool("YFAUUN_SLD_ARMOR_L3", "gkwqdz_ItMw_1H_Mace_L_04");
 	 AddTool("YFAUUN_SLD_ARMOR_L3", "OOLTYB_ITMI_RECIPEMYNL");
 	SetCraftPenalty("YFAUUN_SLD_ARMOR_L3", 10);
 	SetCraftScience("YFAUUN_SLD_ARMOR_L3", "Бронник", 1);
@@ -3446,8 +3433,8 @@ AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_SLD_ARMOR_L3"); --- Наплечник 
 	
 	AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_ITAR_OLDCAMPG_L"); --- Легкие доспехи стражника
 	SetCraftAmount("YFAUUN_ITAR_OLDCAMPG_L", 1);
-	 AddIngre("YFAUUN_ITAR_OLDCAMPG_L", "OOLTYB_ITMI_S_IGNOT", 2);
-	 AddTool("YFAUUN_ITAR_OLDCAMPG_L", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ITAR_OLDCAMPG_L", "aixopt_itmi_ironingot", 2);
+	 AddTool("YFAUUN_ITAR_OLDCAMPG_L", "gkwqdz_ItMw_1H_Mace_L_04");
 	 AddTool("YFAUUN_ITAR_OLDCAMPG_L", "OOLTYB_ITMI_RECIPEGDSL");
 	SetCraftPenalty("YFAUUN_ITAR_OLDCAMPG_L", 10);
 	SetCraftScience("YFAUUN_ITAR_OLDCAMPG_L", "Бронник", 1);
@@ -3460,8 +3447,8 @@ AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_SLD_ARMOR_L3"); --- Наплечник 
 
 	AddItemCategory ("(Б)Кузнец (2 уровень)", "YFAUUN_ITAR_CHAINMAIL"); --- Легкая кольчуга
 	SetCraftAmount("YFAUUN_ITAR_CHAINMAIL", 1);
-	 AddIngre("YFAUUN_ITAR_CHAINMAIL", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("YFAUUN_ITAR_CHAINMAIL", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ITAR_CHAINMAIL", "aixopt_itmi_ironingot", 5);
+	 AddTool("YFAUUN_ITAR_CHAINMAIL", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ITAR_CHAINMAIL", 10);
 	SetCraftScience("YFAUUN_ITAR_CHAINMAIL", "Бронник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_CHAINMAIL", 50);
@@ -3471,9 +3458,9 @@ AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_SLD_ARMOR_L3"); --- Наплечник 
 
 	AddItemCategory ("(Б)Кузнец (2 уровень)", "yfauun_itar_oldcampg_m"); --- Средние доспехи стражника
 	SetCraftAmount("yfauun_itar_oldcampg_m", 1);
-	 AddIngre("yfauun_itar_oldcampg_m", "OOLTYB_ITMI_S_IGNOT", 5);
+	 AddIngre("yfauun_itar_oldcampg_m", "aixopt_itmi_ironingot", 5);
 	 AddTool("yfauun_itar_oldcampg_m", "OOLTYB_ITMI_RECIPEGDSL");
-	 AddTool("yfauun_itar_oldcampg_m", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddTool("yfauun_itar_oldcampg_m", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("yfauun_itar_oldcampg_m", 10);
 	SetCraftScience("yfauun_itar_oldcampg_m", "Бронник", 2);
 	SetenergyPenalty("yfauun_itar_oldcampg_m", 50);
@@ -3483,9 +3470,9 @@ AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_SLD_ARMOR_L3"); --- Наплечник 
 	
 	AddItemCategory ("(Б)Кузнец (2 уровень)", "YFAUUN_ITAR_NEWCAMPM_L"); --- Легкие доспехи наемника
 	SetCraftAmount("YFAUUN_ITAR_NEWCAMPM_L", 1);
-	 AddIngre("YFAUUN_ITAR_NEWCAMPM_L", "OOLTYB_ITMI_S_IGNOT", 5);
+	 AddIngre("YFAUUN_ITAR_NEWCAMPM_L", "aixopt_itmi_ironingot", 5);
 	 AddTool("YFAUUN_ITAR_NEWCAMPM_L", "OOLTYB_ITMI_RECIPEMYNL");
-	 AddTool("YFAUUN_ITAR_NEWCAMPM_L", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddTool("YFAUUN_ITAR_NEWCAMPM_L", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ITAR_NEWCAMPM_L", 10);
 	SetCraftScience("YFAUUN_ITAR_NEWCAMPM_L", "Бронник", 2);
 	SetenergyPenalty("YFAUUN_ITAR_NEWCAMPM_L", 50);
@@ -3494,8 +3481,8 @@ AddItemCategory ("(Б)Кузнец (1 уровень)", "YFAUUN_SLD_ARMOR_L3"); --- Наплечник 
 
 AddItemCategory ("(Б)Кузнец (2 уровень)", "YFAUUN_ItAr_LARM_M"); --- Кольчуга с наплечниками
 	SetCraftAmount("YFAUUN_ItAr_LARM_M", 1);
-	 AddIngre("YFAUUN_ItAr_LARM_M", "OOLTYB_ITMI_S_IGNOT", 5);
-	 AddTool("YFAUUN_ItAr_LARM_M", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ItAr_LARM_M", "aixopt_itmi_ironingot", 5);
+	 AddTool("YFAUUN_ItAr_LARM_M", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ItAr_LARM_M", 10);
 	SetCraftScience("YFAUUN_ItAr_LARM_M", "Бронник", 2);
 	SetenergyPenalty("YFAUUN_ItAr_LARM_M", 50);
@@ -3506,61 +3493,61 @@ AddItemCategory ("(Б)Кузнец (2 уровень)", "YFAUUN_ItAr_LARM_M"); --- Кольчуга с 
 
 AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние доспехи наемника
 	SetCraftAmount("YFAUUN_ITAR_NEWCAMPM_M", 1);
-	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "ooltyb_itmiswordraw", 4);
+	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "aixopt_itmi_ironingot", 10);
+	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "aixopt_itmirawsteel", 4);
 	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "yfauun_itar_underarmor", 1);
-	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "ooltyb_itmi_leather", 8);
-	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "ooltyb_itmi_whool_holst", 2);
+	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "aixopt_itmi_skin", 8);
+	 AddIngre("YFAUUN_ITAR_NEWCAMPM_M", "aixopt_itmi_linen", 2);
 	 AddTool("YFAUUN_ITAR_NEWCAMPM_M", "OOLTYB_ITMI_RECIPEMYNL");
-	 AddTool("YFAUUN_ITAR_NEWCAMPM_M", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddTool("YFAUUN_ITAR_NEWCAMPM_M", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ITAR_NEWCAMPM_M", 10);
 	SetCraftScience("YFAUUN_ITAR_NEWCAMPM_M", "Бронник", 3);
 	SetenergyPenalty("YFAUUN_ITAR_NEWCAMPM_M", 100);
 	
 	AddItemCategory ("(Б)Кузнец (3 уровень)", "yfauun_grd_armor_h"); --- Тяжелые доспехи стражника
 	SetCraftAmount("yfauun_grd_armor_h", 1);
-	 AddIngre("yfauun_grd_armor_h", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("yfauun_grd_armor_h", "ooltyb_itmiswordraw", 4);
+	 AddIngre("yfauun_grd_armor_h", "aixopt_itmi_ironingot", 10);
+	 AddIngre("yfauun_grd_armor_h", "aixopt_itmirawsteel", 4);
 	 AddIngre("yfauun_grd_armor_h", "yfauun_itar_underarmor", 1);
-	 AddIngre("yfauun_grd_armor_h", "ooltyb_itmi_leather", 8);
-	 AddIngre("yfauun_grd_armor_h", "ooltyb_itmi_whool_holst", 2);
+	 AddIngre("yfauun_grd_armor_h", "aixopt_itmi_skin", 8);
+	 AddIngre("yfauun_grd_armor_h", "aixopt_itmi_linen", 2);
 	 AddTool("yfauun_grd_armor_h", "OOLTYB_ITMI_RECIPEGDSL");
-	 AddTool("yfauun_grd_armor_h", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddTool("yfauun_grd_armor_h", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("yfauun_grd_armor_h", 10);
 	SetCraftScience("yfauun_grd_armor_h", "Бронник", 3);
 	SetenergyPenalty("yfauun_grd_armor_h", 100);
 	
 	AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ItAr_FKNGHT"); --- броня вольного рыцаря
 	SetCraftAmount("YFAUUN_ItAr_FKNGHT", 1);
-	 AddIngre("YFAUUN_ItAr_FKNGHT", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("YFAUUN_ItAr_FKNGHT", "ooltyb_itmiswordraw", 5);
+	 AddIngre("YFAUUN_ItAr_FKNGHT", "aixopt_itmi_ironingot", 10);
+	 AddIngre("YFAUUN_ItAr_FKNGHT", "aixopt_itmirawsteel", 5);
 	 AddIngre("YFAUUN_ItAr_FKNGHT", "yfauun_itar_underarmor", 1);
-	 AddIngre("YFAUUN_ItAr_FKNGHT", "zdpwla_itmi_dye", 1);
-	 AddIngre("YFAUUN_ItAr_FKNGHT", "ooltyb_itmi_qleather", 1);
-	 AddTool("YFAUUN_ItAr_FKNGHT", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ItAr_FKNGHT", "aixopt_itmi_dye", 1);
+	 AddIngre("YFAUUN_ItAr_FKNGHT", "aixopt_itmi_fineskin", 1);
+	 AddTool("YFAUUN_ItAr_FKNGHT", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ItAr_FKNGHT", 10);
 	SetCraftScience("YFAUUN_ItAr_FKNGHT", "Бронник", 3);
 	SetenergyPenalty("YFAUUN_ItAr_FKNGHT", 100);
 	
 	AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ItAr_HRB_H"); --- тяжелая кольчуга
 	SetCraftAmount("YFAUUN_ItAr_HRB_H", 1);
-	 AddIngre("YFAUUN_ItAr_HRB_H", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("YFAUUN_ItAr_HRB_H", "ooltyb_itmiswordraw", 4);
+	 AddIngre("YFAUUN_ItAr_HRB_H", "aixopt_itmi_ironingot", 10);
+	 AddIngre("YFAUUN_ItAr_HRB_H", "aixopt_itmirawsteel", 4);
 	 AddIngre("YFAUUN_ItAr_HRB_H", "yfauun_itar_underarmor", 1);
-	 AddIngre("YFAUUN_ItAr_HRB_H", "ooltyb_itmi_dleather", 2);
-	 AddTool("YFAUUN_ItAr_HRB_H", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ItAr_HRB_H", "aixopt_itmi_tannedskin", 2);
+	 AddTool("YFAUUN_ItAr_HRB_H", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ItAr_HRB_H", 10);
 	SetCraftScience("YFAUUN_ItAr_HRB_H", "Бронник", 3);
 	SetenergyPenalty("YFAUUN_ItAr_HRB_H", 100);
 	
 	AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_CHAINMAIL2"); --- средняя кольчуга
 	SetCraftAmount("YFAUUN_ITAR_CHAINMAIL2", 1);
-	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "OOLTYB_ITMI_S_IGNOT", 10);
-	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "ooltyb_itmiswordraw", 4);
+	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "aixopt_itmi_ironingot", 10);
+	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "aixopt_itmirawsteel", 4);
 	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "yfauun_itar_underarmor", 1);
-	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "ooltyb_itmi_leather", 8);
-	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "ooltyb_itmi_whool_holst", 2);
-	 AddTool("YFAUUN_ITAR_CHAINMAIL2", "JKZTZD_ItMw_1H_Mace_L_04");
+	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "aixopt_itmi_skin", 8);
+	 AddIngre("YFAUUN_ITAR_CHAINMAIL2", "aixopt_itmi_linen", 2);
+	 AddTool("YFAUUN_ITAR_CHAINMAIL2", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("YFAUUN_ITAR_CHAINMAIL2", 10);
 	SetCraftScience("YFAUUN_ITAR_CHAINMAIL2", "Бронник", 3);
 	SetenergyPenalty("YFAUUN_ITAR_CHAINMAIL2", 100);
@@ -3569,28 +3556,28 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (1 уровень)", "yfauun_ithl_l_band"); --- Бандана 
     SetCraftAmount("yfauun_ithl_l_band", 1);
-     AddIngre("yfauun_ithl_l_band", "OOLTYB_ITMI_WHOOL_HOLST", 1);
+     AddIngre("yfauun_ithl_l_band", "aixopt_itmi_linen", 1);
     SetCraftPenalty("yfauun_ithl_l_band", 10);
     SetCraftScience("yfauun_ithl_l_band", "Портной", 1);
     SetenergyPenalty("yfauun_ithl_l_band", 25);
     SetCraftEXP("yfauun_ithl_l_band", 50)
     SetCraftEXP_SKILL("yfauun_ithl_l_band", "Портной")
 
-	AddItemCategory ("Портной (Расходники)", "OOLTYB_ITMI_WHOOL_HOLST"); --- Сукно
-	SetCraftAmount("OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddIngre("OOLTYB_ITMI_WHOOL_HOLST", "OOLTYB_ITMI_SHEEP", 10);
-	 AddTool("OOLTYB_ITMI_WHOOL_HOLST", "YVNZMZ_ITMI_NEEDLE");
-	SetCraftPenalty("OOLTYB_ITMI_WHOOL_HOLST", 5);
-	SetCraftScience("OOLTYB_ITMI_WHOOL_HOLST", "Портной", 1);
-	SetenergyPenalty("OOLTYB_ITMI_WHOOL_HOLST", 25);
-	SetCraftEXP("OOLTYB_ITMI_WHOOL_HOLST", 25)
-	SetCraftEXP_SKILL("OOLTYB_ITMI_WHOOL_HOLST", "Портной")
+	AddItemCategory ("Портной (Расходники)", "aixopt_itmi_linen"); --- Сукно
+	SetCraftAmount("aixopt_itmi_linen", 1);
+	 AddIngre("aixopt_itmi_linen", "aixopt_itmi_wool", 10);
+	 AddTool("aixopt_itmi_linen", "AIXOPT_ItMi_Needle");
+	SetCraftPenalty("aixopt_itmi_linen", 5);
+	SetCraftScience("aixopt_itmi_linen", "Портной", 1);
+	SetenergyPenalty("aixopt_itmi_linen", 25);
+	SetCraftEXP("aixopt_itmi_linen", 25)
+	SetCraftEXP_SKILL("aixopt_itmi_linen", "Портной")
 	
 	
 	AddItemCategory ("Портной (Расходники)", "OOLTYB_ITMI_BINT"); --- Бинт
 	SetCraftAmount("OOLTYB_ITMI_BINT", 4);
-	 AddIngre("OOLTYB_ITMI_BINT", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("OOLTYB_ITMI_BINT", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("OOLTYB_ITMI_BINT", "aixopt_itmi_linen", 1);
+	 AddTool("OOLTYB_ITMI_BINT", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("OOLTYB_ITMI_BINT", 5);
 	SetCraftScience("OOLTYB_ITMI_BINT", "Портной", 1);
 	SetenergyPenalty("OOLTYB_ITMI_BINT", 25);
@@ -3599,8 +3586,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 	
 	AddItemCategory ("Портной (Без уровня)", "ooltyb_itmi_palatka"); --- Палатка
 	SetCraftAmount("ooltyb_itmi_palatka", 1);
-	 AddIngre("ooltyb_itmi_palatka", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("ooltyb_itmi_palatka", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("ooltyb_itmi_palatka", "aixopt_itmi_linen", 1);
+	 AddTool("ooltyb_itmi_palatka", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("ooltyb_itmi_palatka", 5);
 	SetCraftScience("ooltyb_itmi_palatka", "Портной", 1);
 	SetenergyPenalty("ooltyb_itmi_palatka", 25);
@@ -3609,8 +3596,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 	
 	AddItemCategory ("Портной (Без уровня)", "yfauun_itar_torba"); --- Сумка
 	SetCraftAmount("yfauun_itar_torba", 1);
-	 AddIngre("yfauun_itar_torba", "ooltyb_itmi_sheep", 10);
-	 AddTool("yfauun_itar_torba", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("yfauun_itar_torba", "aixopt_itmi_wool", 10);
+	 AddTool("yfauun_itar_torba", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("yfauun_itar_torba", 5);
 	SetCraftScience("yfauun_itar_torba", "Портной", 1);
 	SetenergyPenalty("yfauun_itar_torba", 5);
@@ -3621,8 +3608,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_Smith"); --- Одежда кузнеца
 	SetCraftAmount("YFAUUN_ITAR_Smith", 1);
-	 AddIngre("YFAUUN_ITAR_Smith", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_Smith", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Smith", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_Smith", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Smith", 10);
 	SetCraftScience("YFAUUN_ITAR_Smith", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_Smith", 10);
@@ -3632,8 +3619,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_Barkeeper"); --- Одежда трактирщика
 	SetCraftAmount("YFAUUN_ITAR_Barkeeper", 1);
-	 AddIngre("YFAUUN_ITAR_Barkeeper", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_Barkeeper", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Barkeeper", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_Barkeeper", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Barkeeper", 10);
 	SetCraftScience("YFAUUN_ITAR_Barkeeper", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_Barkeeper", 10);
@@ -3643,8 +3630,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_Bau_L"); --- Одежда крестьянина
 	SetCraftAmount("YFAUUN_ITAR_Bau_L", 1);
-	 AddIngre("YFAUUN_ITAR_Bau_L", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_Bau_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Bau_L", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_Bau_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Bau_L", 10);
 	SetCraftScience("YFAUUN_ITAR_Bau_L", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_Bau_L", 10);
@@ -3654,8 +3641,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_BAU_A"); --- Зеленая одежда крестьянина
 	SetCraftAmount("YFAUUN_ITAR_BAU_A", 1);
-	 AddIngre("YFAUUN_ITAR_BAU_A", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_BAU_A", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BAU_A", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_BAU_A", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BAU_A", 10);
 	SetCraftScience("YFAUUN_ITAR_BAU_A", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_BAU_A", 10);
@@ -3665,8 +3652,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_BAU_B"); --- Красная одежда крестьянина
 	SetCraftAmount("YFAUUN_ITAR_BAU_B", 1);
-	 AddIngre("YFAUUN_ITAR_BAU_B", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_BAU_B", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BAU_B", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_BAU_B", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BAU_B", 10);
 	SetCraftScience("YFAUUN_ITAR_BAU_B", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_BAU_B", 10);
@@ -3675,8 +3662,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_Prisoner"); --- Штаны рудокопа
 	SetCraftAmount("YFAUUN_ITAR_Prisoner", 1);
-	 AddIngre("YFAUUN_ITAR_Prisoner", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_Prisoner", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Prisoner", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_Prisoner", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Prisoner", 10);
 	SetCraftScience("YFAUUN_ITAR_Prisoner", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_Prisoner", 10);
@@ -3685,8 +3672,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_STANI"); --- Штаны моряка
 	SetCraftAmount("YFAUUN_ITAR_STANI", 1);
-	 AddIngre("YFAUUN_ITAR_STANI", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_STANI", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_STANI", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_STANI", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_STANI", 10);
 	SetCraftScience("YFAUUN_ITAR_STANI", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_STANI", 10);
@@ -3695,8 +3682,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_SAILOR"); --- Зеленая одежда рабочего
 	SetCraftAmount("YFAUUN_ITAR_SAILOR", 1);
-	 AddIngre("YFAUUN_ITAR_SAILOR", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_SAILOR", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_SAILOR", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_SAILOR", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_SAILOR", 10);
 	SetCraftScience("YFAUUN_ITAR_SAILOR", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_SAILOR", 10);
@@ -3705,8 +3692,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_SAILOR1"); --- Голубая одежда рабочего
 	SetCraftAmount("YFAUUN_ITAR_SAILOR1", 1);
-	 AddIngre("YFAUUN_ITAR_SAILOR1", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_SAILOR1", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_SAILOR1", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_SAILOR1", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_SAILOR1", 10);
 	SetCraftScience("YFAUUN_ITAR_SAILOR1", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_SAILOR1", 10);
@@ -3715,8 +3702,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_SAILOR2"); --- Коричневая одежда рабочего
 	SetCraftAmount("YFAUUN_ITAR_SAILOR2", 1);
-	 AddIngre("YFAUUN_ITAR_SAILOR2", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_SAILOR2", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_SAILOR2", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_SAILOR2", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_SAILOR2", 10);
 	SetCraftScience("YFAUUN_ITAR_SAILOR2", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_SAILOR2", 10);
@@ -3725,8 +3712,8 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (Без уровня)", "YFAUUN_ITAR_SAILOR3"); --- Черная одежда рабочего
 	SetCraftAmount("YFAUUN_ITAR_SAILOR3", 1);
-	 AddIngre("YFAUUN_ITAR_SAILOR3", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_SAILOR3", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_SAILOR3", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_SAILOR3", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_SAILOR3", 10);
 	SetCraftScience("YFAUUN_ITAR_SAILOR3", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_SAILOR3", 10);
@@ -3737,7 +3724,7 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 	AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_UNDERARMOR"); --- Поддоспешник
 	SetCraftAmount("YFAUUN_ITAR_UNDERARMOR", 1);
-	 AddIngre("YFAUUN_ITAR_UNDERARMOR", "OOLTYB_ITMI_WHOOL_HOLST", 2);
+	 AddIngre("YFAUUN_ITAR_UNDERARMOR", "aixopt_itmi_linen", 2);
 	SetCraftPenalty("YFAUUN_ITAR_UNDERARMOR", 10);
 	SetCraftScience("YFAUUN_ITAR_UNDERARMOR", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_UNDERARMOR", 25);
@@ -3746,7 +3733,7 @@ AddItemCategory ("(Б)Кузнец (3 уровень)", "YFAUUN_ITAR_NEWCAMPM_M"); --- средние
 
 AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 	SetCraftAmount("YFAUUN_ITAR_VAV", 1);
-	 AddIngre("YFAUUN_ITAR_VAV", "OOLTYB_ITMI_WHOOL_HOLST", 2);
+	 AddIngre("YFAUUN_ITAR_VAV", "aixopt_itmi_linen", 2);
 	SetCraftPenalty("YFAUUN_ITAR_VAV", 10);
 	SetCraftScience("YFAUUN_ITAR_VAV", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_VAV", 25);
@@ -3755,7 +3742,7 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 	
 	AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_DARKROBE"); --- Плащ из плотной ткани
 	SetCraftAmount("YFAUUN_ITAR_DARKROBE", 1);
-	 AddIngre("YFAUUN_ITAR_DARKROBE", "OOLTYB_ITMI_WHOOL_HOLST", 2);
+	 AddIngre("YFAUUN_ITAR_DARKROBE", "aixopt_itmi_linen", 2);
 	SetCraftPenalty("YFAUUN_ITAR_DARKROBE", 10);
 	SetCraftScience("YFAUUN_ITAR_DARKROBE", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_DARKROBE", 25);
@@ -3764,7 +3751,7 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_NEUTRAL22"); --- Бригантина
 	SetCraftAmount("YFAUUN_ITAR_NEUTRAL22", 1);
-	 AddIngre("YFAUUN_ITAR_NEUTRAL22", "OOLTYB_ITMI_WHOOL_HOLST", 5);
+	 AddIngre("YFAUUN_ITAR_NEUTRAL22", "aixopt_itmi_linen", 5);
 	SetCraftPenalty("YFAUUN_ITAR_NEUTRAL22", 10);
 	SetCraftScience("YFAUUN_ITAR_NEUTRAL22", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_NEUTRAL22", 50);
@@ -3773,8 +3760,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_Vlk_L"); --- Коричневый дублет
 	SetCraftAmount("YFAUUN_ITAR_Vlk_L", 1);
-	 AddIngre("YFAUUN_ITAR_Vlk_L", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_Vlk_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Vlk_L", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_Vlk_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Vlk_L", 10);
 	SetCraftScience("YFAUUN_ITAR_Vlk_L", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_Vlk_L", 25);
@@ -3783,8 +3770,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 		AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_BAU_C"); --- Красная одежда фермера
 	SetCraftAmount("YFAUUN_ITAR_BAU_C", 1);
-	 AddIngre("YFAUUN_ITAR_BAU_C", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_BAU_C", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BAU_C", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_BAU_C", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BAU_C", 10);
 	SetCraftScience("YFAUUN_ITAR_BAU_C", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_BAU_C", 25);
@@ -3793,8 +3780,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_BAU_M"); --- Одежда фермера
 	SetCraftAmount("YFAUUN_ITAR_BAU_M", 1);
-	 AddIngre("YFAUUN_ITAR_BAU_M", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_BAU_M", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BAU_M", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_BAU_M", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BAU_M", 10);
 	SetCraftScience("YFAUUN_ITAR_BAU_M", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_BAU_M", 25);
@@ -3803,8 +3790,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_BauBabe_L"); --- Бежевое платье
 	SetCraftAmount("YFAUUN_ITAR_BauBabe_L", 1);
-	 AddIngre("YFAUUN_ITAR_BauBabe_L", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_BauBabe_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BauBabe_L", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_BauBabe_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BauBabe_L", 10);
 	SetCraftScience("YFAUUN_ITAR_BauBabe_L", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_BauBabe_L", 50);
@@ -3814,8 +3801,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_BauBabe_M"); --- Зеленое платье
 	SetCraftAmount("YFAUUN_ITAR_BauBabe_M", 1);
-	 AddIngre("YFAUUN_ITAR_BauBabe_M", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_BauBabe_M", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BauBabe_M", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_BauBabe_M", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BauBabe_M", 10);
 	SetCraftScience("YFAUUN_ITAR_BauBabe_M", "Портной", 1);
 	SetenergyPenalty("YFAUUN_ITAR_BauBabe_M", 25);
@@ -3824,8 +3811,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_Vlk_H"); --- Бежевый дублет
 	SetCraftAmount("YFAUUN_ITAR_Vlk_H", 1);
-	 AddIngre("YFAUUN_ITAR_Vlk_H", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_Vlk_H", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Vlk_H", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_Vlk_H", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Vlk_H", 10);
 	SetCraftScience("YFAUUN_ITAR_Vlk_H", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_Vlk_H", 50);
@@ -3834,8 +3821,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_Vlk_Khr01"); --- Короткий дублет
 	SetCraftAmount("YFAUUN_ITAR_Vlk_Khr01", 1);
-	 AddIngre("YFAUUN_ITAR_Vlk_Khr01", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_Vlk_Khr01", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Vlk_Khr01", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_Vlk_Khr01", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Vlk_Khr01", 10);
 	SetCraftScience("YFAUUN_ITAR_Vlk_Khr01", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_Vlk_Khr01", 50);
@@ -3844,8 +3831,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_VLK_D"); --- Синий дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_D", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_D", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_VLK_D", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_D", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_VLK_D", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_D", 10);
 	SetCraftScience("YFAUUN_ITAR_VLK_D", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_D", 50);
@@ -3854,8 +3841,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_VLK_Y"); --- Черный дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_Y", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_Y", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_VLK_Y", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_Y", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_VLK_Y", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_Y", 10);
 	SetCraftScience("YFAUUN_ITAR_VLK_Y", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_Y", 50);
@@ -3864,8 +3851,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_VLK_P"); --- Коричневый плащ
 	SetCraftAmount("YFAUUN_ITAR_VLK_P", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_P", "OOLTYB_ITMI_WHOOL_HOLST", 2);
-	 AddTool("YFAUUN_ITAR_VLK_P", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_P", "aixopt_itmi_linen", 2);
+	 AddTool("YFAUUN_ITAR_VLK_P", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_P", 10);
 	SetCraftScience("YFAUUN_ITAR_VLK_P", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_P", 50);
@@ -3874,8 +3861,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_VLK_N"); --- Черный плащ
 	SetCraftAmount("YFAUUN_ITAR_VLK_N", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_N", "OOLTYB_ITMI_WHOOL_HOLST", 2);
-	 AddTool("YFAUUN_ITAR_VLK_N", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_N", "aixopt_itmi_linen", 2);
+	 AddTool("YFAUUN_ITAR_VLK_N", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_N", 10);
 	SetCraftScience("YFAUUN_ITAR_VLK_N", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_N", 50);
@@ -3884,8 +3871,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_VLK_Q"); --- Желтый дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_Q", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_Q", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_VLK_Q", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_Q", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_VLK_Q", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_Q", 10);
 	SetCraftScience("YFAUUN_ITAR_VLK_Q", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_Q", 50);
@@ -3894,8 +3881,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_VLK_W"); --- Серый дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_W", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_W", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_VLK_W", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_W", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_VLK_W", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_W", 10);
 	SetCraftScience("YFAUUN_ITAR_VLK_W", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_W", 50);
@@ -3904,8 +3891,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (2 уровень)", "YFAUUN_ITAR_VLK_Y1"); --- Красный дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_Y1", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_Y1", "OOLTYB_ITMI_WHOOL_HOLST", 1);
-	 AddTool("YFAUUN_ITAR_VLK_Y1", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_Y1", "aixopt_itmi_linen", 1);
+	 AddTool("YFAUUN_ITAR_VLK_Y1", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_Y1", 10);
 	SetCraftScience("YFAUUN_ITAR_VLK_Y1", "Портной", 2);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_Y1", 50);
@@ -3914,8 +3901,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 	
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_VLK_F"); --- Белый плащ
 	SetCraftAmount("YFAUUN_ITAR_VLK_F", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_F", "OOLTYB_ITMI_WHOOL_HOLST", 2);
-	 AddTool("YFAUUN_ITAR_VLK_F", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_F", "aixopt_itmi_linen", 2);
+	 AddTool("YFAUUN_ITAR_VLK_F", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_F", 20);
 	SetCraftScience("YFAUUN_ITAR_VLK_F", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_F", 100);
@@ -3923,8 +3910,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_VLK_E"); --- Бежевый плащ
 	SetCraftAmount("YFAUUN_ITAR_VLK_E", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_E", "OOLTYB_ITMI_WHOOL_HOLST", 2);
-	 AddTool("YFAUUN_ITAR_VLK_E", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_E", "aixopt_itmi_linen", 2);
+	 AddTool("YFAUUN_ITAR_VLK_E", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_E", 20);
 	SetCraftScience("YFAUUN_ITAR_VLK_E", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_E", 100);
@@ -3933,96 +3920,96 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_Judge"); --- Мантия судьи
 	SetCraftAmount("YFAUUN_ITAR_Judge", 1);
-	 AddIngre("YFAUUN_ITAR_Judge", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_Judge", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Judge", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_Judge", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Judge", 20);
 	SetCraftScience("YFAUUN_ITAR_Judge", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_Judge", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_Vlk_M"); --- Розовый стеганый дублет
 	SetCraftAmount("YFAUUN_ITAR_Vlk_M", 1);
-	 AddIngre("YFAUUN_ITAR_Vlk_M", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_Vlk_M", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Vlk_M", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_Vlk_M", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Vlk_M", 20);
 	SetCraftScience("YFAUUN_ITAR_Vlk_M", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_Vlk_M", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VlkBabe_L"); --- Голубое платье
 	SetCraftAmount("YFAUUN_ITAR_VlkBabe_L", 1);
-	 AddIngre("YFAUUN_ITAR_VlkBabe_L", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VlkBabe_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VlkBabe_L", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VlkBabe_L", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VlkBabe_L", 20);
 	SetCraftScience("YFAUUN_ITAR_VlkBabe_L", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VlkBabe_L", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VlkBabe_M"); --- белое платье
 	SetCraftAmount("YFAUUN_ITAR_VlkBabe_M", 1);
-	 AddIngre("YFAUUN_ITAR_VlkBabe_M", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VlkBabe_M", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VlkBabe_M", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VlkBabe_M", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VlkBabe_M", 20);
 	SetCraftScience("YFAUUN_ITAR_VlkBabe_M", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VlkBabe_M", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VlkBabe_H"); --- Черное платье
 	SetCraftAmount("YFAUUN_ITAR_VlkBabe_H", 1);
-	 AddIngre("YFAUUN_ITAR_VlkBabe_H", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VlkBabe_H", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VlkBabe_H", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VlkBabe_H", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VlkBabe_H", 20);
 	SetCraftScience("YFAUUN_ITAR_VlkBabe_H", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VlkBabe_H", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_BauBabe_N"); --- Сиреневое платье
 	SetCraftAmount("YFAUUN_ITAR_BauBabe_N", 1);
-	 AddIngre("YFAUUN_ITAR_BauBabe_N", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_BauBabe_N", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BauBabe_N", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_BauBabe_N", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BauBabe_N", 20);
 	SetCraftScience("YFAUUN_ITAR_BauBabe_N", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_BauBabe_N", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VLK_J"); --- Стеганый дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_J", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_J", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VLK_J", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_J", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VLK_J", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_J", 20);
 	SetCraftScience("YFAUUN_ITAR_VLK_J", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_J", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VLK_Z"); --- Бежевый стеганый дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_Z", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_Z", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VLK_Z", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_Z", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VLK_Z", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_Z", 20);
 	SetCraftScience("YFAUUN_ITAR_VLK_Z", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_Z", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VLK_A"); --- Серый стеганый дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_A", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_A", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VLK_A", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_A", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VLK_A", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_A", 20);
 	SetCraftScience("YFAUUN_ITAR_VLK_A", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_A", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VLK_C"); --- Темно-зеленый стеганый дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_C", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_C", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VLK_C", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_C", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VLK_C", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_C", 20);
 	SetCraftScience("YFAUUN_ITAR_VLK_C", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_C", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VLK_A"); --- Серый стеганый дублет
 	SetCraftAmount("YFAUUN_ITAR_VLK_A", 1);
-	 AddIngre("YFAUUN_ITAR_VLK_A", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VLK_A", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLK_A", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VLK_A", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLK_A", 20);
 	SetCraftScience("YFAUUN_ITAR_VLK_A", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VLK_A", 100);
 
 	AddItemCategory ("Портной (3 уровень)", "YFAUUN_ITAR_VLKBABE_S"); --- Красное платье
 	SetCraftAmount("YFAUUN_ITAR_VLKBABE_S", 1);
-	 AddIngre("YFAUUN_ITAR_VLKBABE_S", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_VLKBABE_S", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_VLKBABE_S", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_VLKBABE_S", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_VLKBABE_S", 20);
 	SetCraftScience("YFAUUN_ITAR_VLKBABE_S", "Портной", 4);
 	SetenergyPenalty("YFAUUN_ITAR_VLKBABE_S", 100);
@@ -4033,56 +4020,56 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_NEWPLAT_05"); --- Дорогое красное платье
 	SetCraftAmount("YFAUUN_ITAR_NEWPLAT_05", 1);
-	 AddIngre("YFAUUN_ITAR_NEWPLAT_05", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_NEWPLAT_05", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_NEWPLAT_05", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_NEWPLAT_05", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEWPLAT_05", 20);
 	SetCraftScience("YFAUUN_ITAR_NEWPLAT_05", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_NEWPLAT_05", 100);
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_NEWPLAT_04"); --- Дворянское черное платье
 	SetCraftAmount("YFAUUN_ITAR_NEWPLAT_04", 1);
-	 AddIngre("YFAUUN_ITAR_NEWPLAT_04", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_NEWPLAT_04", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_NEWPLAT_04", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_NEWPLAT_04", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEWPLAT_04", 20);
 	SetCraftScience("YFAUUN_ITAR_NEWPLAT_04", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_NEWPLAT_04", 100);
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_NEWPLAT_03"); --- Дворянское зеленое платье
 	SetCraftAmount("YFAUUN_ITAR_NEWPLAT_03", 1);
-	 AddIngre("YFAUUN_ITAR_NEWPLAT_03", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_NEWPLAT_03", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_NEWPLAT_03", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_NEWPLAT_03", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEWPLAT_03", 20);
 	SetCraftScience("YFAUUN_ITAR_NEWPLAT_03", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_NEWPLAT_03", 100);
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_NEWPLAT_02"); --- Дворянское красное платье
 	SetCraftAmount("YFAUUN_ITAR_NEWPLAT_02", 1);
-	 AddIngre("YFAUUN_ITAR_NEWPLAT_02", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_NEWPLAT_02", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_NEWPLAT_02", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_NEWPLAT_02", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEWPLAT_02", 20);
 	SetCraftScience("YFAUUN_ITAR_NEWPLAT_02", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_NEWPLAT_02", 100);
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_NEWPLAT_01"); --- Дворянское голубое платье
 	SetCraftAmount("YFAUUN_ITAR_NEWPLAT_01", 1);
-	 AddIngre("YFAUUN_ITAR_NEWPLAT_01", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_NEWPLAT_01", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_NEWPLAT_01", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_NEWPLAT_01", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_NEWPLAT_01", 20);
 	SetCraftScience("YFAUUN_ITAR_NEWPLAT_01", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_NEWPLAT_01", 100);
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_BURG4"); --- Хорошая одежда горожанина
 	SetCraftAmount("YFAUUN_ITAR_BURG4", 1);
-	 AddIngre("YFAUUN_ITAR_BURG4", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_BURG4", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_BURG4", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_BURG4", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_BURG4", 20);
 	SetCraftScience("YFAUUN_ITAR_BURG4", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_BURG4", 100);
 
 	AddItemCategory ("Портной (4 уровень)", "YFAUUN_ITAR_Governor"); --- Богатая красная одежда горожанина
 	SetCraftAmount("YFAUUN_ITAR_Governor", 1);
-	 AddIngre("YFAUUN_ITAR_Governor", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddTool("YFAUUN_ITAR_Governor", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("YFAUUN_ITAR_Governor", "aixopt_itmi_linen", 6);
+	 AddTool("YFAUUN_ITAR_Governor", "AIXOPT_ItMi_Needle");
 	SetCraftPenalty("YFAUUN_ITAR_Governor", 20);
 	SetCraftScience("YFAUUN_ITAR_Governor", "Портной", 5);
 	SetenergyPenalty("YFAUUN_ITAR_Governor", 100);
@@ -4091,8 +4078,8 @@ AddItemCategory ("Портной (1 уровень)", "YFAUUN_ITAR_VAV"); --- Одеяние алхимика
 
 AddItemCategory ("Робы магов", "yfauun_itar_kdw_s"); --- Облачение послушника круга воды
 	SetCraftAmount("yfauun_itar_kdw_s", 1);
-	 AddIngre("yfauun_itar_kdw_s", "OOLTYB_ITMI_WHOOL_HOLST", 2);
-	 AddTool("yfauun_itar_kdw_s", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("yfauun_itar_kdw_s", "aixopt_itmi_linen", 2);
+	 AddTool("yfauun_itar_kdw_s", "AIXOPT_ItMi_Needle");
 	 AddTool("yfauun_itar_kdw_s", "ooltyb_itmi_recipe1");
 	SetCraftPenalty("yfauun_itar_kdw_s", 5);
 	SetCraftScience("yfauun_itar_kdw_s", "Портной", 1);
@@ -4102,8 +4089,8 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_s"); --- Облачение послушника кр
 	
 	AddItemCategory ("Робы магов", "yfauun_itar_nov_l"); --- послушник круга огня
 	SetCraftAmount("yfauun_itar_nov_l", 1);
-	 AddIngre("yfauun_itar_nov_l", "OOLTYB_ITMI_WHOOL_HOLST", 2);
-	 AddTool("yfauun_itar_nov_l", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("yfauun_itar_nov_l", "aixopt_itmi_linen", 2);
+	 AddTool("yfauun_itar_nov_l", "AIXOPT_ItMi_Needle");
 	 AddTool("yfauun_itar_nov_l", "ooltyb_itmi_recipe2");
 	SetCraftPenalty("yfauun_itar_nov_l", 5);
 	SetCraftScience("yfauun_itar_nov_l", "Портной", 1);
@@ -4113,10 +4100,10 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_s"); --- Облачение послушника кр
 
 AddItemCategory ("Робы магов", "YFAUUN_KDF_ARMOR_L"); --- роба ученика мага огня
 	SetCraftAmount("YFAUUN_KDF_ARMOR_L", 1);
-	 AddIngre("YFAUUN_KDF_ARMOR_L", "OOLTYB_ITMI_WHOOL_HOLST", 4);
-	 AddIngre("YFAUUN_KDF_ARMOR_L", "zdpwla_itmi_dye", 1);
+	 AddIngre("YFAUUN_KDF_ARMOR_L", "aixopt_itmi_linen", 4);
+	 AddIngre("YFAUUN_KDF_ARMOR_L", "aixopt_itmi_dye", 1);
 	 AddIngre("YFAUUN_KDF_ARMOR_L", "zdpwla_itmi_beltlm", 1);
-	 AddTool("YFAUUN_KDF_ARMOR_L", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("YFAUUN_KDF_ARMOR_L", "AIXOPT_ItMi_Needle");
 	 AddTool("YFAUUN_KDF_ARMOR_L", "ooltyb_itmi_recipe2");
 	SetCraftPenalty("YFAUUN_KDF_ARMOR_L", 5);
 	SetCraftScience("YFAUUN_KDF_ARMOR_L", "Портной", 2);
@@ -4126,10 +4113,10 @@ AddItemCategory ("Робы магов", "YFAUUN_KDF_ARMOR_L"); --- роба ученика мага огня
 
 AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("yfauun_itar_kdw_l", 1);
-	 AddIngre("yfauun_itar_kdw_l", "OOLTYB_ITMI_WHOOL_HOLST", 4);
-	 AddIngre("yfauun_itar_kdw_l", "zdpwla_itmi_dye", 1);
+	 AddIngre("yfauun_itar_kdw_l", "aixopt_itmi_linen", 4);
+	 AddIngre("yfauun_itar_kdw_l", "aixopt_itmi_dye", 1);
 	 AddIngre("yfauun_itar_kdw_l", "zdpwla_itmi_beltlm", 1);
-	 AddTool("yfauun_itar_kdw_l", "YVNZMZ_ITMI_NEEDLE");
+	 AddTool("yfauun_itar_kdw_l", "AIXOPT_ItMi_Needle");
 	 AddTool("yfauun_itar_kdw_l", "ooltyb_itmi_recipe1");
 	SetCraftPenalty("yfauun_itar_kdw_l", 5);
 	SetCraftScience("yfauun_itar_kdw_l", "Портной", 2);
@@ -4139,11 +4126,11 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	
 	AddItemCategory ("Робы магов", "yfauun_itar_kdw_l_addon"); --- мантия мага воды
 	SetCraftAmount("yfauun_itar_kdw_l_addon", 1);
-	 AddIngre("yfauun_itar_kdw_l_addon", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddIngre("yfauun_itar_kdw_l_addon", "zdpwla_itmi_dye", 2);
+	 AddIngre("yfauun_itar_kdw_l_addon", "aixopt_itmi_linen", 6);
+	 AddIngre("yfauun_itar_kdw_l_addon", "aixopt_itmi_dye", 2);
 	 AddIngre("yfauun_itar_kdw_l_addon", "zdpwla_itmi_belthm", 1);
-	 AddIngre("yfauun_itar_kdw_l_addon", "yvnzmz_itmi_bizha", 1);
-	 AddTool("yfauun_itar_kdw_l_addon", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("yfauun_itar_kdw_l_addon", "aixopt_itmi_jewelery", 1);
+	 AddTool("yfauun_itar_kdw_l_addon", "AIXOPT_ItMi_Needle");
 	 AddTool("yfauun_itar_kdw_l_addon", "ooltyb_itmi_recipe1");
 	SetCraftPenalty("yfauun_itar_kdw_l_addon", 5);
 	SetCraftScience("yfauun_itar_kdw_l_addon", "Портной", 3);
@@ -4151,11 +4138,11 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	
 	AddItemCategory ("Робы магов", "yfauun_itar_kdf_l"); --- мантия мага воды
 	SetCraftAmount("yfauun_itar_kdf_l", 1);
-	 AddIngre("yfauun_itar_kdf_l", "OOLTYB_ITMI_WHOOL_HOLST", 6);
-	 AddIngre("yfauun_itar_kdf_l", "zdpwla_itmi_dye", 2);
+	 AddIngre("yfauun_itar_kdf_l", "aixopt_itmi_linen", 6);
+	 AddIngre("yfauun_itar_kdf_l", "aixopt_itmi_dye", 2);
 	 AddIngre("yfauun_itar_kdf_l", "zdpwla_itmi_belthm", 1);
-	 AddIngre("yfauun_itar_kdf_l", "yvnzmz_itmi_bizha", 1);
-	 AddTool("yfauun_itar_kdf_l", "YVNZMZ_ITMI_NEEDLE");
+	 AddIngre("yfauun_itar_kdf_l", "aixopt_itmi_jewelery", 1);
+	 AddTool("yfauun_itar_kdf_l", "AIXOPT_ItMi_Needle");
 	 AddTool("yfauun_itar_kdf_l", "ooltyb_itmi_recipe2");
 	SetCraftPenalty("yfauun_itar_kdf_l", 5);
 	SetCraftScience("yfauun_itar_kdf_l", "Портной", 3);
@@ -4163,390 +4150,390 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	AddItemCategory ("(С) 1-й Круг", "IHPIWN_ItSc_Firebolt"); ----- огненная стрела
-	SetCraftAmount("IHPIWN_ItSc_Firebolt", 1);
-	 AddIngre("IHPIWN_ItSc_Firebolt", "ooltyb_itmi_magicore", 1);
-	 AddIngre("IHPIWN_ItSc_Firebolt", "ooltyb_itmi_paper", 2);
-    AddTool("IHPIWN_ItSc_Firebolt", "ooltyb_itmi_kscf");
-	AddTool("IHPIWN_ItSc_Firebolt", "ooltyb_itmi_kft1");
-	SetCraftPenalty("IHPIWN_ItSc_Firebolt", 5);
-	SetCraftScience("IHPIWN_ItSc_Firebolt", "Магия", 1);
-	SetenergyPenalty("IHPIWN_ItSc_Firebolt", 10);
+	AddItemCategory ("(С) 1-й Круг", "hymyrk_ItSc_Firebolt"); ----- огненная стрела
+	SetCraftAmount("hymyrk_ItSc_Firebolt", 1);
+	 AddIngre("hymyrk_ItSc_Firebolt", "ooltyb_itmi_magicore", 1);
+	 AddIngre("hymyrk_ItSc_Firebolt", "aixopt_itmi_paper", 2);
+    AddTool("hymyrk_ItSc_Firebolt", "ooltyb_itmi_kscf");
+	AddTool("hymyrk_ItSc_Firebolt", "ooltyb_itmi_kft1");
+	SetCraftPenalty("hymyrk_ItSc_Firebolt", 5);
+	SetCraftScience("hymyrk_ItSc_Firebolt", "Магия", 1);
+	SetenergyPenalty("hymyrk_ItSc_Firebolt", 10);
 	
-	AddItemCategory ("(С) 1-й Круг", "IHPIWN_ItSc_LightHeal"); ----- легкое лечение
-	SetCraftAmount("IHPIWN_ItSc_LightHeal", 1);
-	 AddIngre("IHPIWN_ItSc_LightHeal", "ooltyb_itmi_magicore", 1);
-	 AddIngre("IHPIWN_ItSc_LightHeal", "ooltyb_itmi_paper", 2);
-    AddTool("IHPIWN_ItSc_LightHeal", "ooltyb_itmi_kft1");
-	SetCraftPenalty("IHPIWN_ItSc_LightHeal", 5);
-	SetCraftScience("IHPIWN_ItSc_LightHeal", "Магия", 1);
-	SetenergyPenalty("IHPIWN_ItSc_LightHeal", 10);
+	AddItemCategory ("(С) 1-й Круг", "hymyrk_ItSc_LightHeal"); ----- легкое лечение
+	SetCraftAmount("hymyrk_ItSc_LightHeal", 1);
+	 AddIngre("hymyrk_ItSc_LightHeal", "ooltyb_itmi_magicore", 1);
+	 AddIngre("hymyrk_ItSc_LightHeal", "aixopt_itmi_paper", 2);
+    AddTool("hymyrk_ItSc_LightHeal", "ooltyb_itmi_kft1");
+	SetCraftPenalty("hymyrk_ItSc_LightHeal", 5);
+	SetCraftScience("hymyrk_ItSc_LightHeal", "Магия", 1);
+	SetenergyPenalty("hymyrk_ItSc_LightHeal", 10);
 	
-	AddItemCategory ("(С) 1-й Круг", "IHPIWN_ItSc_Light"); ----- свет
-	SetCraftAmount("IHPIWN_ItSc_Light", 1);
-	 AddIngre("IHPIWN_ItSc_Light", "ooltyb_itmi_magicore", 1);
-	 AddIngre("IHPIWN_ItSc_Light", "ooltyb_itmi_paper", 2);
-    AddTool("IHPIWN_ItSc_Light", "ooltyb_itmi_kft1");
-	SetCraftPenalty("IHPIWN_ItSc_Light", 5);
-	SetCraftScience("IHPIWN_ItSc_Light", "Магия", 1);
-	SetenergyPenalty("IHPIWN_ItSc_Light", 10);
+	AddItemCategory ("(С) 1-й Круг", "hymyrk_ItSc_Light"); ----- свет
+	SetCraftAmount("hymyrk_ItSc_Light", 1);
+	 AddIngre("hymyrk_ItSc_Light", "ooltyb_itmi_magicore", 1);
+	 AddIngre("hymyrk_ItSc_Light", "aixopt_itmi_paper", 2);
+    AddTool("hymyrk_ItSc_Light", "ooltyb_itmi_kft1");
+	SetCraftPenalty("hymyrk_ItSc_Light", 5);
+	SetCraftScience("hymyrk_ItSc_Light", "Магия", 1);
+	SetenergyPenalty("hymyrk_ItSc_Light", 10);
 	
-	AddItemCategory ("(С) 1-й Круг", "IHPIWN_ItSc_Zap"); ----- вспышка
-	SetCraftAmount("IHPIWN_ItSc_Zap", 1);
-	 AddIngre("IHPIWN_ItSc_Zap", "ooltyb_itmi_magicore", 1);
-	 AddIngre("IHPIWN_ItSc_Zap", "ooltyb_itmi_paper", 2);
-    AddTool("IHPIWN_ItSc_Zap", "ooltyb_itmi_kft1");
-	AddTool("IHPIWN_ItSc_Zap", "ooltyb_itmi_kscw");
-	SetCraftPenalty("IHPIWN_ItSc_Zap", 5);
-	SetCraftScience("IHPIWN_ItSc_Zap", "Магия", 1);
-	SetenergyPenalty("IHPIWN_ItSc_Zap", 10);
+	AddItemCategory ("(С) 1-й Круг", "hymyrk_ItSc_Zap"); ----- вспышка
+	SetCraftAmount("hymyrk_ItSc_Zap", 1);
+	 AddIngre("hymyrk_ItSc_Zap", "ooltyb_itmi_magicore", 1);
+	 AddIngre("hymyrk_ItSc_Zap", "aixopt_itmi_paper", 2);
+    AddTool("hymyrk_ItSc_Zap", "ooltyb_itmi_kft1");
+	AddTool("hymyrk_ItSc_Zap", "ooltyb_itmi_kscw");
+	SetCraftPenalty("hymyrk_ItSc_Zap", 5);
+	SetCraftScience("hymyrk_ItSc_Zap", "Магия", 1);
+	SetenergyPenalty("hymyrk_ItSc_Zap", 10);
 	
 	------- 2 круг свитки
 	
-	AddItemCategory ("(С) 2-й Круг", "IHPIWN_ItSc_InstantFireball"); ----- огненный шар
-	SetCraftAmount("IHPIWN_ItSc_InstantFireball", 1);
-	 AddIngre("IHPIWN_ItSc_InstantFireball", "ooltyb_itmi_magicore", 2);
-	 AddIngre("IHPIWN_ItSc_InstantFireball", "ooltyb_itmi_paper", 4);
-    AddTool("IHPIWN_ItSc_InstantFireball", "ooltyb_itmi_kft1");
-	AddTool("IHPIWN_ItSc_InstantFireball", "ooltyb_itmi_kscf");
-	SetCraftPenalty("IHPIWN_ItSc_InstantFireball", 5);
-	SetCraftScience("IHPIWN_ItSc_InstantFireball", "Магия", 2);
-	SetenergyPenalty("IHPIWN_ItSc_InstantFireball", 10);
+	AddItemCategory ("(С) 2-й Круг", "hymyrk_ItSc_InstantFireball"); ----- огненный шар
+	SetCraftAmount("hymyrk_ItSc_InstantFireball", 1);
+	 AddIngre("hymyrk_ItSc_InstantFireball", "ooltyb_itmi_magicore", 2);
+	 AddIngre("hymyrk_ItSc_InstantFireball", "aixopt_itmi_paper", 4);
+    AddTool("hymyrk_ItSc_InstantFireball", "ooltyb_itmi_kft1");
+	AddTool("hymyrk_ItSc_InstantFireball", "ooltyb_itmi_kscf");
+	SetCraftPenalty("hymyrk_ItSc_InstantFireball", 5);
+	SetCraftScience("hymyrk_ItSc_InstantFireball", "Магия", 2);
+	SetenergyPenalty("hymyrk_ItSc_InstantFireball", 10);
 	
-	AddItemCategory ("(С) 2-й Круг", "ihpiwn_itsc_waterfist"); ----- кулак воды
-	SetCraftAmount("ihpiwn_itsc_waterfist", 1);
-	 AddIngre("ihpiwn_itsc_waterfist", "ooltyb_itmi_magicore", 2);
-	 AddIngre("ihpiwn_itsc_waterfist", "ooltyb_itmi_paper", 4);
-    AddTool("ihpiwn_itsc_waterfist", "ooltyb_itmi_kft1");
-	AddTool("ihpiwn_itsc_waterfist","ooltyb_itmi_kscw");
-	SetCraftPenalty("ihpiwn_itsc_waterfist", 5);
-	SetCraftScience("ihpiwn_itsc_waterfist", "Магия", 2);
-	SetenergyPenalty("ihpiwn_itsc_waterfist", 10);
+	AddItemCategory ("(С) 2-й Круг", "hymyrk_itsc_waterfist"); ----- кулак воды
+	SetCraftAmount("hymyrk_itsc_waterfist", 1);
+	 AddIngre("hymyrk_itsc_waterfist", "ooltyb_itmi_magicore", 2);
+	 AddIngre("hymyrk_itsc_waterfist", "aixopt_itmi_paper", 4);
+    AddTool("hymyrk_itsc_waterfist", "ooltyb_itmi_kft1");
+	AddTool("hymyrk_itsc_waterfist","ooltyb_itmi_kscw");
+	SetCraftPenalty("hymyrk_itsc_waterfist", 5);
+	SetCraftScience("hymyrk_itsc_waterfist", "Магия", 2);
+	SetenergyPenalty("hymyrk_itsc_waterfist", 10);
 	
 	------- 3 круг свитки
 	
-	AddItemCategory ("(С) 3-й Круг", "ihpiwn_itsc_chargefireball"); ----- большой огненный шар
-	SetCraftAmount("ihpiwn_itsc_chargefireball", 1);
-	 AddIngre("ihpiwn_itsc_chargefireball", "ooltyb_itmi_magicore", 3);
-	 AddIngre("ihpiwn_itsc_chargefireball", "ooltyb_itmi_paper", 8);
-    AddTool("ihpiwn_itsc_chargefireball", "ooltyb_itmi_kft2");
-	AddTool("ihpiwn_itsc_chargefireball", "ooltyb_itmi_kscf");
-	SetCraftPenalty("ihpiwn_itsc_chargefireball", 5);
-	SetCraftScience("ihpiwn_itsc_chargefireball", "Магия", 4);
-	SetenergyPenalty("ihpiwn_itsc_chargefireball", 25);
+	AddItemCategory ("(С) 3-й Круг", "hymyrk_itsc_chargefireball"); ----- большой огненный шар
+	SetCraftAmount("hymyrk_itsc_chargefireball", 1);
+	 AddIngre("hymyrk_itsc_chargefireball", "ooltyb_itmi_magicore", 3);
+	 AddIngre("hymyrk_itsc_chargefireball", "aixopt_itmi_paper", 8);
+    AddTool("hymyrk_itsc_chargefireball", "ooltyb_itmi_kft2");
+	AddTool("hymyrk_itsc_chargefireball", "ooltyb_itmi_kscf");
+	SetCraftPenalty("hymyrk_itsc_chargefireball", 5);
+	SetCraftScience("hymyrk_itsc_chargefireball", "Магия", 4);
+	SetenergyPenalty("hymyrk_itsc_chargefireball", 25);
 	
-	AddItemCategory ("(С) 3-й Круг", "ihpiwn_itsc_harmundead"); ----- уничтожение нежити
-	SetCraftAmount("ihpiwn_itsc_harmundead", 1);
-	 AddIngre("ihpiwn_itsc_harmundead", "ooltyb_itmi_magicore", 3);
-	 AddIngre("ihpiwn_itsc_harmundead", "ooltyb_itmi_paper", 8);
-    AddTool("ihpiwn_itsc_harmundead", "ooltyb_itmi_kft2");
-	AddTool("ihpiwn_itsc_harmundead", "ooltyb_itmi_kscf");
-	SetCraftPenalty("ihpiwn_itsc_harmundead", 5);
-	SetCraftScience("ihpiwn_itsc_harmundead", "Магия", 4);
-	SetenergyPenalty("ihpiwn_itsc_harmundead", 25);
+	AddItemCategory ("(С) 3-й Круг", "hymyrk_itsc_harmundead"); ----- уничтожение нежити
+	SetCraftAmount("hymyrk_itsc_harmundead", 1);
+	 AddIngre("hymyrk_itsc_harmundead", "ooltyb_itmi_magicore", 3);
+	 AddIngre("hymyrk_itsc_harmundead", "aixopt_itmi_paper", 8);
+    AddTool("hymyrk_itsc_harmundead", "ooltyb_itmi_kft2");
+	AddTool("hymyrk_itsc_harmundead", "ooltyb_itmi_kscf");
+	SetCraftPenalty("hymyrk_itsc_harmundead", 5);
+	SetCraftScience("hymyrk_itsc_harmundead", "Магия", 4);
+	SetenergyPenalty("hymyrk_itsc_harmundead", 25);
 	
-	AddItemCategory ("(С) 3-й Круг", "ihpiwn_itsc_icebolt"); ----- ледяная стрела
-	SetCraftAmount("ihpiwn_itsc_icebolt", 1);
-	 AddIngre("ihpiwn_itsc_icebolt", "ooltyb_itmi_magicore", 3);
-	 AddIngre("ihpiwn_itsc_icebolt", "ooltyb_itmi_paper", 8);
-    AddTool("ihpiwn_itsc_icebolt", "ooltyb_itmi_kft2");
-	AddTool("ihpiwn_itsc_icebolt", "ooltyb_itmi_kscw");
-	SetCraftPenalty("ihpiwn_itsc_icebolt", 5);
-	SetCraftScience("ihpiwn_itsc_icebolt", "Магия", 4);
-	SetenergyPenalty("ihpiwn_itsc_icebolt", 25);
+	AddItemCategory ("(С) 3-й Круг", "hymyrk_itsc_icebolt"); ----- ледяная стрела
+	SetCraftAmount("hymyrk_itsc_icebolt", 1);
+	 AddIngre("hymyrk_itsc_icebolt", "ooltyb_itmi_magicore", 3);
+	 AddIngre("hymyrk_itsc_icebolt", "aixopt_itmi_paper", 8);
+    AddTool("hymyrk_itsc_icebolt", "ooltyb_itmi_kft2");
+	AddTool("hymyrk_itsc_icebolt", "ooltyb_itmi_kscw");
+	SetCraftPenalty("hymyrk_itsc_icebolt", 5);
+	SetCraftScience("hymyrk_itsc_icebolt", "Магия", 4);
+	SetenergyPenalty("hymyrk_itsc_icebolt", 25);
 	
-	AddItemCategory ("(С) 3-й Круг", "ihpiwn_itsc_icecube"); ----- ледяной блок
-	SetCraftAmount("ihpiwn_itsc_icecube", 1);
-	 AddIngre("ihpiwn_itsc_icecube", "ooltyb_itmi_magicore", 3);
-	 AddIngre("ihpiwn_itsc_icecube", "ooltyb_itmi_paper", 8);
-    AddTool("ihpiwn_itsc_icecube", "ooltyb_itmi_kft2");
-	AddTool("ihpiwn_itsc_icecube", "ooltyb_itmi_kscw");
-	SetCraftPenalty("ihpiwn_itsc_icecube", 5);
-	SetCraftScience("ihpiwn_itsc_icecube", "Магия", 4);
-	SetenergyPenalty("ihpiwn_itsc_icecube", 25);
+	AddItemCategory ("(С) 3-й Круг", "hymyrk_itsc_icecube"); ----- ледяной блок
+	SetCraftAmount("hymyrk_itsc_icecube", 1);
+	 AddIngre("hymyrk_itsc_icecube", "ooltyb_itmi_magicore", 3);
+	 AddIngre("hymyrk_itsc_icecube", "aixopt_itmi_paper", 8);
+    AddTool("hymyrk_itsc_icecube", "ooltyb_itmi_kft2");
+	AddTool("hymyrk_itsc_icecube", "ooltyb_itmi_kscw");
+	SetCraftPenalty("hymyrk_itsc_icecube", 5);
+	SetCraftScience("hymyrk_itsc_icecube", "Магия", 4);
+	SetenergyPenalty("hymyrk_itsc_icecube", 25);
 	
-	AddItemCategory ("(С) 3-й Круг", "ihpiwn_itsc_mediumheal"); ----- лечение средних ранений
-	SetCraftAmount("ihpiwn_itsc_mediumheal", 1);
-	 AddIngre("ihpiwn_itsc_mediumheal", "ooltyb_itmi_magicore", 3);
-	 AddIngre("ihpiwn_itsc_mediumheal", "ooltyb_itmi_paper", 8);
-    AddTool("ihpiwn_itsc_mediumheal", "ooltyb_itmi_kft2");
-	SetCraftPenalty("ihpiwn_itsc_mediumheal", 5);
-	SetCraftScience("ihpiwn_itsc_mediumheal", "Магия", 4);
-	SetenergyPenalty("ihpiwn_itsc_mediumheal", 25);
+	AddItemCategory ("(С) 3-й Круг", "hymyrk_itsc_mediumheal"); ----- лечение средних ранений
+	SetCraftAmount("hymyrk_itsc_mediumheal", 1);
+	 AddIngre("hymyrk_itsc_mediumheal", "ooltyb_itmi_magicore", 3);
+	 AddIngre("hymyrk_itsc_mediumheal", "aixopt_itmi_paper", 8);
+    AddTool("hymyrk_itsc_mediumheal", "ooltyb_itmi_kft2");
+	SetCraftPenalty("hymyrk_itsc_mediumheal", 5);
+	SetCraftScience("hymyrk_itsc_mediumheal", "Магия", 4);
+	SetenergyPenalty("hymyrk_itsc_mediumheal", 25);
 	
-	AddItemCategory ("(С) 3-й Круг", "ihpiwn_itsc_sleep"); ----- сон
-	SetCraftAmount("ihpiwn_itsc_sleep", 1);
-	 AddIngre("ihpiwn_itsc_sleep", "ooltyb_itmi_magicore", 3);
-	 AddIngre("ihpiwn_itsc_sleep", "ooltyb_itmi_paper", 8);
-    AddTool("ihpiwn_itsc_sleep", "ooltyb_itmi_kscs");
-	AddTool("ihpiwn_itsc_sleep", "ooltyb_itmi_kft2");
-	SetCraftPenalty("ihpiwn_itsc_sleep", 5);
-	SetCraftScience("ihpiwn_itsc_sleep", "Магия", 4);
-	SetenergyPenalty("ihpiwn_itsc_sleep", 25);
+	AddItemCategory ("(С) 3-й Круг", "hymyrk_itsc_sleep"); ----- сон
+	SetCraftAmount("hymyrk_itsc_sleep", 1);
+	 AddIngre("hymyrk_itsc_sleep", "ooltyb_itmi_magicore", 3);
+	 AddIngre("hymyrk_itsc_sleep", "aixopt_itmi_paper", 8);
+    AddTool("hymyrk_itsc_sleep", "ooltyb_itmi_kscs");
+	AddTool("hymyrk_itsc_sleep", "ooltyb_itmi_kft2");
+	SetCraftPenalty("hymyrk_itsc_sleep", 5);
+	SetCraftScience("hymyrk_itsc_sleep", "Магия", 4);
+	SetenergyPenalty("hymyrk_itsc_sleep", 25);
 	
 	------- 4 круг свитки
 	
-	AddItemCategory ("(С) 4-й Круг", "ihpiwn_itsc_firestorm"); ----- огненный шторм
-	SetCraftAmount("ihpiwn_itsc_firestorm", 1);
-	 AddIngre("ihpiwn_itsc_firestorm", "ooltyb_itmi_magicore", 5);
-	 AddIngre("ihpiwn_itsc_firestorm", "ooltyb_itmi_paper", 12);
-    AddTool("ihpiwn_itsc_firestorm", "ooltyb_itmi_kscf");
-	AddTool("ihpiwn_itsc_firestorm", "ooltyb_itmi_kft2");
-	SetCraftPenalty("ihpiwn_itsc_firestorm", 5);
-	SetCraftScience("ihpiwn_itsc_firestorm", "Магия", 5);
-	SetenergyPenalty("ihpiwn_itsc_firestorm", 25);
+	AddItemCategory ("(С) 4-й Круг", "hymyrk_itsc_firestorm"); ----- огненный шторм
+	SetCraftAmount("hymyrk_itsc_firestorm", 1);
+	 AddIngre("hymyrk_itsc_firestorm", "ooltyb_itmi_magicore", 5);
+	 AddIngre("hymyrk_itsc_firestorm", "aixopt_itmi_paper", 12);
+    AddTool("hymyrk_itsc_firestorm", "ooltyb_itmi_kscf");
+	AddTool("hymyrk_itsc_firestorm", "ooltyb_itmi_kft2");
+	SetCraftPenalty("hymyrk_itsc_firestorm", 5);
+	SetCraftScience("hymyrk_itsc_firestorm", "Магия", 5);
+	SetenergyPenalty("hymyrk_itsc_firestorm", 25);
 	
-	AddItemCategory ("(С) 4-й Круг", "ihpiwn_itsc_icelance"); ----- ледяное копье
-	SetCraftAmount("ihpiwn_itsc_icelance", 1);
-	 AddIngre("ihpiwn_itsc_icelance", "ooltyb_itmi_magicore", 5);
-	 AddIngre("ihpiwn_itsc_icelance", "ooltyb_itmi_paper", 12);
-    AddTool("ihpiwn_itsc_icelance", "ooltyb_itmi_kscw");
-	AddTool("ihpiwn_itsc_icelance", "ooltyb_itmi_kft2");
-	SetCraftPenalty("ihpiwn_itsc_icelance", 5);
-	SetCraftScience("ihpiwn_itsc_icelance", "Магия", 5);
-	SetenergyPenalty("ihpiwn_itsc_icelance", 25);
+	AddItemCategory ("(С) 4-й Круг", "hymyrk_itsc_icelance"); ----- ледяное копье
+	SetCraftAmount("hymyrk_itsc_icelance", 1);
+	 AddIngre("hymyrk_itsc_icelance", "ooltyb_itmi_magicore", 5);
+	 AddIngre("hymyrk_itsc_icelance", "aixopt_itmi_paper", 12);
+    AddTool("hymyrk_itsc_icelance", "ooltyb_itmi_kscw");
+	AddTool("hymyrk_itsc_icelance", "ooltyb_itmi_kft2");
+	SetCraftPenalty("hymyrk_itsc_icelance", 5);
+	SetCraftScience("hymyrk_itsc_icelance", "Магия", 5);
+	SetenergyPenalty("hymyrk_itsc_icelance", 25);
 	
-	AddItemCategory ("(С) 4-й Круг", "ihpiwn_itsc_thunderball"); ----- шаровая молния
-	SetCraftAmount("ihpiwn_itsc_thunderball", 1);
-	 AddIngre("ihpiwn_itsc_thunderball", "ooltyb_itmi_magicore", 5);
-	 AddIngre("ihpiwn_itsc_thunderball", "ooltyb_itmi_paper", 12);
-	AddTool("ihpiwn_itsc_thunderball", "ooltyb_itmi_kft2");
-	AddTool("ihpiwn_itsc_thunderball", "ooltyb_itmi_kscw");
-	SetCraftPenalty("ihpiwn_itsc_thunderball", 5);
-	SetCraftScience("ihpiwn_itsc_thunderball", "Магия", 5);
-	SetenergyPenalty("ihpiwn_itsc_thunderball", 25);
+	AddItemCategory ("(С) 4-й Круг", "hymyrk_itsc_thunderball"); ----- шаровая молния
+	SetCraftAmount("hymyrk_itsc_thunderball", 1);
+	 AddIngre("hymyrk_itsc_thunderball", "ooltyb_itmi_magicore", 5);
+	 AddIngre("hymyrk_itsc_thunderball", "aixopt_itmi_paper", 12);
+	AddTool("hymyrk_itsc_thunderball", "ooltyb_itmi_kft2");
+	AddTool("hymyrk_itsc_thunderball", "ooltyb_itmi_kscw");
+	SetCraftPenalty("hymyrk_itsc_thunderball", 5);
+	SetCraftScience("hymyrk_itsc_thunderball", "Магия", 5);
+	SetenergyPenalty("hymyrk_itsc_thunderball", 25);
 	
 	----- руны 1 круг
 	
 	AddItemCategory ("(Р) 1-й Круг", "ooltyb_itmi_runeblank"); ----- заготовка руны 1 круг
 	SetCraftAmount("ooltyb_itmi_runeblank", 1);
-	 AddIngre("ooltyb_itmi_runeblank", "OOLTYB_ITMI_NUGGET", 50);
-    AddTool("ooltyb_itmi_runeblank", "ooltyb_itmi_pliers");
+	 AddIngre("ooltyb_itmi_runeblank", "aixopt_itmi_ironnugget", 50);
+    AddTool("ooltyb_itmi_runeblank", "aixopt_itmi_pliers");
 	SetCraftPenalty("ooltyb_itmi_runeblank", 15);
 	SetCraftScience("ooltyb_itmi_runeblank", "Магия", 2);
 	SetenergyPenalty("ooltyb_itmi_runeblank", 50);
 	
-	AddItemCategory ("(Р) 1-й Круг", "saqtsh_itru_zap"); ----- вспышка
-	SetCraftAmount("saqtsh_itru_zap", 1);
-	 AddIngre("saqtsh_itru_zap", "ooltyb_itmi_runeblank", 1);
-	 AddIngre("saqtsh_itru_zap", "IHPIWN_ItSc_Zap", 1);
-	 AddIngre("saqtsh_itru_zap", "OOLTYB_ItMi_Quartz", 1);
-    AddTool("saqtsh_itru_zap", "ooltyb_itmi_kft1");
-	AddTool("saqtsh_itru_zap","ooltyb_itmi_kscw"); 
-	AddTool("saqtsh_itru_zap","ooltyb_itmi_pliers"); 
-	SetCraftPenalty("saqtsh_itru_zap", 15);
-	SetCraftScience("saqtsh_itru_zap", "Магия", 2);
-	SetenergyPenalty("saqtsh_itru_zap", 50);
+	AddItemCategory ("(Р) 1-й Круг", "xthmqe_itru_zap"); ----- вспышка
+	SetCraftAmount("xthmqe_itru_zap", 1);
+	 AddIngre("xthmqe_itru_zap", "ooltyb_itmi_runeblank", 1);
+	 AddIngre("xthmqe_itru_zap", "hymyrk_ItSc_Zap", 1);
+	 AddIngre("xthmqe_itru_zap", "aixopt_itmi_quartz", 1);
+    AddTool("xthmqe_itru_zap", "ooltyb_itmi_kft1");
+	AddTool("xthmqe_itru_zap","ooltyb_itmi_kscw"); 
+	AddTool("xthmqe_itru_zap","aixopt_itmi_pliers"); 
+	SetCraftPenalty("xthmqe_itru_zap", 15);
+	SetCraftScience("xthmqe_itru_zap", "Магия", 2);
+	SetenergyPenalty("xthmqe_itru_zap", 50);
 	
-	AddItemCategory ("(Р) 1-й Круг", "SAQTSH_ItRu_FireBolt"); ----- огненная стрела
-	SetCraftAmount("SAQTSH_ItRu_FireBolt", 1);
-	 AddIngre("SAQTSH_ItRu_FireBolt", "ooltyb_itmi_runeblank", 1);
-	 AddIngre("SAQTSH_ItRu_FireBolt", "IHPIWN_ItSc_Firebolt", 1);
-	 AddIngre("SAQTSH_ItRu_FireBolt", "ooltyb_itmi_rubin", 1);
-    AddTool("SAQTSH_ItRu_FireBolt", "ooltyb_itmi_kft1");
-	AddTool("SAQTSH_ItRu_FireBolt","ooltyb_itmi_kscf");
-	AddTool("SAQTSH_ItRu_FireBolt","ooltyb_itmi_pliers"); 
-	SetCraftPenalty("SAQTSH_ItRu_FireBolt", 15);
-	SetCraftScience("SAQTSH_ItRu_FireBolt", "Магия", 2);
-	SetenergyPenalty("SAQTSH_ItRu_FireBolt", 50);
+	AddItemCategory ("(Р) 1-й Круг", "xthmqe_ItRu_FireBolt"); ----- огненная стрела
+	SetCraftAmount("xthmqe_ItRu_FireBolt", 1);
+	 AddIngre("xthmqe_ItRu_FireBolt", "ooltyb_itmi_runeblank", 1);
+	 AddIngre("xthmqe_ItRu_FireBolt", "hymyrk_ItSc_Firebolt", 1);
+	 AddIngre("xthmqe_ItRu_FireBolt", "ooltyb_itmi_rubin", 1);
+    AddTool("xthmqe_ItRu_FireBolt", "ooltyb_itmi_kft1");
+	AddTool("xthmqe_ItRu_FireBolt","ooltyb_itmi_kscf");
+	AddTool("xthmqe_ItRu_FireBolt","aixopt_itmi_pliers"); 
+	SetCraftPenalty("xthmqe_ItRu_FireBolt", 15);
+	SetCraftScience("xthmqe_ItRu_FireBolt", "Магия", 2);
+	SetenergyPenalty("xthmqe_ItRu_FireBolt", 50);
 	
-	AddItemCategory ("(Р) 1-й Круг", "SAQTSH_ItRu_Light"); ----- свет
-	SetCraftAmount("SAQTSH_ItRu_Light", 1);
-	 AddIngre("SAQTSH_ItRu_Light", "ooltyb_itmi_runeblank", 1);
-	 AddIngre("SAQTSH_ItRu_Light", "IHPIWN_ItSc_Light", 1);
-	 AddIngre("SAQTSH_ItRu_Light", "OOLTYB_ItMi_Rockcrystal", 1);
-    AddTool("SAQTSH_ItRu_Light", "ooltyb_itmi_kft1");
-	AddTool("SAQTSH_ItRu_Light","ooltyb_itmi_pliers"); 
-	SetCraftPenalty("SAQTSH_ItRu_Light", 15);
-	SetCraftScience("SAQTSH_ItRu_Light", "Магия", 2);
-	SetenergyPenalty("SAQTSH_ItRu_Light", 50);
+	AddItemCategory ("(Р) 1-й Круг", "xthmqe_ItRu_Light"); ----- свет
+	SetCraftAmount("xthmqe_ItRu_Light", 1);
+	 AddIngre("xthmqe_ItRu_Light", "ooltyb_itmi_runeblank", 1);
+	 AddIngre("xthmqe_ItRu_Light", "hymyrk_ItSc_Light", 1);
+	 AddIngre("xthmqe_ItRu_Light", "aixopt_itmi_rockcrystal", 1);
+    AddTool("xthmqe_ItRu_Light", "ooltyb_itmi_kft1");
+	AddTool("xthmqe_ItRu_Light","aixopt_itmi_pliers"); 
+	SetCraftPenalty("xthmqe_ItRu_Light", 15);
+	SetCraftScience("xthmqe_ItRu_Light", "Магия", 2);
+	SetenergyPenalty("xthmqe_ItRu_Light", 50);
 	
-	AddItemCategory ("(Р) 1-й Круг", "SAQTSH_ItRu_LightHeal"); ----- легкое лечение
-	SetCraftAmount("SAQTSH_ItRu_LightHeal", 1);
-	 AddIngre("SAQTSH_ItRu_LightHeal", "ooltyb_itmi_runeblank", 1);
-	 AddIngre("SAQTSH_ItRu_LightHeal", "IHPIWN_ItSc_LightHeal", 1);
-	 AddIngre("SAQTSH_ItRu_LightHeal", "OOLTYB_ItMi_Rockcrystal", 1);
-    AddTool("SAQTSH_ItRu_LightHeal", "ooltyb_itmi_kft1");
-	AddTool("SAQTSH_ItRu_LightHeal","ooltyb_itmi_pliers"); 
-	SetCraftPenalty("SAQTSH_ItRu_LightHeal", 15);
-	SetCraftScience("SAQTSH_ItRu_LightHeal", "Магия", 2);
-	SetenergyPenalty("SAQTSH_ItRu_LightHeal", 50);
+	AddItemCategory ("(Р) 1-й Круг", "xthmqe_ItRu_LightHeal"); ----- легкое лечение
+	SetCraftAmount("xthmqe_ItRu_LightHeal", 1);
+	 AddIngre("xthmqe_ItRu_LightHeal", "ooltyb_itmi_runeblank", 1);
+	 AddIngre("xthmqe_ItRu_LightHeal", "hymyrk_ItSc_LightHeal", 1);
+	 AddIngre("xthmqe_ItRu_LightHeal", "aixopt_itmi_rockcrystal", 1);
+    AddTool("xthmqe_ItRu_LightHeal", "ooltyb_itmi_kft1");
+	AddTool("xthmqe_ItRu_LightHeal","aixopt_itmi_pliers"); 
+	SetCraftPenalty("xthmqe_ItRu_LightHeal", 15);
+	SetCraftScience("xthmqe_ItRu_LightHeal", "Магия", 2);
+	SetenergyPenalty("xthmqe_ItRu_LightHeal", 50);
 	
 	-----руны 2 круг
 	
 	AddItemCategory ("(Р) 2-й Круг", "ooltyb_itmi_mage2"); ----- заготовка руны 2 круг
 	SetCraftAmount("ooltyb_itmi_mage2", 1);
-	 AddIngre("ooltyb_itmi_mage2", "OOLTYB_ITMI_NUGGET", 100);
+	 AddIngre("ooltyb_itmi_mage2", "aixopt_itmi_ironnugget", 100);
 	 AddIngre("ooltyb_itmi_mage2", "ooltyb_itmi_runeblank", 1);
-    AddTool("ooltyb_itmi_mage2", "ooltyb_itmi_pliers");
+    AddTool("ooltyb_itmi_mage2", "aixopt_itmi_pliers");
 	SetCraftPenalty("ooltyb_itmi_mage2", 15);
 	SetCraftScience("ooltyb_itmi_mage2", "Магия", 3);
 	SetenergyPenalty("ooltyb_itmi_mage2", 50);
 	
-	AddItemCategory ("(Р) 2-й Круг", "SAQTSH_ItRu_InstantFireball"); ----- огненный шар
-	SetCraftAmount("SAQTSH_ItRu_InstantFireball", 1);
-	 AddIngre("SAQTSH_ItRu_InstantFireball", "ooltyb_itmi_mage2", 1);
-	 AddIngre("SAQTSH_ItRu_InstantFireball", "IHPIWN_ItSc_InstantFireball", 1);
-	 AddIngre("SAQTSH_ItRu_InstantFireball", "ooltyb_itmi_rubin", 1);
-    AddTool("SAQTSH_ItRu_InstantFireball", "ooltyb_itmi_kft1");
-	AddTool("SAQTSH_ItRu_InstantFireball","ooltyb_itmi_kscf");
-    AddTool("SAQTSH_ItRu_InstantFireball","ooltyb_itmi_pliers"); 	
-	SetCraftPenalty("SAQTSH_ItRu_InstantFireball", 15);
-	SetCraftScience("SAQTSH_ItRu_InstantFireball", "Магия", 3);
-	SetenergyPenalty("SAQTSH_ItRu_InstantFireball", 50);
+	AddItemCategory ("(Р) 2-й Круг", "xthmqe_ItRu_InstantFireball"); ----- огненный шар
+	SetCraftAmount("xthmqe_ItRu_InstantFireball", 1);
+	 AddIngre("xthmqe_ItRu_InstantFireball", "ooltyb_itmi_mage2", 1);
+	 AddIngre("xthmqe_ItRu_InstantFireball", "hymyrk_ItSc_InstantFireball", 1);
+	 AddIngre("xthmqe_ItRu_InstantFireball", "ooltyb_itmi_rubin", 1);
+    AddTool("xthmqe_ItRu_InstantFireball", "ooltyb_itmi_kft1");
+	AddTool("xthmqe_ItRu_InstantFireball","ooltyb_itmi_kscf");
+    AddTool("xthmqe_ItRu_InstantFireball","aixopt_itmi_pliers"); 	
+	SetCraftPenalty("xthmqe_ItRu_InstantFireball", 15);
+	SetCraftScience("xthmqe_ItRu_InstantFireball", "Магия", 3);
+	SetenergyPenalty("xthmqe_ItRu_InstantFireball", 50);
 	
-	AddItemCategory ("(Р) 2-й Круг", "saqtsh_itru_waterfist"); ----- кулак воды
-	SetCraftAmount("saqtsh_itru_waterfist", 1);
-	 AddIngre("saqtsh_itru_waterfist", "ooltyb_itmi_mage2", 1);
-	 AddIngre("saqtsh_itru_waterfist", "ihpiwn_itsc_waterfist", 1);
-	 AddIngre("saqtsh_itru_waterfist", "OOLTYB_ItMi_AquamarinE", 1);
-    AddTool("saqtsh_itru_waterfist", "ooltyb_itmi_kft1");
-	AddTool("saqtsh_itru_waterfist","ooltyb_itmi_pliers");
-    AddTool("saqtsh_itru_waterfist","ooltyb_itmi_kscw"); 	
-	SetCraftPenalty("saqtsh_itru_waterfist", 15);
-	SetCraftScience("saqtsh_itru_waterfist", "Магия", 3);
-	SetenergyPenalty("saqtsh_itru_waterfist", 50);
+	AddItemCategory ("(Р) 2-й Круг", "xthmqe_itru_waterfist"); ----- кулак воды
+	SetCraftAmount("xthmqe_itru_waterfist", 1);
+	 AddIngre("xthmqe_itru_waterfist", "ooltyb_itmi_mage2", 1);
+	 AddIngre("xthmqe_itru_waterfist", "hymyrk_itsc_waterfist", 1);
+	 AddIngre("xthmqe_itru_waterfist", "aixopt_itmi_aquamarine", 1);
+    AddTool("xthmqe_itru_waterfist", "ooltyb_itmi_kft1");
+	AddTool("xthmqe_itru_waterfist","aixopt_itmi_pliers");
+    AddTool("xthmqe_itru_waterfist","ooltyb_itmi_kscw"); 	
+	SetCraftPenalty("xthmqe_itru_waterfist", 15);
+	SetCraftScience("xthmqe_itru_waterfist", "Магия", 3);
+	SetenergyPenalty("xthmqe_itru_waterfist", 50);
 	
-	AddItemCategory ("(Р) 2-й Круг", "saqtsh_itru_lightfocheal"); ----- легкое лечение ранений таргет
-	SetCraftAmount("saqtsh_itru_lightfocheal", 1);
-	 AddIngre("saqtsh_itru_lightfocheal", "ooltyb_itmi_mage2", 1);
-	 AddIngre("saqtsh_itru_lightfocheal", "IHPIWN_ItSc_LightHeal", 2);
-	  AddIngre("saqtsh_itru_lightfocheal", "OOLTYB_ItMi_Rockcrystal", 1);
-    AddTool("saqtsh_itru_lightfocheal", "ooltyb_itmi_kft1");
-	AddTool("saqtsh_itru_lightfocheal","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_lightfocheal", 15);
-	SetCraftScience("saqtsh_itru_lightfocheal", "Магия", 3);
-	SetenergyPenalty("saqtsh_itru_lightfocheal", 50);
+	AddItemCategory ("(Р) 2-й Круг", "xthmqe_itru_lightfocheal"); ----- легкое лечение ранений таргет
+	SetCraftAmount("xthmqe_itru_lightfocheal", 1);
+	 AddIngre("xthmqe_itru_lightfocheal", "ooltyb_itmi_mage2", 1);
+	 AddIngre("xthmqe_itru_lightfocheal", "hymyrk_ItSc_LightHeal", 2);
+	  AddIngre("xthmqe_itru_lightfocheal", "aixopt_itmi_rockcrystal", 1);
+    AddTool("xthmqe_itru_lightfocheal", "ooltyb_itmi_kft1");
+	AddTool("xthmqe_itru_lightfocheal","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_lightfocheal", 15);
+	SetCraftScience("xthmqe_itru_lightfocheal", "Магия", 3);
+	SetenergyPenalty("xthmqe_itru_lightfocheal", 50);
 	
 	-----руны 3 круг
 	
-	AddItemCategory ("(Р) 3-й Круг", "saqtsh_itru_chargefireball"); ----- большой огненный шар
-	SetCraftAmount("saqtsh_itru_chargefireball", 1);
-	 AddIngre("saqtsh_itru_chargefireball", "ooltyb_itmi_mage3", 1);
-	 AddIngre("saqtsh_itru_chargefireball", "ihpiwn_itsc_chargefireball", 1);
-	  AddIngre("saqtsh_itru_chargefireball", "ooltyb_itmi_rubin", 2);
-    AddTool("saqtsh_itru_chargefireball", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_chargefireball", "ooltyb_itmi_kscf");
-	AddTool("saqtsh_itru_chargefireball","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_chargefireball", 15);
-	SetCraftScience("saqtsh_itru_chargefireball", "Магия", 4);
-	SetenergyPenalty("saqtsh_itru_chargefireball", 100);
+	AddItemCategory ("(Р) 3-й Круг", "xthmqe_itru_chargefireball"); ----- большой огненный шар
+	SetCraftAmount("xthmqe_itru_chargefireball", 1);
+	 AddIngre("xthmqe_itru_chargefireball", "ooltyb_itmi_mage3", 1);
+	 AddIngre("xthmqe_itru_chargefireball", "hymyrk_itsc_chargefireball", 1);
+	  AddIngre("xthmqe_itru_chargefireball", "ooltyb_itmi_rubin", 2);
+    AddTool("xthmqe_itru_chargefireball", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_chargefireball", "ooltyb_itmi_kscf");
+	AddTool("xthmqe_itru_chargefireball","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_chargefireball", 15);
+	SetCraftScience("xthmqe_itru_chargefireball", "Магия", 4);
+	SetenergyPenalty("xthmqe_itru_chargefireball", 100);
 	
-	AddItemCategory ("(Р) 3-й Круг", "saqtsh_itru_harmundead"); ----- уничтожение нежити
-	SetCraftAmount("saqtsh_itru_harmundead", 1);
-	 AddIngre("saqtsh_itru_harmundead", "ooltyb_itmi_mage3", 1);
-	 AddIngre("saqtsh_itru_harmundead", "ihpiwn_itsc_harmundead", 1);
-	  AddIngre("saqtsh_itru_harmundead", "OOLTYB_ItMi_Quartz", 2);
-    AddTool("saqtsh_itru_harmundead", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_harmundead", "ooltyb_itmi_kscf");
-	AddTool("saqtsh_itru_harmundead","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_harmundead", 15);
-	SetCraftScience("saqtsh_itru_harmundead", "Магия", 4);
-	SetenergyPenalty("saqtsh_itru_harmundead", 100);
+	AddItemCategory ("(Р) 3-й Круг", "xthmqe_itru_harmundead"); ----- уничтожение нежити
+	SetCraftAmount("xthmqe_itru_harmundead", 1);
+	 AddIngre("xthmqe_itru_harmundead", "ooltyb_itmi_mage3", 1);
+	 AddIngre("xthmqe_itru_harmundead", "hymyrk_itsc_harmundead", 1);
+	  AddIngre("xthmqe_itru_harmundead", "aixopt_itmi_quartz", 2);
+    AddTool("xthmqe_itru_harmundead", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_harmundead", "ooltyb_itmi_kscf");
+	AddTool("xthmqe_itru_harmundead","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_harmundead", 15);
+	SetCraftScience("xthmqe_itru_harmundead", "Магия", 4);
+	SetenergyPenalty("xthmqe_itru_harmundead", 100);
 	
-	AddItemCategory ("(Р) 3-й Круг", "saqtsh_itru_icebolt"); ----- ледяная стрела
-	SetCraftAmount("saqtsh_itru_icebolt", 1);
-	 AddIngre("saqtsh_itru_icebolt", "ooltyb_itmi_mage3", 1);
-	 AddIngre("saqtsh_itru_icebolt", "ihpiwn_itsc_icebolt", 1);
-	  AddIngre("saqtsh_itru_icebolt", "OOLTYB_ItMi_AquamarinE", 2);
-    AddTool("saqtsh_itru_icebolt", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_icebolt", "ooltyb_itmi_kscw");
-	AddTool("saqtsh_itru_icebolt","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_icebolt", 15);
-	SetCraftScience("saqtsh_itru_icebolt", "Магия", 4);
-	SetenergyPenalty("saqtsh_itru_icebolt", 100);
+	AddItemCategory ("(Р) 3-й Круг", "xthmqe_itru_icebolt"); ----- ледяная стрела
+	SetCraftAmount("xthmqe_itru_icebolt", 1);
+	 AddIngre("xthmqe_itru_icebolt", "ooltyb_itmi_mage3", 1);
+	 AddIngre("xthmqe_itru_icebolt", "hymyrk_itsc_icebolt", 1);
+	  AddIngre("xthmqe_itru_icebolt", "aixopt_itmi_aquamarine", 2);
+    AddTool("xthmqe_itru_icebolt", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_icebolt", "ooltyb_itmi_kscw");
+	AddTool("xthmqe_itru_icebolt","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_icebolt", 15);
+	SetCraftScience("xthmqe_itru_icebolt", "Магия", 4);
+	SetenergyPenalty("xthmqe_itru_icebolt", 100);
 	
-	AddItemCategory ("(Р) 3-й Круг", "saqtsh_itru_icecube"); ----- ледяной блок
-	SetCraftAmount("saqtsh_itru_icecube", 1);
-	 AddIngre("saqtsh_itru_icecube", "ooltyb_itmi_mage3", 1);
-	 AddIngre("saqtsh_itru_icecube", "ihpiwn_itsc_icecube", 1);
-	  AddIngre("saqtsh_itru_icecube", "OOLTYB_ItMi_AquamarinE", 2);
-    AddTool("saqtsh_itru_icecube", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_icecube", "ooltyb_itmi_kscw");
-	AddTool("saqtsh_itru_icecube","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_icecube", 15);
-	SetCraftScience("saqtsh_itru_icecube", "Магия", 4);
-	SetenergyPenalty("saqtsh_itru_icecube", 100);
+	AddItemCategory ("(Р) 3-й Круг", "xthmqe_itru_icecube"); ----- ледяной блок
+	SetCraftAmount("xthmqe_itru_icecube", 1);
+	 AddIngre("xthmqe_itru_icecube", "ooltyb_itmi_mage3", 1);
+	 AddIngre("xthmqe_itru_icecube", "hymyrk_itsc_icecube", 1);
+	  AddIngre("xthmqe_itru_icecube", "aixopt_itmi_aquamarine", 2);
+    AddTool("xthmqe_itru_icecube", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_icecube", "ooltyb_itmi_kscw");
+	AddTool("xthmqe_itru_icecube","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_icecube", 15);
+	SetCraftScience("xthmqe_itru_icecube", "Магия", 4);
+	SetenergyPenalty("xthmqe_itru_icecube", 100);
 	
-	AddItemCategory ("(Р) 3-й Круг", "saqtsh_itru_mediumheal"); ----- лечение средних ранений
-	SetCraftAmount("saqtsh_itru_mediumheal", 1);
-	 AddIngre("saqtsh_itru_mediumheal", "ooltyb_itmi_mage3", 1);
-	 AddIngre("saqtsh_itru_mediumheal", "ihpiwn_itsc_mediumheal", 1);
-	 AddIngre("saqtsh_itru_mediumheal", "OOLTYB_ItMi_Rockcrystal", 2);
-    AddTool("saqtsh_itru_mediumheal", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_mediumheal","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_mediumheal", 15);
-	SetCraftScience("saqtsh_itru_mediumheal", "Магия", 4);
-	SetenergyPenalty("saqtsh_itru_mediumheal", 100);
+	AddItemCategory ("(Р) 3-й Круг", "xthmqe_itru_mediumheal"); ----- лечение средних ранений
+	SetCraftAmount("xthmqe_itru_mediumheal", 1);
+	 AddIngre("xthmqe_itru_mediumheal", "ooltyb_itmi_mage3", 1);
+	 AddIngre("xthmqe_itru_mediumheal", "hymyrk_itsc_mediumheal", 1);
+	 AddIngre("xthmqe_itru_mediumheal", "aixopt_itmi_rockcrystal", 2);
+    AddTool("xthmqe_itru_mediumheal", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_mediumheal","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_mediumheal", 15);
+	SetCraftScience("xthmqe_itru_mediumheal", "Магия", 4);
+	SetenergyPenalty("xthmqe_itru_mediumheal", 100);
 	
-	AddItemCategory ("(Р) 3-й Круг", "saqtsh_itru_sleep"); ----- сон
-	SetCraftAmount("saqtsh_itru_sleep", 1);
-	 AddIngre("saqtsh_itru_sleep", "ooltyb_itmi_mage3", 1);
-	 AddIngre("saqtsh_itru_sleep", "ihpiwn_itsc_sleep", 1);
-	 AddIngre("saqtsh_itru_sleep", "ooltyb_itmi_quartz", 2);
-    AddTool("saqtsh_itru_sleep", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_sleep", "ooltyb_itmi_kscs");
-	AddTool("saqtsh_itru_sleep","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_sleep", 15);
-	SetCraftScience("saqtsh_itru_sleep", "Магия", 4);
-	SetenergyPenalty("saqtsh_itru_sleep", 100);
+	AddItemCategory ("(Р) 3-й Круг", "xthmqe_itru_sleep"); ----- сон
+	SetCraftAmount("xthmqe_itru_sleep", 1);
+	 AddIngre("xthmqe_itru_sleep", "ooltyb_itmi_mage3", 1);
+	 AddIngre("xthmqe_itru_sleep", "hymyrk_itsc_sleep", 1);
+	 AddIngre("xthmqe_itru_sleep", "aixopt_itmi_quartz", 2);
+    AddTool("xthmqe_itru_sleep", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_sleep", "ooltyb_itmi_kscs");
+	AddTool("xthmqe_itru_sleep","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_sleep", 15);
+	SetCraftScience("xthmqe_itru_sleep", "Магия", 4);
+	SetenergyPenalty("xthmqe_itru_sleep", 100);
 	
 	-----руны 4 круг
 	
-	AddItemCategory ("(Р) 4-й Круг", "saqtsh_itru_firestorm"); ----- малый огненный шторм
-	SetCraftAmount("saqtsh_itru_firestorm", 1);
-	 AddIngre("saqtsh_itru_firestorm", "ooltyb_itmi_mage4", 1);
-	 AddIngre("saqtsh_itru_firestorm", "ihpiwn_itsc_firestorm", 1);
-	  AddIngre("saqtsh_itru_firestorm", "ooltyb_itmi_rubin", 2);
-    AddTool("saqtsh_itru_firestorm", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_firestorm", "ooltyb_itmi_kscf");
-	AddTool("saqtsh_itru_firestorm","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_firestorm", 15);
-	SetCraftScience("saqtsh_itru_firestorm", "Магия", 5);
-	SetenergyPenalty("saqtsh_itru_firestorm", 100);
+	AddItemCategory ("(Р) 4-й Круг", "xthmqe_itru_firestorm"); ----- малый огненный шторм
+	SetCraftAmount("xthmqe_itru_firestorm", 1);
+	 AddIngre("xthmqe_itru_firestorm", "ooltyb_itmi_mage4", 1);
+	 AddIngre("xthmqe_itru_firestorm", "hymyrk_itsc_firestorm", 1);
+	  AddIngre("xthmqe_itru_firestorm", "ooltyb_itmi_rubin", 2);
+    AddTool("xthmqe_itru_firestorm", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_firestorm", "ooltyb_itmi_kscf");
+	AddTool("xthmqe_itru_firestorm","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_firestorm", 15);
+	SetCraftScience("xthmqe_itru_firestorm", "Магия", 5);
+	SetenergyPenalty("xthmqe_itru_firestorm", 100);
 	
-	AddItemCategory ("(Р) 4-й Круг", "saqtsh_itru_icelance"); ----- ледяное копье
-	SetCraftAmount("saqtsh_itru_icelance", 1);
-	 AddIngre("saqtsh_itru_icelance", "ooltyb_itmi_mage4", 1);
-	 AddIngre("saqtsh_itru_icelance", "ihpiwn_itsc_icelance", 1);
-	  AddIngre("saqtsh_itru_icelance", "OOLTYB_ItMi_AquamarinE", 2);
-    AddTool("saqtsh_itru_icelance", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_icelance", "ooltyb_itmi_kscw");
-	AddTool("saqtsh_itru_icelance","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_icelance", 15);
-	SetCraftScience("saqtsh_itru_icelance", "Магия", 5);
-	SetenergyPenalty("saqtsh_itru_icelance", 100);
+	AddItemCategory ("(Р) 4-й Круг", "xthmqe_itru_icelance"); ----- ледяное копье
+	SetCraftAmount("xthmqe_itru_icelance", 1);
+	 AddIngre("xthmqe_itru_icelance", "ooltyb_itmi_mage4", 1);
+	 AddIngre("xthmqe_itru_icelance", "hymyrk_itsc_icelance", 1);
+	  AddIngre("xthmqe_itru_icelance", "aixopt_itmi_aquamarine", 2);
+    AddTool("xthmqe_itru_icelance", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_icelance", "ooltyb_itmi_kscw");
+	AddTool("xthmqe_itru_icelance","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_icelance", 15);
+	SetCraftScience("xthmqe_itru_icelance", "Магия", 5);
+	SetenergyPenalty("xthmqe_itru_icelance", 100);
 	
-	AddItemCategory ("(Р) 4-й Круг", "saqtsh_itru_thunderball"); ----- шаровая молния
-	SetCraftAmount("saqtsh_itru_thunderball", 1);
-	 AddIngre("saqtsh_itru_thunderball", "ooltyb_itmi_mage4", 1);
-	 AddIngre("saqtsh_itru_thunderball", "ihpiwn_itsc_thunderball", 1);
-	  AddIngre("saqtsh_itru_thunderball", "OOLTYB_ItMi_Quartz", 2);
-    AddTool("saqtsh_itru_thunderball", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_thunderball", "ooltyb_itmi_kscw");
-	AddTool("saqtsh_itru_thunderball","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_thunderball", 15);
-	SetCraftScience("saqtsh_itru_thunderball", "Магия", 5);
-	SetenergyPenalty("saqtsh_itru_thunderball", 100);
+	AddItemCategory ("(Р) 4-й Круг", "xthmqe_itru_thunderball"); ----- шаровая молния
+	SetCraftAmount("xthmqe_itru_thunderball", 1);
+	 AddIngre("xthmqe_itru_thunderball", "ooltyb_itmi_mage4", 1);
+	 AddIngre("xthmqe_itru_thunderball", "hymyrk_itsc_thunderball", 1);
+	  AddIngre("xthmqe_itru_thunderball", "aixopt_itmi_quartz", 2);
+    AddTool("xthmqe_itru_thunderball", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_thunderball", "ooltyb_itmi_kscw");
+	AddTool("xthmqe_itru_thunderball","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_thunderball", 15);
+	SetCraftScience("xthmqe_itru_thunderball", "Магия", 5);
+	SetenergyPenalty("xthmqe_itru_thunderball", 100);
 	
-	AddItemCategory ("(Р) 4-й Круг", "saqtsh_itru_mediumfocheal"); ----- среднее лечение ранений таргет
-	SetCraftAmount("saqtsh_itru_mediumfocheal", 1);
-	 AddIngre("saqtsh_itru_mediumfocheal", "ooltyb_itmi_mage4", 1);
-	 AddIngre("saqtsh_itru_mediumfocheal", "ihpiwn_itsc_mediumheal", 2);
-	  AddIngre("saqtsh_itru_mediumfocheal", "OOLTYB_ItMi_Rockcrystal", 2);
-    AddTool("saqtsh_itru_mediumfocheal", "ooltyb_itmi_kft2");
-	AddTool("saqtsh_itru_mediumfocheal","ooltyb_itmi_pliers");	
-	SetCraftPenalty("saqtsh_itru_mediumfocheal", 15);
-	SetCraftScience("saqtsh_itru_mediumfocheal", "Магия", 5);
-	SetenergyPenalty("saqtsh_itru_mediumfocheal", 100);
+	AddItemCategory ("(Р) 4-й Круг", "xthmqe_itru_mediumfocheal"); ----- среднее лечение ранений таргет
+	SetCraftAmount("xthmqe_itru_mediumfocheal", 1);
+	 AddIngre("xthmqe_itru_mediumfocheal", "ooltyb_itmi_mage4", 1);
+	 AddIngre("xthmqe_itru_mediumfocheal", "hymyrk_itsc_mediumheal", 2);
+	  AddIngre("xthmqe_itru_mediumfocheal", "aixopt_itmi_rockcrystal", 2);
+    AddTool("xthmqe_itru_mediumfocheal", "ooltyb_itmi_kft2");
+	AddTool("xthmqe_itru_mediumfocheal","aixopt_itmi_pliers");	
+	SetCraftPenalty("xthmqe_itru_mediumfocheal", 15);
+	SetCraftScience("xthmqe_itru_mediumfocheal", "Магия", 5);
+	SetenergyPenalty("xthmqe_itru_mediumfocheal", 100);
 	
 	-----Зачарователь 1 (2лвл надо 500 эксп, 3 лвл надо 1500 эксп
 	
 	AddItemCategory ("Зачарователь", "zdpwla_itmi_beltlm"); ----- рунный пояс ученика
 	SetCraftAmount("zdpwla_itmi_beltlm", 1);
 	 AddIngre("zdpwla_itmi_beltlm", "ooltyb_itmi_runeblank", 2);
-	 AddIngre("zdpwla_itmi_beltlm", "OOLTYB_ITMI_LEATHER", 1);
-	AddTool("zdpwla_itmi_beltlm","ooltyb_itmi_pliers");	
+	 AddIngre("zdpwla_itmi_beltlm", "aixopt_itmi_skin", 1);
+	AddTool("zdpwla_itmi_beltlm","aixopt_itmi_pliers");	
 	SetCraftPenalty("zdpwla_itmi_beltlm", 5);
 	SetCraftScience("zdpwla_itmi_beltlm", "Зачарователь", 1);
 	SetenergyPenalty("zdpwla_itmi_beltlm", 50);
@@ -4556,8 +4543,8 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "zdpwla_itmi_belthm"); ----- рунный пояс мага
 	SetCraftAmount("zdpwla_itmi_belthm", 1);
 	 AddIngre("zdpwla_itmi_belthm", "ooltyb_itmi_mage3", 2);
-	 AddIngre("zdpwla_itmi_belthm", "OOLTYB_ITMI_LEATHER", 2);
-	AddTool("zdpwla_itmi_belthm","ooltyb_itmi_pliers");	
+	 AddIngre("zdpwla_itmi_belthm", "aixopt_itmi_skin", 2);
+	AddTool("zdpwla_itmi_belthm","aixopt_itmi_pliers");	
 	SetCraftPenalty("zdpwla_itmi_belthm", 5);
 	SetCraftScience("zdpwla_itmi_belthm", "Зачарователь", 2);
 	SetenergyPenalty("zdpwla_itmi_belthm", 100);
@@ -4567,17 +4554,17 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "zdpwla_itmi_beltum"); ----- рунный пояс мастера
 	SetCraftAmount("zdpwla_itmi_beltum", 1);
 	 AddIngre("zdpwla_itmi_beltum", "ooltyb_itmi_mage5", 2);
-	 AddIngre("zdpwla_itmi_beltum", "OOLTYB_ITMI_DLEATHER", 1);
-	AddTool("zdpwla_itmi_beltum","ooltyb_itmi_pliers");	
+	 AddIngre("zdpwla_itmi_beltum", "aixopt_itmi_tannedskin", 1);
+	AddTool("zdpwla_itmi_beltum","aixopt_itmi_pliers");	
 	SetCraftPenalty("zdpwla_itmi_beltum", 5);
 	SetCraftScience("zdpwla_itmi_beltum", "Зачарователь", 3);
 	SetenergyPenalty("zdpwla_itmi_beltum", 100);
 	
 	AddItemCategory ("Зачарователь", "ooltyb_itmi_mage3"); ----- заготовка руны 3 круг
 	SetCraftAmount("ooltyb_itmi_mage3", 1);
-	 AddIngre("ooltyb_itmi_mage3", "OOLTYB_ITMI_NUGGET", 100);
+	 AddIngre("ooltyb_itmi_mage3", "aixopt_itmi_ironnugget", 100);
 	 AddIngre("ooltyb_itmi_mage3", "ooltyb_itmi_mage2", 1);
-    AddTool("ooltyb_itmi_mage3", "ooltyb_itmi_pliers");
+    AddTool("ooltyb_itmi_mage3", "aixopt_itmi_pliers");
 	SetCraftPenalty("ooltyb_itmi_mage3", 15);
 	SetCraftScience("ooltyb_itmi_mage3", "Зачарователь", 1);
 	SetenergyPenalty("ooltyb_itmi_mage3", 50);
@@ -4586,9 +4573,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	
 	AddItemCategory ("Зачарователь", "ooltyb_itmi_mage4"); ----- заготовка руны 4 круг
 	SetCraftAmount("ooltyb_itmi_mage4", 1);
-	 AddIngre("ooltyb_itmi_mage4", "OOLTYB_ITMI_NUGGET", 100);
+	 AddIngre("ooltyb_itmi_mage4", "aixopt_itmi_ironnugget", 100);
 	 AddIngre("ooltyb_itmi_mage4", "ooltyb_itmi_mage3", 1);
-    AddTool("ooltyb_itmi_mage4", "ooltyb_itmi_pliers");
+    AddTool("ooltyb_itmi_mage4", "aixopt_itmi_pliers");
 	SetCraftPenalty("ooltyb_itmi_mage4", 15);
 	SetCraftScience("ooltyb_itmi_mage4", "Зачарователь", 2);
 	SetenergyPenalty("ooltyb_itmi_mage4", 50);
@@ -4597,12 +4584,12 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	
 	AddItemCategory ("Зачарователь", "ooltyb_itmi_enchantset"); ----- набор для зачарования
 	SetCraftAmount("ooltyb_itmi_enchantset", 1);
-	 AddIngre("ooltyb_itmi_enchantset", "ooltyb_itmi_sulfur", 10);
+	 AddIngre("ooltyb_itmi_enchantset", "aixopt_itmi_sulfur", 10);
 	 AddIngre("ooltyb_itmi_enchantset", "ooltyb_itmi_addon_whitepearl", 2);
-	 AddIngre("ooltyb_itmi_enchantset", "ooltyb_itmi_rockcrystal", 2);
-	 AddIngre("ooltyb_itmi_enchantset", "ooltyb_itmi_paper", 6);
+	 AddIngre("ooltyb_itmi_enchantset", "aixopt_itmi_rockcrystal", 2);
+	 AddIngre("ooltyb_itmi_enchantset", "aixopt_itmi_paper", 6);
 	 AddIngre("ooltyb_itmi_enchantset", "ooltyb_itmi_magicore", 12);
-	 AddIngre("ooltyb_itmi_enchantset", "zdpwla_itmi_dye", 1);
+	 AddIngre("ooltyb_itmi_enchantset", "aixopt_itmi_dye", 1);
 	SetCraftPenalty("ooltyb_itmi_enchantset", 15);
 	SetCraftScience("ooltyb_itmi_enchantset", "Зачарователь", 1);
 	SetenergyPenalty("ooltyb_itmi_enchantset", 50);
@@ -4612,9 +4599,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itam_prot_mage_01"); ----- защитный кулон
 	SetCraftAmount("rmymew_itam_prot_mage_01", 1);
 	 AddIngre("rmymew_itam_prot_mage_01", "ooltyb_itmi_enchantset", 1);
-	 AddIngre("rmymew_itam_prot_mage_01", "ooltyb_itmi_nugget", 250);
-	 AddIngre("rmymew_itam_prot_mage_01", "ooltyb_itmi_quartz", 2);
-	 AddIngre("rmymew_itam_prot_mage_01", "yvnzmz_itmi_bizha", 1);
+	 AddIngre("rmymew_itam_prot_mage_01", "aixopt_itmi_ironnugget", 250);
+	 AddIngre("rmymew_itam_prot_mage_01", "aixopt_itmi_quartz", 2);
+	 AddIngre("rmymew_itam_prot_mage_01", "aixopt_itmi_jewelery", 1);
 	SetCraftPenalty("rmymew_itam_prot_mage_01", 15);
 	SetCraftScience("rmymew_itam_prot_mage_01", "Зачарователь", 1);
 	SetenergyPenalty("rmymew_itam_prot_mage_01", 100);
@@ -4624,9 +4611,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itam_prot_mage_02"); ----- защитный оберег
 	SetCraftAmount("rmymew_itam_prot_mage_02", 1);
 	 AddIngre("rmymew_itam_prot_mage_02", "ooltyb_itmi_enchantset", 2);
-	 AddIngre("rmymew_itam_prot_mage_02", "ooltyb_itmi_nugget", 500);
-	 AddIngre("rmymew_itam_prot_mage_02", "ooltyb_itmi_quartz", 4);
-	 AddIngre("rmymew_itam_prot_mage_02", "yvnzmz_itmi_bizha", 2);
+	 AddIngre("rmymew_itam_prot_mage_02", "aixopt_itmi_ironnugget", 500);
+	 AddIngre("rmymew_itam_prot_mage_02", "aixopt_itmi_quartz", 4);
+	 AddIngre("rmymew_itam_prot_mage_02", "aixopt_itmi_jewelery", 2);
 	SetCraftPenalty("rmymew_itam_prot_mage_02", 15);
 	SetCraftScience("rmymew_itam_prot_mage_02", "Зачарователь", 2);
 	SetenergyPenalty("rmymew_itam_prot_mage_02", 100);
@@ -4636,9 +4623,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itam_prot_mage_03"); ----- защитный амулет
 	SetCraftAmount("rmymew_itam_prot_mage_03", 1);
 	 AddIngre("rmymew_itam_prot_mage_03", "ooltyb_itmi_enchantset", 3);
-	 AddIngre("rmymew_itam_prot_mage_03", "ooltyb_itmi_nugget", 1000);
-	 AddIngre("rmymew_itam_prot_mage_03", "ooltyb_itmi_quartz", 8);
-	 AddIngre("rmymew_itam_prot_mage_03", "yvnzmz_itmi_bizha", 3);
+	 AddIngre("rmymew_itam_prot_mage_03", "aixopt_itmi_ironnugget", 1000);
+	 AddIngre("rmymew_itam_prot_mage_03", "aixopt_itmi_quartz", 8);
+	 AddIngre("rmymew_itam_prot_mage_03", "aixopt_itmi_jewelery", 3);
 	SetCraftPenalty("rmymew_itam_prot_mage_03", 15);
 	SetCraftScience("rmymew_itam_prot_mage_03", "Зачарователь", 3);
 	SetenergyPenalty("rmymew_itam_prot_mage_03", 100);
@@ -4646,9 +4633,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_dex_01"); ----- малое кольцо ловкости
 	SetCraftAmount("rmymew_itri_dex_01", 1);
 	 AddIngre("rmymew_itri_dex_01", "ooltyb_itmi_enchantset", 1);
-	 AddIngre("rmymew_itri_dex_01", "ooltyb_itmi_nugget", 250);
-	 AddIngre("rmymew_itri_dex_01", "ooltyb_itmi_aquamarine", 2);
-	 AddIngre("rmymew_itri_dex_01", "yvnzmz_itmi_bizha", 1);
+	 AddIngre("rmymew_itri_dex_01", "aixopt_itmi_ironnugget", 250);
+	 AddIngre("rmymew_itri_dex_01", "aixopt_itmi_aquamarine", 2);
+	 AddIngre("rmymew_itri_dex_01", "aixopt_itmi_jewelery", 1);
 	SetCraftPenalty("rmymew_itri_dex_01", 15);
 	SetCraftScience("rmymew_itri_dex_01", "Зачарователь", 1);
 	SetenergyPenalty("rmymew_itri_dex_01", 100);
@@ -4658,9 +4645,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_dex_02"); ----- среднее кольцо ловкости
 	SetCraftAmount("rmymew_itri_dex_02", 1);
 	 AddIngre("rmymew_itri_dex_02", "ooltyb_itmi_enchantset", 2);
-	 AddIngre("rmymew_itri_dex_02", "ooltyb_itmi_nugget", 500);
-	 AddIngre("rmymew_itri_dex_02", "ooltyb_itmi_aquamarine", 4);
-	 AddIngre("rmymew_itri_dex_02", "yvnzmz_itmi_bizha", 2);
+	 AddIngre("rmymew_itri_dex_02", "aixopt_itmi_ironnugget", 500);
+	 AddIngre("rmymew_itri_dex_02", "aixopt_itmi_aquamarine", 4);
+	 AddIngre("rmymew_itri_dex_02", "aixopt_itmi_jewelery", 2);
 	SetCraftPenalty("rmymew_itri_dex_02", 15);
 	SetCraftScience("rmymew_itri_dex_02", "Зачарователь", 2);
 	SetenergyPenalty("rmymew_itri_dex_02", 100);
@@ -4670,9 +4657,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_dex_03"); ----- большое кольцо ловкости
 	SetCraftAmount("rmymew_itri_dex_03", 1);
 	 AddIngre("rmymew_itri_dex_03", "ooltyb_itmi_enchantset", 3);
-	 AddIngre("rmymew_itri_dex_03", "ooltyb_itmi_nugget", 1000);
-	 AddIngre("rmymew_itri_dex_03", "ooltyb_itmi_aquamarine", 8);
-	 AddIngre("rmymew_itri_dex_03", "yvnzmz_itmi_bizha", 3);
+	 AddIngre("rmymew_itri_dex_03", "aixopt_itmi_ironnugget", 1000);
+	 AddIngre("rmymew_itri_dex_03", "aixopt_itmi_aquamarine", 8);
+	 AddIngre("rmymew_itri_dex_03", "aixopt_itmi_jewelery", 3);
 	SetCraftPenalty("rmymew_itri_dex_03", 15);
 	SetCraftScience("rmymew_itri_dex_03", "Зачарователь", 3);
 	SetenergyPenalty("rmymew_itri_dex_03", 100);
@@ -4680,9 +4667,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_hp_01"); ----- малое кольцо жизни
 	SetCraftAmount("rmymew_itri_hp_01", 1);
 	 AddIngre("rmymew_itri_hp_01", "ooltyb_itmi_enchantset", 1);
-	 AddIngre("rmymew_itri_hp_01", "ooltyb_itmi_nugget", 250);
+	 AddIngre("rmymew_itri_hp_01", "aixopt_itmi_ironnugget", 250);
 	 AddIngre("rmymew_itri_hp_01", "ooltyb_itmi_rubin", 2);
-	 AddIngre("rmymew_itri_hp_01", "yvnzmz_itmi_bizha", 1);
+	 AddIngre("rmymew_itri_hp_01", "aixopt_itmi_jewelery", 1);
 	SetCraftPenalty("rmymew_itri_hp_01", 15);
 	SetCraftScience("rmymew_itri_hp_01", "Зачарователь", 1);
 	SetenergyPenalty("rmymew_itri_hp_01", 100);
@@ -4692,9 +4679,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_hp_02"); ----- среднее кольцо жизни
 	SetCraftAmount("rmymew_itri_hp_02", 1);
 	 AddIngre("rmymew_itri_hp_02", "ooltyb_itmi_enchantset", 2);
-	 AddIngre("rmymew_itri_hp_02", "ooltyb_itmi_nugget", 500);
+	 AddIngre("rmymew_itri_hp_02", "aixopt_itmi_ironnugget", 500);
 	 AddIngre("rmymew_itri_hp_02", "ooltyb_itmi_rubin", 4);
-	 AddIngre("rmymew_itri_hp_02", "yvnzmz_itmi_bizha", 2);
+	 AddIngre("rmymew_itri_hp_02", "aixopt_itmi_jewelery", 2);
 	SetCraftPenalty("rmymew_itri_hp_02", 15);
 	SetCraftScience("rmymew_itri_hp_02", "Зачарователь", 2);
 	SetenergyPenalty("rmymew_itri_hp_02", 100);
@@ -4704,9 +4691,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_hp_03"); ----- большое кольцо жизни
 	SetCraftAmount("rmymew_itri_hp_03", 1);
 	 AddIngre("rmymew_itri_hp_03", "ooltyb_itmi_enchantset", 3);
-	 AddIngre("rmymew_itri_hp_03", "ooltyb_itmi_nugget", 1000);
+	 AddIngre("rmymew_itri_hp_03", "aixopt_itmi_ironnugget", 1000);
 	 AddIngre("rmymew_itri_hp_03", "ooltyb_itmi_rubin", 8);
-	 AddIngre("rmymew_itri_hp_03", "yvnzmz_itmi_bizha", 3);
+	 AddIngre("rmymew_itri_hp_03", "aixopt_itmi_jewelery", 3);
 	SetCraftPenalty("rmymew_itri_hp_03", 15);
 	SetCraftScience("rmymew_itri_hp_03", "Зачарователь", 3);
 	SetenergyPenalty("rmymew_itri_hp_03", 100);
@@ -4714,9 +4701,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_str_01"); ----- малое кольцо силы
 	SetCraftAmount("rmymew_itri_str_01", 1);
 	 AddIngre("rmymew_itri_str_01", "ooltyb_itmi_enchantset", 1);
-	 AddIngre("rmymew_itri_str_01", "ooltyb_itmi_nugget", 250);
+	 AddIngre("rmymew_itri_str_01", "aixopt_itmi_ironnugget", 250);
 	 AddIngre("rmymew_itri_str_01", "ooltyb_itmi_rubin", 2);
-	 AddIngre("rmymew_itri_str_01", "yvnzmz_itmi_bizha", 1);
+	 AddIngre("rmymew_itri_str_01", "aixopt_itmi_jewelery", 1);
 	SetCraftPenalty("rmymew_itri_str_01", 15);
 	SetCraftScience("rmymew_itri_str_01", "Зачарователь", 1);
 	SetenergyPenalty("rmymew_itri_str_01", 100);
@@ -4726,9 +4713,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_str_02"); ----- среднее кольцо силы
 	SetCraftAmount("rmymew_itri_str_02", 1);
 	 AddIngre("rmymew_itri_str_02", "ooltyb_itmi_enchantset", 2);
-	 AddIngre("rmymew_itri_str_02", "ooltyb_itmi_nugget", 500);
+	 AddIngre("rmymew_itri_str_02", "aixopt_itmi_ironnugget", 500);
 	 AddIngre("rmymew_itri_str_02", "ooltyb_itmi_rubin", 4);
-	 AddIngre("rmymew_itri_str_02", "yvnzmz_itmi_bizha", 2);
+	 AddIngre("rmymew_itri_str_02", "aixopt_itmi_jewelery", 2);
 	SetCraftPenalty("rmymew_itri_str_02", 15);
 	SetCraftScience("rmymew_itri_str_02", "Зачарователь", 2);
 	SetenergyPenalty("rmymew_itri_str_02", 100);
@@ -4738,9 +4725,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_str_03"); ----- большое кольцо силы
 	SetCraftAmount("rmymew_itri_str_03", 1);
 	 AddIngre("rmymew_itri_str_03", "ooltyb_itmi_enchantset", 3);
-	 AddIngre("rmymew_itri_str_03", "ooltyb_itmi_nugget", 1000);
+	 AddIngre("rmymew_itri_str_03", "aixopt_itmi_ironnugget", 1000);
 	 AddIngre("rmymew_itri_str_03", "ooltyb_itmi_rubin", 8);
-	 AddIngre("rmymew_itri_str_03", "yvnzmz_itmi_bizha", 3);
+	 AddIngre("rmymew_itri_str_03", "aixopt_itmi_jewelery", 3);
 	SetCraftPenalty("rmymew_itri_str_03", 15);
 	SetCraftScience("rmymew_itri_str_03", "Зачарователь", 3);
 	SetenergyPenalty("rmymew_itri_str_03", 100);
@@ -4748,9 +4735,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_mana_01"); ----- кольцо паломника
 	SetCraftAmount("rmymew_itri_mana_01", 1);
 	 AddIngre("rmymew_itri_mana_01", "ooltyb_itmi_enchantset", 1);
-	 AddIngre("rmymew_itri_mana_01", "ooltyb_itmi_nugget", 250);
-	 AddIngre("rmymew_itri_mana_01", "ooltyb_itmi_aquamarine", 2);
-	 AddIngre("rmymew_itri_mana_01", "yvnzmz_itmi_bizha", 1);
+	 AddIngre("rmymew_itri_mana_01", "aixopt_itmi_ironnugget", 250);
+	 AddIngre("rmymew_itri_mana_01", "aixopt_itmi_aquamarine", 2);
+	 AddIngre("rmymew_itri_mana_01", "aixopt_itmi_jewelery", 1);
 	SetCraftPenalty("rmymew_itri_mana_01", 15);
 	SetCraftScience("rmymew_itri_mana_01", "Зачарователь", 1);
 	SetenergyPenalty("rmymew_itri_mana_01", 100);
@@ -4760,9 +4747,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 		AddItemCategory ("Зачарователь", "rmymew_itri_mana_02"); ----- кольцо мага
 	SetCraftAmount("rmymew_itri_mana_02", 1);
 	 AddIngre("rmymew_itri_mana_02", "ooltyb_itmi_enchantset", 2);
-	 AddIngre("rmymew_itri_mana_02", "ooltyb_itmi_nugget", 500);
-	 AddIngre("rmymew_itri_mana_02", "ooltyb_itmi_aquamarine", 4);
-	 AddIngre("rmymew_itri_mana_02", "yvnzmz_itmi_bizha", 2);
+	 AddIngre("rmymew_itri_mana_02", "aixopt_itmi_ironnugget", 500);
+	 AddIngre("rmymew_itri_mana_02", "aixopt_itmi_aquamarine", 4);
+	 AddIngre("rmymew_itri_mana_02", "aixopt_itmi_jewelery", 2);
 	SetCraftPenalty("rmymew_itri_mana_02", 15);
 	SetCraftScience("rmymew_itri_mana_02", "Зачарователь", 2);
 	SetenergyPenalty("rmymew_itri_mana_02", 100);
@@ -4772,9 +4759,9 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	AddItemCategory ("Зачарователь", "rmymew_itri_mana_03"); ----- кольцо мастера
 	SetCraftAmount("rmymew_itri_mana_03", 1);
 	 AddIngre("rmymew_itri_mana_03", "ooltyb_itmi_enchantset", 3);
-	 AddIngre("rmymew_itri_mana_03", "ooltyb_itmi_nugget", 1000);
-	 AddIngre("rmymew_itri_mana_03", "ooltyb_itmi_aquamarine", 8);
-	 AddIngre("rmymew_itri_mana_03", "yvnzmz_itmi_bizha", 3);
+	 AddIngre("rmymew_itri_mana_03", "aixopt_itmi_ironnugget", 1000);
+	 AddIngre("rmymew_itri_mana_03", "aixopt_itmi_aquamarine", 8);
+	 AddIngre("rmymew_itri_mana_03", "aixopt_itmi_jewelery", 3);
 	SetCraftPenalty("rmymew_itri_mana_03", 15);
 	SetCraftScience("rmymew_itri_mana_03", "Зачарователь", 3);
 	SetenergyPenalty("rmymew_itri_mana_03", 100);
