@@ -161,12 +161,12 @@ function SkinMouse1(playerid, button, pressed, posX, posY)
 					headM = "HUM_HEAD_BABE7";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 					
-				elseif headM == "HUM_HEAD_BALD" then
+				elseif headM == "HUM_HEAD_IVY" then
 					headM = "HUM_HEAD_BABE12";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 					
 				elseif headM == "HUM_HEAD_BEARD1" then
-					headM = "HUM_HEAD_BALD";
+					headM = "HUM_HEAD_IVY";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 				
 				elseif headM == "HUM_HEAD_BEARD2" then
@@ -197,13 +197,30 @@ function SkinMouse1(playerid, button, pressed, posX, posY)
 					headM = "HUM_HEAD_SHEPHERD";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 				
-				elseif headM == "Hum_Head_FatBald" then
+				elseif headM == "HUM_HEAD_MUSTACHE" then
 					headM = "HUM_HEAD_LONGHAIR2";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
-				
-				elseif headM == "Hum_Head_FatBald" then
+
+				elseif headM == "HUM_HEAD_NORDBART_1" then
 					headM = "HUM_HEAD_MUSTACHE";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+
+				elseif headM == "HUM_HEAD_NORDBART_2" then
+					headM = "HUM_HEAD_NORDBART_1";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+
+				elseif headM == "HUM_HEAD_NORDBART_3" then
+					headM = "HUM_HEAD_NORDBART_2";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+
+				elseif headM == "HUM_HEAD_DREADLOCKS" then
+					headM = "HUM_HEAD_NORDBART_3";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+
+				elseif headM == "Hum_Head_FatBald" then
+					headM = "HUM_HEAD_DREADLOCKS";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+				
 				end
 			end
 			
@@ -238,10 +255,10 @@ function SkinMouse1(playerid, button, pressed, posX, posY)
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 					
 				elseif headM == "HUM_HEAD_BABE12" then
-					headM = "HUM_HEAD_BALD";
+					headM = "HUM_HEAD_IVY";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 					
-				elseif headM == "HUM_HEAD_BALD" then
+				elseif headM == "HUM_HEAD_IVY" then
 					headM = "HUM_HEAD_BEARD1";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 				
@@ -276,8 +293,24 @@ function SkinMouse1(playerid, button, pressed, posX, posY)
 				elseif headM == "HUM_HEAD_LONGHAIR2" then
 					headM = "HUM_HEAD_MUSTACHE";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
-				
+
 				elseif headM == "HUM_HEAD_MUSTACHE" then
+					headM = "HUM_HEAD_NORDBART_1";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+
+				elseif headM == "HUM_HEAD_NORDBART_1" then
+					headM = "HUM_HEAD_NORDBART_2";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);				
+
+				elseif headM == "HUM_HEAD_NORDBART_2" then
+					headM = "HUM_HEAD_NORDBART_3";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+
+				elseif headM == "HUM_HEAD_NORDBART_3" then
+					headM = "HUM_HEAD_DREADLOCKS";
+					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
+
+				elseif headM == "HUM_HEAD_DREADLOCKS" then
 					headM = "Hum_Head_FatBald";
 					SetPlayerAdditionalVisual(playerid, bodyM, bodyT, headM, headT);
 				end
