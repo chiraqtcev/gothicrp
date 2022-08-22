@@ -116,7 +116,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 			
 			local oldLimit = Player[playerid].energyblock; local oldEnergy = Player[playerid].energy; local newEnergy = 0; local item_en = 0; local newLimit = 0;
 			
-			if itemInstance == "ZDPWLA_ITFOMUTTON" then
+			if itemInstance == "UHAXLK_ITFO_FRIEDMEAT" then
 
 					Player[playerid].energy = Player[playerid].energy + 50;
 					Player[playerid].energyblock = Player[playerid].energyblock + 50;
@@ -124,7 +124,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 					_addToPreEnergy(playerid);
 					SavePlayer(playerid);
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_FISHFRY" then
+			elseif itemInstance == "UHAXLK_ITFO_FRIEDFISH" then
 
 					Player[playerid].energy = Player[playerid].energy + 50;
 					Player[playerid].energyblock = Player[playerid].energyblock + 50;
@@ -142,7 +142,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 					SavePlayer(playerid);
 
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_HONEY" then
+			elseif itemInstance == "UHAXLK_ITFO_HONEY" then
 				
 					Player[playerid].energy = Player[playerid].energy + 25;
 					Player[playerid].energyblock = Player[playerid].energyblock + 25;
@@ -192,7 +192,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 			
 
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_SAUSAGE" then
+			elseif itemInstance == "UHAXLK_ITFO_SAUSAGE" then
 
 					Player[playerid].energy = Player[playerid].energy + 50;
 					Player[playerid].energyblock = Player[playerid].energyblock + 50;
@@ -211,7 +211,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 			
 
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_BREAD" then
+			elseif itemInstance == "UHAXLK_ITFO_BREAD" then
 				
 					Player[playerid].energy = Player[playerid].energy + 25;
 					Player[playerid].energyblock = Player[playerid].energyblock + 25;	
@@ -240,7 +240,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 					SavePlayer(playerid);
 
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_MEATBUGRAGOUT" then
+			elseif itemInstance == "UHAXLK_ITFO_MEATBUGRAGOUT" then
 				
 					Player[playerid].energy = Player[playerid].energy + 100;
 					Player[playerid].energyblock = Player[playerid].energyblock + 100;
@@ -259,7 +259,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 					SavePlayer(playerid);
 
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_CHEESE" then
+			elseif itemInstance == "UHAXLK_ITFO_CHEESE" then
 				
 					Player[playerid].energy = Player[playerid].energy + 25;
 					Player[playerid].energyblock = Player[playerid].energyblock + 25;
@@ -298,7 +298,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 
 
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_SOUP" then
+			elseif itemInstance == "UHAXLK_ITFO_SOUP" then
 				
 					Player[playerid].energy = Player[playerid].energy + 100;
 					Player[playerid].energyblock = Player[playerid].energyblock + 100;	
@@ -356,7 +356,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 			
 				
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_BOOZE" then
+			elseif itemInstance == "UHAXLK_ITFO_BOOZE" then
 
 					Player[playerid].energy = Player[playerid].energy + 50; 
 					Player[playerid].energyblock = Player[playerid].energyblock + 50; 
@@ -413,7 +413,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 					SavePlayer(playerid);
 				
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_WINE" then
+			elseif itemInstance == "UHAXLK_ITFO_WINE" then
 
 					Player[playerid].energy = Player[playerid].energy + 50; 
 					Player[playerid].energyblock = Player[playerid].energyblock + 50; 
@@ -422,7 +422,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 					SavePlayer(playerid);
 			
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_STEW" then
+			elseif itemInstance == "UHAXLK_ITFO_STEW" then
 				
 					Player[playerid].energy = Player[playerid].energy + 100;
 					Player[playerid].energyblock = Player[playerid].energyblock + 100;
@@ -432,7 +432,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 				
 				
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "ZDPWLA_ITFO_FISHSOUP" then
+			elseif itemInstance == "UHAXLK_ITFO_FISHSOUP" then
 				
 					Player[playerid].energy = Player[playerid].energy + 100;
 					Player[playerid].energyblock = Player[playerid].energyblock + 100;
@@ -442,11 +442,11 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 				
 
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "OOLTYB_ITMI_JOINT" then
+			elseif itemInstance == "AIXOPT_ITMI_JOINT" then
 				
-					Player[playerid].energy = Player[playerid].energy + 25;
-					Player[playerid].energyblock = Player[playerid].energyblock + 25;
-					item_en = 25;
+					Player[playerid].energy = Player[playerid].energy + 5;
+					Player[playerid].energyblock = Player[playerid].energyblock + 5;
+					item_en = 5;
 					_addToPreEnergy(playerid);
 					SavePlayer(playerid);
 			
@@ -463,7 +463,7 @@ function UseEnergyItems(playerid, itemInstance, amount, hand)
 			
 				
 			---------------------------------------------------------------------------------------------------------
-			elseif itemInstance == "OOLTYB_ITMI_JOINT_1" then
+			elseif itemInstance == "AIXOPT_ITMI_JOINT_1" then
 				
 					Player[playerid].energy = Player[playerid].energy + 25;
 					Player[playerid].energyblock = Player[playerid].energyblock + 25;
