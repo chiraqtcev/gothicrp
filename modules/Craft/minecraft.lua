@@ -2119,7 +2119,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1h_Pal_Sword", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_1h_Pal_Sword", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_1h_Pal_Sword", 20);
 	SetCraftScience("gkwqdz_ItMw_1h_Pal_Sword", "Оружейник", 3);
@@ -2147,7 +2147,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert4", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_Schwert4", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_Schwert4", 20);
 	SetCraftScience("gkwqdz_ItMw_Schwert4", "Оружейник", 3);
@@ -2175,7 +2175,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Runenschwert", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_Runenschwert", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_Runenschwert", 20);
 	SetCraftScience("gkwqdz_ItMw_Runenschwert", "Оружейник", 3);
@@ -2203,7 +2203,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Schwert5", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_Schwert5", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_Schwert5", 20);
 	SetCraftScience("gkwqdz_ItMw_Schwert5", "Оружейник", 3);
@@ -2255,7 +2255,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_Meisterdegen", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_Meisterdegen", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_Meisterdegen", 20);
 	SetCraftScience("gkwqdz_ItMw_Meisterdegen", "Оружейник", 3);
@@ -2283,7 +2283,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Blessed_01", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_1H_Blessed_01", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_1H_Blessed_01", 20);
 	SetCraftScience("gkwqdz_ItMw_1H_Blessed_01", "Оружейник", 3);
@@ -2299,7 +2299,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_02", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_1H_Special_02", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_1H_Special_02", 20);
 	SetCraftScience("gkwqdz_ItMw_1H_Special_02", "Оружейник", 3);
@@ -2315,7 +2315,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_1H_Special_03", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_1H_Special_03", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_1H_Special_03", 20);
 	SetCraftScience("gkwqdz_ItMw_1H_Special_03", "Оружейник", 3);
@@ -2391,7 +2391,7 @@ function InitCraftList()
 	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_ironingot", 10);
 	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmirawsteel", 5);
 	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_handle", 1);
-	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "ooltyb_itmi_rubin", 1);
+	 AddAlterIngre("gkwqdz_ItMw_2H_Blessed_01", "aixopt_itmi_rubin", 1);
 	 AddTool("gkwqdz_ItMw_2H_Blessed_01", "gkwqdz_ItMw_1H_Mace_L_04");
 	SetCraftPenalty("gkwqdz_ItMw_2H_Blessed_01", 20);
 	SetCraftScience("gkwqdz_ItMw_2H_Blessed_01", "Оружейник", 3);
@@ -4329,7 +4329,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("xthmqe_ItRu_FireBolt", 1);
 	 AddIngre("xthmqe_ItRu_FireBolt", "ooltyb_itmi_runeblank", 1);
 	 AddIngre("xthmqe_ItRu_FireBolt", "hymyrk_ItSc_Firebolt", 1);
-	 AddIngre("xthmqe_ItRu_FireBolt", "ooltyb_itmi_rubin", 1);
+	 AddIngre("xthmqe_ItRu_FireBolt", "aixopt_itmi_rubin", 1);
     AddTool("xthmqe_ItRu_FireBolt", "ooltyb_itmi_kft1");
 	AddTool("xthmqe_ItRu_FireBolt","ooltyb_itmi_kscf");
 	AddTool("xthmqe_ItRu_FireBolt","aixopt_itmi_pliers"); 
@@ -4374,7 +4374,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("xthmqe_ItRu_InstantFireball", 1);
 	 AddIngre("xthmqe_ItRu_InstantFireball", "ooltyb_itmi_mage2", 1);
 	 AddIngre("xthmqe_ItRu_InstantFireball", "hymyrk_ItSc_InstantFireball", 1);
-	 AddIngre("xthmqe_ItRu_InstantFireball", "ooltyb_itmi_rubin", 1);
+	 AddIngre("xthmqe_ItRu_InstantFireball", "aixopt_itmi_rubin", 1);
     AddTool("xthmqe_ItRu_InstantFireball", "ooltyb_itmi_kft1");
 	AddTool("xthmqe_ItRu_InstantFireball","ooltyb_itmi_kscf");
     AddTool("xthmqe_ItRu_InstantFireball","aixopt_itmi_pliers"); 	
@@ -4411,7 +4411,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("xthmqe_itru_chargefireball", 1);
 	 AddIngre("xthmqe_itru_chargefireball", "ooltyb_itmi_mage3", 1);
 	 AddIngre("xthmqe_itru_chargefireball", "hymyrk_itsc_chargefireball", 1);
-	  AddIngre("xthmqe_itru_chargefireball", "ooltyb_itmi_rubin", 2);
+	  AddIngre("xthmqe_itru_chargefireball", "aixopt_itmi_rubin", 2);
     AddTool("xthmqe_itru_chargefireball", "ooltyb_itmi_kft2");
 	AddTool("xthmqe_itru_chargefireball", "ooltyb_itmi_kscf");
 	AddTool("xthmqe_itru_chargefireball","aixopt_itmi_pliers");	
@@ -4484,7 +4484,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("xthmqe_itru_firestorm", 1);
 	 AddIngre("xthmqe_itru_firestorm", "ooltyb_itmi_mage4", 1);
 	 AddIngre("xthmqe_itru_firestorm", "hymyrk_itsc_firestorm", 1);
-	  AddIngre("xthmqe_itru_firestorm", "ooltyb_itmi_rubin", 2);
+	  AddIngre("xthmqe_itru_firestorm", "aixopt_itmi_rubin", 2);
     AddTool("xthmqe_itru_firestorm", "ooltyb_itmi_kft2");
 	AddTool("xthmqe_itru_firestorm", "ooltyb_itmi_kscf");
 	AddTool("xthmqe_itru_firestorm","aixopt_itmi_pliers");	
@@ -4668,7 +4668,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("rmymew_itri_hp_01", 1);
 	 AddIngre("rmymew_itri_hp_01", "ooltyb_itmi_enchantset", 1);
 	 AddIngre("rmymew_itri_hp_01", "aixopt_itmi_ironnugget", 250);
-	 AddIngre("rmymew_itri_hp_01", "ooltyb_itmi_rubin", 2);
+	 AddIngre("rmymew_itri_hp_01", "aixopt_itmi_rubin", 2);
 	 AddIngre("rmymew_itri_hp_01", "aixopt_itmi_jewelery", 1);
 	SetCraftPenalty("rmymew_itri_hp_01", 15);
 	SetCraftScience("rmymew_itri_hp_01", "Зачарователь", 1);
@@ -4680,7 +4680,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("rmymew_itri_hp_02", 1);
 	 AddIngre("rmymew_itri_hp_02", "ooltyb_itmi_enchantset", 2);
 	 AddIngre("rmymew_itri_hp_02", "aixopt_itmi_ironnugget", 500);
-	 AddIngre("rmymew_itri_hp_02", "ooltyb_itmi_rubin", 4);
+	 AddIngre("rmymew_itri_hp_02", "aixopt_itmi_rubin", 4);
 	 AddIngre("rmymew_itri_hp_02", "aixopt_itmi_jewelery", 2);
 	SetCraftPenalty("rmymew_itri_hp_02", 15);
 	SetCraftScience("rmymew_itri_hp_02", "Зачарователь", 2);
@@ -4692,7 +4692,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("rmymew_itri_hp_03", 1);
 	 AddIngre("rmymew_itri_hp_03", "ooltyb_itmi_enchantset", 3);
 	 AddIngre("rmymew_itri_hp_03", "aixopt_itmi_ironnugget", 1000);
-	 AddIngre("rmymew_itri_hp_03", "ooltyb_itmi_rubin", 8);
+	 AddIngre("rmymew_itri_hp_03", "aixopt_itmi_rubin", 8);
 	 AddIngre("rmymew_itri_hp_03", "aixopt_itmi_jewelery", 3);
 	SetCraftPenalty("rmymew_itri_hp_03", 15);
 	SetCraftScience("rmymew_itri_hp_03", "Зачарователь", 3);
@@ -4702,7 +4702,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("rmymew_itri_str_01", 1);
 	 AddIngre("rmymew_itri_str_01", "ooltyb_itmi_enchantset", 1);
 	 AddIngre("rmymew_itri_str_01", "aixopt_itmi_ironnugget", 250);
-	 AddIngre("rmymew_itri_str_01", "ooltyb_itmi_rubin", 2);
+	 AddIngre("rmymew_itri_str_01", "aixopt_itmi_rubin", 2);
 	 AddIngre("rmymew_itri_str_01", "aixopt_itmi_jewelery", 1);
 	SetCraftPenalty("rmymew_itri_str_01", 15);
 	SetCraftScience("rmymew_itri_str_01", "Зачарователь", 1);
@@ -4714,7 +4714,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("rmymew_itri_str_02", 1);
 	 AddIngre("rmymew_itri_str_02", "ooltyb_itmi_enchantset", 2);
 	 AddIngre("rmymew_itri_str_02", "aixopt_itmi_ironnugget", 500);
-	 AddIngre("rmymew_itri_str_02", "ooltyb_itmi_rubin", 4);
+	 AddIngre("rmymew_itri_str_02", "aixopt_itmi_rubin", 4);
 	 AddIngre("rmymew_itri_str_02", "aixopt_itmi_jewelery", 2);
 	SetCraftPenalty("rmymew_itri_str_02", 15);
 	SetCraftScience("rmymew_itri_str_02", "Зачарователь", 2);
@@ -4726,7 +4726,7 @@ AddItemCategory ("Робы магов", "yfauun_itar_kdw_l"); --- роба ученика мага воды
 	SetCraftAmount("rmymew_itri_str_03", 1);
 	 AddIngre("rmymew_itri_str_03", "ooltyb_itmi_enchantset", 3);
 	 AddIngre("rmymew_itri_str_03", "aixopt_itmi_ironnugget", 1000);
-	 AddIngre("rmymew_itri_str_03", "ooltyb_itmi_rubin", 8);
+	 AddIngre("rmymew_itri_str_03", "aixopt_itmi_rubin", 8);
 	 AddIngre("rmymew_itri_str_03", "aixopt_itmi_jewelery", 3);
 	SetCraftPenalty("rmymew_itri_str_03", 15);
 	SetCraftScience("rmymew_itri_str_03", "Зачарователь", 3);
