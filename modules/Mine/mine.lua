@@ -591,7 +591,7 @@ function _wd(playerid)
 		   		GiveItem(playerid, "AIXOPT_ITMI_QUARTZ", 1);
 		   	elseif rnd > 89 and rnd <= 90 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли рубин!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ITMI_RUBIN", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_RUBIN", 1);
 		   	elseif rnd > 90 and rnd <= 97 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы откололи серу","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 		   		GiveItem(playerid, "AIXOPT_ITMI_SULFUR", 1);
