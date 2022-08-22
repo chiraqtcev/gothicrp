@@ -185,7 +185,7 @@ end
 
 function _shMilk(id)
 
-	if _shCheckItem(id, "ZDPWLA_ITMI_BUCKET") == true then
+	if _shCheckItem(id, "AIXOPT_ITMI_BUCKET") == true then
 		if Player[id].energy >= 5 then
 
 			Player[id].sheep_use = 1;
@@ -216,7 +216,7 @@ end
 
 function _shWool(id)
 
-	if _shCheckItem(id, "OOLTYB_ITMI_SCISSORS") == true then
+	if _shCheckItem(id, "AIXOPT_ITMI_SCISSORS") == true then
 		if Player[id].energy >= 5 then
 
 			Player[id].sheep_use = 2;
@@ -272,7 +272,7 @@ function _shT(id)
 
 			elseif rnd > 40 and rnd < 90 then
 				SendPlayerMessage(id, 255, 255, 255, "Вы надоили молока (x1).")
-				GiveItem(id, "ZDPWLA_ITFO_MILK", 1);
+				GiveItem(id, "UHAXLK_ITFO_MILK", 1);
 				SaveItems(id);
 				SavePlayer(id);
 				Player[id].sheep_open = false;
@@ -281,7 +281,7 @@ function _shT(id)
 
 			elseif rnd >= 90 and rnd <= 100 then
 				SendPlayerMessage(id, 255, 255, 255, "Вы надоили молока (x2).")
-				GiveItem(id, "ZDPWLA_ITFO_MILK", 2);
+				GiveItem(id, "UHAXLK_ITFO_MILK", 2);
 				SaveItems(id);
 				SavePlayer(id);
 				Player[id].sheep_open = false;
@@ -293,14 +293,14 @@ function _shT(id)
 			local rnd = math.random(1, 100);
 			if rnd <= 80 then
 				SendPlayerMessage(id, 255, 255, 255, "Вы обстригли овцу (x1)")
-				GiveItem(id, "OOLTYB_ITMI_SHEEP", 1);
+				GiveItem(id, "AIXOPT_ITMI_WOOL", 1);
 				Player[id].sheep_open = false;
 				Player[id].sheep_focus = nil;
 				Player[id].sheep_use = 0;
 
 			elseif rnd > 80 then
 				SendPlayerMessage(id, 255, 255, 255, "Вы обстригли овцу (x2)")
-				GiveItem(id, "OOLTYB_ITMI_SHEEP", 2);
+				GiveItem(id, "AIXOPT_ITMI_WOOL", 2);
 				SaveItems(id);
 				SavePlayer(id);
 				Player[id].sheep_open = false;

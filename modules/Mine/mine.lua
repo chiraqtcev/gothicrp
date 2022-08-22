@@ -88,7 +88,7 @@ function MINE_OnPlayerHasItem(playerid, itemInstance, amount, equipped, checkid)
 					if Player[playerid].mine == 0 then
 						Player[playerid].mine = 7;
 						Player[playerid].energy = Player[playerid].energy - 5;
-						GameTextForPlayer(playerid, 50, 6000, "Вы начали собирать рис. Ожидайте несколько секунд.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+						GameTextForPlayer(playerid, 50, 6000, "Вы начали собирать зерно. Ожидайте несколько секунд.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 						PlayAnimation(playerid,"T_PLUNDER");
 						FreezePlayer(playerid, 1);
 
@@ -297,7 +297,7 @@ function Mine_ID5(playerid)
 	if ONLINE > 4 then
 
 		if pos1 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 1);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 1);
 
 		elseif pos2 < 550 then
 			_mGetOnline();
@@ -325,103 +325,103 @@ function Mine_ID5(playerid)
 			end
 
 		elseif pos21 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 2);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 2);
 
 		elseif pos3 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 2);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 2);
 
 		elseif pos4 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 3);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 3);
 			
 		elseif pos6 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 4);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 4);
 		
 		elseif pos7 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 5);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 5);
 		
 		elseif pos8 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 6);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 6);
 
 		elseif pos9 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 7);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 7);
 
 		elseif pos10 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 8);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 8);
 
 		elseif pos11 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 2);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 2);
 
 		elseif pos12 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 8);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 8);
 
 		elseif pos13 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 1);	
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 1);	
 
 		elseif pos14 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 1);	
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 1);	
 		
 		elseif pos15 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 3);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 3);
 		
 		elseif pos16 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 3);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 3);
 		
 		elseif pos17 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 3);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 3);
 			
 		elseif pos18 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 3);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 3);
 			
 		elseif pos19 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 3);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 3);
 			
 		elseif pos20 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 3);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 3);
 
 		elseif pos22 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 6);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 6);
 
 		elseif pos23 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 7);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 7);
 
 		elseif pos24 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 8);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 8);
 
 		elseif pos25 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 2);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 2);
 
 		elseif pos26 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 8);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 8);
 		
 		elseif pos27 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 7);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 7);
 
 		elseif pos28 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 5);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 5);
 
 		elseif pos29 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 6);	
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 6);	
 
 		elseif pos30 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 8);	
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 8);	
 
 		elseif pos31 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 4);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 4);
 
 		elseif pos32 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 4);	
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 4);	
 
 		elseif pos33 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 4);		
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 4);		
 
 		elseif pos34 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 5);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 5);
 
 		elseif pos35 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 6);
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 6);
 
 		elseif pos36 < 550 then
-			HasItem(playerid, "JKZTZD_ITMW_1H_BAU_AXE", 2); 
+			HasItem(playerid, "GKWQDZ_ITMW_SICKLE", 2); 
 
 		
 		elseif pos5 < 550 then
@@ -465,7 +465,7 @@ function MINE_OnPlayerUseItem(playerid, itemInstance, amount, hand)
 	_mGetOnline();
 	if ONLINE > 0 then
 
-		if itemInstance == "OOLTYB_ITMI_SAW" then -- pila 
+		if itemInstance == "AIXOPT_ITMI_SAW" then -- pila 
 			_mGetOnline();
 			if ONLINE > 0 then
 				if Player[playerid].mine == 0 then
@@ -549,22 +549,22 @@ function _wd(playerid)
 			local rnd = math.random (1, 100);
 			if rnd <= 45 then
 		    GameTextForPlayer(playerid, 50, 6000, "Вы распилили бревно на три части","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ITMI_WOOD", 3);
+		   		GiveItem(playerid, "AIXOPT_ITMI_RAWWOOD", 3);
 			elseif rnd > 45 and rnd <= 65 then
 	        GameTextForPlayer(playerid, 50, 6000, "Вы распилили бревно на четыре части","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ITMI_WOOD", 4);
+		   		GiveItem(playerid, "AIXOPT_ITMI_RAWWOOD", 4);
 		   	elseif rnd > 65 and rnd <= 75 then
 	        GameTextForPlayer(playerid, 50, 6000, "Вы нашли тяжелый сук","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "JKZTZD_ItMw_1h_Bau_Mace", 1);
+		   		GiveItem(playerid, "GKWQDZ_ITMW_1H_BAU_MACE", 1);
 		   	elseif rnd > 75 and rnd <= 85 then
 	        GameTextForPlayer(playerid, 50, 6000, "Вы нашли желудь","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_TOWERWOOD_01", 1);
+		   		GiveItem(playerid, "HFDPUN_ITFO_PLANTS_TOWERWOOD_01", 1);
 		   	elseif rnd > 85 and rnd <= 95 then
 	        GameTextForPlayer(playerid, 50, 6000, "Вы нашли соту","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ITMI_HONEYCOMB", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_HONEYCOMB", 1);
 		   	elseif rnd > 95 and rnd <= 100 then
 	        GameTextForPlayer(playerid, 50, 6000, "Вы нашли смолу","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_Pitch", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_PITCH", 1);
 		   	end
 		   	SaveItems(playerid);
 
@@ -585,25 +585,25 @@ function _wd(playerid)
 		   		GiveItem(playerid, "AIXOPT_ITMI_IRONNUGGET", 3);
 		   	elseif rnd > 80 and rnd <= 88 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы откололи рудную крошку","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ITMI_MAGICORE", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_ORESHARDS", 1);
 		   	elseif rnd > 88 and rnd <= 89 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли кварц!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_Quartz", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_QUARTZ", 1);
 		   	elseif rnd > 89 and rnd <= 90 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли рубин!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 		   		GiveItem(playerid, "OOLTYB_ITMI_RUBIN", 1);
 		   	elseif rnd > 90 and rnd <= 97 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы откололи серу","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_Sulfur", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_SULFUR", 1);
 		   	elseif rnd > 97 and rnd <= 98 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли аквамарин!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 		   		GiveItem(playerid, "AIXOPT_ITMI_AQUAMARINE", 1);
 		   	elseif rnd > 98 and rnd <= 99 then
 		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли золотой самородок!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_GoldNugget_Addon", 1);
+		   		GiveItem(playerid, "AIXOPT_ITMI_GOLDNUGGET", 1);
 		   	elseif rnd > 99 and rnd <= 100 then
-		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли серебрянный самородок!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		   		GiveItem(playerid, "OOLTYB_ItMi_SilverNugget", 1);
+		   	 GameTextForPlayer(playerid, 50, 6000, "Вы нашли серебряный самородок!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+		   		GiveItem(playerid, "AIXOPT_ITMI_SILVERNUGGET", 1);
 		   	end
 
 		   	SaveItems(playerid);
@@ -616,25 +616,25 @@ function _wd(playerid)
 		    local rnd = math.random(1, 100);
 			if rnd <= 40 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали стебель лесной ягоды.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Forestberry", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_FORESTBERRY", 1);
 		    elseif rnd > 40 and rnd <= 60 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали два стебля лесной ягоды.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Forestberry", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_FORESTBERRY", 2);
 		    elseif rnd > 60 and rnd <= 70 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли гроздь дикого винограда","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_WINEBERRYS2", 5);
+		    	GiveItem(playerid, "UHAXLK_ITFO_WINEBERRY", 5);
 		    elseif rnd > 70 and rnd <= 80 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали стебель Солнечника.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_NIGHTSHADOW_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITFO_PLANTS_NIGHTSHADOW_01", 1);
 		    elseif rnd > 80 and rnd <= 90 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали стебель Лунника.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_NIGHTSHADOW_02", 1);
+		    	GiveItem(playerid, "HFDPUN_ITFO_PLANTS_NIGHTSHADOW_02", 1);
 			 elseif rnd > 90 and rnd <= 95 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли ягоду гоблина!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Dex_Herb_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_DEX_HERB_01", 1);
 			 elseif rnd > 95 and rnd <= 100 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли вишню тролля!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_Plants_Trollberrys_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITFO_PLANTS_TROLLBERRYS_01", 1);
 		    end
 			SaveItems(playerid);
 
@@ -646,22 +646,22 @@ function _wd(playerid)
 		    local rnd1 = math.random(1, 100);
 			if rnd1 <= 40 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли один стебель болотника.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITPL_SWAMPHERB", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_SWAMPHERB", 1);
 		    elseif rnd1 > 40 and rnd1 <= 60 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли два стебля болотника.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITPL_SWAMPHERB", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_SWAMPHERB", 2);
 		    elseif rnd1 > 60 and rnd1 <= 75 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли Речной мирт.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "OOLTYB_ITMI_REMI", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_RIVERMIRT", 1);
 		    elseif rnd1 > 75 and rnd1 <= 90 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли Иловый мирт.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "OOLTYB_ITMI_REMI1", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_SILTMIRT", 1);
 		    elseif rnd1 > 90 and rnd1 <= 98 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли моллюска","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "OOLTYB_ITMI_REMI2", 1);
+		    	GiveItem(playerid, "UHAXLK_ITAT_CLAMFLESH", 1);
 			elseif rnd1 > 98 and rnd1 <= 100 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли жемчужину","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "OOLTYB_ITMI_ADDON_WHITEPEARL", 1);
+		    	GiveItem(playerid, "AIXOPT_ITMI_WHITEPEARL", 1);
 		    end
 			SaveItems(playerid)
 			
@@ -673,22 +673,22 @@ function _wd(playerid)
 		    local rnd = math.random(1, 100);
 			if rnd <= 40 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли один стебель полевого растения.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Temp_Herb", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_TEMP_HERB", 1);
 		    elseif rnd > 40 and rnd <= 60 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли два стебля полевого растения.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Temp_Herb", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_TEMP_HERB", 2);
 		    elseif rnd > 60 and rnd <= 80 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли серафис.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_BLUEPLANT", 1);
 		    elseif rnd > 80 and rnd <= 90 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли желудь.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_TOWERWOOD_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITFO_PLANTS_TOWERWOOD_01", 1);
 		    elseif rnd > 90 and rnd <= 98 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли драконий корень","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Strength_Herb_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_STRENGTH_HERB_01", 1);
 			elseif rnd > 98 and rnd <= 100 then
-		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли царский щавель","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_MOUNTAINMOOS_01", 1);
+		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли коронное растение!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+		    	GiveItem(playerid, "HFDPUN_ITPL_PERM_HERB", 1);
 		    end
 			SaveItems(playerid)
 		
@@ -700,22 +700,22 @@ function _wd(playerid)
 		    local rnd = math.random(1, 100);
 			if rnd <= 40 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли черный гриб.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Mushroom_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_MUSHROOM_01", 1);
 		    elseif rnd > 40 and rnd <= 60 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли два черных гриба.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Mushroom_01", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_MUSHROOM_01", 2);
 		    elseif rnd > 60 and rnd <= 80 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли мясной гриб.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Mushroom_02", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_MUSHROOM_02", 1);
 		    elseif rnd > 80 and rnd <= 90 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли горный мох.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_MOUNTAINMOSS_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITFO_PLANTS_MOUNTAINMOSS_01", 1);
 		    elseif rnd > 90 and rnd <= 95 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли каменный корень","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_STONEROOT_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITFO_PLANTS_STONEROOT_01", 1);
 			elseif rnd > 98 and rnd <= 100 then
-		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли астральный гриб!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Mushroom_04", 1);
+		    	GameTextForPlayer(playerid, 50, 6000, "Вы нашли гриб провидения!","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+		    	GiveItem(playerid, "HFDPUN_ITPL_MUHOMOR", 1);
 		    end
 			SaveItems(playerid)
 
@@ -727,22 +727,22 @@ function _wd(playerid)
 		    local rnd = math.random(1, 100);
 			if rnd <= 40 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли один стебель полевого растения.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Temp_Herb", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_TEMP_HERB", 1);
 		    elseif rnd > 40 and rnd <= 55 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли два стебля полевого растения.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Temp_Herb", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_TEMP_HERB", 2);
 		    elseif rnd > 55 and rnd <= 65 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли два стебля серафиса","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_BLUEPLANT", 2);
 		    elseif rnd > 65 and rnd <= 85 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали стебель огненной крапивы.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Mana_Herb_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_MANA_HERB_01", 1);
 		    elseif rnd > 85 and rnd <= 95 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали стебель огненной травы.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Mana_Herb_02", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_MANA_HERB_02", 1);
 			 elseif rnd > 95 and rnd <= 100 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали огненный корень","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Mana_Herb_03", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_MANA_HERB_03", 1);
 		    end
 			SaveItems(playerid);
 
@@ -753,22 +753,22 @@ function _wd(playerid)
 		    local rnd = math.random(1, 100);
 			if rnd <= 40 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли один стебель полевого растения.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Temp_Herb", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_TEMP_HERB", 1);
 		    elseif rnd > 40 and rnd <= 55 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли два стебля полевого растения.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Temp_Herb", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_TEMP_HERB", 2);
 		    elseif rnd > 55 and rnd <= 65 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы отсекли два стебля серафиса","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_PLANTS_SERAPHIS_01", 2);
+		    	GiveItem(playerid, "HFDPUN_ITPL_BLUEPLANT", 2);
 		    elseif rnd > 65 and rnd <= 85 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали стебель лечебного растения.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Health_Herb_01", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_HEALTH_HERB_01", 1);
 		    elseif rnd > 85 and rnd <= 95 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали стебель лечебной травы.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Health_Herb_02", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_HEALTH_HERB_02", 1);
 			 elseif rnd > 95 and rnd <= 100 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы срезали лечебный корень","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ItPl_Health_Herb_03", 1);
+		    	GiveItem(playerid, "HFDPUN_ITPL_HEALTH_HERB_03", 1);
 		    end
 			SaveItems(playerid);
 
@@ -780,17 +780,17 @@ function _wd(playerid)
 			FreezePlayer(playerid, 0);
 			local rnd = math.random(1, 100);
 			if rnd <= 50 then
-			GameTextForPlayer(playerid, 50, 6000, "Вы набрали две охапки риса.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-			GiveItem(playerid, "ZDPWLA_ITFO_RICE", 2);
+			GameTextForPlayer(playerid, 50, 6000, "Вы набрали две охапки зерна.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+			GiveItem(playerid, "AIXOPT_ITMI_WHEAT", 2);
 			elseif rnd > 50 and rnd <= 75 then
-		    	GameTextForPlayer(playerid, 50, 6000, "Вы набрали три охапки риса.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_RICE", 3);
+		    	GameTextForPlayer(playerid, 50, 6000, "Вы набрали три охапки зерна.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+		    	GiveItem(playerid, "AIXOPT_ITMI_WHEAT", 3);
 		    elseif rnd > 75 and rnd <= 90 then
-		    	GameTextForPlayer(playerid, 50, 6000, "Вы набрали четыре охапки риса.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITFO_RICE", 4);
+		    	GameTextForPlayer(playerid, 50, 6000, "Вы набрали четыре охапки зерна.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
+		    	GiveItem(playerid, "AIXOPT_ITMI_WHEAT", 4);
 		    elseif rnd > 90 and rnd <= 100 then
 		    	GameTextForPlayer(playerid, 50, 6000, "Вы наткнулись на сорняк","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
-		    	GiveItem(playerid, "ZDPWLA_ITPL_WEED", 1);	
+		    	GiveItem(playerid, "HFDPUN_ITPL_WEED", 1);	
 		    end
 		    SaveItems(playerid);
 
@@ -800,7 +800,7 @@ function _wd(playerid)
 
 		    Player[playerid].mine = 0;
 			FreezePlayer(playerid, 0);
-			GiveItem(playerid, "JKZTZD_ITMW_1H_BAU_MACE", 1);
+			GiveItem(playerid, "GKWQDZ_ITMW_1H_BAU_MACE", 1);
 			SaveItems(playerid);
 		    GameTextForPlayer(playerid, 50, 6000, "Вы нашли палку.","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 
@@ -808,7 +808,7 @@ function _wd(playerid)
 
 		    Player[playerid].mine = 0;
 			FreezePlayer(playerid, 0);
-			GiveItem(playerid, "ZDPWLA_ITFO_HONEY", 1);
+			GiveItem(playerid, "UHAXLK_ITFO_HONEY", 1);
 			SaveItems(playerid);
 		    GameTextForPlayer(playerid, 50, 6000, "Вы набрали мед","Font_Old_10_White_Hi.TGA", 218,165,32, 3000);
 

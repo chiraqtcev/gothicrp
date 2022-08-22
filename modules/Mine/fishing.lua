@@ -81,12 +81,12 @@ function _lF(id)
 
 		elseif rnd == 49 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили бижутерию.","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "OOLTYB_ITMI_BIJOUTERIE", 1);
+			GiveItem(id, "AIXOPT_ITMI_JEWELERY", 1);
 			SaveItems(id);
 
 		elseif rnd == 50 then
 			GameTextForPlayer(id, 50, 6000, "Вы выловили кость.","Font_Old_10_White_Hi.TGA", 255,0,0, 3000);
-			GiveItem(id, "ITAT_GOBLINBONE", 1);
+			GiveItem(id, "AIXOPT_ITAT_SKELETONBONE", 1);
 			SaveItems(id);
 
 		elseif rnd > 50 and rnd <= 80 then
