@@ -98,7 +98,8 @@ for i = 0, GetMaxSlots() - 1 do
 	Player[i].aduty = false; -- Активация админки
 	Player[i].ahide = false; -- Скрытие админки
 
+	Player[i].dead = 0; -- Жив или нет
+
 	-- golod
 	Player[i].food = 100;
-	
 end

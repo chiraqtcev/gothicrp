@@ -1,6 +1,3 @@
-
-
-
 function _saveInst(id)
 	local file = io.open("Database/Players/Inst/"..Player[id].nickname..".txt", "w+");
 	
@@ -74,12 +71,11 @@ function _readZen(id)
 end
 
 function SavePlayer(playerid)
-
 	local fileWrite = io.open("Database/Players/Profiles/"..Player[playerid].nickname..".txt", "w+");
+	SavePlayerMySQL(playerid);
 
 	local x, y, z = GetPlayerPos(playerid);
 	Player[playerid].skin[1], Player[playerid].skin[2], Player[playerid].skin[3], Player[playerid].skin[4] = GetPlayerAdditionalVisual(playerid);
-
 
 	fileWrite:write(Player[playerid].nickname.." " ..Player[playerid].password.."\n"); -- ник - пароль
 	fileWrite:write(Player[playerid].astatus.."\n"); -- уровень прав 
@@ -105,7 +101,8 @@ function SavePlayer(playerid)
 	local txt = ""..rday.."."..rmonth.."."..ryear.."_"..rhour..":"..rminute;
 	Player[playerid].lastplay_data = txt;
 
-	fileWrite:write(tostring(Player[playerid].lastplay_data).."\n"); -- последнЯЯ игра
+	fileWrite:write(tostring(Player[playerid].lastplay_data).."\n"); -- последн€€ игра
+	fileWrite:write(Player[playerid].dead.."\n"); -- смерть
 
 	fileWrite:close();
 	_saveZen(playerid);
@@ -190,7 +187,14 @@ function ReadPlayer(playerid)
 			end
 		end
 
-	
+	tempvar = fileRead:read("*l"); -- пропускаем lastplay_data
+
+	tempvar = fileRead:read("*l");
+	local result, tempdead = sscanf(tempvar,"d");
+	if result == 1 then
+		Player[playerid].dead = tempdead;
+	end
+
 	fileRead:close()
 	
 end

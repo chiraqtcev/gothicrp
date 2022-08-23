@@ -7,7 +7,7 @@
 	
 ]]--
 
-local MySQL_Connection = false
+local MySQL_Connection = true
 local MySQL_Info = {};
 local MySQL_Handler;
 

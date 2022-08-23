@@ -93,7 +93,7 @@ function logged(playerid)
 	SetPlayerVirtualWorld(playerid, 0);
 	Player[playerid].loggedIn = true;
 
-	if Player[playerid].chp == 0 then
+	if Player[playerid].chp == 0 and Player[playerid].dead == 0 then
 		SetPlayerHealth(playerid, 10);
 		SaveStats(playerid);
 	end
@@ -113,9 +113,7 @@ function logged(playerid)
 
 	if Player[playerid].meinfo ~= nil then
 		SendPlayerMessage(playerid, 255, 255, 255, "Текущее описание: "..Player[playerid].meinfo);
-	end
-
-	
+	end	
 end
 
 function _loAgr(id)

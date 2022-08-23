@@ -39,12 +39,12 @@ require "modules/Saves/SavePlayer"
 require "modules/Saves/SaveStats"
 require "modules/Saves/SaveItems"
 require "modules/Saves/SaveSkill"
+require "modules/Saves/SaveMYSQL"
 
 -- CMDs
 require "modules/CMDs/cmds"
 require "modules/CMDs/cmdschats"
 require "modules/CMDs/cmdsadmin"
-require "modules/CMDs/cmdsadmin2"
 require "modules/CMDs/inst"
 require "modules/CMDs/anims"
 
@@ -199,7 +199,6 @@ end
 
 
 function BE_OnGamemodeInit()
-	
 	math.randomseed(os.time()); -- радомайзер на основе времени железа
 	EnableChat(0); -- глобальное использование чата
 	OpenLocks(0); -- открыть закрытое (двери, сундуки). НА ЗАПУСКЕ ПОМЕНЯТЬ НА 0 !!!
@@ -274,8 +273,7 @@ function BE_OnGamemodeInit()
 	-- energy
 	_initEnergy();
 
-	
-
+	init_MySQL("localhost", "root", "root", "gothic");
 
 end
 ai_Init(true);
@@ -649,6 +647,7 @@ function BE_OnPlayerConnect(playerid)
 
 			-- food
 			Player[playerid].food = 100;
+			Player[playerid].dead = 0;
 
 			SetTimerEx("LoadingLogin", 3000, 0, playerid);
 			SpawnPlayer(playerid);
@@ -1261,6 +1260,7 @@ function OnPlayerDeath(playerid, p_classid, killerid, k_classid)
 
 		if IsNPC(playerid) == 0 then
 			SAM("Игрок "..GetPlayerName(killerid).." ("..Player[killerid].nickname..") убил "..GetPlayerName(playerid).." ("..Player[playerid].nickname..").");
+			Player[playerid].dead = 1; -- Устанавливаем переменную, чтобы игрок не смог съебаться после релога
 		else
 			SAM("Игрок "..GetPlayerName(killerid).." ("..Player[killerid].nickname..") убил "..GetPlayerName(playerid));
 		end
@@ -1270,7 +1270,7 @@ function OnPlayerDeath(playerid, p_classid, killerid, k_classid)
 
 		SetPlayerHealth(playerid, 0);
 		SaveStats(playerid);
-		SSM(playerid, "Ваш персонаж мёртв.");
+		SSM(playerid, "Ваш персонаж мертв.");
 		SYNM(playerid, "Обратитесь к игровым мастерам, если считаете смерть несправедливой.");
 	end
 end

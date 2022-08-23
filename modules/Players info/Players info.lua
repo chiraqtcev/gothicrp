@@ -578,18 +578,11 @@ function _playersInfo_status(player)
 	elseif Player[player].astatus == 1 then
 		return "Помощник";
 
-	elseif Player[player].astatus == 2 then
-		return "Мастер";
+	elseif Player[player].astatus > 1 then
+		return "Игровой мастер";
 
-	elseif Player[player].astatus == 3 then
-		return "Ведущий мастер";
-
-	elseif Player[player].astatus == 4 then
-		return "Координатор";
-	
-	elseif Player[player].astatus == 5 then
+	elseif Player[player].ahide == 1 then
 		return "Игрок";
-
 	end
 
 end
