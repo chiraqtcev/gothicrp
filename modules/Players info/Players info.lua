@@ -572,7 +572,7 @@ end
 
 function _playersInfo_status(player)
 
-	if Player[player].astatus == 0 then
+	if Player[player].astatus == 0 or Player[player].ahide == 1 then
 		return "Игрок";
 
 	elseif Player[player].astatus == 1 then
@@ -581,8 +581,6 @@ function _playersInfo_status(player)
 	elseif Player[player].astatus > 1 then
 		return "Игровой мастер";
 
-	elseif Player[player].ahide == 1 then
-		return "Игрок";
 	end
 
 end
