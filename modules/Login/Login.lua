@@ -72,11 +72,11 @@ function logged(playerid)
 	ReadStats(playerid);
 	LoadStats(playerid);
 
-	if Player[playerid].chp < 15 then
-		SendPlayerMessage(playerid, 255, 255, 255, "Включена невидимость для агрессивных монстров на 40 секунд.")
-		Player[playerid].inviseforbots = true;
-		SetTimerEx(_loAgr, 40000, 0, playerid);
-	end
+	--if Player[playerid].chp < 15 then
+	--	SendPlayerMessage(playerid, 255, 255, 255, "Включена невидимость для агрессивных монстров на 40 секунд.")
+	--	Player[playerid].inviseforbots = true;
+	--	SetTimerEx(_loAgr, 40000, 0, playerid);
+	--end
 	
 	_readZen(playerid);
 	ReadPlayer(playerid);
@@ -92,11 +92,6 @@ function logged(playerid)
 	SetCursorVisible(playerid, 0);
 	SetPlayerVirtualWorld(playerid, 0);
 	Player[playerid].loggedIn = true;
-
-	if Player[playerid].chp == 0 and Player[playerid].dead == 0 then
-		SetPlayerHealth(playerid, 10);
-		SaveStats(playerid);
-	end
 	
 	HidePlayerDraw(playerid, reglogPODSKAZOCHKA);
 
@@ -108,17 +103,36 @@ function logged(playerid)
 
 	_saveInfoPO(playerid);
 	_craftReadEXP(playerid);
-	
-	SetTimerEx(_onAC, 10000, 0, playerid);	
 
+	SetTimerEx(_onAC, 10000, 0, playerid);	
+	
+	SSM(playerid, "Включена невидимость для агрессивных монстров на 40 секунд.");
+	Player[playerid].inviseforbots = true;
+	SetTimerEx(_loAgr, 40000, 0, playerid);
+
+	if Player[playerid].chp < 15 and Player[playerid].dead == 0 then
+		ac_SetPlayerHealth(playerid, 30);
+	end
+	
 	if Player[playerid].meinfo ~= nil then
-		SendPlayerMessage(playerid, 255, 255, 255, "Текущее описание: "..Player[playerid].meinfo);
+		SSM(playerid, "Текущее описание: "..Player[playerid].meinfo);
 	end	
+
+	if Player[playerid].dead == 1 then
+		SSM(playerid, "Вы будете возвращены в стадию смерти.");
+		SetTimerEx(_ReturnDeath, 5000, 0, playerid);
+		Freeze(playerid);
+	end
 end
 
 function _loAgr(id)
 	Player[id].inviseforbots = false;
-	SendPlayerMessage(id, 255, 255, 255, "Теперь вы видимы для мобов.")
+	SSM(id, "Теперь вы видимы для мобов.");
+end
+
+function _ReturnDeath(playerid)
+	ac_SetPlayerHealth(playerid, 0);
+	UnFreeze(playerid);
 end
 
 function LogMouse(playerid, button, pressed, posX, posY)
